@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pépites Outils IT</title>
+  <meta name="description" content="Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord — tous les 2 jours.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="alternate" type="application/rss+xml" title="Pépites Outils IT" href="https://olanlive.github.io/revue-outils-it/feed.xml">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <h1><a href="index.html">Pépites Outils IT</a></h1>
+      <p class="tagline">Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord — tous les 2 jours.</p>
+    </header>
+    
+    
+<section>
+  <h2 class="section">Découvertes</h2>
+  <p class="meta">6 découvertes</p>
+  
+<article class="discovery" id="2026-10-08-truenas-27-rc-1">
+  <p class="date-label"><time datetime="2026-10-08">8 octobre 2026</time></p>
+  <h3><a href="https://www.truenas.com/blog/truenas-27-rc1-feature-set/" rel="noopener" target="_blank">TrueNAS 27 RC.1</a></h3>
+  <p class="summary">Premier RC de TrueNAS 27 (ex-TrueNAS 26), sorti le 6 oct : OpenZFS 2.4.4, noyau 6.18 et service S3 natif en accès anticipé, où chaque bucket est un dataset ZFS (snapshots, quotas, réplication). À tester sur un NAS de labo ; stable prévue début décembre.</p>
+  <p class="source">Trouvé via : <a href="https://forums.truenas.com/t/truenas-27-0-0-rc-1-is-now-available/68265" rel="noopener" target="_blank">Forum TrueNAS — annonce 27.0.0-RC.1</a></p>
+  <div class="tags"><a class="tag" href="tags/stockage.html">#stockage</a><a class="tag" href="tags/nas.html">#nas</a><a class="tag" href="tags/zfs.html">#zfs</a><a class="tag" href="tags/s3.html">#s3</a><a class="tag" href="tags/rc.html">#rc</a></div>
+</article>
+
+<article class="discovery" id="2026-10-08-sqi-0-3-0">
+  <p class="date-label"><time datetime="2026-10-08">8 octobre 2026</time></p>
+  <h3><a href="https://uberware.github.io/sqi/" rel="noopener" target="_blank">sqi 0.3.0</a></h3>
+  <p class="summary">Jeune gestionnaire de render farm open source (AGPL) bâti sur OpenJD, avec submitters Maya, Houdini, Nuke et Blender. La 0.3.0 (19 août) ajoute comptes, RBAC, LDAP/AD, SSO OIDC et exécution des tâches sous un compte dédié. Encore en phase de durcissement.</p>
+  <p class="source">Trouvé via : <a href="https://github.com/uberware/sqi/discussions/123" rel="noopener" target="_blank">Discussion GitHub — uberware/sqi#123</a></p>
+  <div class="tags"><a class="tag" href="tags/render-farm.html">#render-farm</a><a class="tag" href="tags/openjd.html">#openjd</a><a class="tag" href="tags/emerging.html">#emerging</a></div>
+</article>
+
+<article class="discovery" id="2026-10-08-fog-project-1-6-0-rc-5">
+  <p class="date-label"><time datetime="2026-10-08">8 octobre 2026</time></p>
+  <h3><a href="https://fogproject.org/" rel="noopener" target="_blank">FOG Project 1.6.0 RC-5</a></h3>
+  <p class="summary">Le déploiement d’images disque par PXE, idéal pour masteriser les postes graphistes, approche de la 1.6 : la RC-5 du 7 oct corrige une migration MariaDB bloquée et approuve d’un clic toutes les MAC en attente. Passage 1.5 → 1.6 sans retour : tester en labo.</p>
+  <p class="source">Trouvé via : <a href="https://github.com/FOGProject/fogproject/releases/tag/1.6.0-RC-5" rel="noopener" target="_blank">Release GitHub — FOGProject/fogproject 1.6.0-RC-5</a></p>
+  <div class="tags"><a class="tag" href="tags/deploiement.html">#deploiement</a><a class="tag" href="tags/imaging.html">#imaging</a><a class="tag" href="tags/pxe.html">#pxe</a><a class="tag" href="tags/rc.html">#rc</a></div>
+</article>
+
+<article class="discovery" id="2026-10-08-duplicati-2-4-0-1">
+  <p class="date-label"><time datetime="2026-10-08">8 octobre 2026</time></p>
+  <h3><a href="https://duplicati.com/" rel="noopener" target="_blank">Duplicati 2.4.0.1</a></h3>
+  <p class="summary">Sauvegarde chiffrée et dédupliquée vers NAS, S3 ou cloud : la 2.4.0.1 stable du 7 oct fiabilise la restauration (elle continue si un fichier échoue), l’annulation et le nouveau mode sync, et durcit login et contrôle distant, désormais compatible Synology DSM.</p>
+  <p class="source">Trouvé via : <a href="https://github.com/duplicati/duplicati/releases/tag/v2.4.0.1_stable_2026-10-07" rel="noopener" target="_blank">Release GitHub — duplicati/duplicati v2.4.0.1</a></p>
+  <div class="tags"><a class="tag" href="tags/sauvegarde.html">#sauvegarde</a><a class="tag" href="tags/nas.html">#nas</a><a class="tag" href="tags/s3.html">#s3</a></div>
+</article>
+
+<article class="discovery" id="2026-10-08-rustdesk-1-5-0">
+  <p class="date-label"><time datetime="2026-10-08">8 octobre 2026</time></p>
+  <h3><a href="https://rustdesk.com/" rel="noopener" target="_blank">RustDesk 1.5.0</a></h3>
+  <p class="summary">Alternative open source et auto-hébergeable à TeamViewer/AnyDesk : la 1.5.0 du 30 sept ajoute un transport WebRTC, une liste blanche d’ID, le tone mapping HDR, la synchro du presse-papiers entre sessions et la mise à jour silencieuse sur macOS.</p>
+  <p class="source">Trouvé via : <a href="https://github.com/rustdesk/rustdesk/releases/tag/1.5.0" rel="noopener" target="_blank">Release GitHub — rustdesk/rustdesk 1.5.0</a></p>
+  <div class="tags"><a class="tag" href="tags/acces-distant.html">#acces-distant</a><a class="tag" href="tags/self-hosting.html">#self-hosting</a></div>
+</article>
+
+<article class="discovery" id="2026-10-08-glpi-12-0-0">
+  <p class="date-label"><time datetime="2026-10-08">8 octobre 2026</time></p>
+  <h3><a href="https://glpi-project.org/" rel="noopener" target="_blank">GLPI 12.0.0</a></h3>
+  <p class="summary">Version majeure de l’outil open source de gestion de parc et de helpdesk, sortie le 7 oct : base de connaissances réécrite, suivi et révocation des sessions ouvertes, ré-authentification pour les actions d’admin et OLA par groupe. Image Docker officielle.</p>
+  <p class="source">Trouvé via : <a href="https://github.com/glpi-project/glpi/releases/tag/12.0.0" rel="noopener" target="_blank">Release GitHub — glpi-project/glpi 12.0.0</a></p>
+  <div class="tags"><a class="tag" href="tags/inventaire.html">#inventaire</a><a class="tag" href="tags/helpdesk.html">#helpdesk</a><a class="tag" href="tags/self-hosting.html">#self-hosting</a></div>
+</article>
+
+</section>
+<section>
+  <h2 class="section">Tags</h2>
+  <div class="tag-cloud"><a class="tag" href="tags/acces-distant.html">#acces-distant</a><a class="tag" href="tags/deploiement.html">#deploiement</a><a class="tag" href="tags/emerging.html">#emerging</a><a class="tag" href="tags/helpdesk.html">#helpdesk</a><a class="tag" href="tags/imaging.html">#imaging</a><a class="tag" href="tags/inventaire.html">#inventaire</a><a class="tag" href="tags/nas.html">#nas</a><a class="tag" href="tags/openjd.html">#openjd</a><a class="tag" href="tags/pxe.html">#pxe</a><a class="tag" href="tags/rc.html">#rc</a><a class="tag" href="tags/render-farm.html">#render-farm</a><a class="tag" href="tags/s3.html">#s3</a><a class="tag" href="tags/sauvegarde.html">#sauvegarde</a><a class="tag" href="tags/self-hosting.html">#self-hosting</a><a class="tag" href="tags/stockage.html">#stockage</a><a class="tag" href="tags/zfs.html">#zfs</a></div>
+</section>
+
+    <footer class="site">
+      <p>Veille outils IT pour studio 3D · open source d’abord (gratuit / payant signalé) · tous les 2 jours</p>
+      <p><a href="https://github.com/olanlive/revue-outils-it">Code source sur GitHub</a>
+         · <a href="tags/index.html">Tous les tags</a>
+         · <a href="feed.xml">Flux RSS</a></p>
+    </footer>
+  </div>
+</body>
+</html>

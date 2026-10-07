@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pépites Outils IT</title>
+    <link>https://olanlive.github.io/revue-outils-it/</link>
+    <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord — tous les 2 jours.</description>
+    <language>fr</language>
+    <lastBuildDate>Thu, 08 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TrueNAS 27 RC.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-truenas-27-rc-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-truenas-27-rc-1</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Premier RC de TrueNAS 27 (ex-TrueNAS 26), sorti le 6 oct : OpenZFS 2.4.4, noyau 6.18 et service S3 natif en accès anticipé, où chaque bucket est un dataset ZFS (snapshots, quotas, réplication). À tester sur un NAS de labo ; stable prévue début décembre.</description>
+      <category>stockage</category>
+      <category>nas</category>
+      <category>zfs</category>
+      <category>s3</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>sqi 0.3.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-sqi-0-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-sqi-0-3-0</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Jeune gestionnaire de render farm open source (AGPL) bâti sur OpenJD, avec submitters Maya, Houdini, Nuke et Blender. La 0.3.0 (19 août) ajoute comptes, RBAC, LDAP/AD, SSO OIDC et exécution des tâches sous un compte dédié. Encore en phase de durcissement.</description>
+      <category>render-farm</category>
+      <category>openjd</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>FOG Project 1.6.0 RC-5</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-fog-project-1-6-0-rc-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-fog-project-1-6-0-rc-5</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le déploiement d’images disque par PXE, idéal pour masteriser les postes graphistes, approche de la 1.6 : la RC-5 du 7 oct corrige une migration MariaDB bloquée et approuve d’un clic toutes les MAC en attente. Passage 1.5 → 1.6 sans retour : tester en labo.</description>
+      <category>deploiement</category>
+      <category>imaging</category>
+      <category>pxe</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>Duplicati 2.4.0.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-duplicati-2-4-0-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-duplicati-2-4-0-1</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Sauvegarde chiffrée et dédupliquée vers NAS, S3 ou cloud : la 2.4.0.1 stable du 7 oct fiabilise la restauration (elle continue si un fichier échoue), l’annulation et le nouveau mode sync, et durcit login et contrôle distant, désormais compatible Synology DSM.</description>
+      <category>sauvegarde</category>
+      <category>nas</category>
+      <category>s3</category>
+    </item>
+    <item>
+      <title>RustDesk 1.5.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-rustdesk-1-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-rustdesk-1-5-0</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Alternative open source et auto-hébergeable à TeamViewer/AnyDesk : la 1.5.0 du 30 sept ajoute un transport WebRTC, une liste blanche d’ID, le tone mapping HDR, la synchro du presse-papiers entre sessions et la mise à jour silencieuse sur macOS.</description>
+      <category>acces-distant</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>GLPI 12.0.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-glpi-12-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-glpi-12-0-0</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Version majeure de l’outil open source de gestion de parc et de helpdesk, sortie le 7 oct : base de connaissances réécrite, suivi et révocation des sessions ouvertes, ré-authentification pour les actions d’admin et OLA par groupe. Image Docker officielle.</description>
+      <category>inventaire</category>
+      <category>helpdesk</category>
+      <category>self-hosting</category>
+    </item>
+  </channel>
+</rss>
