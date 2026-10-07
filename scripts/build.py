@@ -148,6 +148,17 @@ h2.section {
   font-size: 0.9rem;
   margin: 0 0 0.35rem;
 }
+/* Séparateur de date (page d’accueil) : grand espace au-dessus, titre lisible, fin trait ambre */
+h2.day-sep {
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--accent);
+  color: var(--text);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+h2.day-sep.first { margin-top: 1.25rem; }
 footer.site {
   margin-top: 3rem;
   padding-top: 1.25rem;
@@ -175,6 +186,21 @@ def format_date_fr(iso: str) -> str:
         "juillet", "août", "septembre", "octobre", "novembre", "décembre",
     ]
     return f"{dt.day} {months[dt.month]} {dt.year}"
+
+
+def format_day_fr(iso: str) -> str:
+    """« Jeudi 8 octobre 2026 » — noms français codés en dur (indépendant de la locale)."""
+    dt = datetime.strptime(iso, "%Y-%m-%d")
+    days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+    return f"{days[dt.weekday()]} {format_date_fr(iso)}"
+
+
+def day_separator_html(iso: str, *, first: bool) -> str:
+    cls = "day-sep first" if first else "day-sep"
+    return (
+        f'\n<h2 class="{cls}" id="jour-{esc(iso)}">'
+        f'<time datetime="{esc(iso)}">{esc(format_day_fr(iso))}</time></h2>\n'
+    )
 
 
 def page(
@@ -348,9 +374,14 @@ def build() -> None:
             all_tags.add(tag)
             by_tag[tag].append(item)
 
-    feed = "".join(
-        discovery_html(item, tags_base="tags/") for item in discoveries
-    )
+    feed_parts: list[str] = []
+    prev_date = None
+    for item in discoveries:
+        if item["date"] != prev_date:
+            feed_parts.append(day_separator_html(item["date"], first=prev_date is None))
+            prev_date = item["date"]
+        feed_parts.append(discovery_html(item, tags_base="tags/"))
+    feed = "".join(feed_parts)
     tag_links = "".join(
         f'<a class="tag" href="tags/{esc(t)}.html">#{esc(t)}</a>'
         for t in sorted(all_tags)

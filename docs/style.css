@@ -115,6 +115,17 @@ h2.section {
   font-size: 0.9rem;
   margin: 0 0 0.35rem;
 }
+/* Séparateur de date (page d’accueil) : grand espace au-dessus, titre lisible, fin trait ambre */
+h2.day-sep {
+  margin: 2.75rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--accent);
+  color: var(--text);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+h2.day-sep.first { margin-top: 1.25rem; }
 footer.site {
   margin-top: 3rem;
   padding-top: 1.25rem;
