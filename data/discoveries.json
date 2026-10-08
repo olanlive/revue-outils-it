@@ -1,6 +1,39 @@
 [
   {
     "date": "2026-10-08",
+    "name": "OpenCue 1.34.22",
+    "summary": "Le gestionnaire de render farm open source de l’ASWF (sorti le 7 oct) intègre Maestro, nouveau scheduler dans Cuebot, une interface web à parité avec CueGUI et des limites par hôte alimentées par l’usage réel des licences. Migrations de base : sauvegarder avant.",
+    "url": "https://www.opencue.io/",
+    "tags": ["render-farm", "licences"],
+    "source": {
+      "label": "Release GitHub — AcademySoftwareFoundation/OpenCue v1.34.22",
+      "url": "https://github.com/AcademySoftwareFoundation/OpenCue/releases/tag/v1.34.22"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "name": "Portainer 2.45.2 LTS",
+    "summary": "L’interface web de gestion Docker/Kubernetes sort une LTS corrective le 8 oct : un non-admin ne peut plus lire de fichiers de l’hôte via un Compose, et la vérification TLS vers l’API Kubernetes est rétablie. Mise à jour conseillée.",
+    "url": "https://www.portainer.io/",
+    "tags": ["virtualisation", "securite", "self-hosting"],
+    "source": {
+      "label": "Release GitHub — portainer/portainer 2.45.2",
+      "url": "https://github.com/portainer/portainer/releases/tag/2.45.2"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "name": "Montray 2.0.0",
+    "summary": "Petit outil open source (BSD) qui affiche dans la barre système l’état des services systemd et de tests en ligne de commande (disque, RAID…) sur plusieurs serveurs, sans pile de monitoring lourde. La 2.0.0 du 4 oct marque le renommage (ex-Salmon).",
+    "url": "https://github.com/dimonomid/montray",
+    "tags": ["monitoring", "emerging"],
+    "source": {
+      "label": "Web — SourceBento",
+      "url": "https://sourcebento.com/news/montray-brings-systemd-health-checks-to-the-desktop-tray"
+    }
+  },
+  {
+    "date": "2026-10-08",
     "name": "TrueNAS 27 RC.1",
     "summary": "Premier RC de TrueNAS 27 (ex-TrueNAS 26), sorti le 6 oct : OpenZFS 2.4.4, noyau 6.18 et service S3 natif en accès anticipé, où chaque bucket est un dataset ZFS (snapshots, quotas, réplication). À tester sur un NAS de labo ; stable prévue début décembre.",
     "url": "https://www.truenas.com/blog/truenas-27-rc1-feature-set/",

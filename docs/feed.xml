@@ -8,6 +8,34 @@
     <lastBuildDate>Thu, 08 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>OpenCue 1.34.22</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-opencue-1-34-22</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-opencue-1-34-22</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le gestionnaire de render farm open source de l’ASWF (sorti le 7 oct) intègre Maestro, nouveau scheduler dans Cuebot, une interface web à parité avec CueGUI et des limites par hôte alimentées par l’usage réel des licences. Migrations de base : sauvegarder avant.</description>
+      <category>render-farm</category>
+      <category>licences</category>
+    </item>
+    <item>
+      <title>Portainer 2.45.2 LTS</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-portainer-2-45-2-lts</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-portainer-2-45-2-lts</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’interface web de gestion Docker/Kubernetes sort une LTS corrective le 8 oct : un non-admin ne peut plus lire de fichiers de l’hôte via un Compose, et la vérification TLS vers l’API Kubernetes est rétablie. Mise à jour conseillée.</description>
+      <category>virtualisation</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Montray 2.0.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-montray-2-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-montray-2-0-0</guid>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Petit outil open source (BSD) qui affiche dans la barre système l’état des services systemd et de tests en ligne de commande (disque, RAID…) sur plusieurs serveurs, sans pile de monitoring lourde. La 2.0.0 du 4 oct marque le renommage (ex-Salmon).</description>
+      <category>monitoring</category>
+      <category>emerging</category>
+    </item>
+    <item>
       <title>TrueNAS 27 RC.1</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-truenas-27-rc-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-truenas-27-rc-1</guid>
