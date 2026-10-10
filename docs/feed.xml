@@ -5,8 +5,37 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord — tous les 2 jours.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 08 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fleet 4.93.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-10-fleet-4-93-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-10-fleet-4-93-0</guid>
+      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
+      <description>La plateforme open source de gestion de parc (osquery, MDM) sort le 8 oct : option « prévenir avant de patcher » pour les apps macOS, enrôlement Android zero-touch et rotation du mot de passe du compte local géré. Utile pour garder les postes du studio à jour.</description>
+      <category>deploiement</category>
+      <category>inventaire</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Netdata 2.12.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-10-netdata-2-12-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-10-netdata-2-12-1</guid>
+      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le monitoring temps réel open source publie un correctif le 8 oct : fin du crash au démarrage de l’agent Windows, collecteur eBPF stabilisé sur plus de noyaux et charge réduite sur le démon Docker. Pratique pour surveiller nœuds de rendu et serveurs.</description>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Uptime Kuma 2.5.6</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-10-uptime-kuma-2-5-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-10-uptime-kuma-2-5-6</guid>
+      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’outil auto-hébergé de surveillance de disponibilité (HTTP, ping, ports…) sort le 9 oct avec des mises à jour de dépendances de sécurité et un correctif du badge de temps de réponse moyen. Mise à jour simple et conseillée.</description>
+      <category>monitoring</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>OpenCue 1.34.22</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-opencue-1-34-22</link>

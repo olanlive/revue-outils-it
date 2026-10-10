@@ -1,10 +1,57 @@
 [
   {
+    "date": "2026-10-10",
+    "name": "Fleet 4.93.0",
+    "summary": "La plateforme open source de gestion de parc (osquery, MDM) sort le 8 oct : option « prévenir avant de patcher » pour les apps macOS, enrôlement Android zero-touch et rotation du mot de passe du compte local géré. Utile pour garder les postes du studio à jour.",
+    "url": "https://fleetdm.com/",
+    "tags": [
+      "deploiement",
+      "inventaire",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — fleetdm/fleet fleet-v4.93.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.93.0"
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "name": "Netdata 2.12.1",
+    "summary": "Le monitoring temps réel open source publie un correctif le 8 oct : fin du crash au démarrage de l’agent Windows, collecteur eBPF stabilisé sur plus de noyaux et charge réduite sur le démon Docker. Pratique pour surveiller nœuds de rendu et serveurs.",
+    "url": "https://www.netdata.cloud/",
+    "tags": [
+      "monitoring",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — netdata/netdata v2.12.1",
+      "url": "https://github.com/netdata/netdata/releases/tag/v2.12.1"
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "name": "Uptime Kuma 2.5.6",
+    "summary": "L’outil auto-hébergé de surveillance de disponibilité (HTTP, ping, ports…) sort le 9 oct avec des mises à jour de dépendances de sécurité et un correctif du badge de temps de réponse moyen. Mise à jour simple et conseillée.",
+    "url": "https://uptime.kuma.pet/",
+    "tags": [
+      "monitoring",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — louislam/uptime-kuma 2.5.6",
+      "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.6"
+    }
+  },
+  {
     "date": "2026-10-08",
     "name": "OpenCue 1.34.22",
     "summary": "Le gestionnaire de render farm open source de l’ASWF (sorti le 7 oct) intègre Maestro, nouveau scheduler dans Cuebot, une interface web à parité avec CueGUI et des limites par hôte alimentées par l’usage réel des licences. Migrations de base : sauvegarder avant.",
     "url": "https://www.opencue.io/",
-    "tags": ["render-farm", "licences"],
+    "tags": [
+      "render-farm",
+      "licences"
+    ],
     "source": {
       "label": "Release GitHub — AcademySoftwareFoundation/OpenCue v1.34.22",
       "url": "https://github.com/AcademySoftwareFoundation/OpenCue/releases/tag/v1.34.22"
@@ -15,7 +62,11 @@
     "name": "Portainer 2.45.2 LTS",
     "summary": "L’interface web de gestion Docker/Kubernetes sort une LTS corrective le 8 oct : un non-admin ne peut plus lire de fichiers de l’hôte via un Compose, et la vérification TLS vers l’API Kubernetes est rétablie. Mise à jour conseillée.",
     "url": "https://www.portainer.io/",
-    "tags": ["virtualisation", "securite", "self-hosting"],
+    "tags": [
+      "virtualisation",
+      "securite",
+      "self-hosting"
+    ],
     "source": {
       "label": "Release GitHub — portainer/portainer 2.45.2",
       "url": "https://github.com/portainer/portainer/releases/tag/2.45.2"
@@ -26,7 +77,10 @@
     "name": "Montray 2.0.0",
     "summary": "Petit outil open source (BSD) qui affiche dans la barre système l’état des services systemd et de tests en ligne de commande (disque, RAID…) sur plusieurs serveurs, sans pile de monitoring lourde. La 2.0.0 du 4 oct marque le renommage (ex-Salmon).",
     "url": "https://github.com/dimonomid/montray",
-    "tags": ["monitoring", "emerging"],
+    "tags": [
+      "monitoring",
+      "emerging"
+    ],
     "source": {
       "label": "Web — SourceBento",
       "url": "https://sourcebento.com/news/montray-brings-systemd-health-checks-to-the-desktop-tray"
@@ -37,7 +91,13 @@
     "name": "TrueNAS 27 RC.1",
     "summary": "Premier RC de TrueNAS 27 (ex-TrueNAS 26), sorti le 6 oct : OpenZFS 2.4.4, noyau 6.18 et service S3 natif en accès anticipé, où chaque bucket est un dataset ZFS (snapshots, quotas, réplication). À tester sur un NAS de labo ; stable prévue début décembre.",
     "url": "https://www.truenas.com/blog/truenas-27-rc1-feature-set/",
-    "tags": ["stockage", "nas", "zfs", "s3", "rc"],
+    "tags": [
+      "stockage",
+      "nas",
+      "zfs",
+      "s3",
+      "rc"
+    ],
     "source": {
       "label": "Forum TrueNAS — annonce 27.0.0-RC.1",
       "url": "https://forums.truenas.com/t/truenas-27-0-0-rc-1-is-now-available/68265"
@@ -48,7 +108,11 @@
     "name": "sqi 0.3.0",
     "summary": "Jeune gestionnaire de render farm open source (AGPL) bâti sur OpenJD, avec submitters Maya, Houdini, Nuke et Blender. La 0.3.0 (19 août) ajoute comptes, RBAC, LDAP/AD, SSO OIDC et exécution des tâches sous un compte dédié. Encore en phase de durcissement.",
     "url": "https://uberware.github.io/sqi/",
-    "tags": ["render-farm", "openjd", "emerging"],
+    "tags": [
+      "render-farm",
+      "openjd",
+      "emerging"
+    ],
     "source": {
       "label": "Discussion GitHub — uberware/sqi#123",
       "url": "https://github.com/uberware/sqi/discussions/123"
@@ -59,7 +123,12 @@
     "name": "FOG Project 1.6.0 RC-5",
     "summary": "Le déploiement d’images disque par PXE, idéal pour masteriser les postes graphistes, approche de la 1.6 : la RC-5 du 7 oct corrige une migration MariaDB bloquée et approuve d’un clic toutes les MAC en attente. Passage 1.5 → 1.6 sans retour : tester en labo.",
     "url": "https://fogproject.org/",
-    "tags": ["deploiement", "imaging", "pxe", "rc"],
+    "tags": [
+      "deploiement",
+      "imaging",
+      "pxe",
+      "rc"
+    ],
     "source": {
       "label": "Release GitHub — FOGProject/fogproject 1.6.0-RC-5",
       "url": "https://github.com/FOGProject/fogproject/releases/tag/1.6.0-RC-5"
@@ -70,7 +139,11 @@
     "name": "Duplicati 2.4.0.1",
     "summary": "Sauvegarde chiffrée et dédupliquée vers NAS, S3 ou cloud : la 2.4.0.1 stable du 7 oct fiabilise la restauration (elle continue si un fichier échoue), l’annulation et le nouveau mode sync, et durcit login et contrôle distant, désormais compatible Synology DSM.",
     "url": "https://duplicati.com/",
-    "tags": ["sauvegarde", "nas", "s3"],
+    "tags": [
+      "sauvegarde",
+      "nas",
+      "s3"
+    ],
     "source": {
       "label": "Release GitHub — duplicati/duplicati v2.4.0.1",
       "url": "https://github.com/duplicati/duplicati/releases/tag/v2.4.0.1_stable_2026-10-07"
@@ -81,7 +154,10 @@
     "name": "RustDesk 1.5.0",
     "summary": "Alternative open source et auto-hébergeable à TeamViewer/AnyDesk : la 1.5.0 du 30 sept ajoute un transport WebRTC, une liste blanche d’ID, le tone mapping HDR, la synchro du presse-papiers entre sessions et la mise à jour silencieuse sur macOS.",
     "url": "https://rustdesk.com/",
-    "tags": ["acces-distant", "self-hosting"],
+    "tags": [
+      "acces-distant",
+      "self-hosting"
+    ],
     "source": {
       "label": "Release GitHub — rustdesk/rustdesk 1.5.0",
       "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.0"
@@ -92,7 +168,11 @@
     "name": "GLPI 12.0.0",
     "summary": "Version majeure de l’outil open source de gestion de parc et de helpdesk, sortie le 7 oct : base de connaissances réécrite, suivi et révocation des sessions ouvertes, ré-authentification pour les actions d’admin et OLA par groupe. Image Docker officielle.",
     "url": "https://glpi-project.org/",
-    "tags": ["inventaire", "helpdesk", "self-hosting"],
+    "tags": [
+      "inventaire",
+      "helpdesk",
+      "self-hosting"
+    ],
     "source": {
       "label": "Release GitHub — glpi-project/glpi 12.0.0",
       "url": "https://github.com/glpi-project/glpi/releases/tag/12.0.0"

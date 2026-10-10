@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-10 | Fleet 4.93.0 | deploiement, inventaire, securite | https://fleetdm.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-10-fleet-4-93-0 |
+| 2026-10-10 | Netdata 2.12.1 | monitoring, self-hosting | https://www.netdata.cloud/ | https://olanlive.github.io/revue-outils-it/#2026-10-10-netdata-2-12-1 |
+| 2026-10-10 | Uptime Kuma 2.5.6 | monitoring, securite, self-hosting | https://uptime.kuma.pet/ | https://olanlive.github.io/revue-outils-it/#2026-10-10-uptime-kuma-2-5-6 |
 | 2026-10-08 | OpenCue 1.34.22 | render-farm, licences | https://www.opencue.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-08-opencue-1-34-22 |
 | 2026-10-08 | Portainer 2.45.2 LTS | virtualisation, securite, self-hosting | https://www.portainer.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-08-portainer-2-45-2-lts |
 | 2026-10-08 | Montray 2.0.0 | monitoring, emerging | https://github.com/dimonomid/montray | https://olanlive.github.io/revue-outils-it/#2026-10-08-montray-2-0-0 |
