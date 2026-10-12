@@ -234,6 +234,7 @@ def page(
   <meta name="description" content="{esc(SITE_DESC)}">
   <link rel="stylesheet" href="{prefix}style.css">
   <link rel="alternate" type="application/rss+xml" title="{esc(SITE_TITLE)}" href="{SITE_URL}feed.xml">
+<script src="https://olanlive.github.io/pepites/nav.js" defer></script>
 </head>
 <body>
   <div class="wrap">
