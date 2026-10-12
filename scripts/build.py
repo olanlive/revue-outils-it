@@ -188,6 +188,10 @@ PEPITES_CSS = """
 .tag-filter .tag-all, .tag-filter .tag-clear, .tag-filter .tag-back { font-family: var(--font); }
 .tag-filter .tag-clear { background: var(--accent); color: var(--bg, #fff); border-color: var(--accent); }
 .tag-filter { scroll-margin-top: 4rem; }
+.tag-filter[data-home] { align-items: center; margin: 0.5rem 0 1rem; }
+.tag-filter .tag-toggle { font-family: var(--font); font-size: 0.85rem; padding: 0.3rem 0.8rem; cursor: pointer; }
+.tag-filter .tf-panel { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem; padding: 0.6rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius, 8px); max-height: 50vh; overflow-y: auto; }
+.tag-filter .tf-n { opacity: 0.7; }
 .share-x { margin: 0.6rem 0 0; font-size: 0.8rem; }
 .share-x a { color: var(--muted); }
 .share-x a:hover { color: var(--accent); }
@@ -196,24 +200,17 @@ PEPITES_CSS = """
 [hidden] { display: none !important; }
 """
 
-PEPITES_FILTER_JS = """
+PEPITES_FILTER_JS = r"""
 (function(){
-  var bar=document.querySelector('.tag-filter'); if(!bar) return;
-  var btns=[].slice.call(bar.querySelectorAll('[data-tag]'));
-  var clr=document.createElement('button'); clr.type='button'; clr.className='tag tag-clear'; clr.hidden=true;
-  clr.setAttribute('aria-label','Retirer le filtre'); bar.appendChild(clr);
-  function setTag(t){ if(t) location.hash='tag='+encodeURIComponent(t); else history.replaceState(null,'',location.pathname+location.search); apply(); }
-  clr.addEventListener('click',function(){ setTag(''); });
-  document.addEventListener('click',function(e){
-    var l=e.target.closest&&e.target.closest('article.discovery .tags a.tag'); if(!l) return;
-    var m=(l.getAttribute('href')||'').match(/([^\\/]+)\\.html$/); if(!m) return;
-    e.preventDefault(); setTag(decodeURIComponent(m[1])); bar.scrollIntoView({behavior:'smooth',block:'start'});
-  });
+  var bar=document.querySelector('.tag-filter[data-home]'); if(!bar) return;
+  var tog=bar.querySelector('.tag-toggle'), panel=bar.querySelector('.tf-panel'), clr=bar.querySelector('.tag-clear');
+  var btns=[].slice.call(panel.querySelectorAll('[data-tag]'));
   function tagsOf(a){var d=a.querySelector('[data-tags]');return d?d.getAttribute('data-tags').split(' '):[];}
+  function open(o){ panel.hidden=!o; tog.setAttribute('aria-expanded',String(o)); tog.textContent=o?'Filtrer ▴':'Filtrer ▾'; }
   function apply(){
     var m=location.hash.match(/^#tag=(.+)$/), t=m?decodeURIComponent(m[1]):'';
     btns.forEach(function(b){b.setAttribute('aria-pressed', String(b.getAttribute('data-tag')===t));});
-    clr.hidden=!t; clr.textContent='Filtré : '+t+' ✕';
+    clr.hidden=!t; clr.textContent=t+' ✕'; clr.setAttribute('aria-label','Retirer le filtre '+t);
     var nodes=[].slice.call(document.querySelectorAll('.day-sep, article.discovery')), sep=null, seen=false;
     function close(){ if(sep) sep.hidden=!seen; }
     nodes.forEach(function(n){
@@ -222,9 +219,11 @@ PEPITES_FILTER_JS = """
     });
     close();
   }
-  btns.forEach(function(b){b.addEventListener('click',function(e){
-    e.preventDefault(); setTag(b.getAttribute('data-tag'));
-  });});
+  function setTag(t){ if(t) location.hash='tag='+encodeURIComponent(t); else history.replaceState(null,'',location.pathname+location.search); apply(); }
+  tog.addEventListener('click',function(e){ e.preventDefault(); open(panel.hidden); });
+  clr.addEventListener('click',function(){ setTag(''); });
+  btns.forEach(function(b){ b.addEventListener('click',function(e){ e.preventDefault(); setTag(b.getAttribute('data-tag')); open(false); tog.focus(); }); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!panel.hidden){ open(false); tog.focus(); } });
   window.addEventListener('hashchange',apply); apply();
 })();
 """
@@ -290,15 +289,18 @@ def filter_bar_html(discoveries: list) -> str:
     for d in discoveries:
         for t in d.get("tags", []):
             counts[t] = counts.get(t, 0) + 1
-    top = sorted(counts, key=lambda t: (-counts[t], t))[:PEPITES_TOP_TAGS]
-    if not top:
+    order = sorted(counts, key=lambda t: (-counts[t], t))
+    if not order:
         return ""
-    btns = ['<a class="tag tag-all" href="#" data-tag="" role="button" aria-pressed="true">Tous</a>']
-    for t in top:
+    btns = ['<a class="tag tag-all" href="#" data-tag="" aria-pressed="true">Tous</a>']
+    for t in order:
         e = html.escape(t, quote=True)
-        btns.append(f'<a class="tag" href="tags/{e}.html" data-tag="{e}" role="button" aria-pressed="false">#{e}</a>')
-    return ('<div class="tag-filter" aria-label="Filtrer par tag">' + "".join(btns)
-            + f"</div><script>{PEPITES_FILTER_JS}</script>")
+        btns.append(f'<a class="tag" href="tags/{e}.html" data-tag="{e}" aria-pressed="false">{e} <span class="tf-n">({counts[t]})</span></a>')
+    return ('<div class="tag-filter" data-home role="group" aria-label="Filtrer par tag">'
+            '<a class="tag tag-toggle" href="tags/index.html" role="button" aria-expanded="false" aria-controls="tf-panel">Filtrer ▾</a>'
+            '<button type="button" class="tag tag-clear" hidden></button>'
+            '<div class="tf-panel" id="tf-panel" hidden>' + "".join(btns) + "</div>"
+            f"</div><script>{PEPITES_FILTER_JS}</script>")
 
 
 def fix_tag_pages(discoveries: list) -> None:

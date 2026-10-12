@@ -146,6 +146,10 @@ code { font-family: var(--mono); font-size: 0.9em; }
 .tag-filter .tag-all, .tag-filter .tag-clear, .tag-filter .tag-back { font-family: var(--font); }
 .tag-filter .tag-clear { background: var(--accent); color: var(--bg, #fff); border-color: var(--accent); }
 .tag-filter { scroll-margin-top: 4rem; }
+.tag-filter[data-home] { align-items: center; margin: 0.5rem 0 1rem; }
+.tag-filter .tag-toggle { font-family: var(--font); font-size: 0.85rem; padding: 0.3rem 0.8rem; cursor: pointer; }
+.tag-filter .tf-panel { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem; padding: 0.6rem; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius, 8px); max-height: 50vh; overflow-y: auto; }
+.tag-filter .tf-n { opacity: 0.7; }
 .share-x { margin: 0.6rem 0 0; font-size: 0.8rem; }
 .share-x a { color: var(--muted); }
 .share-x a:hover { color: var(--accent); }
