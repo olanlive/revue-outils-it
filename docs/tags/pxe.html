@@ -26,8 +26,10 @@
   <h3><a href="https://fogproject.org/" rel="noopener" target="_blank">FOG Project 1.6.0 RC-5</a></h3>
   <p class="summary">Le déploiement d’images disque par PXE, idéal pour masteriser les postes graphistes, approche de la 1.6 : la RC-5 du 7 oct corrige une migration MariaDB bloquée et approuve d’un clic toutes les MAC en attente. Passage 1.5 → 1.6 sans retour : tester en labo.</p>
   <p class="source">Trouvé via : <a href="https://github.com/FOGProject/fogproject/releases/tag/1.6.0-RC-5" rel="noopener" target="_blank">Release GitHub — FOGProject/fogproject 1.6.0-RC-5</a></p>
-  <div class="tags"><a class="tag" href="../index.html#tag=deploiement">#deploiement</a><a class="tag" href="../index.html#tag=imaging">#imaging</a><a class="tag" href="../index.html#tag=pxe">#pxe</a><a class="tag" href="../index.html#tag=rc">#rc</a></div>
-  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AFOG%20Project%201.6.0%20RC-5%20%3A%20Le%20d%C3%A9ploiement%20d%E2%80%99images%20disque%20par%20PXE%2C%20id%C3%A9al%20pour%20masteriser%20les%20postes%20graphistes%2C%20approche%20de%20la%201.6%20%3A%20la%20RC-5%20du%207%20oct%20corrige%20une%20migration%20MariaDB%20bloqu%C3%A9e%20et%20approuve%20d%E2%80%99un%20clic%20toute%E2%80%A6%0Ahttps%3A%2F%2Ffogproject.org%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
+  <p class="share-x" data-tags="deploiement imaging pxe rc" data-text="Pépite du jour 💎
+FOG Project 1.6.0 RC-5 : Le déploiement d’images disque par PXE, idéal pour masteriser les postes graphistes, approche de la 1.6 : la RC-5 du 7 oct corrige une migration MariaDB bloquée et approuve d’un clic toute…
+https://fogproject.org/
+#opensource #sysadmin"><a class="share-btn" href="https://twitter.com/intent/tweet?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AFOG%20Project%201.6.0%20RC-5%20%3A%20Le%20d%C3%A9ploiement%20d%E2%80%99images%20disque%20par%20PXE%2C%20id%C3%A9al%20pour%20masteriser%20les%20postes%20graphistes%2C%20approche%20de%20la%201.6%20%3A%20la%20RC-5%20du%207%20oct%20corrige%20une%20migration%20MariaDB%20bloqu%C3%A9e%20et%20approuve%20d%E2%80%99un%20clic%20toute%E2%80%A6%0Ahttps%3A%2F%2Ffogproject.org%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a> · <button type="button" class="copy-btn" hidden>Copier</button></p>
 </article>
 
 
@@ -38,5 +40,23 @@
          · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
+<script>/*PEPITES_SHARE*/
+(function(){
+  [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });
+  document.addEventListener('click',function(e){
+    var t=e.target, p=t.closest&&t.closest('.share-x'); if(!p) return;
+    var text=p.getAttribute('data-text');
+    if(t.closest('.share-btn')){
+      e.preventDefault();
+      if(navigator.share){ navigator.share({text:text}).catch(function(){}); }
+      else { window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text),'_blank','noopener'); }
+    } else if(t.closest('.copy-btn')){
+      navigator.clipboard.writeText(text).then(function(){
+        var b=t.closest('.copy-btn'); b.textContent='Copié ✓'; setTimeout(function(){ b.textContent='Copier'; },2000);
+      }).catch(function(){});
+    }
+  });
+})();
+</script>
 </body>
 </html>

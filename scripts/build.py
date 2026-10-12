@@ -191,6 +191,8 @@ PEPITES_CSS = """
 .share-x { margin: 0.6rem 0 0; font-size: 0.8rem; }
 .share-x a { color: var(--muted); }
 .share-x a:hover { color: var(--accent); }
+.share-x .copy-btn { background: none; border: 0; padding: 0; font: inherit; color: var(--muted); cursor: pointer; }
+.share-x .copy-btn:hover { color: var(--accent); }
 [hidden] { display: none !important; }
 """
 
@@ -207,7 +209,7 @@ PEPITES_FILTER_JS = """
     var m=(l.getAttribute('href')||'').match(/([^\\/]+)\\.html$/); if(!m) return;
     e.preventDefault(); setTag(decodeURIComponent(m[1])); bar.scrollIntoView({behavior:'smooth',block:'start'});
   });
-  function tagsOf(a){return [].slice.call(a.querySelectorAll('.tags a.tag')).map(function(l){var m=(l.getAttribute('href')||'').match(/([^\\/]+)\\.html$/);return m?decodeURIComponent(m[1]):'';});}
+  function tagsOf(a){var d=a.querySelector('[data-tags]');return d?d.getAttribute('data-tags').split(' '):[];}
   function apply(){
     var m=location.hash.match(/^#tag=(.+)$/), t=m?decodeURIComponent(m[1]):'';
     btns.forEach(function(b){b.setAttribute('aria-pressed', String(b.getAttribute('data-tag')===t));});
@@ -247,9 +249,40 @@ def share_text(item: dict) -> str:
 
 
 def share_html(item: dict) -> str:
-    href = "https://x.com/intent/post?text=" + _pq(share_text(item), safe="")
-    return (f'<p class="share-x"><a href="{html.escape(href, quote=True)}" '
-            f'rel="noopener" target="_blank">Partager sur X</a></p>')
+    text = share_text(item)
+    href = "https://twitter.com/intent/tweet?text=" + _pq(text, safe="")
+    tags = " ".join(item.get("tags", []))
+    return (f'<p class="share-x" data-tags="{html.escape(tags, quote=True)}" data-text="{html.escape(text, quote=True)}">'
+            f'<a class="share-btn" href="{html.escape(href, quote=True)}" rel="noopener" target="_blank">Partager sur X</a>'
+            f' · <button type="button" class="copy-btn" hidden>Copier</button></p>')
+
+
+PEPITES_SHARE_JS = r"""
+(function(){
+  [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });
+  document.addEventListener('click',function(e){
+    var t=e.target, p=t.closest&&t.closest('.share-x'); if(!p) return;
+    var text=p.getAttribute('data-text');
+    if(t.closest('.share-btn')){
+      e.preventDefault();
+      if(navigator.share){ navigator.share({text:text}).catch(function(){}); }
+      else { window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text),'_blank','noopener'); }
+    } else if(t.closest('.copy-btn')){
+      navigator.clipboard.writeText(text).then(function(){
+        var b=t.closest('.copy-btn'); b.textContent='Copié ✓'; setTimeout(function(){ b.textContent='Copier'; },2000);
+      }).catch(function(){});
+    }
+  });
+})();
+"""
+
+
+def inject_share_js() -> None:
+    for f in DOCS.rglob("*.html"):
+        s = f.read_text(encoding="utf-8")
+        if 'class="share-x"' in s and "PEPITES_SHARE" not in s:
+            s = s.replace("</body>", "<script>/*PEPITES_SHARE*/" + PEPITES_SHARE_JS + "</script>\n</body>", 1)
+            f.write_text(s, encoding="utf-8")
 
 
 def filter_bar_html(discoveries: list) -> str:
@@ -297,6 +330,7 @@ def fix_tag_pages(discoveries: list) -> None:
 
 def write_latest(discoveries: list) -> None:
     fix_tag_pages(discoveries)
+    inject_share_js()
     data = {}
     if discoveries:
         d = discoveries[0]
@@ -436,7 +470,6 @@ def discovery_html(
   <h3><a href="{esc(item['url'])}" rel="noopener" target="_blank">{esc(item['name'])}</a></h3>
   <p class="summary">{esc(item['summary'])}</p>
   {source_html(item.get('source'))}
-  {tags_html(item.get('tags', []), tags_base=tags_base)}
   {share_html(item)}
 </article>
 """

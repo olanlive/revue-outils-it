@@ -26,8 +26,10 @@
   <h3><a href="https://glpi-project.org/" rel="noopener" target="_blank">GLPI 12.0.0</a></h3>
   <p class="summary">Version majeure de l’outil open source de gestion de parc et de helpdesk, sortie le 7 oct : base de connaissances réécrite, suivi et révocation des sessions ouvertes, ré-authentification pour les actions d’admin et OLA par groupe. Image Docker officielle.</p>
   <p class="source">Trouvé via : <a href="https://github.com/glpi-project/glpi/releases/tag/12.0.0" rel="noopener" target="_blank">Release GitHub — glpi-project/glpi 12.0.0</a></p>
-  <div class="tags"><a class="tag" href="../index.html#tag=inventaire">#inventaire</a><a class="tag" href="../index.html#tag=helpdesk">#helpdesk</a><a class="tag" href="../index.html#tag=self-hosting">#self-hosting</a></div>
-  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AGLPI%2012.0.0%20%3A%20Version%20majeure%20de%20l%E2%80%99outil%20open%20source%20de%20gestion%20de%20parc%20et%20de%20helpdesk%2C%20sortie%20le%207%20oct%20%3A%20base%20de%20connaissances%20r%C3%A9%C3%A9crite%2C%20suivi%20et%20r%C3%A9vocation%20des%20sessions%20ouvertes%2C%20r%C3%A9-authentification%20pour%20les%20acti%E2%80%A6%0Ahttps%3A%2F%2Fglpi-project.org%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
+  <p class="share-x" data-tags="inventaire helpdesk self-hosting" data-text="Pépite du jour 💎
+GLPI 12.0.0 : Version majeure de l’outil open source de gestion de parc et de helpdesk, sortie le 7 oct : base de connaissances réécrite, suivi et révocation des sessions ouvertes, ré-authentification pour les acti…
+https://glpi-project.org/
+#opensource #sysadmin"><a class="share-btn" href="https://twitter.com/intent/tweet?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AGLPI%2012.0.0%20%3A%20Version%20majeure%20de%20l%E2%80%99outil%20open%20source%20de%20gestion%20de%20parc%20et%20de%20helpdesk%2C%20sortie%20le%207%20oct%20%3A%20base%20de%20connaissances%20r%C3%A9%C3%A9crite%2C%20suivi%20et%20r%C3%A9vocation%20des%20sessions%20ouvertes%2C%20r%C3%A9-authentification%20pour%20les%20acti%E2%80%A6%0Ahttps%3A%2F%2Fglpi-project.org%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a> · <button type="button" class="copy-btn" hidden>Copier</button></p>
 </article>
 
 
@@ -38,5 +40,23 @@
          · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
+<script>/*PEPITES_SHARE*/
+(function(){
+  [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });
+  document.addEventListener('click',function(e){
+    var t=e.target, p=t.closest&&t.closest('.share-x'); if(!p) return;
+    var text=p.getAttribute('data-text');
+    if(t.closest('.share-btn')){
+      e.preventDefault();
+      if(navigator.share){ navigator.share({text:text}).catch(function(){}); }
+      else { window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text),'_blank','noopener'); }
+    } else if(t.closest('.copy-btn')){
+      navigator.clipboard.writeText(text).then(function(){
+        var b=t.closest('.copy-btn'); b.textContent='Copié ✓'; setTimeout(function(){ b.textContent='Copier'; },2000);
+      }).catch(function(){});
+    }
+  });
+})();
+</script>
 </body>
 </html>

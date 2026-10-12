@@ -26,8 +26,10 @@
   <h3><a href="https://www.portainer.io/" rel="noopener" target="_blank">Portainer 2.45.2 LTS</a></h3>
   <p class="summary">L’interface web de gestion Docker/Kubernetes sort une LTS corrective le 8 oct : un non-admin ne peut plus lire de fichiers de l’hôte via un Compose, et la vérification TLS vers l’API Kubernetes est rétablie. Mise à jour conseillée.</p>
   <p class="source">Trouvé via : <a href="https://github.com/portainer/portainer/releases/tag/2.45.2" rel="noopener" target="_blank">Release GitHub — portainer/portainer 2.45.2</a></p>
-  <div class="tags"><a class="tag" href="../index.html#tag=virtualisation">#virtualisation</a><a class="tag" href="../index.html#tag=securite">#securite</a><a class="tag" href="../index.html#tag=self-hosting">#self-hosting</a></div>
-  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0APortainer%202.45.2%20LTS%20%3A%20L%E2%80%99interface%20web%20de%20gestion%20Docker%2FKubernetes%20sort%20une%20LTS%20corrective%20le%208%20oct%20%3A%20un%20non-admin%20ne%20peut%20plus%20lire%20de%20fichiers%20de%20l%E2%80%99h%C3%B4te%20via%20un%20Compose%2C%20et%20la%20v%C3%A9rification%20TLS%20vers%20l%E2%80%99API%20Kubern%E2%80%A6%0Ahttps%3A%2F%2Fwww.portainer.io%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
+  <p class="share-x" data-tags="virtualisation securite self-hosting" data-text="Pépite du jour 💎
+Portainer 2.45.2 LTS : L’interface web de gestion Docker/Kubernetes sort une LTS corrective le 8 oct : un non-admin ne peut plus lire de fichiers de l’hôte via un Compose, et la vérification TLS vers l’API Kubern…
+https://www.portainer.io/
+#opensource #sysadmin"><a class="share-btn" href="https://twitter.com/intent/tweet?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0APortainer%202.45.2%20LTS%20%3A%20L%E2%80%99interface%20web%20de%20gestion%20Docker%2FKubernetes%20sort%20une%20LTS%20corrective%20le%208%20oct%20%3A%20un%20non-admin%20ne%20peut%20plus%20lire%20de%20fichiers%20de%20l%E2%80%99h%C3%B4te%20via%20un%20Compose%2C%20et%20la%20v%C3%A9rification%20TLS%20vers%20l%E2%80%99API%20Kubern%E2%80%A6%0Ahttps%3A%2F%2Fwww.portainer.io%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a> · <button type="button" class="copy-btn" hidden>Copier</button></p>
 </article>
 
 
@@ -38,5 +40,23 @@
          · <a href="../feed.xml">Flux RSS</a></p>
     </footer>
   </div>
+<script>/*PEPITES_SHARE*/
+(function(){
+  [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });
+  document.addEventListener('click',function(e){
+    var t=e.target, p=t.closest&&t.closest('.share-x'); if(!p) return;
+    var text=p.getAttribute('data-text');
+    if(t.closest('.share-btn')){
+      e.preventDefault();
+      if(navigator.share){ navigator.share({text:text}).catch(function(){}); }
+      else { window.open('https://twitter.com/intent/tweet?text='+encodeURIComponent(text),'_blank','noopener'); }
+    } else if(t.closest('.copy-btn')){
+      navigator.clipboard.writeText(text).then(function(){
+        var b=t.closest('.copy-btn'); b.textContent='Copié ✓'; setTimeout(function(){ b.textContent='Copier'; },2000);
+      }).catch(function(){});
+    }
+  });
+})();
+</script>
 </body>
 </html>
