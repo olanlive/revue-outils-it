@@ -28,7 +28,7 @@ FEED_MAX = 100
 SUMMARY_MAX = 280
 
 SITE_TITLE = "Pépites Outils IT"
-SITE_DESC = "Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord — tous les 2 jours."
+SITE_DESC = "Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord — tous les jours."
 
 CSS = """\
 :root {
@@ -244,7 +244,7 @@ def page(
     {crumb_html}
     {body}
     <footer class="site">
-      <p>Veille outils IT pour studio 3D · open source d’abord (gratuit / payant signalé) · tous les 2 jours</p>
+      <p>Veille outils IT pour studio 3D · open source d’abord (gratuit / payant signalé) · tous les jours</p>
       <p><a href="https://github.com/olanlive/revue-outils-it">Code source sur GitHub</a>
          · <a href="{prefix}tags/index.html">Tous les tags</a>
          · <a href="{prefix}feed.xml">Flux RSS</a></p>

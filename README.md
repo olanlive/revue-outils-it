@@ -8,7 +8,7 @@ Site statique (GitHub Pages) : **https://olanlive.github.io/revue-outils-it/**
 
 Flux RSS 2.0 : **https://olanlive.github.io/revue-outils-it/feed.xml** (un item par découverte, lien vers l’ancre du bloc)
 
-Cadence : **tous les 2 jours** (jours pairs, en alternance avec la revue Audio & Vidéo) — 3 à 7 pépites par passage, **rien publié s’il n’y a rien de neuf**.
+Cadence : **tous les jours** (jours pairs, en alternance avec la revue Audio & Vidéo) — 3 à 7 pépites par passage, **rien publié s’il n’y a rien de neuf**.
 
 ## Priorités
 
