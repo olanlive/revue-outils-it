@@ -1,5 +1,64 @@
 [
   {
+    "date": "2026-10-12",
+    "name": "rclone 1.75.2",
+    "summary": "L’outil de synchro et sauvegarde vers S3, B2 et des dizaines de clouds sort une version de sécurité le 9 oct : fuite de token et clé SSE-C B2 sur redirection corrigée, liens .rclonelink qui sortaient de la racine bloqués, Go 1.26.9. À mettre à jour.",
+    "url": "https://rclone.org/",
+    "tags": [
+      "stockage",
+      "s3",
+      "sauvegarde",
+      "securite"
+    ],
+    "source": {
+      "label": "Changelog rclone — v1.75.2",
+      "url": "https://rclone.org/changelog/#v1-75-2-2026-10-09"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Technitium DNS Server 15.6.1",
+    "summary": "Le serveur DNS auto-hébergé (cache, blocage, zones, DoH) publie un correctif le 11 oct : StartTLS/LDAPS de l’authentification LDAP réparés, IXFR fiabilisé face à Microsoft DNS et NOTIFY qui ne rate plus de secondaire. Bien pour le DNS interne du studio.",
+    "url": "https://technitium.com/dns/",
+    "tags": [
+      "reseau",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — TechnitiumSoftware/DnsServer v15.6.1",
+      "url": "https://github.com/TechnitiumSoftware/DnsServer/releases/tag/v15.6.1"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "name": "Ventoy 1.1.18",
+    "summary": "La clé USB multiboot open source (on y copie les ISO, sans reflasher) sort le 9 oct : vérification Secure Boot Windows/WinPE corrigée, partition ISO montable pour CloneZilla et support expérimental des images de récupération SteamOS. Pratique pour l’atelier de déploiement.",
+    "url": "https://www.ventoy.net/",
+    "tags": [
+      "deploiement",
+      "imaging"
+    ],
+    "source": {
+      "label": "Release GitHub — ventoy/Ventoy v1.1.18",
+      "url": "https://github.com/ventoy/Ventoy/releases/tag/v1.1.18"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "name": "osquery 5.24.0",
+    "summary": "L’agent open source qui expose le parc en tables SQL (base de Fleet) publie une pré-version le 9 oct : débordement de tas corrigé dans la table processes Windows, chiffrements TLS anciens retirés et colonne protector_types pour BitLocker.",
+    "url": "https://osquery.io/",
+    "tags": [
+      "inventaire",
+      "securite",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — osquery/osquery 5.24.0",
+      "url": "https://github.com/osquery/osquery/releases/tag/5.24.0"
+    }
+  },
+  {
     "date": "2026-10-10",
     "name": "Fleet 4.93.0",
     "summary": "La plateforme open source de gestion de parc (osquery, MDM) sort le 8 oct : option « prévenir avant de patcher » pour les apps macOS, enrôlement Android zero-touch et rotation du mot de passe du compte local géré. Utile pour garder les postes du studio à jour.",

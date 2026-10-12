@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-12 | rclone 1.75.2 | stockage, s3, sauvegarde, securite | https://rclone.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-12-rclone-1-75-2 |
+| 2026-10-12 | Technitium DNS Server 15.6.1 | reseau, self-hosting | https://technitium.com/dns/ | https://olanlive.github.io/revue-outils-it/#2026-10-12-technitium-dns-server-15-6-1 |
+| 2026-10-12 | Ventoy 1.1.18 | deploiement, imaging | https://www.ventoy.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-12-ventoy-1-1-18 |
+| 2026-10-12 | osquery 5.24.0 | inventaire, securite, rc | https://osquery.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-12-osquery-5-24-0 |
 | 2026-10-10 | Fleet 4.93.0 | deploiement, inventaire, securite | https://fleetdm.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-10-fleet-4-93-0 |
 | 2026-10-10 | Netdata 2.12.1 | monitoring, self-hosting | https://www.netdata.cloud/ | https://olanlive.github.io/revue-outils-it/#2026-10-10-netdata-2-12-1 |
 | 2026-10-10 | Uptime Kuma 2.5.6 | monitoring, securite, self-hosting | https://uptime.kuma.pet/ | https://olanlive.github.io/revue-outils-it/#2026-10-10-uptime-kuma-2-5-6 |

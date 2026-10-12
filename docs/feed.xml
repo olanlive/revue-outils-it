@@ -5,8 +5,47 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord — tous les 2 jours.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 10 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>rclone 1.75.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-12-rclone-1-75-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-12-rclone-1-75-2</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’outil de synchro et sauvegarde vers S3, B2 et des dizaines de clouds sort une version de sécurité le 9 oct : fuite de token et clé SSE-C B2 sur redirection corrigée, liens .rclonelink qui sortaient de la racine bloqués, Go 1.26.9. À mettre à jour.</description>
+      <category>stockage</category>
+      <category>s3</category>
+      <category>sauvegarde</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Technitium DNS Server 15.6.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-12-technitium-dns-server-15-6-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-12-technitium-dns-server-15-6-1</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le serveur DNS auto-hébergé (cache, blocage, zones, DoH) publie un correctif le 11 oct : StartTLS/LDAPS de l’authentification LDAP réparés, IXFR fiabilisé face à Microsoft DNS et NOTIFY qui ne rate plus de secondaire. Bien pour le DNS interne du studio.</description>
+      <category>reseau</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Ventoy 1.1.18</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-12-ventoy-1-1-18</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-12-ventoy-1-1-18</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>La clé USB multiboot open source (on y copie les ISO, sans reflasher) sort le 9 oct : vérification Secure Boot Windows/WinPE corrigée, partition ISO montable pour CloneZilla et support expérimental des images de récupération SteamOS. Pratique pour l’atelier de déploiement.</description>
+      <category>deploiement</category>
+      <category>imaging</category>
+    </item>
+    <item>
+      <title>osquery 5.24.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-12-osquery-5-24-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-12-osquery-5-24-0</guid>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>L’agent open source qui expose le parc en tables SQL (base de Fleet) publie une pré-version le 9 oct : débordement de tas corrigé dans la table processes Windows, chiffrements TLS anciens retirés et colonne protector_types pour BitLocker.</description>
+      <category>inventaire</category>
+      <category>securite</category>
+      <category>rc</category>
+    </item>
     <item>
       <title>Fleet 4.93.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-10-fleet-4-93-0</link>
