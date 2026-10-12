@@ -185,7 +185,9 @@ PEPITES_CSS = """
 .tag-filter { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.75rem 0 1.25rem; }
 .tag-filter .tag { cursor: pointer; font: inherit; font-size: 0.75rem; font-family: var(--mono); }
 .tag-filter .tag[aria-pressed="true"] { background: var(--accent); color: var(--bg, #fff); border-color: var(--accent); }
-.tag-filter .tag-all { font-family: var(--font); }
+.tag-filter .tag-all, .tag-filter .tag-clear, .tag-filter .tag-back { font-family: var(--font); }
+.tag-filter .tag-clear { background: var(--accent); color: var(--bg, #fff); border-color: var(--accent); }
+.tag-filter { scroll-margin-top: 4rem; }
 .share-x { margin: 0.6rem 0 0; font-size: 0.8rem; }
 .share-x a { color: var(--muted); }
 .share-x a:hover { color: var(--accent); }
@@ -196,10 +198,20 @@ PEPITES_FILTER_JS = """
 (function(){
   var bar=document.querySelector('.tag-filter'); if(!bar) return;
   var btns=[].slice.call(bar.querySelectorAll('[data-tag]'));
+  var clr=document.createElement('button'); clr.type='button'; clr.className='tag tag-clear'; clr.hidden=true;
+  clr.setAttribute('aria-label','Retirer le filtre'); bar.appendChild(clr);
+  function setTag(t){ if(t) location.hash='tag='+encodeURIComponent(t); else history.replaceState(null,'',location.pathname+location.search); apply(); }
+  clr.addEventListener('click',function(){ setTag(''); });
+  document.addEventListener('click',function(e){
+    var l=e.target.closest&&e.target.closest('article.discovery .tags a.tag'); if(!l) return;
+    var m=(l.getAttribute('href')||'').match(/([^\\/]+)\\.html$/); if(!m) return;
+    e.preventDefault(); setTag(decodeURIComponent(m[1])); bar.scrollIntoView({behavior:'smooth',block:'start'});
+  });
   function tagsOf(a){return [].slice.call(a.querySelectorAll('.tags a.tag')).map(function(l){var m=(l.getAttribute('href')||'').match(/([^\\/]+)\\.html$/);return m?decodeURIComponent(m[1]):'';});}
   function apply(){
     var m=location.hash.match(/^#tag=(.+)$/), t=m?decodeURIComponent(m[1]):'';
     btns.forEach(function(b){b.setAttribute('aria-pressed', String(b.getAttribute('data-tag')===t));});
+    clr.hidden=!t; clr.textContent='Filtré : '+t+' ✕';
     var nodes=[].slice.call(document.querySelectorAll('.day-sep, article.discovery')), sep=null, seen=false;
     function close(){ if(sep) sep.hidden=!seen; }
     nodes.forEach(function(n){
@@ -209,10 +221,7 @@ PEPITES_FILTER_JS = """
     close();
   }
   btns.forEach(function(b){b.addEventListener('click',function(e){
-    e.preventDefault(); var t=b.getAttribute('data-tag');
-    if(t) location.hash='tag='+encodeURIComponent(t);
-    else history.replaceState(null,'',location.pathname+location.search);
-    apply();
+    e.preventDefault(); setTag(b.getAttribute('data-tag'));
   });});
   window.addEventListener('hashchange',apply); apply();
 })();
@@ -259,7 +268,35 @@ def filter_bar_html(discoveries: list) -> str:
             + f"</div><script>{PEPITES_FILTER_JS}</script>")
 
 
+def fix_tag_pages(discoveries: list) -> None:
+    """Pages tags/xxx.html : barre « ← Tous » + autres tags, tags des pépites vers l'accueil filtré."""
+    import re as _re
+    counts: dict = {}
+    for d in discoveries:
+        for t in d.get("tags", []):
+            counts[t] = counts.get(t, 0) + 1
+    order = sorted(counts, key=lambda t: (-counts[t], t))
+    for t in order:
+        f = DOCS / "tags" / f"{t}.html"
+        if not f.exists():
+            continue
+        s = f.read_text(encoding="utf-8")
+        links = ['<a class="tag tag-back" href="../index.html">← Tous</a>']
+        for o in order:
+            e = html.escape(o, quote=True)
+            cur = ' aria-current="page" aria-pressed="true"' if o == t else ""
+            links.append(f'<a class="tag" href="../index.html#tag={_pq(o, safe="")}"{cur}>#{e}</a>')
+        bar = '<div class="tag-filter" aria-label="Changer de tag">' + "".join(links) + "</div>\n"
+        s = s.replace('<h2 class="section">Tag <code>', bar + '<h2 class="section">Tag <code>', 1)
+        def _art(m):
+            return _re.sub(r'class="tag" href="(?:\./)?([^"/]+)\.html"',
+                           lambda k: f'class="tag" href="../index.html#tag={_pq(html.unescape(k.group(1)), safe="")}"', m.group(0))
+        s = _re.sub(r'<article class="discovery".*?</article>', _art, s, flags=_re.S)
+        f.write_text(s, encoding="utf-8")
+
+
 def write_latest(discoveries: list) -> None:
+    fix_tag_pages(discoveries)
     data = {}
     if discoveries:
         d = discoveries[0]
