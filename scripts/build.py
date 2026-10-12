@@ -175,6 +175,99 @@ code { font-family: var(--mono); font-size: 0.9em; }
 """
 
 
+# --- Pépites : filtres par tag, partage X, latest.json (ne pas supprimer) ---
+from urllib.parse import quote as _pq
+
+PEPITES_HASHTAGS = "#opensource #sysadmin"
+PEPITES_TOP_TAGS = 14
+
+PEPITES_CSS = """
+.tag-filter { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.75rem 0 1.25rem; }
+.tag-filter .tag { cursor: pointer; font: inherit; font-size: 0.75rem; font-family: var(--mono); }
+.tag-filter .tag[aria-pressed="true"] { background: var(--accent); color: var(--bg, #fff); border-color: var(--accent); }
+.tag-filter .tag-all { font-family: var(--font); }
+.share-x { margin: 0.6rem 0 0; font-size: 0.8rem; }
+.share-x a { color: var(--muted); }
+.share-x a:hover { color: var(--accent); }
+[hidden] { display: none !important; }
+"""
+
+PEPITES_FILTER_JS = """
+(function(){
+  var bar=document.querySelector('.tag-filter'); if(!bar) return;
+  var btns=[].slice.call(bar.querySelectorAll('[data-tag]'));
+  function tagsOf(a){return [].slice.call(a.querySelectorAll('.tags a.tag')).map(function(l){var m=(l.getAttribute('href')||'').match(/([^\\/]+)\\.html$/);return m?decodeURIComponent(m[1]):'';});}
+  function apply(){
+    var m=location.hash.match(/^#tag=(.+)$/), t=m?decodeURIComponent(m[1]):'';
+    btns.forEach(function(b){b.setAttribute('aria-pressed', String(b.getAttribute('data-tag')===t));});
+    var nodes=[].slice.call(document.querySelectorAll('.day-sep, article.discovery')), sep=null, seen=false;
+    function close(){ if(sep) sep.hidden=!seen; }
+    nodes.forEach(function(n){
+      if(n.classList.contains('day-sep')){ close(); sep=n; seen=false; return; }
+      var show=!t||tagsOf(n).indexOf(t)>=0; n.hidden=!show; if(show) seen=true;
+    });
+    close();
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(e){
+    e.preventDefault(); var t=b.getAttribute('data-tag');
+    if(t) location.hash='tag='+encodeURIComponent(t);
+    else history.replaceState(null,'',location.pathname+location.search);
+    apply();
+  });});
+  window.addEventListener('hashchange',apply); apply();
+})();
+"""
+
+CSS += PEPITES_CSS
+
+
+def _x_len(s: str) -> int:
+    return sum(2 if ord(c) > 0x10FF else 1 for c in s)
+
+
+def share_text(item: dict) -> str:
+    head = "Pépite du jour 💎\n"
+    tail = "\n" + item["url"] + "\n" + PEPITES_HASHTAGS
+    fixed = _x_len(head) + 1 + 23 + 1 + _x_len(PEPITES_HASHTAGS)
+    body = f"{item['name']} : {item['summary']}"
+    if fixed + _x_len(body) > 280:
+        while fixed + _x_len(body) + 1 > 280:
+            body = body[:-1]
+        body = body.rstrip(" ,;:.") + "…"
+    return head + body + tail
+
+
+def share_html(item: dict) -> str:
+    href = "https://x.com/intent/post?text=" + _pq(share_text(item), safe="")
+    return (f'<p class="share-x"><a href="{html.escape(href, quote=True)}" '
+            f'rel="noopener" target="_blank">Partager sur X</a></p>')
+
+
+def filter_bar_html(discoveries: list) -> str:
+    counts: dict = {}
+    for d in discoveries:
+        for t in d.get("tags", []):
+            counts[t] = counts.get(t, 0) + 1
+    top = sorted(counts, key=lambda t: (-counts[t], t))[:PEPITES_TOP_TAGS]
+    if not top:
+        return ""
+    btns = ['<a class="tag tag-all" href="#" data-tag="" role="button" aria-pressed="true">Tous</a>']
+    for t in top:
+        e = html.escape(t, quote=True)
+        btns.append(f'<a class="tag" href="tags/{e}.html" data-tag="{e}" role="button" aria-pressed="false">#{e}</a>')
+    return ('<div class="tag-filter" aria-label="Filtrer par tag">' + "".join(btns)
+            + f"</div><script>{PEPITES_FILTER_JS}</script>")
+
+
+def write_latest(discoveries: list) -> None:
+    data = {}
+    if discoveries:
+        d = discoveries[0]
+        data = {"date": d["date"], "anchor": anchor_id(d), "name": d["name"]}
+    (DOCS / "latest.json").write_text(json.dumps(data, ensure_ascii=False) + "\n", encoding="utf-8")
+# --- fin Pépites ---
+
+
 def esc(s: str) -> str:
     return html.escape(s, quote=True)
 
@@ -307,6 +400,7 @@ def discovery_html(
   <p class="summary">{esc(item['summary'])}</p>
   {source_html(item.get('source'))}
   {tags_html(item.get('tags', []), tags_base=tags_base)}
+  {share_html(item)}
 </article>
 """
 
@@ -392,6 +486,7 @@ def build() -> None:
 <section>
   <h2 class="section">Découvertes</h2>
   <p class="meta">{n} découverte{'s' if n != 1 else ''}</p>
+  {filter_bar_html(discoveries)}
   {feed if feed else '<p class="empty">Aucune découverte pour le moment.</p>'}
 </section>
 <section>
@@ -448,6 +543,7 @@ def build() -> None:
     )
 
     write_feed(discoveries)
+    write_latest(discoveries)
 
     rows = "\n".join(
         f"| {d['date']} | {d['name']} | {', '.join(d.get('tags', []))} | {d['url']} | {SITE_URL}#{anchor_id(d)} |"

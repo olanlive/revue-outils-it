@@ -20,6 +20,31 @@
 <section>
   <h2 class="section">Découvertes</h2>
   <p class="meta">16 découvertes</p>
+  <div class="tag-filter" aria-label="Filtrer par tag"><a class="tag tag-all" href="#" data-tag="" role="button" aria-pressed="true">Tous</a><a class="tag" href="tags/self-hosting.html" data-tag="self-hosting" role="button" aria-pressed="false">#self-hosting</a><a class="tag" href="tags/securite.html" data-tag="securite" role="button" aria-pressed="false">#securite</a><a class="tag" href="tags/deploiement.html" data-tag="deploiement" role="button" aria-pressed="false">#deploiement</a><a class="tag" href="tags/inventaire.html" data-tag="inventaire" role="button" aria-pressed="false">#inventaire</a><a class="tag" href="tags/monitoring.html" data-tag="monitoring" role="button" aria-pressed="false">#monitoring</a><a class="tag" href="tags/rc.html" data-tag="rc" role="button" aria-pressed="false">#rc</a><a class="tag" href="tags/s3.html" data-tag="s3" role="button" aria-pressed="false">#s3</a><a class="tag" href="tags/emerging.html" data-tag="emerging" role="button" aria-pressed="false">#emerging</a><a class="tag" href="tags/imaging.html" data-tag="imaging" role="button" aria-pressed="false">#imaging</a><a class="tag" href="tags/nas.html" data-tag="nas" role="button" aria-pressed="false">#nas</a><a class="tag" href="tags/render-farm.html" data-tag="render-farm" role="button" aria-pressed="false">#render-farm</a><a class="tag" href="tags/sauvegarde.html" data-tag="sauvegarde" role="button" aria-pressed="false">#sauvegarde</a><a class="tag" href="tags/stockage.html" data-tag="stockage" role="button" aria-pressed="false">#stockage</a><a class="tag" href="tags/acces-distant.html" data-tag="acces-distant" role="button" aria-pressed="false">#acces-distant</a></div><script>
+(function(){
+  var bar=document.querySelector('.tag-filter'); if(!bar) return;
+  var btns=[].slice.call(bar.querySelectorAll('[data-tag]'));
+  function tagsOf(a){return [].slice.call(a.querySelectorAll('.tags a.tag')).map(function(l){var m=(l.getAttribute('href')||'').match(/([^\/]+)\.html$/);return m?decodeURIComponent(m[1]):'';});}
+  function apply(){
+    var m=location.hash.match(/^#tag=(.+)$/), t=m?decodeURIComponent(m[1]):'';
+    btns.forEach(function(b){b.setAttribute('aria-pressed', String(b.getAttribute('data-tag')===t));});
+    var nodes=[].slice.call(document.querySelectorAll('.day-sep, article.discovery')), sep=null, seen=false;
+    function close(){ if(sep) sep.hidden=!seen; }
+    nodes.forEach(function(n){
+      if(n.classList.contains('day-sep')){ close(); sep=n; seen=false; return; }
+      var show=!t||tagsOf(n).indexOf(t)>=0; n.hidden=!show; if(show) seen=true;
+    });
+    close();
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(e){
+    e.preventDefault(); var t=b.getAttribute('data-tag');
+    if(t) location.hash='tag='+encodeURIComponent(t);
+    else history.replaceState(null,'',location.pathname+location.search);
+    apply();
+  });});
+  window.addEventListener('hashchange',apply); apply();
+})();
+</script>
   
 <h2 class="day-sep first" id="jour-2026-10-12"><time datetime="2026-10-12">Lundi 12 octobre 2026</time></h2>
 
@@ -29,6 +54,7 @@
   <p class="summary">L’outil de synchro et sauvegarde vers S3, B2 et des dizaines de clouds sort une version de sécurité le 9 oct : fuite de token et clé SSE-C B2 sur redirection corrigée, liens .rclonelink qui sortaient de la racine bloqués, Go 1.26.9. À mettre à jour.</p>
   <p class="source">Trouvé via : <a href="https://rclone.org/changelog/#v1-75-2-2026-10-09" rel="noopener" target="_blank">Changelog rclone — v1.75.2</a></p>
   <div class="tags"><a class="tag" href="tags/stockage.html">#stockage</a><a class="tag" href="tags/s3.html">#s3</a><a class="tag" href="tags/sauvegarde.html">#sauvegarde</a><a class="tag" href="tags/securite.html">#securite</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0Arclone%201.75.2%20%3A%20L%E2%80%99outil%20de%20synchro%20et%20sauvegarde%20vers%20S3%2C%20B2%20et%20des%20dizaines%20de%20clouds%20sort%20une%20version%20de%20s%C3%A9curit%C3%A9%20le%209%20oct%20%3A%20fuite%20de%20token%20et%20cl%C3%A9%20SSE-C%20B2%20sur%20redirection%20corrig%C3%A9e%2C%20liens%20.rclonelink%20qui%20sortaien%E2%80%A6%0Ahttps%3A%2F%2Frclone.org%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-12-technitium-dns-server-15-6-1">
@@ -37,6 +63,7 @@
   <p class="summary">Le serveur DNS auto-hébergé (cache, blocage, zones, DoH) publie un correctif le 11 oct : StartTLS/LDAPS de l’authentification LDAP réparés, IXFR fiabilisé face à Microsoft DNS et NOTIFY qui ne rate plus de secondaire. Bien pour le DNS interne du studio.</p>
   <p class="source">Trouvé via : <a href="https://github.com/TechnitiumSoftware/DnsServer/releases/tag/v15.6.1" rel="noopener" target="_blank">Release GitHub — TechnitiumSoftware/DnsServer v15.6.1</a></p>
   <div class="tags"><a class="tag" href="tags/reseau.html">#reseau</a><a class="tag" href="tags/self-hosting.html">#self-hosting</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0ATechnitium%20DNS%20Server%2015.6.1%20%3A%20Le%20serveur%20DNS%20auto-h%C3%A9berg%C3%A9%20%28cache%2C%20blocage%2C%20zones%2C%20DoH%29%20publie%20un%20correctif%20le%2011%20oct%20%3A%20StartTLS%2FLDAPS%20de%20l%E2%80%99authentification%20LDAP%20r%C3%A9par%C3%A9s%2C%20IXFR%20fiabilis%C3%A9%20face%20%C3%A0%20Microsoft%20DNS%20et%20NOTI%E2%80%A6%0Ahttps%3A%2F%2Ftechnitium.com%2Fdns%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-12-ventoy-1-1-18">
@@ -45,6 +72,7 @@
   <p class="summary">La clé USB multiboot open source (on y copie les ISO, sans reflasher) sort le 9 oct : vérification Secure Boot Windows/WinPE corrigée, partition ISO montable pour CloneZilla et support expérimental des images de récupération SteamOS. Pratique pour l’atelier de déploiement.</p>
   <p class="source">Trouvé via : <a href="https://github.com/ventoy/Ventoy/releases/tag/v1.1.18" rel="noopener" target="_blank">Release GitHub — ventoy/Ventoy v1.1.18</a></p>
   <div class="tags"><a class="tag" href="tags/deploiement.html">#deploiement</a><a class="tag" href="tags/imaging.html">#imaging</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AVentoy%201.1.18%20%3A%20La%20cl%C3%A9%20USB%20multiboot%20open%20source%20%28on%20y%20copie%20les%20ISO%2C%20sans%20reflasher%29%20sort%20le%209%20oct%20%3A%20v%C3%A9rification%20Secure%20Boot%20Windows%2FWinPE%20corrig%C3%A9e%2C%20partition%20ISO%20montable%20pour%20CloneZilla%20et%20support%20exp%C3%A9rimental%20d%E2%80%A6%0Ahttps%3A%2F%2Fwww.ventoy.net%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-12-osquery-5-24-0">
@@ -53,6 +81,7 @@
   <p class="summary">L’agent open source qui expose le parc en tables SQL (base de Fleet) publie une pré-version le 9 oct : débordement de tas corrigé dans la table processes Windows, chiffrements TLS anciens retirés et colonne protector_types pour BitLocker.</p>
   <p class="source">Trouvé via : <a href="https://github.com/osquery/osquery/releases/tag/5.24.0" rel="noopener" target="_blank">Release GitHub — osquery/osquery 5.24.0</a></p>
   <div class="tags"><a class="tag" href="tags/inventaire.html">#inventaire</a><a class="tag" href="tags/securite.html">#securite</a><a class="tag" href="tags/rc.html">#rc</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0Aosquery%205.24.0%20%3A%20L%E2%80%99agent%20open%20source%20qui%20expose%20le%20parc%20en%20tables%20SQL%20%28base%20de%20Fleet%29%20publie%20une%20pr%C3%A9-version%20le%209%20oct%20%3A%20d%C3%A9bordement%20de%20tas%20corrig%C3%A9%20dans%20la%20table%20processes%20Windows%2C%20chiffrements%20TLS%20anciens%20retir%C3%A9s%20e%E2%80%A6%0Ahttps%3A%2F%2Fosquery.io%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <h2 class="day-sep" id="jour-2026-10-10"><time datetime="2026-10-10">Samedi 10 octobre 2026</time></h2>
@@ -63,6 +92,7 @@
   <p class="summary">La plateforme open source de gestion de parc (osquery, MDM) sort le 8 oct : option « prévenir avant de patcher » pour les apps macOS, enrôlement Android zero-touch et rotation du mot de passe du compte local géré. Utile pour garder les postes du studio à jour.</p>
   <p class="source">Trouvé via : <a href="https://github.com/fleetdm/fleet/releases/tag/fleet-v4.93.0" rel="noopener" target="_blank">Release GitHub — fleetdm/fleet fleet-v4.93.0</a></p>
   <div class="tags"><a class="tag" href="tags/deploiement.html">#deploiement</a><a class="tag" href="tags/inventaire.html">#inventaire</a><a class="tag" href="tags/securite.html">#securite</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AFleet%204.93.0%20%3A%20La%20plateforme%20open%20source%20de%20gestion%20de%20parc%20%28osquery%2C%20MDM%29%20sort%20le%208%20oct%20%3A%20option%20%C2%AB%20pr%C3%A9venir%20avant%20de%20patcher%20%C2%BB%20pour%20les%20apps%20macOS%2C%20enr%C3%B4lement%20Android%20zero-touch%20et%20rotation%20du%20mot%20de%20passe%20du%20compt%E2%80%A6%0Ahttps%3A%2F%2Ffleetdm.com%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-10-netdata-2-12-1">
@@ -71,6 +101,7 @@
   <p class="summary">Le monitoring temps réel open source publie un correctif le 8 oct : fin du crash au démarrage de l’agent Windows, collecteur eBPF stabilisé sur plus de noyaux et charge réduite sur le démon Docker. Pratique pour surveiller nœuds de rendu et serveurs.</p>
   <p class="source">Trouvé via : <a href="https://github.com/netdata/netdata/releases/tag/v2.12.1" rel="noopener" target="_blank">Release GitHub — netdata/netdata v2.12.1</a></p>
   <div class="tags"><a class="tag" href="tags/monitoring.html">#monitoring</a><a class="tag" href="tags/self-hosting.html">#self-hosting</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0ANetdata%202.12.1%20%3A%20Le%20monitoring%20temps%20r%C3%A9el%20open%20source%20publie%20un%20correctif%20le%208%20oct%20%3A%20fin%20du%20crash%20au%20d%C3%A9marrage%20de%20l%E2%80%99agent%20Windows%2C%20collecteur%20eBPF%20stabilis%C3%A9%20sur%20plus%20de%20noyaux%20et%20charge%20r%C3%A9duite%20sur%20le%20d%C3%A9mon%20Docker%E2%80%A6%0Ahttps%3A%2F%2Fwww.netdata.cloud%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-10-uptime-kuma-2-5-6">
@@ -79,6 +110,7 @@
   <p class="summary">L’outil auto-hébergé de surveillance de disponibilité (HTTP, ping, ports…) sort le 9 oct avec des mises à jour de dépendances de sécurité et un correctif du badge de temps de réponse moyen. Mise à jour simple et conseillée.</p>
   <p class="source">Trouvé via : <a href="https://github.com/louislam/uptime-kuma/releases/tag/2.5.6" rel="noopener" target="_blank">Release GitHub — louislam/uptime-kuma 2.5.6</a></p>
   <div class="tags"><a class="tag" href="tags/monitoring.html">#monitoring</a><a class="tag" href="tags/securite.html">#securite</a><a class="tag" href="tags/self-hosting.html">#self-hosting</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AUptime%20Kuma%202.5.6%20%3A%20L%E2%80%99outil%20auto-h%C3%A9berg%C3%A9%20de%20surveillance%20de%20disponibilit%C3%A9%20%28HTTP%2C%20ping%2C%20ports%E2%80%A6%29%20sort%20le%209%20oct%20avec%20des%20mises%20%C3%A0%20jour%20de%20d%C3%A9pendances%20de%20s%C3%A9curit%C3%A9%20et%20un%20correctif%20du%20badge%20de%20temps%20de%20r%C3%A9ponse%20moyen.%20Mis%E2%80%A6%0Ahttps%3A%2F%2Fuptime.kuma.pet%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <h2 class="day-sep" id="jour-2026-10-08"><time datetime="2026-10-08">Jeudi 8 octobre 2026</time></h2>
@@ -89,6 +121,7 @@
   <p class="summary">Le gestionnaire de render farm open source de l’ASWF (sorti le 7 oct) intègre Maestro, nouveau scheduler dans Cuebot, une interface web à parité avec CueGUI et des limites par hôte alimentées par l’usage réel des licences. Migrations de base : sauvegarder avant.</p>
   <p class="source">Trouvé via : <a href="https://github.com/AcademySoftwareFoundation/OpenCue/releases/tag/v1.34.22" rel="noopener" target="_blank">Release GitHub — AcademySoftwareFoundation/OpenCue v1.34.22</a></p>
   <div class="tags"><a class="tag" href="tags/render-farm.html">#render-farm</a><a class="tag" href="tags/licences.html">#licences</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AOpenCue%201.34.22%20%3A%20Le%20gestionnaire%20de%20render%20farm%20open%20source%20de%20l%E2%80%99ASWF%20%28sorti%20le%207%20oct%29%20int%C3%A8gre%20Maestro%2C%20nouveau%20scheduler%20dans%20Cuebot%2C%20une%20interface%20web%20%C3%A0%20parit%C3%A9%20avec%20CueGUI%20et%20des%20limites%20par%20h%C3%B4te%20aliment%C3%A9es%20par%E2%80%A6%0Ahttps%3A%2F%2Fwww.opencue.io%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-08-portainer-2-45-2-lts">
@@ -97,6 +130,7 @@
   <p class="summary">L’interface web de gestion Docker/Kubernetes sort une LTS corrective le 8 oct : un non-admin ne peut plus lire de fichiers de l’hôte via un Compose, et la vérification TLS vers l’API Kubernetes est rétablie. Mise à jour conseillée.</p>
   <p class="source">Trouvé via : <a href="https://github.com/portainer/portainer/releases/tag/2.45.2" rel="noopener" target="_blank">Release GitHub — portainer/portainer 2.45.2</a></p>
   <div class="tags"><a class="tag" href="tags/virtualisation.html">#virtualisation</a><a class="tag" href="tags/securite.html">#securite</a><a class="tag" href="tags/self-hosting.html">#self-hosting</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0APortainer%202.45.2%20LTS%20%3A%20L%E2%80%99interface%20web%20de%20gestion%20Docker%2FKubernetes%20sort%20une%20LTS%20corrective%20le%208%20oct%20%3A%20un%20non-admin%20ne%20peut%20plus%20lire%20de%20fichiers%20de%20l%E2%80%99h%C3%B4te%20via%20un%20Compose%2C%20et%20la%20v%C3%A9rification%20TLS%20vers%20l%E2%80%99API%20Kubern%E2%80%A6%0Ahttps%3A%2F%2Fwww.portainer.io%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-08-montray-2-0-0">
@@ -105,6 +139,7 @@
   <p class="summary">Petit outil open source (BSD) qui affiche dans la barre système l’état des services systemd et de tests en ligne de commande (disque, RAID…) sur plusieurs serveurs, sans pile de monitoring lourde. La 2.0.0 du 4 oct marque le renommage (ex-Salmon).</p>
   <p class="source">Trouvé via : <a href="https://sourcebento.com/news/montray-brings-systemd-health-checks-to-the-desktop-tray" rel="noopener" target="_blank">Web — SourceBento</a></p>
   <div class="tags"><a class="tag" href="tags/monitoring.html">#monitoring</a><a class="tag" href="tags/emerging.html">#emerging</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AMontray%202.0.0%20%3A%20Petit%20outil%20open%20source%20%28BSD%29%20qui%20affiche%20dans%20la%20barre%20syst%C3%A8me%20l%E2%80%99%C3%A9tat%20des%20services%20systemd%20et%20de%20tests%20en%20ligne%20de%20commande%20%28disque%2C%20RAID%E2%80%A6%29%20sur%20plusieurs%20serveurs%2C%20sans%20pile%20de%20monitoring%20lourde%E2%80%A6%0Ahttps%3A%2F%2Fgithub.com%2Fdimonomid%2Fmontray%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-08-truenas-27-rc-1">
@@ -113,6 +148,7 @@
   <p class="summary">Premier RC de TrueNAS 27 (ex-TrueNAS 26), sorti le 6 oct : OpenZFS 2.4.4, noyau 6.18 et service S3 natif en accès anticipé, où chaque bucket est un dataset ZFS (snapshots, quotas, réplication). À tester sur un NAS de labo ; stable prévue début décembre.</p>
   <p class="source">Trouvé via : <a href="https://forums.truenas.com/t/truenas-27-0-0-rc-1-is-now-available/68265" rel="noopener" target="_blank">Forum TrueNAS — annonce 27.0.0-RC.1</a></p>
   <div class="tags"><a class="tag" href="tags/stockage.html">#stockage</a><a class="tag" href="tags/nas.html">#nas</a><a class="tag" href="tags/zfs.html">#zfs</a><a class="tag" href="tags/s3.html">#s3</a><a class="tag" href="tags/rc.html">#rc</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0ATrueNAS%2027%20RC.1%20%3A%20Premier%20RC%20de%20TrueNAS%2027%20%28ex-TrueNAS%2026%29%2C%20sorti%20le%206%20oct%20%3A%20OpenZFS%202.4.4%2C%20noyau%206.18%20et%20service%20S3%20natif%20en%20acc%C3%A8s%20anticip%C3%A9%2C%20o%C3%B9%20chaque%20bucket%20est%20un%20dataset%20ZFS%20%28snapshots%2C%20quotas%2C%20r%C3%A9plication%29.%20%C3%80%20t%E2%80%A6%0Ahttps%3A%2F%2Fwww.truenas.com%2Fblog%2Ftruenas-27-rc1-feature-set%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-08-sqi-0-3-0">
@@ -121,6 +157,7 @@
   <p class="summary">Jeune gestionnaire de render farm open source (AGPL) bâti sur OpenJD, avec submitters Maya, Houdini, Nuke et Blender. La 0.3.0 (19 août) ajoute comptes, RBAC, LDAP/AD, SSO OIDC et exécution des tâches sous un compte dédié. Encore en phase de durcissement.</p>
   <p class="source">Trouvé via : <a href="https://github.com/uberware/sqi/discussions/123" rel="noopener" target="_blank">Discussion GitHub — uberware/sqi#123</a></p>
   <div class="tags"><a class="tag" href="tags/render-farm.html">#render-farm</a><a class="tag" href="tags/openjd.html">#openjd</a><a class="tag" href="tags/emerging.html">#emerging</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0Asqi%200.3.0%20%3A%20Jeune%20gestionnaire%20de%20render%20farm%20open%20source%20%28AGPL%29%20b%C3%A2ti%20sur%20OpenJD%2C%20avec%20submitters%20Maya%2C%20Houdini%2C%20Nuke%20et%20Blender.%20La%200.3.0%20%2819%20ao%C3%BBt%29%20ajoute%20comptes%2C%20RBAC%2C%20LDAP%2FAD%2C%20SSO%20OIDC%20et%20ex%C3%A9cution%20des%20t%C3%A2ches%20so%E2%80%A6%0Ahttps%3A%2F%2Fuberware.github.io%2Fsqi%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-08-fog-project-1-6-0-rc-5">
@@ -129,6 +166,7 @@
   <p class="summary">Le déploiement d’images disque par PXE, idéal pour masteriser les postes graphistes, approche de la 1.6 : la RC-5 du 7 oct corrige une migration MariaDB bloquée et approuve d’un clic toutes les MAC en attente. Passage 1.5 → 1.6 sans retour : tester en labo.</p>
   <p class="source">Trouvé via : <a href="https://github.com/FOGProject/fogproject/releases/tag/1.6.0-RC-5" rel="noopener" target="_blank">Release GitHub — FOGProject/fogproject 1.6.0-RC-5</a></p>
   <div class="tags"><a class="tag" href="tags/deploiement.html">#deploiement</a><a class="tag" href="tags/imaging.html">#imaging</a><a class="tag" href="tags/pxe.html">#pxe</a><a class="tag" href="tags/rc.html">#rc</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AFOG%20Project%201.6.0%20RC-5%20%3A%20Le%20d%C3%A9ploiement%20d%E2%80%99images%20disque%20par%20PXE%2C%20id%C3%A9al%20pour%20masteriser%20les%20postes%20graphistes%2C%20approche%20de%20la%201.6%20%3A%20la%20RC-5%20du%207%20oct%20corrige%20une%20migration%20MariaDB%20bloqu%C3%A9e%20et%20approuve%20d%E2%80%99un%20clic%20toute%E2%80%A6%0Ahttps%3A%2F%2Ffogproject.org%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-08-duplicati-2-4-0-1">
@@ -137,6 +175,7 @@
   <p class="summary">Sauvegarde chiffrée et dédupliquée vers NAS, S3 ou cloud : la 2.4.0.1 stable du 7 oct fiabilise la restauration (elle continue si un fichier échoue), l’annulation et le nouveau mode sync, et durcit login et contrôle distant, désormais compatible Synology DSM.</p>
   <p class="source">Trouvé via : <a href="https://github.com/duplicati/duplicati/releases/tag/v2.4.0.1_stable_2026-10-07" rel="noopener" target="_blank">Release GitHub — duplicati/duplicati v2.4.0.1</a></p>
   <div class="tags"><a class="tag" href="tags/sauvegarde.html">#sauvegarde</a><a class="tag" href="tags/nas.html">#nas</a><a class="tag" href="tags/s3.html">#s3</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0ADuplicati%202.4.0.1%20%3A%20Sauvegarde%20chiffr%C3%A9e%20et%20d%C3%A9dupliqu%C3%A9e%20vers%20NAS%2C%20S3%20ou%20cloud%20%3A%20la%202.4.0.1%20stable%20du%207%20oct%20fiabilise%20la%20restauration%20%28elle%20continue%20si%20un%20fichier%20%C3%A9choue%29%2C%20l%E2%80%99annulation%20et%20le%20nouveau%20mode%20sync%2C%20et%20dur%E2%80%A6%0Ahttps%3A%2F%2Fduplicati.com%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-08-rustdesk-1-5-0">
@@ -145,6 +184,7 @@
   <p class="summary">Alternative open source et auto-hébergeable à TeamViewer/AnyDesk : la 1.5.0 du 30 sept ajoute un transport WebRTC, une liste blanche d’ID, le tone mapping HDR, la synchro du presse-papiers entre sessions et la mise à jour silencieuse sur macOS.</p>
   <p class="source">Trouvé via : <a href="https://github.com/rustdesk/rustdesk/releases/tag/1.5.0" rel="noopener" target="_blank">Release GitHub — rustdesk/rustdesk 1.5.0</a></p>
   <div class="tags"><a class="tag" href="tags/acces-distant.html">#acces-distant</a><a class="tag" href="tags/self-hosting.html">#self-hosting</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0ARustDesk%201.5.0%20%3A%20Alternative%20open%20source%20et%20auto-h%C3%A9bergeable%20%C3%A0%20TeamViewer%2FAnyDesk%20%3A%20la%201.5.0%20du%2030%20sept%20ajoute%20un%20transport%20WebRTC%2C%20une%20liste%20blanche%20d%E2%80%99ID%2C%20le%20tone%20mapping%20HDR%2C%20la%20synchro%20du%20presse-papiers%20entre%20se%E2%80%A6%0Ahttps%3A%2F%2Frustdesk.com%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 <article class="discovery" id="2026-10-08-glpi-12-0-0">
@@ -153,6 +193,7 @@
   <p class="summary">Version majeure de l’outil open source de gestion de parc et de helpdesk, sortie le 7 oct : base de connaissances réécrite, suivi et révocation des sessions ouvertes, ré-authentification pour les actions d’admin et OLA par groupe. Image Docker officielle.</p>
   <p class="source">Trouvé via : <a href="https://github.com/glpi-project/glpi/releases/tag/12.0.0" rel="noopener" target="_blank">Release GitHub — glpi-project/glpi 12.0.0</a></p>
   <div class="tags"><a class="tag" href="tags/inventaire.html">#inventaire</a><a class="tag" href="tags/helpdesk.html">#helpdesk</a><a class="tag" href="tags/self-hosting.html">#self-hosting</a></div>
+  <p class="share-x"><a href="https://x.com/intent/post?text=P%C3%A9pite%20du%20jour%20%F0%9F%92%8E%0AGLPI%2012.0.0%20%3A%20Version%20majeure%20de%20l%E2%80%99outil%20open%20source%20de%20gestion%20de%20parc%20et%20de%20helpdesk%2C%20sortie%20le%207%20oct%20%3A%20base%20de%20connaissances%20r%C3%A9%C3%A9crite%2C%20suivi%20et%20r%C3%A9vocation%20des%20sessions%20ouvertes%2C%20r%C3%A9-authentification%20pour%20les%20acti%E2%80%A6%0Ahttps%3A%2F%2Fglpi-project.org%2F%0A%23opensource%20%23sysadmin" rel="noopener" target="_blank">Partager sur X</a></p>
 </article>
 
 </section>
