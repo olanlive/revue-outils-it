@@ -253,7 +253,7 @@ def share_html(item: dict) -> str:
     href = "https://twitter.com/intent/tweet?text=" + _pq(text, safe="")
     tags = " ".join(item.get("tags", []))
     return (f'<p class="share-x" data-tags="{html.escape(tags, quote=True)}" data-text="{html.escape(text, quote=True)}">'
-            f'<a class="share-btn" href="{html.escape(href, quote=True)}" rel="noopener" target="_blank">Partager sur X</a>'
+            f'<a class="share-btn" href="{html.escape(href, quote=True)}" rel="noopener" target="_blank" aria-label="Partager">Partager</a>'
             f' · <button type="button" class="copy-btn" hidden>Copier</button></p>')
 
 
@@ -558,10 +558,6 @@ def build() -> None:
   <p class="meta">{n} découverte{'s' if n != 1 else ''}</p>
   {filter_bar_html(discoveries)}
   {feed if feed else '<p class="empty">Aucune découverte pour le moment.</p>'}
-</section>
-<section>
-  <h2 class="section">Tags</h2>
-  <div class="tag-cloud">{tag_links or '<span class="empty">—</span>'}</div>
 </section>
 """
     (DOCS / "index.html").write_text(
