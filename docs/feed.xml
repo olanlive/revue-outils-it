@@ -5,8 +5,60 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord — tous les jours.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 12 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>VictoriaMetrics 1.154.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-13-victoriametrics-1-154-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-13-victoriametrics-1-154-0</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Base de métriques compatible Prometheus, légère pour superviser render farm et NAS. La 1.154.0 (publiée le 12 oct) corrige deux failles (brute-force de jetons vmauth, XSS dans vmui) et annule les requêtes quand le client se déconnecte.</description>
+      <category>monitoring</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Nextcloud Desktop 35.0.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-13-nextcloud-desktop-35-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-13-nextcloud-desktop-35-0-0</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Client de synchro Nextcloud pour les postes. La 35.0.0 (12 oct) gère les fichiers de verrou Adobe et l’enregistrement sécurisé d’InDesign, corrige une perte de données lors du déplacement/renommage de dossiers et abandonne QtWebEngine.</description>
+      <category>stockage</category>
+      <category>pipeline</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Warpgate 0.30.0 beta.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-13-warpgate-0-30-0-beta-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-13-warpgate-0-30-0-beta-1</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Bastion open source SSH/HTTPS/RDP/bases de données avec enregistrement des sessions. La bêta 0.30 (12 oct) va chercher mots de passe et clés dans Vault/OpenBao, ajoute RDP Graphics Pipeline (RemoteFX) et l’mTLS entre nœuds du cluster.</description>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>Defguard 2.2.0 beta1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-13-defguard-2-2-0-beta1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-13-defguard-2-2-0-beta1</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description>VPN WireGuard auto-hébergeable avec MFA et SSO. La bêta 2.2 (12 oct) permet des parcours MFA multi-étapes par site, des clés FIDO2 comme facteur, la config MFA après enrôlement et des actions groupées sur le pare-feu.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>Headplane 0.7.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-13-headplane-0-7-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-13-headplane-0-7-1</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Interface web pour Headscale (alternative auto-hébergée à Tailscale) : machines, utilisateurs, ACL, DNS, sous-réseaux, SSH web et SSO OIDC. Trouvé via Self-Host Weekly (spotlight du 9 oct) ; dernière version 0.7.1.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>rclone 1.75.2</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-12-rclone-1-75-2</link>

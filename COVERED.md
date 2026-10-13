@@ -7,6 +7,11 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-13 | VictoriaMetrics 1.154.0 | monitoring, securite, self-hosting | https://victoriametrics.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-13-victoriametrics-1-154-0 |
+| 2026-10-13 | Nextcloud Desktop 35.0.0 | stockage, pipeline, self-hosting | https://nextcloud.com/install/ | https://olanlive.github.io/revue-outils-it/#2026-10-13-nextcloud-desktop-35-0-0 |
+| 2026-10-13 | Warpgate 0.30.0 beta.1 | acces-distant, securite, self-hosting, rc | https://warpgate.null.page/ | https://olanlive.github.io/revue-outils-it/#2026-10-13-warpgate-0-30-0-beta-1 |
+| 2026-10-13 | Defguard 2.2.0 beta1 | reseau, acces-distant, securite, rc | https://defguard.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-13-defguard-2-2-0-beta1 |
+| 2026-10-13 | Headplane 0.7.1 | reseau, acces-distant, self-hosting | https://headplane.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-13-headplane-0-7-1 |
 | 2026-10-12 | rclone 1.75.2 | stockage, s3, sauvegarde, securite | https://rclone.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-12-rclone-1-75-2 |
 | 2026-10-12 | Technitium DNS Server 15.6.1 | reseau, self-hosting | https://technitium.com/dns/ | https://olanlive.github.io/revue-outils-it/#2026-10-12-technitium-dns-server-15-6-1 |
 | 2026-10-12 | Ventoy 1.1.18 | deploiement, imaging | https://www.ventoy.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-12-ventoy-1-1-18 |

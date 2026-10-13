@@ -1,5 +1,82 @@
 [
   {
+    "date": "2026-10-13",
+    "name": "VictoriaMetrics 1.154.0",
+    "summary": "Base de métriques compatible Prometheus, légère pour superviser render farm et NAS. La 1.154.0 (publiée le 12 oct) corrige deux failles (brute-force de jetons vmauth, XSS dans vmui) et annule les requêtes quand le client se déconnecte.",
+    "url": "https://victoriametrics.com/",
+    "tags": [
+      "monitoring",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — VictoriaMetrics/VictoriaMetrics v1.154.0",
+      "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.154.0"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Nextcloud Desktop 35.0.0",
+    "summary": "Client de synchro Nextcloud pour les postes. La 35.0.0 (12 oct) gère les fichiers de verrou Adobe et l’enregistrement sécurisé d’InDesign, corrige une perte de données lors du déplacement/renommage de dossiers et abandonne QtWebEngine.",
+    "url": "https://nextcloud.com/install/",
+    "tags": [
+      "stockage",
+      "pipeline",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — nextcloud/desktop v35.0.0",
+      "url": "https://github.com/nextcloud/desktop/releases/tag/v35.0.0"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Warpgate 0.30.0 beta.1",
+    "summary": "Bastion open source SSH/HTTPS/RDP/bases de données avec enregistrement des sessions. La bêta 0.30 (12 oct) va chercher mots de passe et clés dans Vault/OpenBao, ajoute RDP Graphics Pipeline (RemoteFX) et l’mTLS entre nœuds du cluster.",
+    "url": "https://warpgate.null.page/",
+    "tags": [
+      "acces-distant",
+      "securite",
+      "self-hosting",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — warp-tech/warpgate v0.30.0-beta.1",
+      "url": "https://github.com/warp-tech/warpgate/releases/tag/v0.30.0-beta.1"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Defguard 2.2.0 beta1",
+    "summary": "VPN WireGuard auto-hébergeable avec MFA et SSO. La bêta 2.2 (12 oct) permet des parcours MFA multi-étapes par site, des clés FIDO2 comme facteur, la config MFA après enrôlement et des actions groupées sur le pare-feu.",
+    "url": "https://defguard.net/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "securite",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — DefGuard/defguard v2.2.0-beta1",
+      "url": "https://github.com/DefGuard/defguard/releases/tag/v2.2.0-beta1"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "name": "Headplane 0.7.1",
+    "summary": "Interface web pour Headscale (alternative auto-hébergée à Tailscale) : machines, utilisateurs, ACL, DNS, sous-réseaux, SSH web et SSO OIDC. Trouvé via Self-Host Weekly (spotlight du 9 oct) ; dernière version 0.7.1.",
+    "url": "https://headplane.net/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Self-Host Weekly — 9 octobre 2026",
+      "url": "https://selfh.st/weekly/2026-10-09/"
+    }
+  },
+  {
     "date": "2026-10-12",
     "name": "rclone 1.75.2",
     "summary": "L’outil de synchro et sauvegarde vers S3, B2 et des dizaines de clouds sort une version de sécurité le 9 oct : fuite de token et clé SSE-C B2 sur redirection corrigée, liens .rclonelink qui sortaient de la racine bloqués, Go 1.26.9. À mettre à jour.",
