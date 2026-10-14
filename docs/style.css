@@ -119,8 +119,7 @@ h2.section {
   font-weight: 600;
   color: var(--text);
 }
-.day-sep:first-of-type,
-.day-sep.first { margin-top: 1.5rem; }
+.day-sep:first-of-type { margin-top: 1.5rem; }
 footer.site {
   margin-top: 3rem;
   padding-top: 1.25rem;
