@@ -5,8 +5,76 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord — tous les jours.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 13 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bacularis 7.0.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-bacularis-7-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-bacularis-7-0-0</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Interface web open source pour Bacula (sauvegardes studio/NAS). La 7.0.0 (9 oct) ajoute la détection ransomware dans Restore Verification, en analysant les données réellement restaurées lors des tests de restore.</description>
+      <category>sauvegarde</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Grafana 13.2.4</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-grafana-13-2-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-grafana-13-2-4</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Tableaux de bord et alertes pour monitorer farm, NAS et postes. La 13.2.4 (13 oct) corrige quatre CVE (2026-15577, 33374, 93294, 95502) et durcit les redirections OAuth2 des alertes.</description>
+      <category>monitoring</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Keycloak 26.8.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-keycloak-26-8-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-keycloak-26-8-1</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>SSO/IAM auto-hébergeable pour le parc studio. La ligne 26.8 (1er oct, patch 26.8.1 le 13) rend SCIM et le multi-cluster sans cache externe supportés, et corrige CVE-2026-15943 sur le secret client des IdP OIDC.</description>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Mother-of-All-Self-Hosting</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-mother-of-all-self-hosting</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-mother-of-all-self-hosting</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Playbook Ansible (AGPL) pour déployer des services en conteneurs Docker sur un serveur perso ou de studio. Trouvé via awesome-selfhosted (ajout du 9 oct) ; projet très actif (centaines de commits/mois).</description>
+      <category>self-hosting</category>
+      <category>deploiement</category>
+    </item>
+    <item>
+      <title>Rustrak 0.16.3</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-rustrak-0-16-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-rustrak-0-16-3</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Serveur d’erreurs compatible SDK Sentry, ~32 Mo au repos avec SQLite. Trouvé via awesome-selfhosted ; la 0.16.3 (12 oct) aligne l’ingest PostgreSQL (NUL, longueurs) pour éviter les 500 sur payloads réels.</description>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Unraid 7.4.0-rc1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-unraid-7-4-0-rc1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-unraid-7-4-0-rc1</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>OS NAS (payant au-delà du free) pour stockage et dockers. La RC1 7.4 (8 oct) affiche la progression du Mover, un task tray, le multi-réseau Docker persistant et élargit le support Wi-Fi. À tester hors prod.</description>
+      <category>stockage</category>
+      <category>nas</category>
+      <category>virtualisation</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>Beszel 0.21.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-beszel-0-21-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-beszel-0-21-0</guid>
+      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Monitoring léger de serveurs (CPU, Docker, alertes) idéal pour nœuds de farm. La 0.21.0 (2 oct) ajoute Wi-Fi, expiry TLS des moniteurs HTTPS, logs systemd, comparaison réseau et liste des paquets en attente.</description>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>VictoriaMetrics 1.154.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-13-victoriametrics-1-154-0</link>

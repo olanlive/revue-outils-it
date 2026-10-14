@@ -7,6 +7,13 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-14 | Bacularis 7.0.0 | sauvegarde, securite, self-hosting | https://bacularis.app/ | https://olanlive.github.io/revue-outils-it/#2026-10-14-bacularis-7-0-0 |
+| 2026-10-14 | Grafana 13.2.4 | monitoring, securite, self-hosting | https://grafana.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-14-grafana-13-2-4 |
+| 2026-10-14 | Keycloak 26.8.1 | securite, self-hosting | https://www.keycloak.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-14-keycloak-26-8-1 |
+| 2026-10-14 | Mother-of-All-Self-Hosting | self-hosting, deploiement | https://github.com/mother-of-all-self-hosting/mash-playbook | https://olanlive.github.io/revue-outils-it/#2026-10-14-mother-of-all-self-hosting |
+| 2026-10-14 | Rustrak 0.16.3 | monitoring, self-hosting, emerging | https://rustrak.github.io/rustrak/ | https://olanlive.github.io/revue-outils-it/#2026-10-14-rustrak-0-16-3 |
+| 2026-10-14 | Unraid 7.4.0-rc1 | stockage, nas, virtualisation, rc | https://unraid.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-14-unraid-7-4-0-rc1 |
+| 2026-10-14 | Beszel 0.21.0 | monitoring, self-hosting | https://beszel.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-14-beszel-0-21-0 |
 | 2026-10-13 | VictoriaMetrics 1.154.0 | monitoring, securite, self-hosting | https://victoriametrics.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-13-victoriametrics-1-154-0 |
 | 2026-10-13 | Nextcloud Desktop 35.0.0 | stockage, pipeline, self-hosting | https://nextcloud.com/install/ | https://olanlive.github.io/revue-outils-it/#2026-10-13-nextcloud-desktop-35-0-0 |
 | 2026-10-13 | Warpgate 0.30.0 beta.1 | acces-distant, securite, self-hosting, rc | https://warpgate.null.page/ | https://olanlive.github.io/revue-outils-it/#2026-10-13-warpgate-0-30-0-beta-1 |

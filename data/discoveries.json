@@ -1,5 +1,108 @@
 [
   {
+    "date": "2026-10-14",
+    "name": "Bacularis 7.0.0",
+    "summary": "Interface web open source pour Bacula (sauvegardes studio/NAS). La 7.0.0 (9 oct) ajoute la détection ransomware dans Restore Verification, en analysant les données réellement restaurées lors des tests de restore.",
+    "url": "https://bacularis.app/",
+    "tags": [
+      "sauvegarde",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — bacularis/bacularis-app 7.0.0",
+      "url": "https://github.com/bacularis/bacularis-app/releases/tag/7.0.0"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Grafana 13.2.4",
+    "summary": "Tableaux de bord et alertes pour monitorer farm, NAS et postes. La 13.2.4 (13 oct) corrige quatre CVE (2026-15577, 33374, 93294, 95502) et durcit les redirections OAuth2 des alertes.",
+    "url": "https://grafana.com/",
+    "tags": [
+      "monitoring",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — grafana/grafana v13.2.4",
+      "url": "https://github.com/grafana/grafana/releases/tag/v13.2.4"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Keycloak 26.8.1",
+    "summary": "SSO/IAM auto-hébergeable pour le parc studio. La ligne 26.8 (1er oct, patch 26.8.1 le 13) rend SCIM et le multi-cluster sans cache externe supportés, et corrige CVE-2026-15943 sur le secret client des IdP OIDC.",
+    "url": "https://www.keycloak.org/",
+    "tags": [
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — keycloak/keycloak 26.8.1",
+      "url": "https://github.com/keycloak/keycloak/releases/tag/26.8.1"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Mother-of-All-Self-Hosting",
+    "summary": "Playbook Ansible (AGPL) pour déployer des services en conteneurs Docker sur un serveur perso ou de studio. Trouvé via awesome-selfhosted (ajout du 9 oct) ; projet très actif (centaines de commits/mois).",
+    "url": "https://github.com/mother-of-all-self-hosting/mash-playbook",
+    "tags": [
+      "self-hosting",
+      "deploiement"
+    ],
+    "source": {
+      "label": "awesome-selfhosted — Add Mother-of-All-Self-Hosting",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted-data/commit/4593289e9e8997f0665368f9416838d750b7c8d7"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Rustrak 0.16.3",
+    "summary": "Serveur d’erreurs compatible SDK Sentry, ~32 Mo au repos avec SQLite. Trouvé via awesome-selfhosted ; la 0.16.3 (12 oct) aligne l’ingest PostgreSQL (NUL, longueurs) pour éviter les 500 sur payloads réels.",
+    "url": "https://rustrak.github.io/rustrak/",
+    "tags": [
+      "monitoring",
+      "self-hosting",
+      "emerging"
+    ],
+    "source": {
+      "label": "awesome-selfhosted — add Rustrak",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted-data/commit/56d3af039eaf0876d5565e037a54567071b76884"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Unraid 7.4.0-rc1",
+    "summary": "OS NAS (payant au-delà du free) pour stockage et dockers. La RC1 7.4 (8 oct) affiche la progression du Mover, un task tray, le multi-réseau Docker persistant et élargit le support Wi-Fi. À tester hors prod.",
+    "url": "https://unraid.net/",
+    "tags": [
+      "stockage",
+      "nas",
+      "virtualisation",
+      "rc"
+    ],
+    "source": {
+      "label": "Web — Unraid 7.4.0-rc1",
+      "url": "https://unraid.net/blog/unraid-7-4-0-rc1"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "name": "Beszel 0.21.0",
+    "summary": "Monitoring léger de serveurs (CPU, Docker, alertes) idéal pour nœuds de farm. La 0.21.0 (2 oct) ajoute Wi-Fi, expiry TLS des moniteurs HTTPS, logs systemd, comparaison réseau et liste des paquets en attente.",
+    "url": "https://beszel.dev/",
+    "tags": [
+      "monitoring",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — henrygd/beszel v0.21.0",
+      "url": "https://github.com/henrygd/beszel/releases/tag/v0.21.0"
+    }
+  },
+  {
     "date": "2026-10-13",
     "name": "VictoriaMetrics 1.154.0",
     "summary": "Base de métriques compatible Prometheus, légère pour superviser render farm et NAS. La 1.154.0 (publiée le 12 oct) corrige deux failles (brute-force de jetons vmauth, XSS dans vmui) et annule les requêtes quand le client se déconnecte.",
