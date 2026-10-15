@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-10-15",
+    "name": "Pulse 6.6.0-rc.1",
+    "summary": "Monitoring auto-hébergé pour Proxmox, TrueNAS, Docker et Kubernetes (idéal farm/NAS). La RC1 6.6 (15 oct) fusionne alertes et graphiques sur les détails, clarifie la couverture backup et simplifie l’install des agents. À tester hors prod.",
+    "url": "https://pulserelay.pro/",
+    "tags": [
+      "monitoring",
+      "virtualisation",
+      "nas",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — rcourtman/Pulse v6.6.0-rc.1",
+      "url": "https://github.com/rcourtman/Pulse/releases/tag/v6.6.0-rc.1"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "name": "OpenLIT GPU Collector 1.0.0",
+    "summary": "Collecteur OpenTelemetry léger (Go) pour métriques GPU NVIDIA/AMD/Intel — utile sur nœuds de rendu. La 1.0.0 (13 oct) corrige l’attribution multi-GPU/CUDA et des processus par pod, sans DCGM ni agent propriétaire.",
+    "url": "https://docs.openlit.io/latest/gpu-collector/overview",
+    "tags": [
+      "monitoring",
+      "render-farm",
+      "emerging"
+    ],
+    "source": {
+      "label": "Release GitHub — openlit/openlit otel-gpu-collector-1.0.0",
+      "url": "https://github.com/openlit/openlit/releases/tag/otel-gpu-collector-1.0.0"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Authentik 2026.8.4",
+    "summary": "SSO/IdP open source pour sécuriser apps et accès studio. La 2026.8.4 (14 oct) corrige SAML (métadonnées PEM), proxy outpost (HTTP/2, JWKS), SCIM et la validation des durées — patch de maintenance à appliquer.",
+    "url": "https://goauthentik.io/",
+    "tags": [
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — goauthentik/authentik 2026.8.4",
+      "url": "https://github.com/goauthentik/authentik/releases/tag/version/2026.8.4"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "name": "Marmot 0.11.1",
+    "summary": "Catalogue de données open source (MIT) pour inventorier bases, API, files et pipelines. Trouvé via awesome-selfhosted (ajout du 4 oct) ; la 0.11.1 (11 oct) peaufine l’UI et corrige auth des images et webhooks par équipe.",
+    "url": "https://marmotdata.io/",
+    "tags": [
+      "pipeline",
+      "inventaire",
+      "self-hosting",
+      "emerging"
+    ],
+    "source": {
+      "label": "awesome-selfhosted — Add Marmot",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted-data/commit/eb0022f37a521cea8fcc0930ac43180532e1c533"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "name": "imagor 1.9.10",
+    "summary": "Serveur/lib Go (libvips) pour redimensionner, recadrer et convertir des images à la volée — pratique pour les previews d’assets. Trouvé via awesome-selfhosted ; la 1.9.10 (14 oct) ajoute les sources nested path et passe à Go 1.27 / vips 8.18.",
+    "url": "https://github.com/cshum/imagor",
+    "tags": [
+      "pipeline",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "awesome-selfhosted — Add imagor",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted-data/commit/93887b36999cd19c02505e96584451be961ef23e"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "name": "NetBox 4.7.3",
+    "summary": "Source de vérité pour l’inventaire réseau et DCIM (switches, IP, racks) d’un parc studio. La 4.7.3 (13 oct) accélère l’API REST (prefetch, config context) et ajoute un filtre de localisation sur les power feeds.",
+    "url": "https://netboxlabs.com/products/netbox/",
+    "tags": [
+      "inventaire",
+      "reseau",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — netbox-community/netbox v4.7.3",
+      "url": "https://github.com/netbox-community/netbox/releases/tag/v4.7.3"
+    }
+  },
+  {
     "date": "2026-10-14",
     "name": "Bacularis 7.0.0",
     "summary": "Interface web open source pour Bacula (sauvegardes studio/NAS). La 7.0.0 (9 oct) ajoute la détection ransomware dans Restore Verification, en analysant les données réellement restaurées lors des tests de restore.",

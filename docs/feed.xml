@@ -5,8 +5,68 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 14 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Pulse 6.6.0-rc.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-pulse-6-6-0-rc-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-pulse-6-6-0-rc-1</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Monitoring auto-hébergé pour Proxmox, TrueNAS, Docker et Kubernetes (idéal farm/NAS). La RC1 6.6 (15 oct) fusionne alertes et graphiques sur les détails, clarifie la couverture backup et simplifie l’install des agents. À tester hors prod.</description>
+      <category>monitoring</category>
+      <category>virtualisation</category>
+      <category>nas</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>OpenLIT GPU Collector 1.0.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-openlit-gpu-collector-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-openlit-gpu-collector-1-0-0</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Collecteur OpenTelemetry léger (Go) pour métriques GPU NVIDIA/AMD/Intel — utile sur nœuds de rendu. La 1.0.0 (13 oct) corrige l’attribution multi-GPU/CUDA et des processus par pod, sans DCGM ni agent propriétaire.</description>
+      <category>monitoring</category>
+      <category>render-farm</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Authentik 2026.8.4</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-authentik-2026-8-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-authentik-2026-8-4</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>SSO/IdP open source pour sécuriser apps et accès studio. La 2026.8.4 (14 oct) corrige SAML (métadonnées PEM), proxy outpost (HTTP/2, JWKS), SCIM et la validation des durées — patch de maintenance à appliquer.</description>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Marmot 0.11.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-marmot-0-11-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-marmot-0-11-1</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Catalogue de données open source (MIT) pour inventorier bases, API, files et pipelines. Trouvé via awesome-selfhosted (ajout du 4 oct) ; la 0.11.1 (11 oct) peaufine l’UI et corrige auth des images et webhooks par équipe.</description>
+      <category>pipeline</category>
+      <category>inventaire</category>
+      <category>self-hosting</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>imagor 1.9.10</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-imagor-1-9-10</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-imagor-1-9-10</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Serveur/lib Go (libvips) pour redimensionner, recadrer et convertir des images à la volée — pratique pour les previews d’assets. Trouvé via awesome-selfhosted ; la 1.9.10 (14 oct) ajoute les sources nested path et passe à Go 1.27 / vips 8.18.</description>
+      <category>pipeline</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>NetBox 4.7.3</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-netbox-4-7-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-netbox-4-7-3</guid>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Source de vérité pour l’inventaire réseau et DCIM (switches, IP, racks) d’un parc studio. La 4.7.3 (13 oct) accélère l’API REST (prefetch, config context) et ajoute un filtre de localisation sur les power feeds.</description>
+      <category>inventaire</category>
+      <category>reseau</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>Bacularis 7.0.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-bacularis-7-0-0</link>

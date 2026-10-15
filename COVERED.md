@@ -7,6 +7,12 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-15 | Pulse 6.6.0-rc.1 | monitoring, virtualisation, nas, rc | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-10-15-pulse-6-6-0-rc-1 |
+| 2026-10-15 | OpenLIT GPU Collector 1.0.0 | monitoring, render-farm, emerging | https://docs.openlit.io/latest/gpu-collector/overview | https://olanlive.github.io/revue-outils-it/#2026-10-15-openlit-gpu-collector-1-0-0 |
+| 2026-10-15 | Authentik 2026.8.4 | securite, self-hosting | https://goauthentik.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-15-authentik-2026-8-4 |
+| 2026-10-15 | Marmot 0.11.1 | pipeline, inventaire, self-hosting, emerging | https://marmotdata.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-15-marmot-0-11-1 |
+| 2026-10-15 | imagor 1.9.10 | pipeline, self-hosting | https://github.com/cshum/imagor | https://olanlive.github.io/revue-outils-it/#2026-10-15-imagor-1-9-10 |
+| 2026-10-15 | NetBox 4.7.3 | inventaire, reseau, self-hosting | https://netboxlabs.com/products/netbox/ | https://olanlive.github.io/revue-outils-it/#2026-10-15-netbox-4-7-3 |
 | 2026-10-14 | Bacularis 7.0.0 | sauvegarde, securite, self-hosting | https://bacularis.app/ | https://olanlive.github.io/revue-outils-it/#2026-10-14-bacularis-7-0-0 |
 | 2026-10-14 | Grafana 13.2.4 | monitoring, securite, self-hosting | https://grafana.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-14-grafana-13-2-4 |
 | 2026-10-14 | Keycloak 26.8.1 | securite, self-hosting | https://www.keycloak.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-14-keycloak-26-8-1 |
