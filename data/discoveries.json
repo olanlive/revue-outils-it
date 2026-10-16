@@ -1,5 +1,110 @@
 [
   {
+    "date": "2026-10-16",
+    "name": "NetBird 0.81.0",
+    "summary": "VPN mesh open source (WireGuard) pour relier farm, NAS et postes. La 0.81.0 (15 oct) ajoute les Certificate posture checks (preuve de clé privée), nblink (forward HTTP sans root) et l’accès par chemin sur le reverse proxy.",
+    "url": "https://netbird.io/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — netbirdio/netbird v0.81.0",
+      "url": "https://github.com/netbirdio/netbird/releases/tag/v0.81.0"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Sentry Self-Hosted 26.10.0",
+    "summary": "Plateforme d’erreurs/observabilité auto-hébergeable. La 26.10.0 (16 oct) passe Postgres 14→18 (snapshot recommandé avant upgrade), pousse les images distroless et ajoute la recherche de logs par regex.",
+    "url": "https://develop.sentry.dev/self-hosted/",
+    "tags": [
+      "monitoring",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — getsentry/self-hosted 26.10.0",
+      "url": "https://github.com/getsentry/self-hosted/releases/tag/26.10.0"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Traefik 3.7.15",
+    "summary": "Reverse proxy / ingress pour exposer proprement les services studio. La 3.7.15 (15 oct) rejette les requêtes CONNECT avant le muxer (durcissement) et corrige auth-tls côté ingress-nginx.",
+    "url": "https://traefik.io/",
+    "tags": [
+      "reseau",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — traefik/traefik v3.7.15",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.7.15"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Bitwarden 2026.10.0",
+    "summary": "Coffre de mots de passe auto-hébergeable pour le studio. La 2026.10.0 (14 oct) permet de partager des éléments via des liens temporaires et de configurer la durée de vie des access tokens.",
+    "url": "https://bitwarden.com/",
+    "tags": [
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — bitwarden/server v2026.10.0",
+      "url": "https://github.com/bitwarden/server/releases/tag/v2026.10.0"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Headscale 0.29.5",
+    "summary": "Contrôleur open source compatible Tailscale pour un VPN mesh auto-hébergé. La 0.29.5 (13 oct) corrige le steering via des exit nodes, des races ACL et les peers fantômes sur Android.",
+    "url": "https://headscale.net/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — juanfont/headscale v0.29.5",
+      "url": "https://github.com/juanfont/headscale/releases/tag/v0.29.5"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Syncthing 2.1.7-rc.2",
+    "summary": "Synchro P2P chiffrée d’assets entre postes et NAS. La RC 2.1.7-rc.2 (13 oct) peaufine la ligne 2.1 (groupes GUI, proxies HTTPS CONNECT, indexation blocs optionnelle). À tester hors prod.",
+    "url": "https://syncthing.net/",
+    "tags": [
+      "stockage",
+      "pipeline",
+      "self-hosting",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — syncthing/syncthing v2.1.7-rc.2",
+      "url": "https://github.com/syncthing/syncthing/releases/tag/v2.1.7-rc.2"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "name": "Rackula 26.10.1",
+    "summary": "Planificateur de baies/racks auto-hébergeable (Docker/LXC) pour documenter le parc studio. La 26.10.1 (13 oct) mesure les appareils en mm, exporte les patchs CSV et pin libexpat (CVE-2026-93990).",
+    "url": "https://www.racku.la/",
+    "tags": [
+      "inventaire",
+      "self-hosting",
+      "emerging"
+    ],
+    "source": {
+      "label": "Release GitHub — RackulaLives/Rackula v26.10.1",
+      "url": "https://github.com/RackulaLives/Rackula/releases/tag/v26.10.1"
+    }
+  },
+  {
     "date": "2026-10-15",
     "name": "Pulse 6.6.0-rc.1",
     "summary": "Monitoring auto-hébergé pour Proxmox, TrueNAS, Docker et Kubernetes (idéal farm/NAS). La RC1 6.6 (15 oct) fusionne alertes et graphiques sur les détails, clarifie la couverture backup et simplifie l’install des agents. À tester hors prod.",

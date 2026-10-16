@@ -7,6 +7,13 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-16 | NetBird 0.81.0 | reseau, acces-distant, securite, self-hosting | https://netbird.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-netbird-0-81-0 |
+| 2026-10-16 | Sentry Self-Hosted 26.10.0 | monitoring, self-hosting | https://develop.sentry.dev/self-hosted/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-sentry-self-hosted-26-10-0 |
+| 2026-10-16 | Traefik 3.7.15 | reseau, securite, self-hosting | https://traefik.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-traefik-3-7-15 |
+| 2026-10-16 | Bitwarden 2026.10.0 | securite, self-hosting | https://bitwarden.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-bitwarden-2026-10-0 |
+| 2026-10-16 | Headscale 0.29.5 | reseau, acces-distant, self-hosting | https://headscale.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-headscale-0-29-5 |
+| 2026-10-16 | Syncthing 2.1.7-rc.2 | stockage, pipeline, self-hosting, rc | https://syncthing.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-syncthing-2-1-7-rc-2 |
+| 2026-10-16 | Rackula 26.10.1 | inventaire, self-hosting, emerging | https://www.racku.la/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-rackula-26-10-1 |
 | 2026-10-15 | Pulse 6.6.0-rc.1 | monitoring, virtualisation, nas, rc | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-10-15-pulse-6-6-0-rc-1 |
 | 2026-10-15 | OpenLIT GPU Collector 1.0.0 | monitoring, render-farm, emerging | https://docs.openlit.io/latest/gpu-collector/overview | https://olanlive.github.io/revue-outils-it/#2026-10-15-openlit-gpu-collector-1-0-0 |
 | 2026-10-15 | Authentik 2026.8.4 | securite, self-hosting | https://goauthentik.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-15-authentik-2026-8-4 |
