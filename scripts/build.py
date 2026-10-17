@@ -573,7 +573,7 @@ def _page_en(
   <link rel="alternate" type="application/rss+xml" title="{esc(SITE_TITLE_EN)}" href="{SITE_URL}en/feed.xml">
   <link rel="alternate" hreflang="fr" href="{esc(fr_href)}">
   <link rel="alternate" hreflang="en" href="{esc(en_href)}">
-<script src="https://olanlive.github.io/pepites/nav.js?v=4" defer></script>
+<script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
 </head>
 <body>
   <div class="wrap">
@@ -871,7 +871,7 @@ def page(
   <link rel="stylesheet" href="{prefix}style.css">
   <link rel="alternate" type="application/rss+xml" title="{esc(SITE_TITLE)}" href="{SITE_URL}feed.xml">
   <link rel="alternate" hreflang="en" href="{esc(_en_href)}">
-<script src="https://olanlive.github.io/pepites/nav.js?v=4" defer></script>
+<script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
 </head>
 <body>
   <div class="wrap">
