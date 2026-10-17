@@ -8,397 +8,397 @@
     <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title xml:lang="fr">GitLab 19.4.2 (patch critique)</title>
+      <title>GitLab 19.4.2 (critical patch)</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-17-gitlab-19-4-2-patch-critique</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-17-gitlab-19-4-2-patch-critique</guid>
       <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Si tu héberges GitLab : la 19.4.2 (12 oct, aussi 19.3.5 et 19.2.8) corrige une faille CVSS 10 qui permet d’exécuter du code sur le serveur sans authentification via une regex CI/CD piégée. À appliquer vite. Trouvé via Self-Host Weekly.</description>
+      <description>If you host GitLab: 19.4.2 (Oct 12, also 19.3.5 and 19.2.8) fixes a CVSS 10 flaw that allows unauthenticated code execution on the server through a booby-trapped CI/CD regex. Apply it fast. Found via Self-Host Weekly.</description>
       <category>securite</category>
       <category>self-hosting</category>
       <category>pipeline</category>
     </item>
     <item>
-      <title xml:lang="fr">UniGetUI 2026.3.2</title>
+      <title>UniGetUI 2026.3.2</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-17-unigetui-2026-3-2</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-17-unigetui-2026-3-2</guid>
       <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Interface graphique pour WinGet, Chocolatey, Scoop ou pip sur les postes Windows. La 2026.3.2 (15 oct) ajoute en expérimental un catalogue de logiciels approuvés, avec versions épinglées, que les utilisateurs installent en un clic.</description>
+      <description>Graphical interface for WinGet, Chocolatey, Scoop or pip on Windows workstations. 2026.3.2 (Oct 15) adds an experimental catalog of approved software, with pinned versions, that users install in one click.</description>
       <category>deploiement</category>
       <category>inventaire</category>
     </item>
     <item>
-      <title xml:lang="fr">Homelable 3.6.0</title>
+      <title>Homelable 3.6.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-17-homelable-3-6-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-17-homelable-3-6-0</guid>
       <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Carte interactive de ton infra (réseau, racks, services) avec statut live, scans réseau et doc intégrée. La 3.6.0 (7 oct) permet d’ajouter images et PDF à la doc et de mettre à jour une fiche depuis un scan. Trouvé via Self-Host Weekly.</description>
+      <description>Interactive map of your infrastructure (network, racks, services) with live status, network scans and built-in docs. 3.6.0 (Oct 7) lets you add images and PDFs to the docs and update an entry from a scan. Found via Self-Host Weekly.</description>
       <category>inventaire</category>
       <category>monitoring</category>
       <category>reseau</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Wazuh 4.14.9</title>
+      <title>Wazuh 4.14.9</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-17-wazuh-4-14-9</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-17-wazuh-4-14-9</guid>
       <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">SIEM/XDR open source pour surveiller postes et serveurs. La 4.14.9 (15 oct) durcit les binaires Linux (PIE, RELRO, stack canary), ferme les connexions d’enrôlement inactives et débloque le scanner de vulnérabilités.</description>
+      <description>Open source SIEM/XDR for monitoring workstations and servers. 4.14.9 (Oct 15) hardens the Linux binaries (PIE, RELRO, stack canary), closes idle enrollment connections and unblocks the vulnerability scanner.</description>
       <category>securite</category>
       <category>monitoring</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">NetBird 0.81.0</title>
+      <title>NetBird 0.81.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-16-netbird-0-81-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-16-netbird-0-81-0</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">VPN mesh open source (WireGuard) pour relier farm, NAS et postes. La 0.81.0 (15 oct) ajoute les Certificate posture checks (preuve de clé privée), nblink (forward HTTP sans root) et l’accès par chemin sur le reverse proxy.</description>
+      <description>Open source mesh VPN (WireGuard) to link the farm, NAS and workstations. 0.81.0 (Oct 15) adds Certificate posture checks (proof of private key), nblink (HTTP forwarding without root) and path-based access on the reverse proxy.</description>
       <category>reseau</category>
       <category>acces-distant</category>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Sentry Self-Hosted 26.10.0</title>
+      <title>Sentry Self-Hosted 26.10.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-16-sentry-self-hosted-26-10-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-16-sentry-self-hosted-26-10-0</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Plateforme d’erreurs/observabilité auto-hébergeable. La 26.10.0 (16 oct) passe Postgres 14→18 (snapshot recommandé avant upgrade), pousse les images distroless et ajoute la recherche de logs par regex.</description>
+      <description>Self-hostable error/observability platform. 26.10.0 (Oct 16) moves Postgres 14→18 (snapshot recommended before upgrading), pushes distroless images and adds regex log search.</description>
       <category>monitoring</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Traefik 3.7.15</title>
+      <title>Traefik 3.7.15</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-16-traefik-3-7-15</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-16-traefik-3-7-15</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Reverse proxy / ingress pour exposer proprement les services studio. La 3.7.15 (15 oct) rejette les requêtes CONNECT avant le muxer (durcissement) et corrige auth-tls côté ingress-nginx.</description>
+      <description>Reverse proxy / ingress for cleanly exposing studio services. 3.7.15 (Oct 15) rejects CONNECT requests before the muxer (hardening) and fixes auth-tls on the ingress-nginx side.</description>
       <category>reseau</category>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Bitwarden 2026.10.0</title>
+      <title>Bitwarden 2026.10.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-16-bitwarden-2026-10-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-16-bitwarden-2026-10-0</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Coffre de mots de passe auto-hébergeable pour le studio. La 2026.10.0 (14 oct) permet de partager des éléments via des liens temporaires et de configurer la durée de vie des access tokens.</description>
+      <description>Self-hostable password vault for the studio. 2026.10.0 (Oct 14) lets you share items via temporary links and configure the lifetime of access tokens.</description>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Headscale 0.29.5</title>
+      <title>Headscale 0.29.5</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-16-headscale-0-29-5</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-16-headscale-0-29-5</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Contrôleur open source compatible Tailscale pour un VPN mesh auto-hébergé. La 0.29.5 (13 oct) corrige le steering via des exit nodes, des races ACL et les peers fantômes sur Android.</description>
+      <description>Open source Tailscale-compatible controller for a self-hosted mesh VPN. 0.29.5 (Oct 13) fixes steering via exit nodes, ACL races and ghost peers on Android.</description>
       <category>reseau</category>
       <category>acces-distant</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Syncthing 2.1.7-rc.2</title>
+      <title>Syncthing 2.1.7-rc.2</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-16-syncthing-2-1-7-rc-2</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-16-syncthing-2-1-7-rc-2</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Synchro P2P chiffrée d’assets entre postes et NAS. La RC 2.1.7-rc.2 (13 oct) peaufine la ligne 2.1 (groupes GUI, proxies HTTPS CONNECT, indexation blocs optionnelle). À tester hors prod.</description>
+      <description>Encrypted P2P asset sync between workstations and NAS. RC 2.1.7-rc.2 (Oct 13) polishes the 2.1 line (GUI groups, HTTPS CONNECT proxies, optional block indexing). Test outside production.</description>
       <category>stockage</category>
       <category>pipeline</category>
       <category>self-hosting</category>
       <category>rc</category>
     </item>
     <item>
-      <title xml:lang="fr">Rackula 26.10.1</title>
+      <title>Rackula 26.10.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-16-rackula-26-10-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-16-rackula-26-10-1</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Planificateur de baies/racks auto-hébergeable (Docker/LXC) pour documenter le parc studio. La 26.10.1 (13 oct) mesure les appareils en mm, exporte les patchs CSV et pin libexpat (CVE-2026-93990).</description>
+      <description>Self-hostable rack planner (Docker/LXC) for documenting studio equipment. 26.10.1 (Oct 13) measures devices in mm, exports patches as CSV and pins libexpat (CVE-2026-93990).</description>
       <category>inventaire</category>
       <category>self-hosting</category>
       <category>emerging</category>
     </item>
     <item>
-      <title xml:lang="fr">Pulse 6.6.0-rc.1</title>
+      <title>Pulse 6.6.0-rc.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-15-pulse-6-6-0-rc-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-15-pulse-6-6-0-rc-1</guid>
       <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Monitoring auto-hébergé pour Proxmox, TrueNAS, Docker et Kubernetes (idéal farm/NAS). La RC1 6.6 (15 oct) fusionne alertes et graphiques sur les détails, clarifie la couverture backup et simplifie l’install des agents. À tester hors prod.</description>
+      <description>Self-hosted monitoring for Proxmox, TrueNAS, Docker and Kubernetes (ideal for farm/NAS). RC1 of 6.6 (Oct 15) merges alerts and charts in the detail views, clarifies backup coverage and simplifies agent installation. Test outside production.</description>
       <category>monitoring</category>
       <category>virtualisation</category>
       <category>nas</category>
       <category>rc</category>
     </item>
     <item>
-      <title xml:lang="fr">OpenLIT GPU Collector 1.0.0</title>
+      <title>OpenLIT GPU Collector 1.0.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-15-openlit-gpu-collector-1-0-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-15-openlit-gpu-collector-1-0-0</guid>
       <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Collecteur OpenTelemetry léger (Go) pour métriques GPU NVIDIA/AMD/Intel — utile sur nœuds de rendu. La 1.0.0 (13 oct) corrige l’attribution multi-GPU/CUDA et des processus par pod, sans DCGM ni agent propriétaire.</description>
+      <description>Lightweight OpenTelemetry collector (Go) for NVIDIA/AMD/Intel GPU metrics — useful on render nodes. 1.0.0 (Oct 13) fixes multi-GPU/CUDA and per-pod process attribution, with no DCGM or proprietary agent.</description>
       <category>monitoring</category>
       <category>render-farm</category>
       <category>emerging</category>
     </item>
     <item>
-      <title xml:lang="fr">Authentik 2026.8.4</title>
+      <title>Authentik 2026.8.4</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-15-authentik-2026-8-4</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-15-authentik-2026-8-4</guid>
       <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">SSO/IdP open source pour sécuriser apps et accès studio. La 2026.8.4 (14 oct) corrige SAML (métadonnées PEM), proxy outpost (HTTP/2, JWKS), SCIM et la validation des durées — patch de maintenance à appliquer.</description>
+      <description>Open source SSO/IdP to secure studio apps and access. 2026.8.4 (Oct 14) fixes SAML (PEM metadata), the proxy outpost (HTTP/2, JWKS), SCIM and duration validation — a maintenance patch to apply.</description>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Marmot 0.11.1</title>
+      <title>Marmot 0.11.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-15-marmot-0-11-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-15-marmot-0-11-1</guid>
       <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Catalogue de données open source (MIT) pour inventorier bases, API, files et pipelines. Trouvé via awesome-selfhosted (ajout du 4 oct) ; la 0.11.1 (11 oct) peaufine l’UI et corrige auth des images et webhooks par équipe.</description>
+      <description>Open source data catalog (MIT) to inventory databases, APIs, queues and pipelines. Found via awesome-selfhosted (added Oct 4); 0.11.1 (Oct 11) polishes the UI and fixes image auth and per-team webhooks.</description>
       <category>pipeline</category>
       <category>inventaire</category>
       <category>self-hosting</category>
       <category>emerging</category>
     </item>
     <item>
-      <title xml:lang="fr">imagor 1.9.10</title>
+      <title>imagor 1.9.10</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-15-imagor-1-9-10</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-15-imagor-1-9-10</guid>
       <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Serveur/lib Go (libvips) pour redimensionner, recadrer et convertir des images à la volée — pratique pour les previews d’assets. Trouvé via awesome-selfhosted ; la 1.9.10 (14 oct) ajoute les sources nested path et passe à Go 1.27 / vips 8.18.</description>
+      <description>Go server/library (libvips) for resizing, cropping and converting images on the fly — handy for asset previews. Found via awesome-selfhosted; 1.9.10 (Oct 14) adds nested path sources and moves to Go 1.27 / vips 8.18.</description>
       <category>pipeline</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">NetBox 4.7.3</title>
+      <title>NetBox 4.7.3</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-15-netbox-4-7-3</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-15-netbox-4-7-3</guid>
       <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Source de vérité pour l’inventaire réseau et DCIM (switches, IP, racks) d’un parc studio. La 4.7.3 (13 oct) accélère l’API REST (prefetch, config context) et ajoute un filtre de localisation sur les power feeds.</description>
+      <description>Source of truth for the network inventory and DCIM (switches, IPs, racks) of a studio’s equipment. 4.7.3 (Oct 13) speeds up the REST API (prefetch, config context) and adds a location filter on power feeds.</description>
       <category>inventaire</category>
       <category>reseau</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Bacularis 7.0.0</title>
+      <title>Bacularis 7.0.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-bacularis-7-0-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-bacularis-7-0-0</guid>
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Interface web open source pour Bacula (sauvegardes studio/NAS). La 7.0.0 (9 oct) ajoute la détection ransomware dans Restore Verification, en analysant les données réellement restaurées lors des tests de restore.</description>
+      <description>Open source web interface for Bacula (studio/NAS backups). 7.0.0 (Oct 9) adds ransomware detection to Restore Verification, by analysing the data actually restored during restore tests.</description>
       <category>sauvegarde</category>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Grafana 13.2.4</title>
+      <title>Grafana 13.2.4</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-grafana-13-2-4</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-grafana-13-2-4</guid>
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Tableaux de bord et alertes pour monitorer farm, NAS et postes. La 13.2.4 (13 oct) corrige quatre CVE (2026-15577, 33374, 93294, 95502) et durcit les redirections OAuth2 des alertes.</description>
+      <description>Dashboards and alerts for monitoring the farm, NAS and workstations. 13.2.4 (Oct 13) fixes four CVEs (2026-15577, 33374, 93294, 95502) and hardens alerting OAuth2 redirects.</description>
       <category>monitoring</category>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Keycloak 26.8.1</title>
+      <title>Keycloak 26.8.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-keycloak-26-8-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-keycloak-26-8-1</guid>
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">SSO/IAM auto-hébergeable pour le parc studio. La ligne 26.8 (1er oct, patch 26.8.1 le 13) rend SCIM et le multi-cluster sans cache externe supportés, et corrige CVE-2026-15943 sur le secret client des IdP OIDC.</description>
+      <description>Self-hostable SSO/IAM for the studio’s equipment. The 26.8 line (Oct 1, patch 26.8.1 on the 13th) makes SCIM and multi-cluster without an external cache supported, and fixes CVE-2026-15943 on the client secret of OIDC IdPs.</description>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Mother-of-All-Self-Hosting</title>
+      <title>Mother-of-All-Self-Hosting</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-mother-of-all-self-hosting</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-mother-of-all-self-hosting</guid>
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Playbook Ansible (AGPL) pour déployer des services en conteneurs Docker sur un serveur perso ou de studio. Trouvé via awesome-selfhosted (ajout du 9 oct) ; projet très actif (centaines de commits/mois).</description>
+      <description>Ansible playbook (AGPL) for deploying services in Docker containers on a personal or studio server. Found via awesome-selfhosted (added Oct 9); a very active project (hundreds of commits/month).</description>
       <category>self-hosting</category>
       <category>deploiement</category>
     </item>
     <item>
-      <title xml:lang="fr">Rustrak 0.16.3</title>
+      <title>Rustrak 0.16.3</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-rustrak-0-16-3</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-rustrak-0-16-3</guid>
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Serveur d’erreurs compatible SDK Sentry, ~32 Mo au repos avec SQLite. Trouvé via awesome-selfhosted ; la 0.16.3 (12 oct) aligne l’ingest PostgreSQL (NUL, longueurs) pour éviter les 500 sur payloads réels.</description>
+      <description>Sentry SDK-compatible error server, ~32 MB at rest with SQLite. Found via awesome-selfhosted; 0.16.3 (Oct 12) aligns PostgreSQL ingest (NUL, lengths) to avoid 500s on real payloads.</description>
       <category>monitoring</category>
       <category>self-hosting</category>
       <category>emerging</category>
     </item>
     <item>
-      <title xml:lang="fr">Unraid 7.4.0-rc1</title>
+      <title>Unraid 7.4.0-rc1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-unraid-7-4-0-rc1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-unraid-7-4-0-rc1</guid>
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">OS NAS (payant au-delà du free) pour stockage et dockers. La RC1 7.4 (8 oct) affiche la progression du Mover, un task tray, le multi-réseau Docker persistant et élargit le support Wi-Fi. À tester hors prod.</description>
+      <description>NAS OS (paid beyond the free tier) for storage and Docker containers. RC1 of 7.4 (Oct 8) shows Mover progress, a task tray and persistent Docker multi-network, and broadens Wi-Fi support. Test outside production.</description>
       <category>stockage</category>
       <category>nas</category>
       <category>virtualisation</category>
       <category>rc</category>
     </item>
     <item>
-      <title xml:lang="fr">Beszel 0.21.0</title>
+      <title>Beszel 0.21.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-beszel-0-21-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-beszel-0-21-0</guid>
       <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Monitoring léger de serveurs (CPU, Docker, alertes) idéal pour nœuds de farm. La 0.21.0 (2 oct) ajoute Wi-Fi, expiry TLS des moniteurs HTTPS, logs systemd, comparaison réseau et liste des paquets en attente.</description>
+      <description>Lightweight server monitoring (CPU, Docker, alerts), ideal for farm nodes. 0.21.0 (Oct 2) adds Wi-Fi, TLS expiry for HTTPS monitors, systemd logs, network comparison and a list of pending packages.</description>
       <category>monitoring</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">VictoriaMetrics 1.154.0</title>
+      <title>VictoriaMetrics 1.154.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-13-victoriametrics-1-154-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-13-victoriametrics-1-154-0</guid>
       <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Base de métriques compatible Prometheus, légère pour superviser render farm et NAS. La 1.154.0 (publiée le 12 oct) corrige deux failles (brute-force de jetons vmauth, XSS dans vmui) et annule les requêtes quand le client se déconnecte.</description>
+      <description>Prometheus-compatible metrics database, lightweight for monitoring a render farm and NAS. 1.154.0 (released Oct 12) fixes two flaws (vmauth token brute-forcing, XSS in vmui) and cancels queries when the client disconnects.</description>
       <category>monitoring</category>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Nextcloud Desktop 35.0.0</title>
+      <title>Nextcloud Desktop 35.0.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-13-nextcloud-desktop-35-0-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-13-nextcloud-desktop-35-0-0</guid>
       <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Client de synchro Nextcloud pour les postes. La 35.0.0 (12 oct) gère les fichiers de verrou Adobe et l’enregistrement sécurisé d’InDesign, corrige une perte de données lors du déplacement/renommage de dossiers et abandonne QtWebEngine.</description>
+      <description>Nextcloud sync client for workstations. 35.0.0 (Oct 12) handles Adobe lock files and InDesign safe saving, fixes data loss when moving/renaming folders and drops QtWebEngine.</description>
       <category>stockage</category>
       <category>pipeline</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Warpgate 0.30.0 beta.1</title>
+      <title>Warpgate 0.30.0 beta.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-13-warpgate-0-30-0-beta-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-13-warpgate-0-30-0-beta-1</guid>
       <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Bastion open source SSH/HTTPS/RDP/bases de données avec enregistrement des sessions. La bêta 0.30 (12 oct) va chercher mots de passe et clés dans Vault/OpenBao, ajoute RDP Graphics Pipeline (RemoteFX) et l’mTLS entre nœuds du cluster.</description>
+      <description>Open source SSH/HTTPS/RDP/database bastion with session recording. The 0.30 beta (Oct 12) fetches passwords and keys from Vault/OpenBao, adds RDP Graphics Pipeline (RemoteFX) and mTLS between cluster nodes.</description>
       <category>acces-distant</category>
       <category>securite</category>
       <category>self-hosting</category>
       <category>rc</category>
     </item>
     <item>
-      <title xml:lang="fr">Defguard 2.2.0 beta1</title>
+      <title>Defguard 2.2.0 beta1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-13-defguard-2-2-0-beta1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-13-defguard-2-2-0-beta1</guid>
       <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">VPN WireGuard auto-hébergeable avec MFA et SSO. La bêta 2.2 (12 oct) permet des parcours MFA multi-étapes par site, des clés FIDO2 comme facteur, la config MFA après enrôlement et des actions groupées sur le pare-feu.</description>
+      <description>Self-hostable WireGuard VPN with MFA and SSO. The 2.2 beta (Oct 12) allows multi-step MFA flows per site, FIDO2 keys as a factor, MFA setup after enrollment and bulk actions on the firewall.</description>
       <category>reseau</category>
       <category>acces-distant</category>
       <category>securite</category>
       <category>rc</category>
     </item>
     <item>
-      <title xml:lang="fr">Headplane 0.7.1</title>
+      <title>Headplane 0.7.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-13-headplane-0-7-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-13-headplane-0-7-1</guid>
       <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Interface web pour Headscale (alternative auto-hébergée à Tailscale) : machines, utilisateurs, ACL, DNS, sous-réseaux, SSH web et SSO OIDC. Trouvé via Self-Host Weekly (spotlight du 9 oct) ; dernière version 0.7.1.</description>
+      <description>Web interface for Headscale (self-hosted Tailscale alternative): machines, users, ACLs, DNS, subnets, web SSH and OIDC SSO. Found via Self-Host Weekly (Oct 9 spotlight); latest version 0.7.1.</description>
       <category>reseau</category>
       <category>acces-distant</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">rclone 1.75.2</title>
+      <title>rclone 1.75.2</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-12-rclone-1-75-2</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-12-rclone-1-75-2</guid>
       <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">L’outil de synchro et sauvegarde vers S3, B2 et des dizaines de clouds sort une version de sécurité le 9 oct : fuite de token et clé SSE-C B2 sur redirection corrigée, liens .rclonelink qui sortaient de la racine bloqués, Go 1.26.9. À mettre à jour.</description>
+      <description>The sync and backup tool for S3, B2 and dozens of clouds ships a security release on Oct 9: token and B2 SSE-C key leak on redirect fixed, .rclonelink links escaping the root blocked, Go 1.26.9. Update it.</description>
       <category>stockage</category>
       <category>s3</category>
       <category>sauvegarde</category>
       <category>securite</category>
     </item>
     <item>
-      <title xml:lang="fr">Technitium DNS Server 15.6.1</title>
+      <title>Technitium DNS Server 15.6.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-12-technitium-dns-server-15-6-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-12-technitium-dns-server-15-6-1</guid>
       <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Le serveur DNS auto-hébergé (cache, blocage, zones, DoH) publie un correctif le 11 oct : StartTLS/LDAPS de l’authentification LDAP réparés, IXFR fiabilisé face à Microsoft DNS et NOTIFY qui ne rate plus de secondaire. Bien pour le DNS interne du studio.</description>
+      <description>The self-hosted DNS server (cache, blocking, zones, DoH) ships a fix on Oct 11: LDAP auth StartTLS/LDAPS repaired, IXFR made reliable against Microsoft DNS and NOTIFY no longer misses secondaries. Good for the studio’s internal DNS.</description>
       <category>reseau</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Ventoy 1.1.18</title>
+      <title>Ventoy 1.1.18</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-12-ventoy-1-1-18</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-12-ventoy-1-1-18</guid>
       <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">La clé USB multiboot open source (on y copie les ISO, sans reflasher) sort le 9 oct : vérification Secure Boot Windows/WinPE corrigée, partition ISO montable pour CloneZilla et support expérimental des images de récupération SteamOS. Pratique pour l’atelier de déploiement.</description>
+      <description>The open source multiboot USB stick (just copy ISOs onto it, no reflashing) is out Oct 9: Windows/WinPE Secure Boot check fixed, ISO partition mountable for CloneZilla and experimental support for SteamOS recovery images. Handy for the deployment bench.</description>
       <category>deploiement</category>
       <category>imaging</category>
     </item>
     <item>
-      <title xml:lang="fr">osquery 5.24.0</title>
+      <title>osquery 5.24.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-12-osquery-5-24-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-12-osquery-5-24-0</guid>
       <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">L’agent open source qui expose le parc en tables SQL (base de Fleet) publie une pré-version le 9 oct : débordement de tas corrigé dans la table processes Windows, chiffrements TLS anciens retirés et colonne protector_types pour BitLocker.</description>
+      <description>The open source agent that exposes your fleet as SQL tables (the basis of Fleet) ships a pre-release on Oct 9: heap overflow fixed in the Windows processes table, old TLS ciphers removed and a protector_types column for BitLocker.</description>
       <category>inventaire</category>
       <category>securite</category>
       <category>rc</category>
     </item>
     <item>
-      <title xml:lang="fr">Fleet 4.93.0</title>
+      <title>Fleet 4.93.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-10-fleet-4-93-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-10-fleet-4-93-0</guid>
       <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">La plateforme open source de gestion de parc (osquery, MDM) sort le 8 oct : option « prévenir avant de patcher » pour les apps macOS, enrôlement Android zero-touch et rotation du mot de passe du compte local géré. Utile pour garder les postes du studio à jour.</description>
+      <description>The open source device management platform (osquery, MDM) is out Oct 8: a “warn before patching” option for macOS apps, zero-touch Android enrollment and password rotation for the managed local account. Useful for keeping studio workstations up to date.</description>
       <category>deploiement</category>
       <category>inventaire</category>
       <category>securite</category>
     </item>
     <item>
-      <title xml:lang="fr">Netdata 2.12.1</title>
+      <title>Netdata 2.12.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-10-netdata-2-12-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-10-netdata-2-12-1</guid>
       <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Le monitoring temps réel open source publie un correctif le 8 oct : fin du crash au démarrage de l’agent Windows, collecteur eBPF stabilisé sur plus de noyaux et charge réduite sur le démon Docker. Pratique pour surveiller nœuds de rendu et serveurs.</description>
+      <description>The open source real-time monitoring tool ships a fix on Oct 8: no more crash when the Windows agent starts, eBPF collector stabilised on more kernels and reduced load on the Docker daemon. Handy for watching render nodes and servers.</description>
       <category>monitoring</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Uptime Kuma 2.5.6</title>
+      <title>Uptime Kuma 2.5.6</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-10-uptime-kuma-2-5-6</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-10-uptime-kuma-2-5-6</guid>
       <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">L’outil auto-hébergé de surveillance de disponibilité (HTTP, ping, ports…) sort le 9 oct avec des mises à jour de dépendances de sécurité et un correctif du badge de temps de réponse moyen. Mise à jour simple et conseillée.</description>
+      <description>The self-hosted uptime monitoring tool (HTTP, ping, ports…) is out Oct 9 with security dependency updates and a fix for the average response time badge. A simple, recommended update.</description>
       <category>monitoring</category>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">OpenCue 1.34.22</title>
+      <title>OpenCue 1.34.22</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-opencue-1-34-22</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-opencue-1-34-22</guid>
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Le gestionnaire de render farm open source de l’ASWF (sorti le 7 oct) intègre Maestro, nouveau scheduler dans Cuebot, une interface web à parité avec CueGUI et des limites par hôte alimentées par l’usage réel des licences. Migrations de base : sauvegarder avant.</description>
+      <description>ASWF’s open source render farm manager (released Oct 7) integrates Maestro, a new scheduler in Cuebot, a web UI on par with CueGUI and per-host limits driven by actual license usage. Database migrations: back up first.</description>
       <category>render-farm</category>
       <category>licences</category>
     </item>
     <item>
-      <title xml:lang="fr">Portainer 2.45.2 LTS</title>
+      <title>Portainer 2.45.2 LTS</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-portainer-2-45-2-lts</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-portainer-2-45-2-lts</guid>
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">L’interface web de gestion Docker/Kubernetes sort une LTS corrective le 8 oct : un non-admin ne peut plus lire de fichiers de l’hôte via un Compose, et la vérification TLS vers l’API Kubernetes est rétablie. Mise à jour conseillée.</description>
+      <description>The Docker/Kubernetes management web UI ships a corrective LTS on Oct 8: a non-admin can no longer read host files via a Compose file, and TLS verification to the Kubernetes API is restored. Update recommended.</description>
       <category>virtualisation</category>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">Montray 2.0.0</title>
+      <title>Montray 2.0.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-montray-2-0-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-montray-2-0-0</guid>
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Petit outil open source (BSD) qui affiche dans la barre système l’état des services systemd et de tests en ligne de commande (disque, RAID…) sur plusieurs serveurs, sans pile de monitoring lourde. La 2.0.0 du 4 oct marque le renommage (ex-Salmon).</description>
+      <description>Small open source tool (BSD) that shows in the system tray the status of systemd services and command-line checks (disk, RAID…) across several servers, without a heavy monitoring stack. 2.0.0 (Oct 4) marks the rename (formerly Salmon).</description>
       <category>monitoring</category>
       <category>emerging</category>
     </item>
     <item>
-      <title xml:lang="fr">TrueNAS 27 RC.1</title>
+      <title>TrueNAS 27 RC.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-truenas-27-rc-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-truenas-27-rc-1</guid>
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Premier RC de TrueNAS 27 (ex-TrueNAS 26), sorti le 6 oct : OpenZFS 2.4.4, noyau 6.18 et service S3 natif en accès anticipé, où chaque bucket est un dataset ZFS (snapshots, quotas, réplication). À tester sur un NAS de labo ; stable prévue début décembre.</description>
+      <description>First RC of TrueNAS 27 (formerly TrueNAS 26), released Oct 6: OpenZFS 2.4.4, kernel 6.18 and a native S3 service in early access, where each bucket is a ZFS dataset (snapshots, quotas, replication). Test on a lab NAS; stable expected early December.</description>
       <category>stockage</category>
       <category>nas</category>
       <category>zfs</category>
@@ -406,51 +406,51 @@
       <category>rc</category>
     </item>
     <item>
-      <title xml:lang="fr">sqi 0.3.0</title>
+      <title>sqi 0.3.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-sqi-0-3-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-sqi-0-3-0</guid>
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Jeune gestionnaire de render farm open source (AGPL) bâti sur OpenJD, avec submitters Maya, Houdini, Nuke et Blender. La 0.3.0 (19 août) ajoute comptes, RBAC, LDAP/AD, SSO OIDC et exécution des tâches sous un compte dédié. Encore en phase de durcissement.</description>
+      <description>Young open source render farm manager (AGPL) built on OpenJD, with Maya, Houdini, Nuke and Blender submitters. 0.3.0 (Aug 19) adds accounts, RBAC, LDAP/AD, OIDC SSO and running tasks under a dedicated account. Still being hardened.</description>
       <category>render-farm</category>
       <category>openjd</category>
       <category>emerging</category>
     </item>
     <item>
-      <title xml:lang="fr">FOG Project 1.6.0 RC-5</title>
+      <title>FOG Project 1.6.0 RC-5</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-fog-project-1-6-0-rc-5</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-fog-project-1-6-0-rc-5</guid>
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Le déploiement d’images disque par PXE, idéal pour masteriser les postes graphistes, approche de la 1.6 : la RC-5 du 7 oct corrige une migration MariaDB bloquée et approuve d’un clic toutes les MAC en attente. Passage 1.5 → 1.6 sans retour : tester en labo.</description>
+      <description>PXE disk image deployment, ideal for mastering artists’ workstations, nears 1.6: RC-5 (Oct 7) fixes a stuck MariaDB migration and approves all pending MACs in one click. The 1.5 → 1.6 upgrade is one-way: test in a lab.</description>
       <category>deploiement</category>
       <category>imaging</category>
       <category>pxe</category>
       <category>rc</category>
     </item>
     <item>
-      <title xml:lang="fr">Duplicati 2.4.0.1</title>
+      <title>Duplicati 2.4.0.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-duplicati-2-4-0-1</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-duplicati-2-4-0-1</guid>
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Sauvegarde chiffrée et dédupliquée vers NAS, S3 ou cloud : la 2.4.0.1 stable du 7 oct fiabilise la restauration (elle continue si un fichier échoue), l’annulation et le nouveau mode sync, et durcit login et contrôle distant, désormais compatible Synology DSM.</description>
+      <description>Encrypted, deduplicated backup to NAS, S3 or cloud: stable 2.4.0.1 (Oct 7) makes restores more reliable (it continues if one file fails), as well as cancelling and the new sync mode, and hardens login and remote control, now Synology DSM compatible.</description>
       <category>sauvegarde</category>
       <category>nas</category>
       <category>s3</category>
     </item>
     <item>
-      <title xml:lang="fr">RustDesk 1.5.0</title>
+      <title>RustDesk 1.5.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-rustdesk-1-5-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-rustdesk-1-5-0</guid>
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Alternative open source et auto-hébergeable à TeamViewer/AnyDesk : la 1.5.0 du 30 sept ajoute un transport WebRTC, une liste blanche d’ID, le tone mapping HDR, la synchro du presse-papiers entre sessions et la mise à jour silencieuse sur macOS.</description>
+      <description>Open source, self-hostable alternative to TeamViewer/AnyDesk: 1.5.0 (Sept 30) adds a WebRTC transport, an ID allowlist, HDR tone mapping, clipboard sync between sessions and silent updates on macOS.</description>
       <category>acces-distant</category>
       <category>self-hosting</category>
     </item>
     <item>
-      <title xml:lang="fr">GLPI 12.0.0</title>
+      <title>GLPI 12.0.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-glpi-12-0-0</link>
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-glpi-12-0-0</guid>
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description xml:lang="fr">Version majeure de l’outil open source de gestion de parc et de helpdesk, sortie le 7 oct : base de connaissances réécrite, suivi et révocation des sessions ouvertes, ré-authentification pour les actions d’admin et OLA par groupe. Image Docker officielle.</description>
+      <description>Major release of the open source IT asset management and helpdesk tool, out Oct 7: rewritten knowledge base, tracking and revocation of open sessions, re-authentication for admin actions and per-group OLAs. Official Docker image.</description>
       <category>inventaire</category>
       <category>helpdesk</category>
       <category>self-hosting</category>
