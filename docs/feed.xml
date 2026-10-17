@@ -5,8 +5,48 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GitLab 19.4.2 (patch critique)</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-17-gitlab-19-4-2-patch-critique</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-17-gitlab-19-4-2-patch-critique</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Si tu héberges GitLab : la 19.4.2 (12 oct, aussi 19.3.5 et 19.2.8) corrige une faille CVSS 10 qui permet d’exécuter du code sur le serveur sans authentification via une regex CI/CD piégée. À appliquer vite. Trouvé via Self-Host Weekly.</description>
+      <category>securite</category>
+      <category>self-hosting</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>UniGetUI 2026.3.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-17-unigetui-2026-3-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-17-unigetui-2026-3-2</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Interface graphique pour WinGet, Chocolatey, Scoop ou pip sur les postes Windows. La 2026.3.2 (15 oct) ajoute en expérimental un catalogue de logiciels approuvés, avec versions épinglées, que les utilisateurs installent en un clic.</description>
+      <category>deploiement</category>
+      <category>inventaire</category>
+    </item>
+    <item>
+      <title>Homelable 3.6.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-17-homelable-3-6-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-17-homelable-3-6-0</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Carte interactive de ton infra (réseau, racks, services) avec statut live, scans réseau et doc intégrée. La 3.6.0 (7 oct) permet d’ajouter images et PDF à la doc et de mettre à jour une fiche depuis un scan. Trouvé via Self-Host Weekly.</description>
+      <category>inventaire</category>
+      <category>monitoring</category>
+      <category>reseau</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Wazuh 4.14.9</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-17-wazuh-4-14-9</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-17-wazuh-4-14-9</guid>
+      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
+      <description>SIEM/XDR open source pour surveiller postes et serveurs. La 4.14.9 (15 oct) durcit les binaires Linux (PIE, RELRO, stack canary), ferme les connexions d’enrôlement inactives et débloque le scanner de vulnérabilités.</description>
+      <category>securite</category>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>NetBird 0.81.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-16-netbird-0-81-0</link>

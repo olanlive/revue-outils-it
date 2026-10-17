@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-17 | GitLab 19.4.2 (patch critique) | securite, self-hosting, pipeline | https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/ | https://olanlive.github.io/revue-outils-it/#2026-10-17-gitlab-19-4-2-patch-critique |
+| 2026-10-17 | UniGetUI 2026.3.2 | deploiement, inventaire | https://devolutions.net/unigetui/ | https://olanlive.github.io/revue-outils-it/#2026-10-17-unigetui-2026-3-2 |
+| 2026-10-17 | Homelable 3.6.0 | inventaire, monitoring, reseau, self-hosting | https://homelable.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-17-homelable-3-6-0 |
+| 2026-10-17 | Wazuh 4.14.9 | securite, monitoring, self-hosting | https://wazuh.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-17-wazuh-4-14-9 |
 | 2026-10-16 | NetBird 0.81.0 | reseau, acces-distant, securite, self-hosting | https://netbird.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-netbird-0-81-0 |
 | 2026-10-16 | Sentry Self-Hosted 26.10.0 | monitoring, self-hosting | https://develop.sentry.dev/self-hosted/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-sentry-self-hosted-26-10-0 |
 | 2026-10-16 | Traefik 3.7.15 | reseau, securite, self-hosting | https://traefik.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-16-traefik-3-7-15 |

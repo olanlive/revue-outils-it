@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-10-17",
+    "name": "GitLab 19.4.2 (patch critique)",
+    "summary": "Si tu héberges GitLab : la 19.4.2 (12 oct, aussi 19.3.5 et 19.2.8) corrige une faille CVSS 10 qui permet d’exécuter du code sur le serveur sans authentification via une regex CI/CD piégée. À appliquer vite. Trouvé via Self-Host Weekly.",
+    "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/",
+    "tags": [
+      "securite",
+      "self-hosting",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Self-Host Weekly — 16 octobre 2026",
+      "url": "https://selfh.st/weekly/2026-10-16/"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "name": "UniGetUI 2026.3.2",
+    "summary": "Interface graphique pour WinGet, Chocolatey, Scoop ou pip sur les postes Windows. La 2026.3.2 (15 oct) ajoute en expérimental un catalogue de logiciels approuvés, avec versions épinglées, que les utilisateurs installent en un clic.",
+    "url": "https://devolutions.net/unigetui/",
+    "tags": [
+      "deploiement",
+      "inventaire"
+    ],
+    "source": {
+      "label": "Release GitHub — Devolutions/UniGetUI v2026.3.2",
+      "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.2"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "name": "Homelable 3.6.0",
+    "summary": "Carte interactive de ton infra (réseau, racks, services) avec statut live, scans réseau et doc intégrée. La 3.6.0 (7 oct) permet d’ajouter images et PDF à la doc et de mettre à jour une fiche depuis un scan. Trouvé via Self-Host Weekly.",
+    "url": "https://homelable.net/",
+    "tags": [
+      "inventaire",
+      "monitoring",
+      "reseau",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Self-Host Weekly — 16 octobre 2026 (Content Spotlight)",
+      "url": "https://selfh.st/weekly/2026-10-16/"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "name": "Wazuh 4.14.9",
+    "summary": "SIEM/XDR open source pour surveiller postes et serveurs. La 4.14.9 (15 oct) durcit les binaires Linux (PIE, RELRO, stack canary), ferme les connexions d’enrôlement inactives et débloque le scanner de vulnérabilités.",
+    "url": "https://wazuh.com/",
+    "tags": [
+      "securite",
+      "monitoring",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — wazuh/wazuh v4.14.9",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.9"
+    }
+  },
+  {
     "date": "2026-10-16",
     "name": "NetBird 0.81.0",
     "summary": "VPN mesh open source (WireGuard) pour relier farm, NAS et postes. La 0.81.0 (15 oct) ajoute les Certificate posture checks (preuve de clé privée), nblink (forward HTTP sans root) et l’accès par chemin sur le reverse proxy.",
