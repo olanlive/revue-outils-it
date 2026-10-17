@@ -121,3 +121,9 @@ Libellés usuels : « Release GitHub — owner/repo x.y.z », « Forum — proje
 ## Licence
 
 Notes de veille (liens vers les projets upstream, chacun avec sa propre licence).
+
+## Version anglaise
+
+Champs optionnels, à plat, à côté du français : `name_en`, `summary_en` (280 caractères maximum, même avertissement « ATTENTION » au build) et `source.label_en`. S’ils sont absents ou vides, la page anglaise (`docs/en/`) affiche le texte français dans un élément `lang="fr"`. L’ancre reste calculée sur `name` (ou `id`), jamais sur `name_en`. `date`, `url`, `tags` et `source.url` ne se traduisent pas.
+
+`python3 scripts/build.py` écrit `docs/en/index.html`, `docs/en/tags/` et `docs/en/feed.xml`. Les pages anglaises réutilisent `docs/style.css`. Il n’y a pas de `docs/en/latest.json`.

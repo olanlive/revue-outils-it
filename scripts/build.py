@@ -30,6 +30,10 @@ SUMMARY_MAX = 280
 SITE_TITLE = "Pépites Outils IT"
 SITE_DESC = "Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord."
 
+SITE_TITLE_EN = "IT Tools Gems"
+SITE_DESC_EN = "IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first."
+FOOTER_EN = "IT tools watch for a 3D studio · open source first (free / paid noted)"
+
 CSS = """\
 :root {
   --bg: #0f1419;
@@ -334,12 +338,466 @@ def write_latest(discoveries: list) -> None:
     (DOCS / "latest.json").write_text(json.dumps(data, ensure_ascii=False) + "\n", encoding="utf-8")
 # --- fin Pépites ---
 
+# --- Pépites : version anglaise (ne pas supprimer) ---
+_EN_MONTHS = [
+    "", "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December",
+]
+_EN_DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+UI = {
+    "fr": {
+        "discoveries": "Découvertes",
+        "empty": "Aucune découverte pour le moment.",
+        "filter_open": "Filtrer ▾",
+        "filter_close": "Filtrer ▴",
+        "filter_by_tag": "Filtrer par tag",
+        "all": "Tous",
+        "all_back": "← Tous",
+        "change_tag": "Changer de tag",
+        "remove_filter": "Retirer le filtre",
+        "share": "Partager",
+        "copy": "Copier",
+        "copied": "Copié ✓",
+        "found_via": "Trouvé via :",
+        "all_tags": "Tous les tags",
+        "tags": "Tags",
+        "home": "Accueil",
+        "breadcrumb": "Fil d\u2019Ariane",
+        "source_code": "Code source sur GitHub",
+        "rss": "Flux RSS",
+        "share_head": "Pépite du jour 💎\n",
+        "count_one": "découverte",
+        "count_many": "découvertes",
+    },
+    "en": {
+        "discoveries": "Discoveries",
+        "empty": "No discoveries yet.",
+        "filter_open": "Filter ▾",
+        "filter_close": "Filter ▴",
+        "filter_by_tag": "Filter by tag",
+        "all": "All",
+        "all_back": "← All",
+        "change_tag": "Change tag",
+        "remove_filter": "Remove filter",
+        "share": "Share",
+        "copy": "Copy",
+        "copied": "Copied ✓",
+        "found_via": "Found via:",
+        "all_tags": "All tags",
+        "tags": "Tags",
+        "home": "Home",
+        "breadcrumb": "Breadcrumb",
+        "source_code": "Source code on GitHub",
+        "rss": "RSS feed",
+        "share_head": "Gem of the day 💎\n",
+        "count_one": "discovery",
+        "count_many": "discoveries",
+    },
+}
+
+
+def ui(lang: str, key: str) -> str:
+    table = UI.get(lang) or UI["fr"]
+    return table.get(key) or UI["fr"][key]
+
+
+def tr_field(item: dict, key: str, lang: str) -> tuple[str, bool]:
+    """Texte du champ, et True si le français est affiché en repli."""
+    if lang == "en":
+        val = item.get(key + "_en")
+        if isinstance(val, str) and val.strip():
+            return val, False
+    return item[key], lang == "en"
+
+
+def format_date_lang(iso: str, lang: str = "fr") -> str:
+    if lang != "en":
+        return format_date_fr(iso)
+    dt = datetime.strptime(iso, "%Y-%m-%d")
+    return f"{_EN_MONTHS[dt.month]} {dt.day}, {dt.year}"
+
+
+def format_day_lang(iso: str, lang: str = "fr") -> str:
+    if lang != "en":
+        return format_day_fr(iso)
+    dt = datetime.strptime(iso, "%Y-%m-%d")
+    return f"{_EN_DAYS[dt.weekday()]}, {format_date_lang(iso, 'en')}"
+
+
+def count_label(n: int, lang: str) -> str:
+    word = ui(lang, "count_one" if n == 1 else "count_many")
+    return f"{n} {word}"
+
+
+def share_text_lang(item: dict, lang: str) -> str:
+    if lang != "en":
+        return share_text(item)
+    head = ui("en", "share_head")
+    tail = "\n" + item["url"] + "\n" + PEPITES_HASHTAGS
+    fixed = _x_len(head) + 1 + 23 + 1 + _x_len(PEPITES_HASHTAGS)
+    name, _fb = tr_field(item, "name", lang)
+    summary, _fb2 = tr_field(item, "summary", lang)
+    body = f"{name} : {summary}"
+    if fixed + _x_len(body) > 280:
+        while fixed + _x_len(body) + 1 > 280:
+            body = body[:-1]
+        body = body.rstrip(" ,;:.") + "…"
+    return head + body + tail
+
+
+def share_html_lang(item: dict, lang: str = "fr") -> str:
+    if lang != "en":
+        return share_html(item)
+    text = share_text_lang(item, lang)
+    href = "https://twitter.com/intent/tweet?text=" + _pq(text, safe="")
+    tags = " ".join(item.get("tags", []))
+    share = ui(lang, "share")
+    copy = ui(lang, "copy")
+    return (f'<p class="share-x" data-tags="{html.escape(tags, quote=True)}" data-text="{html.escape(text, quote=True)}">'
+            f'<a class="share-btn" href="{html.escape(href, quote=True)}" rel="noopener" target="_blank" aria-label="{html.escape(share)}">{html.escape(share)}</a>'
+            f' · <button type="button" class="copy-btn" hidden>{html.escape(copy)}</button></p>')
+
+
+def _filter_js(lang: str) -> str:
+    if lang != "en":
+        return PEPITES_FILTER_JS
+    return (PEPITES_FILTER_JS
+            .replace("Filtrer ▴", ui("en", "filter_close"))
+            .replace("Filtrer ▾", ui("en", "filter_open"))
+            .replace("Retirer le filtre ", ui("en", "remove_filter") + " "))
+
+
+def _share_js(lang: str) -> str:
+    if lang != "en":
+        return PEPITES_SHARE_JS
+    return (PEPITES_SHARE_JS
+            .replace("Copié ✓", ui("en", "copied"))
+            .replace("Copier", ui("en", "copy")))
+
+
+def filter_bar_lang(discoveries: list, lang: str = "fr") -> str:
+    if lang != "en":
+        return filter_bar_html(discoveries)
+    counts: dict = {}
+    for d in discoveries:
+        for t in d.get("tags", []):
+            counts[t] = counts.get(t, 0) + 1
+    order = sorted(counts, key=lambda t: (-counts[t], t))
+    if not order:
+        return ""
+    btns = [f'<a class="tag tag-all" href="#" data-tag="" aria-pressed="true">{html.escape(ui(lang, "all"))}</a>']
+    for t in order:
+        e = html.escape(t, quote=True)
+        btns.append(
+            f'<a class="tag" href="tags/{e}.html" data-tag="{e}" aria-pressed="false">{e} '
+            f'<span class="tf-n">({counts[t]})</span></a>'
+        )
+    return ('<div class="tag-filter" data-home role="group" aria-label="' + html.escape(ui(lang, "filter_by_tag")) + '">'
+            '<a class="tag tag-toggle" href="tags/index.html" role="button" aria-expanded="false" aria-controls="tf-panel">'
+            + html.escape(ui(lang, "filter_open")) + '</a>'
+            '<button type="button" class="tag tag-clear" hidden></button>'
+            '<div class="tf-panel" id="tf-panel" hidden>' + "".join(btns) + "</div>"
+            f"</div><script>{_filter_js(lang)}</script>")
+
+
+def source_html_lang(source, lang: str = "fr") -> str:
+    if lang != "en":
+        return source_html(source)
+    if not source:
+        return ""
+    found = ui("en", "found_via")
+    if isinstance(source, str):
+        return f'<p class="source">{esc(found)} <span lang="fr">{esc(source)}</span></p>'
+    label_en = source.get("label_en")
+    fallback = not (isinstance(label_en, str) and label_en.strip())
+    label_text = source.get("label", "") if fallback else label_en
+    label = esc(label_text)
+    lang_attr = ' lang="fr"' if fallback else ""
+    url = source.get("url")
+    if url:
+        inner = f'<a href="{esc(url)}" rel="noopener" target="_blank"{lang_attr}>{label}</a>'
+    elif fallback:
+        inner = f'<span{lang_attr}>{label}</span>'
+    else:
+        inner = label
+    return f'<p class="source">{esc(found)} {inner}</p>'
+
+
+def _discovery_en(item: dict, *, show_date: bool = True) -> str:
+    name, name_fb = tr_field(item, "name", "en")
+    summary, sum_fb = tr_field(item, "summary", "en")
+    name_attr = ' lang="fr"' if name_fb else ""
+    sum_attr = ' lang="fr"' if sum_fb else ""
+    date_bit = ""
+    if show_date and item.get("date"):
+        date_bit = (
+            f'<p class="date-label"><time datetime="{esc(item["date"])}">'
+            f"{esc(format_date_lang(item['date'], 'en'))}</time></p>"
+        )
+    return f"""
+<article class="discovery" id="{esc(anchor_id(item))}">
+  {date_bit}
+  <h3><a href="{esc(item['url'])}" rel="noopener" target="_blank"{name_attr}>{esc(name)}</a></h3>
+  <p class="summary"{sum_attr}>{esc(summary)}</p>
+  {source_html(item.get('source'), lang="en")}
+  {share_html_lang(item, "en")}
+</article>
+"""
+
+
+def _page_en(
+    title: str,
+    body: str,
+    *,
+    prefix: str,
+    crumb_html: str,
+    fr_href: str,
+    en_href: str,
+    github_href: str,
+    theme_color: str = "",
+) -> str:
+    css_prefix = "../" + prefix
+    theme = f'  <meta name="theme-color" content="{esc(theme_color)}">\n' if theme_color else ""
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+{theme}  <title>{esc(title)}</title>
+  <meta name="description" content="{esc(SITE_DESC_EN)}">
+  <link rel="stylesheet" href="{css_prefix}style.css">
+  <link rel="alternate" type="application/rss+xml" title="{esc(SITE_TITLE_EN)}" href="{SITE_URL}en/feed.xml">
+  <link rel="alternate" hreflang="fr" href="{esc(fr_href)}">
+  <link rel="alternate" hreflang="en" href="{esc(en_href)}">
+<script src="https://olanlive.github.io/pepites/nav.js?v=3" defer></script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site">
+      <h1><a href="{prefix}index.html">{esc(SITE_TITLE_EN)}</a></h1>
+      <p class="tagline">{esc(SITE_DESC_EN)}</p>
+    </header>
+    {crumb_html}
+    {body}
+    <footer class="site">
+      <p>{esc(FOOTER_EN)}</p>
+      <p><a href="{esc(github_href)}">{esc(ui("en", "source_code"))}</a>
+         · <a href="{prefix}tags/index.html">{esc(ui("en", "all_tags"))}</a>
+         · <a href="{prefix}feed.xml">{esc(ui("en", "rss"))}</a></p>
+    </footer>
+  </div>
+</body>
+</html>
+"""
+
+
+def fix_tag_pages_lang(discoveries: list, lang: str, docs: Path) -> None:
+    if lang != "en":
+        return
+    counts: dict = {}
+    for d in discoveries:
+        for t in d.get("tags", []):
+            counts[t] = counts.get(t, 0) + 1
+    order = sorted(counts, key=lambda t: (-counts[t], t))
+    tags_dir = docs / "tags"
+    for t in order:
+        f = tags_dir / f"{t}.html"
+        if not f.exists():
+            continue
+        s = f.read_text(encoding="utf-8")
+        links = [f'<a class="tag tag-back" href="../index.html">{html.escape(ui(lang, "all_back"))}</a>']
+        for o in order:
+            e = html.escape(o, quote=True)
+            cur = ' aria-current="page" aria-pressed="true"' if o == t else ""
+            links.append(f'<a class="tag" href="../index.html#tag={_pq(o, safe="")}"{cur}>#{e}</a>')
+        bar = '<div class="tag-filter" aria-label="' + html.escape(ui(lang, "change_tag")) + '">' + "".join(links) + "</div>\n"
+        s = s.replace('<h2 class="section">Tag <code>', bar + '<h2 class="section">Tag <code>', 1)
+
+        def _art(m, _pq=_pq):
+            return re.sub(
+                r'class="tag" href="(?:\./)?([^"/]+)\.html"',
+                lambda k: f'class="tag" href="../index.html#tag={_pq(html.unescape(k.group(1)), safe="")}"',
+                m.group(0),
+            )
+
+        s = re.sub(r'<article class="discovery".*?</article>', _art, s, flags=re.S)
+        f.write_text(s, encoding="utf-8")
+
+
+def inject_share_js_lang(lang: str, docs: Path) -> None:
+    if lang != "en":
+        return
+    js = _share_js(lang)
+    for f in docs.rglob("*.html"):
+        s = f.read_text(encoding="utf-8")
+        if 'class="share-x"' in s and "PEPITES_SHARE" not in s:
+            s = s.replace("</body>", "<script>/*PEPITES_SHARE*/" + js + "</script>\n</body>", 1)
+            f.write_text(s, encoding="utf-8")
+
+
+def feed_html_lang(discoveries: list, *, tags_base: str, lang: str) -> str:
+    day_feed = globals().get("day_feed_html")
+    if day_feed is not None:
+        return day_feed(discoveries, tags_base=tags_base, lang=lang)
+    day_sep = globals().get("day_separator_html")
+    parts: list[str] = []
+    prev = None
+    for item in discoveries:
+        day = item.get("date")
+        if day and day != prev:
+            if day_sep is not None:
+                parts.append(day_sep(day, first=prev is None, lang=lang))
+            else:
+                parts.append(
+                    f'<h3 class="day-sep" id="jour-{esc(day)}">{esc(format_day_lang(day, lang))}</h3>'
+                )
+            prev = day
+        parts.append(discovery_html(item, tags_base=tags_base, lang=lang))
+    return "".join(parts)
+
+
+def warn_summaries_en(discoveries: list) -> None:
+    for d in discoveries:
+        s = d.get("summary_en")
+        if isinstance(s, str) and len(s) > SUMMARY_MAX:
+            print(f"ATTENTION : résumé trop long ({len(s)} > {SUMMARY_MAX} car.) : {d['name']}")
+
+
+def write_feed_en(discoveries: list) -> None:
+    """docs/en/feed.xml — même forme que le flux FR, textes anglais (repli FR)."""
+    paris = ZoneInfo("Europe/Paris")
+    minute = int(globals().get("FEED_MINUTE", 0))
+
+    def x(s: str) -> str:
+        return html.escape(s, quote=False)
+
+    items = []
+    for d in discoveries[:FEED_MAX]:
+        link = f"{SITE_URL}en/#{anchor_id(d)}"
+        pub = datetime.strptime(d["date"], "%Y-%m-%d").replace(hour=9, minute=minute, tzinfo=paris)
+        name, name_fb = tr_field(d, "name", "en")
+        summary, sum_fb = tr_field(d, "summary", "en")
+        name_attr = ' xml:lang="fr"' if name_fb else ""
+        sum_attr = ' xml:lang="fr"' if sum_fb else ""
+        cats = "".join(f"\n      <category>{x(t)}</category>" for t in d.get("tags", []))
+        items.append(f"""    <item>
+      <title{name_attr}>{x(name)}</title>
+      <link>{x(link)}</link>
+      <guid isPermaLink="true">{x(link)}</guid>
+      <pubDate>{format_datetime(pub)}</pubDate>
+      <description{sum_attr}>{x(summary)}</description>{cats}
+    </item>""")
+    last = discoveries[0]["date"] if discoveries else "1970-01-01"
+    last_dt = datetime.strptime(last, "%Y-%m-%d").replace(hour=9, minute=minute, tzinfo=paris)
+    feed = f"""<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{x(SITE_TITLE_EN)}</title>
+    <link>{SITE_URL}en/</link>
+    <description>{x(SITE_DESC_EN)}</description>
+    <language>en</language>
+    <lastBuildDate>{format_datetime(last_dt)}</lastBuildDate>
+    <atom:link href="{SITE_URL}en/feed.xml" rel="self" type="application/rss+xml"/>
+{chr(10).join(items)}
+  </channel>
+</rss>
+"""
+    (DOCS / "en" / "feed.xml").write_text(feed, encoding="utf-8")
+
+
+def build_lang(lang: str, discoveries: list) -> None:
+    if lang != "en":
+        return
+    warn_summaries_en(discoveries)
+    en_docs = DOCS / "en"
+    en_tags = en_docs / "tags"
+    en_tags.mkdir(parents=True, exist_ok=True)
+
+    by_tag: dict[str, list] = defaultdict(list)
+    all_tags: set[str] = set()
+    for item in discoveries:
+        for tag in item.get("tags", []):
+            all_tags.add(tag)
+            by_tag[tag].append(item)
+
+    feed = feed_html_lang(discoveries, tags_base="tags/", lang=lang)
+    n = len(discoveries)
+    home_body = f"""
+<section>
+  <h2 class="section">{ui(lang, "discoveries")}</h2>
+  <p class="meta">{count_label(n, lang)}</p>
+  {filter_bar_lang(discoveries, lang)}
+  {feed if feed else '<p class="empty">' + ui(lang, "empty") + '</p>'}
+</section>
+"""
+    (en_docs / "index.html").write_text(
+        page(SITE_TITLE_EN, home_body, depth=0, lang=lang, rel_path=""),
+        encoding="utf-8",
+    )
+
+    for tag in sorted(all_tags):
+        entries = sorted(by_tag[tag], key=lambda e: e["date"], reverse=True)
+        items_html = "".join(
+            discovery_html(item, tags_base="./", lang=lang) for item in entries
+        )
+        body = f"""
+<h2 class="section">Tag <code>#{esc(tag)}</code></h2>
+<p class="meta">{count_label(len(entries), lang)}</p>
+{items_html}
+"""
+        (en_tags / f"{tag}.html").write_text(
+            page(
+                f"#{tag} · {SITE_TITLE_EN}",
+                body,
+                depth=1,
+                lang=lang,
+                rel_path=f"tags/{tag}.html",
+                crumbs=[
+                    (ui(lang, "home"), "../index.html"),
+                    (ui(lang, "tags"), "index.html"),
+                    (f"#{tag}", ""),
+                ],
+            ),
+            encoding="utf-8",
+        )
+
+    cloud_parts = []
+    for t in sorted(all_tags):
+        cloud_parts.append(
+            f'<a class="tag" href="{esc(t)}.html">#{esc(t)}</a>'
+            f'<span class="meta">({len(by_tag[t])})</span>'
+        )
+    tags_index_body = f"""
+<h2 class="section">{ui(lang, "all_tags")}</h2>
+<div class="tag-cloud">{' '.join(cloud_parts) or '<span class="empty">—</span>'}</div>
+"""
+    (en_tags / "index.html").write_text(
+        page(
+            f"{ui(lang, 'tags')} · {SITE_TITLE_EN}",
+            tags_index_body,
+            depth=1,
+            lang=lang,
+            rel_path="tags/index.html",
+            crumbs=[(ui(lang, "home"), "../index.html"), (ui(lang, "tags"), "")],
+        ),
+        encoding="utf-8",
+    )
+
+    write_feed(discoveries, lang=lang)
+    fix_tag_pages_lang(discoveries, lang, en_docs)
+    inject_share_js_lang(lang, en_docs)
+# --- fin Pépites EN ---
+
+
 
 def esc(s: str) -> str:
     return html.escape(s, quote=True)
 
 
-def format_date_fr(iso: str) -> str:
+def format_date_fr(iso: str, lang: str = "fr") -> str:
+    if lang == "en":
+        return format_date_lang(iso, "en")
     dt = datetime.strptime(iso, "%Y-%m-%d")
     months = [
         "", "janvier", "février", "mars", "avril", "mai", "juin",
@@ -348,17 +806,19 @@ def format_date_fr(iso: str) -> str:
     return f"{dt.day} {months[dt.month]} {dt.year}"
 
 
-def format_day_fr(iso: str) -> str:
+def format_day_fr(iso: str, lang: str = "fr") -> str:
     """« Jeudi 8 octobre 2026 » — noms français codés en dur (indépendant de la locale)."""
+    if lang == "en":
+        return format_day_lang(iso, "en")
     dt = datetime.strptime(iso, "%Y-%m-%d")
     days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
     return f"{days[dt.weekday()]} {format_date_fr(iso)}"
 
 
-def day_separator_html(iso: str, *, first: bool) -> str:
+def day_separator_html(iso: str, *, first: bool, lang: str = "fr") -> str:
     return (
         f'\n<h3 class="day-sep" id="jour-{esc(iso)}">'
-        f'<time datetime="{esc(iso)}">{esc(format_day_fr(iso))}</time></h3>\n'
+        f'<time datetime="{esc(iso)}">{esc(format_day_fr(iso, lang))}</time></h3>\n'
     )
 
 
@@ -368,6 +828,8 @@ def page(
     *,
     depth: int = 0,
     crumbs: list[tuple[str, str]] | None = None,
+    lang: str = "fr",
+    rel_path: str = "",
 ) -> str:
     """depth: 0 = docs/, 1 = docs/tags/."""
     prefix = "../" * depth
@@ -380,9 +842,21 @@ def page(
             else:
                 parts.append(f"<span>{esc(label)}</span>")
         crumb_html = (
-            '<nav class="crumbs" aria-label="Fil d’Ariane">'
+            '<nav class="crumbs" aria-label="' + ('Breadcrumb' if lang == 'en' else 'Fil d’Ariane') + '">'
             + '<span class="sep" aria-hidden="true"> / </span>'.join(parts)
             + "</nav>"
+        )
+    _fr_href = SITE_URL + rel_path
+    _en_href = SITE_URL + "en/" + rel_path
+    if lang == "en":
+        return _page_en(
+            title,
+            body,
+            prefix=prefix,
+            crumb_html=crumb_html,
+            fr_href=_fr_href,
+            en_href=_en_href,
+            github_href="https://github.com/olanlive/revue-outils-it",
         )
     return f"""<!DOCTYPE html>
 <html lang="fr">
@@ -393,6 +867,7 @@ def page(
   <meta name="description" content="{esc(SITE_DESC)}">
   <link rel="stylesheet" href="{prefix}style.css">
   <link rel="alternate" type="application/rss+xml" title="{esc(SITE_TITLE)}" href="{SITE_URL}feed.xml">
+  <link rel="alternate" hreflang="en" href="{esc(_en_href)}">
 <script src="https://olanlive.github.io/pepites/nav.js?v=3" defer></script>
 </head>
 <body>
@@ -425,8 +900,10 @@ def tags_html(tags: list[str], *, tags_base: str) -> str:
     return '<div class="tags">' + "".join(links) + "</div>"
 
 
-def source_html(source) -> str:
+def source_html(source, lang: str = "fr") -> str:
     """source: {"label": str, "url": str?} or a plain string."""
+    if lang == "en":
+        return source_html_lang(source, "en")
     if not source:
         return ""
     if isinstance(source, str):
@@ -452,7 +929,10 @@ def discovery_html(
     *,
     tags_base: str,
     show_date: bool = True,
+    lang: str = "fr",
 ) -> str:
+    if lang == "en":
+        return _discovery_en(item, show_date=show_date)
     date_bit = ""
     if show_date and item.get("date"):
         date_bit = (
@@ -470,8 +950,11 @@ def discovery_html(
 """
 
 
-def write_feed(discoveries: list[dict]) -> None:
+def write_feed(discoveries: list[dict], lang: str = "fr") -> None:
     """docs/feed.xml — RSS 2.0, un item par découverte (lien = ancre du bloc)."""
+    if lang == "en":
+        write_feed_en(discoveries)
+        return
     paris = ZoneInfo("Europe/Paris")
 
     def x(s: str) -> str:
@@ -556,7 +1039,7 @@ def build() -> None:
 </section>
 """
     (DOCS / "index.html").write_text(
-        page(SITE_TITLE, home_body, depth=0), encoding="utf-8"
+        page(SITE_TITLE, home_body, depth=0, rel_path=""), encoding="utf-8"
     )
 
     for tag in sorted(all_tags):
@@ -574,6 +1057,7 @@ def build() -> None:
                 f"#{tag} · {SITE_TITLE}",
                 body,
                 depth=1,
+                rel_path=f"tags/{tag}.html",
                 crumbs=[
                     ("Accueil", "../index.html"),
                     ("Tags", "index.html"),
@@ -598,6 +1082,7 @@ def build() -> None:
             f"Tags · {SITE_TITLE}",
             tags_index_body,
             depth=1,
+            rel_path="tags/index.html",
             crumbs=[("Accueil", "../index.html"), ("Tags", "")],
         ),
         encoding="utf-8",
@@ -621,6 +1106,7 @@ def build() -> None:
         encoding="utf-8",
     )
 
+    build_lang("en", discoveries)
     print(f"Built {len(discoveries)} discovery(ies), {len(all_tags)} tag(s) → {DOCS}")
 
 
