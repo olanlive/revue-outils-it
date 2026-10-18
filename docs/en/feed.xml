@@ -5,8 +5,56 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Pi-hole 6.5 / FTL 6.8</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-pi-hole-6-5-ftl-6-8</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-pi-hole-6-5-ftl-6-8</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Your ad-blocking DNS ships Core 6.5 and FTL 6.8 (Oct 17): about a dozen flaws fixed, including command execution and root writes (CVSS 7.8), plus a faster gravity database. Found via the pi-hole/pi-hole GitHub release.</description>
+      <category>reseau</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Homepage 2.6.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-homepage-2-6-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-homepage-2-6-0</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The Homepage service dashboard moves to 2.6.0 (Oct 17) with a rewritten auth layer that fixes an authentication bypass through a Next.js header (GHSA-qxcr-4rv3-v23r, high severity 7.5). Found via the gethomepage/homepage GitHub release.</description>
+      <category>self-hosting</category>
+      <category>securite</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>RustFS 1.0.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-rustfs-1-0-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-rustfs-1-0-2</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>S3 object storage in Rust (Apache 2.0), a MinIO alternative: 1.0.2 (Oct 16) caps memory on multipart copies, speeds up multipart I/O and fixes ListParts pagination; 1.0.3 (Oct 17) only touches the console. Found via the rustfs/rustfs GitHub release.</description>
+      <category>stockage</category>
+      <category>s3</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>ntfy 2.31.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-ntfy-2-31-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-ntfy-2-31-1</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Self-hosted push notifications for your render or backup alerts: 2.31.1 (Oct 17) fixes the database overload that forced ntfy.sh to roll back, and now tolerates a newer schema on rollback. Found via the binwiederhier/ntfy GitHub release.</description>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Starship 1.27.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-starship-1-27-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-starship-1-27-0</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The cross-platform Starship shell prompt ships 1.27.0 (Oct 17): Jujutsu (jj) modules, a right prompt in Bash via Flyline and two flaws fixed, including a git call that skipped the repository ownership check. Found via the starship/starship GitHub release.</description>
+      <category>terminal</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>GitLab 19.4.2 (critical patch)</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-17-gitlab-19-4-2-patch-critique</link>

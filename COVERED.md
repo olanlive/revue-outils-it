@@ -7,6 +7,11 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-18 | Pi-hole 6.5 / FTL 6.8 | reseau, securite, self-hosting | https://pi-hole.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-18-pi-hole-6-5-ftl-6-8 |
+| 2026-10-18 | Homepage 2.6.0 | self-hosting, securite, monitoring | https://gethomepage.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-18-homepage-2-6-0 |
+| 2026-10-18 | RustFS 1.0.2 | stockage, s3, self-hosting | https://rustfs.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-18-rustfs-1-0-2 |
+| 2026-10-18 | ntfy 2.31.1 | monitoring, self-hosting | https://ntfy.sh/ | https://olanlive.github.io/revue-outils-it/#2026-10-18-ntfy-2-31-1 |
+| 2026-10-18 | Starship 1.27.0 | terminal, securite | https://starship.rs/ | https://olanlive.github.io/revue-outils-it/#2026-10-18-starship-1-27-0 |
 | 2026-10-17 | GitLab 19.4.2 (patch critique) | securite, self-hosting, pipeline | https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/ | https://olanlive.github.io/revue-outils-it/#2026-10-17-gitlab-19-4-2-patch-critique |
 | 2026-10-17 | UniGetUI 2026.3.2 | deploiement, inventaire | https://devolutions.net/unigetui/ | https://olanlive.github.io/revue-outils-it/#2026-10-17-unigetui-2026-3-2 |
 | 2026-10-17 | Homelable 3.6.0 | inventaire, monitoring, reseau, self-hosting | https://homelable.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-17-homelable-3-6-0 |

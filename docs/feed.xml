@@ -5,8 +5,56 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 17 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Pi-hole 6.5 / FTL 6.8</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-pi-hole-6-5-ftl-6-8</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-pi-hole-6-5-ftl-6-8</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Ton DNS bloqueur de pubs sort Core 6.5 et FTL 6.8 (17 oct) : une douzaine de failles corrigées, dont exécution de commande et écritures root (CVSS 7,8), plus une base gravity plus rapide. Trouvé via la release GitHub pi-hole/pi-hole.</description>
+      <category>reseau</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Homepage 2.6.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-homepage-2-6-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-homepage-2-6-0</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le tableau de bord de services Homepage passe en 2.6.0 (17 oct) avec une auth réécrite qui corrige un contournement de l’authentification via un en-tête Next.js (GHSA-qxcr-4rv3-v23r, sévérité haute 7,5). Trouvé via la release GitHub gethomepage/homepage.</description>
+      <category>self-hosting</category>
+      <category>securite</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>RustFS 1.0.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-rustfs-1-0-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-rustfs-1-0-2</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Stockage objet S3 en Rust (Apache 2.0), alternative à MinIO : la 1.0.2 (16 oct) borne la mémoire des copies multipart, accélère les E/S multipart et corrige la pagination ListParts ; la 1.0.3 (17 oct) ne touche que la console. Trouvé via la release GitHub rustfs/rustfs.</description>
+      <category>stockage</category>
+      <category>s3</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>ntfy 2.31.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-ntfy-2-31-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-ntfy-2-31-1</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Notifications push auto-hébergées pour tes alertes de rendu ou de backup : la 2.31.1 (17 oct) corrige la surcharge base de données qui avait fait revenir ntfy.sh en arrière et tolère désormais un schéma plus récent au rollback. Trouvé via la release GitHub binwiederhier/ntfy.</description>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Starship 1.27.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-starship-1-27-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-starship-1-27-0</guid>
+      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le prompt shell multiplateforme Starship sort la 1.27.0 (17 oct) : modules Jujutsu (jj), prompt de droite sous Bash via Flyline et deux failles corrigées, dont un appel git qui sautait le contrôle de propriété du dépôt. Trouvé via la release GitHub starship/starship.</description>
+      <category>terminal</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>GitLab 19.4.2 (patch critique)</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-17-gitlab-19-4-2-patch-critique</link>
