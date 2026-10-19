@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-19 | Gitea 28.2.0 | self-hosting, pipeline, securite | https://about.gitea.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-19-gitea-28-2-0 |
+| 2026-10-19 | mise 2026.10.14 | terminal, deploiement, securite | https://mise.jdx.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-19-mise-2026-10-14 |
+| 2026-10-19 | Windmill 1.841.0 | self-hosting, pipeline, securite | https://www.windmill.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-19-windmill-1-841-0 |
 | 2026-10-18 | Pi-hole 6.5 / FTL 6.8 | reseau, securite, self-hosting | https://pi-hole.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-18-pi-hole-6-5-ftl-6-8 |
 | 2026-10-18 | Homepage 2.6.0 | self-hosting, securite, monitoring | https://gethomepage.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-18-homepage-2-6-0 |
 | 2026-10-18 | RustFS 1.0.2 | stockage, s3, self-hosting | https://rustfs.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-18-rustfs-1-0-2 |

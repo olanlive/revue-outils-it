@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Gitea 28.2.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-19-gitea-28-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-19-gitea-28-2-0</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Ta forge Git auto-hébergée sort la 28.2.0 (18 oct) : une trentaine de correctifs, dont validation des OID LFS, state OpenID vérifié, golang.org/x/net patché et Actions plus robustes. Trouvé via la release GitHub go-gitea/gitea.</description>
+      <category>self-hosting</category>
+      <category>pipeline</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>mise 2026.10.14</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-19-mise-2026-10-14</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-19-mise-2026-10-14</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Le gestionnaire d'outils et de tâches CLI ajoute (18 oct) un config.override.toml global qui prime sur les projets, mise config explain et un mode paranoïaque par catégorie. Attention : une option d'outil inconnue bloque l'install. Trouvé via la release GitHub jdx/mise.</description>
+      <category>terminal</category>
+      <category>deploiement</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Windmill 1.841.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-19-windmill-1-841-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-19-windmill-1-841-0</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>La plateforme open source de scripts et workflows auto-hébergée sort la 1.841.0 (18 oct) : workers authentifiés par jeton d'identité, liste blanche des serveurs MCP privés et mode compatible gVisor pour le sandbox nsjail. Trouvé via la release GitHub windmill-labs/windmill.</description>
+      <category>self-hosting</category>
+      <category>pipeline</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>Pi-hole 6.5 / FTL 6.8</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-pi-hole-6-5-ftl-6-8</link>

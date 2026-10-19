@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Gitea 28.2.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-19-gitea-28-2-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-19-gitea-28-2-0</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Your self-hosted Git forge ships 28.2.0 (Oct 18): about thirty fixes, including LFS OID validation, checked OpenID state, a patched golang.org/x/net and sturdier Actions. Found via the go-gitea/gitea GitHub release.</description>
+      <category>self-hosting</category>
+      <category>pipeline</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>mise 2026.10.14</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-19-mise-2026-10-14</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-19-mise-2026-10-14</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The CLI tool and task manager adds (Oct 18) a global config.override.toml that beats project config, mise config explain, and per-category paranoid mode. Heads-up: an unknown tool option now fails the install. Found via the jdx/mise GitHub release.</description>
+      <category>terminal</category>
+      <category>deploiement</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Windmill 1.841.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-19-windmill-1-841-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-19-windmill-1-841-0</guid>
+      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The open source self-hosted scripts and workflows platform ships 1.841.0 (Oct 18): workers authenticated by workload identity token, an allowlist for private MCP servers and a gVisor compat mode for the nsjail sandbox. Found via the windmill-labs/windmill GitHub release.</description>
+      <category>self-hosting</category>
+      <category>pipeline</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>Pi-hole 6.5 / FTL 6.8</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-pi-hole-6-5-ftl-6-8</link>

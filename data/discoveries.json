@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-19",
+    "name": "Gitea 28.2.0",
+    "name_en": "Gitea 28.2.0",
+    "summary": "Ta forge Git auto-hébergée sort la 28.2.0 (18 oct) : une trentaine de correctifs, dont validation des OID LFS, state OpenID vérifié, golang.org/x/net patché et Actions plus robustes. Trouvé via la release GitHub go-gitea/gitea.",
+    "summary_en": "Your self-hosted Git forge ships 28.2.0 (Oct 18): about thirty fixes, including LFS OID validation, checked OpenID state, a patched golang.org/x/net and sturdier Actions. Found via the go-gitea/gitea GitHub release.",
+    "url": "https://about.gitea.com/",
+    "tags": [
+      "self-hosting",
+      "pipeline",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — go-gitea/gitea v28.2.0",
+      "label_en": "GitHub release — go-gitea/gitea v28.2.0",
+      "url": "https://github.com/go-gitea/gitea/releases/tag/v28.2.0"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "name": "mise 2026.10.14",
+    "name_en": "mise 2026.10.14",
+    "summary": "Le gestionnaire d'outils et de tâches CLI ajoute (18 oct) un config.override.toml global qui prime sur les projets, mise config explain et un mode paranoïaque par catégorie. Attention : une option d'outil inconnue bloque l'install. Trouvé via la release GitHub jdx/mise.",
+    "summary_en": "The CLI tool and task manager adds (Oct 18) a global config.override.toml that beats project config, mise config explain, and per-category paranoid mode. Heads-up: an unknown tool option now fails the install. Found via the jdx/mise GitHub release.",
+    "url": "https://mise.jdx.dev/",
+    "tags": [
+      "terminal",
+      "deploiement",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — jdx/mise v2026.10.14",
+      "label_en": "GitHub release — jdx/mise v2026.10.14",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.10.14"
+    }
+  },
+  {
+    "date": "2026-10-19",
+    "name": "Windmill 1.841.0",
+    "name_en": "Windmill 1.841.0",
+    "summary": "La plateforme open source de scripts et workflows auto-hébergée sort la 1.841.0 (18 oct) : workers authentifiés par jeton d'identité, liste blanche des serveurs MCP privés et mode compatible gVisor pour le sandbox nsjail. Trouvé via la release GitHub windmill-labs/windmill.",
+    "summary_en": "The open source self-hosted scripts and workflows platform ships 1.841.0 (Oct 18): workers authenticated by workload identity token, an allowlist for private MCP servers and a gVisor compat mode for the nsjail sandbox. Found via the windmill-labs/windmill GitHub release.",
+    "url": "https://www.windmill.dev/",
+    "tags": [
+      "self-hosting",
+      "pipeline",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — windmill-labs/windmill v1.841.0",
+      "label_en": "GitHub release — windmill-labs/windmill v1.841.0",
+      "url": "https://github.com/windmill-labs/windmill/releases/tag/v1.841.0"
+    }
+  },
+  {
     "date": "2026-10-18",
     "name": "Pi-hole 6.5 / FTL 6.8",
     "name_en": "Pi-hole 6.5 / FTL 6.8",
