@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-10-20",
+    "name": "Healthchecks 5.0",
+    "name_en": "Healthchecks 5.0",
+    "summary": "Le moniteur de crons et tâches planifiées (backups, scripts de rendu) passe en 5.0 (20 oct) : l’image Docker troque uWSGI pour gunicorn et redémarre tout le conteneur si un process plante. Vérifie ton compose. Trouvé via la release GitHub healthchecks/healthchecks.",
+    "summary_en": "The cron and scheduled-job monitor (backups, render scripts) hits 5.0 (Oct 20): the Docker image swaps uWSGI for gunicorn (GUNICORN_WORKERS) and restarts the whole container if a process crashes. Check your compose. Found via the healthchecks/healthchecks GitHub release.",
+    "url": "https://healthchecks.io/",
+    "tags": [
+      "monitoring",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — healthchecks/healthchecks v5.0",
+      "label_en": "GitHub release — healthchecks/healthchecks v5.0",
+      "url": "https://github.com/healthchecks/healthchecks/releases/tag/v5.0"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "name": "Warpgate 0.30.0",
+    "name_en": "Warpgate 0.30.0",
+    "summary": "Déjà vu le 13 oct en bêta, le bastion SSH/RDP/HTTP sort en stable (19 oct) : secrets Vault/OpenBao, certificats SSH signés à la volée, logout OIDC back-channel et 4 failles corrigées (MFA TOTP, CSRF admin). Trouvé via la release GitHub warp-tech/warpgate.",
+    "summary_en": "Seen on Oct 13 as a beta, the SSH/RDP/HTTP bastion goes stable (Oct 19): Vault/OpenBao secrets, on-the-fly signed SSH certs, OIDC back-channel logout and 4 vulns fixed (TOTP MFA, admin CSRF). Found via the warp-tech/warpgate GitHub release.",
+    "url": "https://warpgate.null.page/",
+    "tags": [
+      "acces-distant",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — warp-tech/warpgate v0.30.0",
+      "label_en": "GitHub release — warp-tech/warpgate v0.30.0",
+      "url": "https://github.com/warp-tech/warpgate/releases/tag/v0.30.0"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "name": "LibreNMS 26.10.1",
+    "name_en": "LibreNMS 26.10.1",
+    "summary": "Supervision réseau SNMP open source : la 26.10.0 (19 oct) corrige une quinzaine de failles (XSS, droits API), retire collectd et ajoute stockage Nutanix et prises PDU ; la 26.10.1 (20 oct) annule un souci avec les vieux fping. Trouvé via les releases GitHub librenms/librenms.",
+    "summary_en": "Open source SNMP network monitoring: 26.10.0 (Oct 19) fixes about fifteen vulns (XSS, API permissions), drops collectd and adds Nutanix storage and PDU outlets; 26.10.1 (Oct 20) reverts an issue with old fping. Found via the librenms/librenms GitHub releases.",
+    "url": "https://www.librenms.org/",
+    "tags": [
+      "monitoring",
+      "reseau",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — librenms/librenms 26.10.0",
+      "label_en": "GitHub release — librenms/librenms 26.10.0",
+      "url": "https://github.com/librenms/librenms/releases/tag/26.10.0"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "name": "uv 0.13.2",
+    "name_en": "uv 0.13.2",
+    "summary": "Le gestionnaire Python ultra-rapide d’Astral sort la 0.13.2 (19 oct) : résolveur bien moins gourmand sur les gros graphes, requêtes réseau relancées, identifiants d’URL qui ne fuient plus dans les logs. Trouvé via la release GitHub astral-sh/uv.",
+    "summary_en": "Astral’s ultra-fast Python manager ships 0.13.2 (Oct 19): a much leaner resolver on big dependency graphs, retried network requests, and URL credentials no longer leaking into logs. Found via the astral-sh/uv GitHub release.",
+    "url": "https://docs.astral.sh/uv/",
+    "tags": [
+      "terminal",
+      "pipeline",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — astral-sh/uv 0.13.2",
+      "label_en": "GitHub release — astral-sh/uv 0.13.2",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.2"
+    }
+  },
+  {
     "date": "2026-10-19",
     "name": "Gitea 28.2.0",
     "name_en": "Gitea 28.2.0",

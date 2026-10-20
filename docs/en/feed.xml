@@ -5,8 +5,48 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Healthchecks 5.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-20-healthchecks-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-20-healthchecks-5-0</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The cron and scheduled-job monitor (backups, render scripts) hits 5.0 (Oct 20): the Docker image swaps uWSGI for gunicorn (GUNICORN_WORKERS) and restarts the whole container if a process crashes. Check your compose. Found via the healthchecks/healthchecks GitHub release.</description>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Warpgate 0.30.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-20-warpgate-0-30-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-20-warpgate-0-30-0</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Seen on Oct 13 as a beta, the SSH/RDP/HTTP bastion goes stable (Oct 19): Vault/OpenBao secrets, on-the-fly signed SSH certs, OIDC back-channel logout and 4 vulns fixed (TOTP MFA, admin CSRF). Found via the warp-tech/warpgate GitHub release.</description>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>LibreNMS 26.10.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-20-librenms-26-10-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-20-librenms-26-10-1</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Open source SNMP network monitoring: 26.10.0 (Oct 19) fixes about fifteen vulns (XSS, API permissions), drops collectd and adds Nutanix storage and PDU outlets; 26.10.1 (Oct 20) reverts an issue with old fping. Found via the librenms/librenms GitHub releases.</description>
+      <category>monitoring</category>
+      <category>reseau</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>uv 0.13.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-20-uv-0-13-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-20-uv-0-13-2</guid>
+      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Astral’s ultra-fast Python manager ships 0.13.2 (Oct 19): a much leaner resolver on big dependency graphs, retried network requests, and URL credentials no longer leaking into logs. Found via the astral-sh/uv GitHub release.</description>
+      <category>terminal</category>
+      <category>pipeline</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>Gitea 28.2.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-19-gitea-28-2-0</link>

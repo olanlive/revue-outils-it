@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-20 | Healthchecks 5.0 | monitoring, self-hosting | https://healthchecks.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-20-healthchecks-5-0 |
+| 2026-10-20 | Warpgate 0.30.0 | acces-distant, securite, self-hosting | https://warpgate.null.page/ | https://olanlive.github.io/revue-outils-it/#2026-10-20-warpgate-0-30-0 |
+| 2026-10-20 | LibreNMS 26.10.1 | monitoring, reseau, securite, self-hosting | https://www.librenms.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-20-librenms-26-10-1 |
+| 2026-10-20 | uv 0.13.2 | terminal, pipeline, securite | https://docs.astral.sh/uv/ | https://olanlive.github.io/revue-outils-it/#2026-10-20-uv-0-13-2 |
 | 2026-10-19 | Gitea 28.2.0 | self-hosting, pipeline, securite | https://about.gitea.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-19-gitea-28-2-0 |
 | 2026-10-19 | mise 2026.10.14 | terminal, deploiement, securite | https://mise.jdx.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-19-mise-2026-10-14 |
 | 2026-10-19 | Windmill 1.841.0 | self-hosting, pipeline, securite | https://www.windmill.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-19-windmill-1-841-0 |
