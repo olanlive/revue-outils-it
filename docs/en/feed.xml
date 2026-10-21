@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Snipe-IT 8.8.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-21-snipe-it-8-8-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-21-snipe-it-8-8-1</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The asset and license manager ships 8.8.1 (Oct 20): built-in label editor, bulk actions and archiving, much richer Intune sync (28 fields). Requires PHP 8.2+. Found via the snipe/snipe-it GitHub release.</description>
+      <category>inventaire</category>
+      <category>licences</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Docker Engine 29.9.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-21-docker-engine-29-9-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-21-docker-engine-29-9-2</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Docker 29.9.2 (Oct 20) moves to Go 1.26.10, which rejects 8 compromised eMudhra intermediate certificates: a registry relying on them will make pulls and pushes fail. Check your private registry. Found via the moby/moby GitHub release.</description>
+      <category>securite</category>
+      <category>deploiement</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Syncthing 2.1.7</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-21-syncthing-2-1-7</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-21-syncthing-2-1-7</guid>
+      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Seen as an RC on Oct 16, Syncthing 2.1.7 is now stable (Oct 21): SQLite fixes, bad network data handled as errors instead of panics, and receive-only folder reconciliation fixed. Found via the syncthing/syncthing GitHub release.</description>
+      <category>stockage</category>
+      <category>pipeline</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>Healthchecks 5.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-20-healthchecks-5-0</link>

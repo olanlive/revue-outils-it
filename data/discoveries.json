@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-21",
+    "name": "Snipe-IT 8.8.1",
+    "name_en": "Snipe-IT 8.8.1",
+    "summary": "Le gestionnaire de parc et de licences sort la 8.8.1 (20 oct) : éditeur d’étiquettes intégré, archivage et actions en masse, sync Intune bien plus riche (28 champs). Exige PHP 8.2+. Trouvé via la release GitHub snipe/snipe-it.",
+    "summary_en": "The asset and license manager ships 8.8.1 (Oct 20): built-in label editor, bulk actions and archiving, much richer Intune sync (28 fields). Requires PHP 8.2+. Found via the snipe/snipe-it GitHub release.",
+    "url": "https://snipeitapp.com/",
+    "tags": [
+      "inventaire",
+      "licences",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — snipe/snipe-it v8.8.1",
+      "label_en": "GitHub release — snipe/snipe-it v8.8.1",
+      "url": "https://github.com/snipe/snipe-it/releases/tag/v8.8.1"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Docker Engine 29.9.2",
+    "name_en": "Docker Engine 29.9.2",
+    "summary": "Docker 29.9.2 (20 oct) passe à Go 1.26.10, qui rejette 8 certificats intermédiaires eMudhra compromis : un registre qui s’appuie dessus fera échouer pulls et pushes. À vérifier sur ton registre privé. Trouvé via la release GitHub moby/moby.",
+    "summary_en": "Docker 29.9.2 (Oct 20) moves to Go 1.26.10, which rejects 8 compromised eMudhra intermediate certificates: a registry relying on them will make pulls and pushes fail. Check your private registry. Found via the moby/moby GitHub release.",
+    "url": "https://docs.docker.com/engine/release-notes/29/",
+    "tags": [
+      "securite",
+      "deploiement",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — moby/moby docker-v29.9.2",
+      "label_en": "GitHub release — moby/moby docker-v29.9.2",
+      "url": "https://github.com/moby/moby/releases/tag/docker-v29.9.2"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "name": "Syncthing 2.1.7",
+    "name_en": "Syncthing 2.1.7",
+    "summary": "Déjà vu en RC le 16 oct, Syncthing 2.1.7 sort en stable (21 oct) : corrections SQLite, données réseau invalides traitées en erreur au lieu d’un plantage, réconciliation des dossiers receive-only réparée. Trouvé via la release GitHub syncthing/syncthing.",
+    "summary_en": "Seen as an RC on Oct 16, Syncthing 2.1.7 is now stable (Oct 21): SQLite fixes, bad network data handled as errors instead of panics, and receive-only folder reconciliation fixed. Found via the syncthing/syncthing GitHub release.",
+    "url": "https://syncthing.net/",
+    "tags": [
+      "stockage",
+      "pipeline",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — syncthing/syncthing v2.1.7",
+      "label_en": "GitHub release — syncthing/syncthing v2.1.7",
+      "url": "https://github.com/syncthing/syncthing/releases/tag/v2.1.7"
+    }
+  },
+  {
     "date": "2026-10-20",
     "name": "Healthchecks 5.0",
     "name_en": "Healthchecks 5.0",

@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-21 | Snipe-IT 8.8.1 | inventaire, licences, self-hosting | https://snipeitapp.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-21-snipe-it-8-8-1 |
+| 2026-10-21 | Docker Engine 29.9.2 | securite, deploiement, self-hosting | https://docs.docker.com/engine/release-notes/29/ | https://olanlive.github.io/revue-outils-it/#2026-10-21-docker-engine-29-9-2 |
+| 2026-10-21 | Syncthing 2.1.7 | stockage, pipeline, self-hosting | https://syncthing.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-21-syncthing-2-1-7 |
 | 2026-10-20 | Healthchecks 5.0 | monitoring, self-hosting | https://healthchecks.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-20-healthchecks-5-0 |
 | 2026-10-20 | Warpgate 0.30.0 | acces-distant, securite, self-hosting | https://warpgate.null.page/ | https://olanlive.github.io/revue-outils-it/#2026-10-20-warpgate-0-30-0 |
 | 2026-10-20 | LibreNMS 26.10.1 | monitoring, reseau, securite, self-hosting | https://www.librenms.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-20-librenms-26-10-1 |
