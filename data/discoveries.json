@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-10-22",
+    "name": "OpenCue 1.37.0",
+    "name_en": "OpenCue 1.37.0",
+    "summary": "Déjà présenté en 1.34 : le gestionnaire de render farm sort la 1.37.0 (21 oct), axée Maestro à grande échelle, CueGUI plus réactif, retries configurables et images Docker OpenCueWeb/REST. Migrations BDD : sauvegarde avant. Trouvé via la release GitHub.",
+    "summary_en": "Featured before at 1.34: the render farm manager ships 1.37.0 (Oct 21), focused on Maestro at scale, a snappier CueGUI, configurable retries and OpenCueWeb/REST Docker images. DB migrations: back up first. Found via the GitHub release.",
+    "url": "https://docs.opencue.io/",
+    "tags": [
+      "render-farm",
+      "pipeline",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — AcademySoftwareFoundation/OpenCue v1.37.0",
+      "label_en": "GitHub release — AcademySoftwareFoundation/OpenCue v1.37.0",
+      "url": "https://github.com/AcademySoftwareFoundation/OpenCue/releases/tag/v1.37.0"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Prometheus 3.15.1",
+    "name_en": "Prometheus 3.15.1",
+    "summary": "Mise à jour sécurité du moteur de métriques (21 oct) : images qui ne font plus confiance aux CA compromises d’eMudhra, build Go 1.27.3 et correctifs HTTP/2. À appliquer sur ta stack de monitoring. Trouvé via la release GitHub prometheus/prometheus.",
+    "summary_en": "Security update for the metrics engine (Oct 21): images now distrust the compromised eMudhra CAs, built with Go 1.27.3, plus HTTP/2 fixes. Worth rolling out on your monitoring stack. Found via the prometheus/prometheus GitHub release.",
+    "url": "https://prometheus.io/",
+    "tags": [
+      "monitoring",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — prometheus/prometheus v3.15.1",
+      "label_en": "GitHub release — prometheus/prometheus v3.15.1",
+      "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.1"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Arcane 2.17.0",
+    "name_en": "Arcane 2.17.0",
+    "summary": "Cette interface web open source pour gérer Docker ajoute le support natif de Podman, un réglage du hostname et un délai avant mise à jour auto des nouvelles images (21 oct). Trouvé via la release GitHub getarcaneapp/arcane.",
+    "summary_en": "This open source web UI for managing Docker adds native Podman support, hostname configuration and a delay before auto-updating newly available images (Oct 21). Found via the getarcaneapp/arcane GitHub release.",
+    "url": "https://getarcane.app/",
+    "tags": [
+      "virtualisation",
+      "deploiement",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — getarcaneapp/arcane v2.17.0",
+      "label_en": "GitHub release — getarcaneapp/arcane v2.17.0",
+      "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.17.0"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "Pocket ID 2.19",
+    "name_en": "Pocket ID 2.19",
+    "summary": "Le fournisseur OIDC à passkeys sort la 2.19 (21 oct) : vérification e-mail forcée, notifications de connexion, et correctifs sécurité (collision de DN LDAP, énumération d’e-mails). Trouvé via la release GitHub pocket-id/pocket-id v2.19.0.",
+    "summary_en": "The passkey-based OIDC provider ships 2.19 (Oct 21): forced email verification, login notifications, plus security fixes (LDAP DN collision, email enumeration). Found via the pocket-id/pocket-id v2.19.0 GitHub release.",
+    "url": "https://pocket-id.org/",
+    "tags": [
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — pocket-id/pocket-id v2.19.0",
+      "label_en": "GitHub release — pocket-id/pocket-id v2.19.0",
+      "url": "https://github.com/pocket-id/pocket-id/releases/tag/v2.19.0"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "name": "OpenTofu 1.13.2",
+    "name_en": "OpenTofu 1.13.2",
+    "summary": "Le fork open source de Terraform publie la 1.13.2 (21 oct) : filtre les certificats intermédiaires compromis, corrige un risque de CPU excessif dans tofu init face à un serveur HTTP/2 malveillant, et des plantages de destroy. Trouvé via la release GitHub.",
+    "summary_en": "The open source Terraform fork ships 1.13.2 (Oct 21): filters compromised intermediate certificates, fixes possible CPU exhaustion in tofu init against a malicious HTTP/2 server, and destroy crashes. Found via the GitHub release.",
+    "url": "https://opentofu.org/",
+    "tags": [
+      "deploiement",
+      "securite",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Release GitHub — opentofu/opentofu v1.13.2",
+      "label_en": "GitHub release — opentofu/opentofu v1.13.2",
+      "url": "https://github.com/opentofu/opentofu/releases/tag/v1.13.2"
+    }
+  },
+  {
     "date": "2026-10-21",
     "name": "Snipe-IT 8.8.1",
     "name_en": "Snipe-IT 8.8.1",

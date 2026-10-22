@@ -5,8 +5,57 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenCue 1.37.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-opencue-1-37-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-opencue-1-37-0</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Featured before at 1.34: the render farm manager ships 1.37.0 (Oct 21), focused on Maestro at scale, a snappier CueGUI, configurable retries and OpenCueWeb/REST Docker images. DB migrations: back up first. Found via the GitHub release.</description>
+      <category>render-farm</category>
+      <category>pipeline</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Prometheus 3.15.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-prometheus-3-15-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-prometheus-3-15-1</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Security update for the metrics engine (Oct 21): images now distrust the compromised eMudhra CAs, built with Go 1.27.3, plus HTTP/2 fixes. Worth rolling out on your monitoring stack. Found via the prometheus/prometheus GitHub release.</description>
+      <category>monitoring</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Arcane 2.17.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-arcane-2-17-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-arcane-2-17-0</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>This open source web UI for managing Docker adds native Podman support, hostname configuration and a delay before auto-updating newly available images (Oct 21). Found via the getarcaneapp/arcane GitHub release.</description>
+      <category>virtualisation</category>
+      <category>deploiement</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Pocket ID 2.19</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-pocket-id-2-19</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-pocket-id-2-19</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The passkey-based OIDC provider ships 2.19 (Oct 21): forced email verification, login notifications, plus security fixes (LDAP DN collision, email enumeration). Found via the pocket-id/pocket-id v2.19.0 GitHub release.</description>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>OpenTofu 1.13.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-opentofu-1-13-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-opentofu-1-13-2</guid>
+      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The open source Terraform fork ships 1.13.2 (Oct 21): filters compromised intermediate certificates, fixes possible CPU exhaustion in tofu init against a malicious HTTP/2 server, and destroy crashes. Found via the GitHub release.</description>
+      <category>deploiement</category>
+      <category>securite</category>
+      <category>pipeline</category>
+    </item>
     <item>
       <title>Snipe-IT 8.8.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-21-snipe-it-8-8-1</link>

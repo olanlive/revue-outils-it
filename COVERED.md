@@ -7,6 +7,11 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-22 | OpenCue 1.37.0 | render-farm, pipeline, self-hosting | https://docs.opencue.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-22-opencue-1-37-0 |
+| 2026-10-22 | Prometheus 3.15.1 | monitoring, securite, self-hosting | https://prometheus.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-22-prometheus-3-15-1 |
+| 2026-10-22 | Arcane 2.17.0 | virtualisation, deploiement, self-hosting | https://getarcane.app/ | https://olanlive.github.io/revue-outils-it/#2026-10-22-arcane-2-17-0 |
+| 2026-10-22 | Pocket ID 2.19 | securite, self-hosting | https://pocket-id.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-22-pocket-id-2-19 |
+| 2026-10-22 | OpenTofu 1.13.2 | deploiement, securite, pipeline | https://opentofu.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-22-opentofu-1-13-2 |
 | 2026-10-21 | Snipe-IT 8.8.1 | inventaire, licences, self-hosting | https://snipeitapp.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-21-snipe-it-8-8-1 |
 | 2026-10-21 | Docker Engine 29.9.2 | securite, deploiement, self-hosting | https://docs.docker.com/engine/release-notes/29/ | https://olanlive.github.io/revue-outils-it/#2026-10-21-docker-engine-29-9-2 |
 | 2026-10-21 | Syncthing 2.1.7 | stockage, pipeline, self-hosting | https://syncthing.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-21-syncthing-2-1-7 |
