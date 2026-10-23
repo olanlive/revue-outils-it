@@ -1,5 +1,76 @@
 [
   {
+    "date": "2026-10-23",
+    "name": "SeaweedFS 4.49",
+    "name_en": "SeaweedFS 4.49",
+    "summary": "Le stockage objet/fichiers distribué compatible S3 sort la 4.49 (23 oct) : éviction du cache distant sous pression disque, vacuum qui récupère les volumes pleins en lecture seule, rôles IAM gérés par l'API. Trouvé via la release GitHub.",
+    "summary_en": "The distributed S3-compatible object/file store ships 4.49 (Oct 23): remote cache eviction under disk pressure, vacuum that reclaims full read-only volumes, and IAM roles managed through the API. Found via the GitHub release.",
+    "url": "https://seaweedfs.com/",
+    "tags": [
+      "stockage",
+      "s3",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — seaweedfs/seaweedfs 4.49",
+      "label_en": "GitHub release — seaweedfs/seaweedfs 4.49",
+      "url": "https://github.com/seaweedfs/seaweedfs/releases/tag/4.49"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "MeshCentral 1.3.0",
+    "name_en": "MeshCentral 1.3.0",
+    "summary": "L'outil open source de gestion et prise en main à distance des postes passe en 1.3.0 (21 oct) : les binaires d'agents par défaut viennent de releases GitHub épinglées, et le serveur n'attend plus GitHub s'il est injoignable. Trouvé via la release GitHub.",
+    "summary_en": "The open source remote management and control tool for workstations hits 1.3.0 (Oct 21): default agent binaries now come from pinned GitHub releases, and the server no longer hangs when GitHub is unreachable. Found via the GitHub release.",
+    "url": "https://meshcentral.com/",
+    "tags": [
+      "acces-distant",
+      "deploiement",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — Ylianst/MeshCentral 1.3.0",
+      "label_en": "GitHub release — Ylianst/MeshCentral 1.3.0",
+      "url": "https://github.com/Ylianst/MeshCentral/releases/tag/1.3.0"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Trivy 0.76.1",
+    "name_en": "Trivy 0.76.1",
+    "summary": "Le scanner de vulnérabilités (images, dépôts, IaC) sort la 0.76.1 (21 oct) suite à la compromission de la CA intermédiaire eMudhra : binaires en Go 1.27.3 et images avec un magasin de certificats à jour. Mets à jour et redéploie. Trouvé via la release GitHub.",
+    "summary_en": "The vulnerability scanner (images, repos, IaC) ships 0.76.1 (Oct 21) after the eMudhra intermediate CA compromise: binaries built with Go 1.27.3 and images with an updated CA store. Upgrade and redeploy. Found via the GitHub release.",
+    "url": "https://trivy.dev/",
+    "tags": [
+      "securite",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Release GitHub — aquasecurity/trivy v0.76.1",
+      "label_en": "GitHub release — aquasecurity/trivy v0.76.1",
+      "url": "https://github.com/aquasecurity/trivy/releases/tag/v0.76.1"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "name": "Atuin 18.24.2",
+    "name_en": "Atuin 18.24.2",
+    "summary": "L'historique shell synchronisé et chiffré sort la 18.24.2 (22 oct) : correctifs du daemon, du pty-proxy et des chemins de config. Si tu auto-héberges le serveur, prends l'image Docker 18.24.2-1 (certificats eMudhra). Trouvé via la release GitHub.",
+    "summary_en": "The synced, encrypted shell history ships 18.24.2 (Oct 22): daemon, pty-proxy and config path fixes. If you self-host the server, use Docker image 18.24.2-1 (eMudhra certificates). Found via the GitHub release.",
+    "url": "https://atuin.sh/",
+    "tags": [
+      "terminal",
+      "self-hosting",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — atuinsh/atuin v18.24.2",
+      "label_en": "GitHub release — atuinsh/atuin v18.24.2",
+      "url": "https://github.com/atuinsh/atuin/releases/tag/v18.24.2"
+    }
+  },
+  {
     "date": "2026-10-22",
     "name": "OpenCue 1.37.0",
     "name_en": "OpenCue 1.37.0",

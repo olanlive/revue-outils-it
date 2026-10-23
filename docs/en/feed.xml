@@ -5,8 +5,47 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SeaweedFS 4.49</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-23-seaweedfs-4-49</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-23-seaweedfs-4-49</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The distributed S3-compatible object/file store ships 4.49 (Oct 23): remote cache eviction under disk pressure, vacuum that reclaims full read-only volumes, and IAM roles managed through the API. Found via the GitHub release.</description>
+      <category>stockage</category>
+      <category>s3</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>MeshCentral 1.3.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-23-meshcentral-1-3-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-23-meshcentral-1-3-0</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The open source remote management and control tool for workstations hits 1.3.0 (Oct 21): default agent binaries now come from pinned GitHub releases, and the server no longer hangs when GitHub is unreachable. Found via the GitHub release.</description>
+      <category>acces-distant</category>
+      <category>deploiement</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Trivy 0.76.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-23-trivy-0-76-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-23-trivy-0-76-1</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The vulnerability scanner (images, repos, IaC) ships 0.76.1 (Oct 21) after the eMudhra intermediate CA compromise: binaries built with Go 1.27.3 and images with an updated CA store. Upgrade and redeploy. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Atuin 18.24.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-23-atuin-18-24-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-23-atuin-18-24-2</guid>
+      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The synced, encrypted shell history ships 18.24.2 (Oct 22): daemon, pty-proxy and config path fixes. If you self-host the server, use Docker image 18.24.2-1 (eMudhra certificates). Found via the GitHub release.</description>
+      <category>terminal</category>
+      <category>self-hosting</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>OpenCue 1.37.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-opencue-1-37-0</link>

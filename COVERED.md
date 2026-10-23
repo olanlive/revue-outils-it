@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-23 | SeaweedFS 4.49 | stockage, s3, self-hosting | https://seaweedfs.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-23-seaweedfs-4-49 |
+| 2026-10-23 | MeshCentral 1.3.0 | acces-distant, deploiement, self-hosting | https://meshcentral.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-23-meshcentral-1-3-0 |
+| 2026-10-23 | Trivy 0.76.1 | securite, pipeline | https://trivy.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-23-trivy-0-76-1 |
+| 2026-10-23 | Atuin 18.24.2 | terminal, self-hosting, securite | https://atuin.sh/ | https://olanlive.github.io/revue-outils-it/#2026-10-23-atuin-18-24-2 |
 | 2026-10-22 | OpenCue 1.37.0 | render-farm, pipeline, self-hosting | https://docs.opencue.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-22-opencue-1-37-0 |
 | 2026-10-22 | Prometheus 3.15.1 | monitoring, securite, self-hosting | https://prometheus.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-22-prometheus-3-15-1 |
 | 2026-10-22 | Arcane 2.17.0 | virtualisation, deploiement, self-hosting | https://getarcane.app/ | https://olanlive.github.io/revue-outils-it/#2026-10-22-arcane-2-17-0 |
