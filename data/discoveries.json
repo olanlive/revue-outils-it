@@ -1,5 +1,78 @@
 [
   {
+    "date": "2026-10-24",
+    "name": "JuiceFS 1.4.2",
+    "name_en": "JuiceFS 1.4.2",
+    "summary": "Le système de fichiers POSIX distribué posé sur du stockage S3 sort la 1.4.2 (22 oct) : fin des lectures erronées après un timeout objet, du GC SQL qui supprimait des données vivantes et des pertes liées aux retries de transactions. Trouvé via la release GitHub.",
+    "summary_en": "The distributed POSIX file system built on S3 storage ships 1.4.2 (Oct 22): no more bad reads after object storage timeouts, SQL garbage collection deleting live data, or losses from stale transaction retries. Found via the GitHub release.",
+    "url": "https://juicefs.com/",
+    "tags": [
+      "stockage",
+      "s3",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — juicedata/juicefs v1.4.2",
+      "label_en": "GitHub release — juicedata/juicefs v1.4.2",
+      "url": "https://github.com/juicedata/juicefs/releases/tag/v1.4.2"
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "name": "PatchMon 2.1.6",
+    "name_en": "PatchMon 2.1.6",
+    "summary": "Plateforme open source (AGPL) pour suivre et appliquer les mises à jour de sécurité d'un parc Linux depuis une interface web : agents, validation, patchs planifiés, historique. La 2.1.6 (17 oct) répare l'install derrière Traefik + CrowdSec. Trouvé via Self-Host Weekly du 23 oct.",
+    "summary_en": "Open source (AGPL) platform to track and deploy security updates across a Linux fleet from a web UI: agents, validation, scheduled patches, history. 2.1.6 (Oct 17) fixes installs behind Traefik + CrowdSec. Found via Self-Host Weekly, Oct 23.",
+    "url": "https://patchmon.net/",
+    "tags": [
+      "deploiement",
+      "securite",
+      "inventaire",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Self-Host Weekly — 23 octobre 2026 (Content Spotlight)",
+      "label_en": "Self-Host Weekly — October 23, 2026 (Content Spotlight)",
+      "url": "https://selfh.st/weekly/2026-10-23/"
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Coolify 4.5.0",
+    "name_en": "Coolify 4.5.0",
+    "summary": "Le PaaS auto-hébergé passe en 4.5.0 (23 oct) : patching des serveurs (bêta) avec mises à jour de sécurité auto, page de métriques de flotte, navigateur de fichiers, connexion par passkey et sauvegarde auto de sa base avant mise à jour. Trouvé via la release GitHub.",
+    "summary_en": "The self-hosted PaaS reaches 4.5.0 (Oct 23): server patching (beta) with automatic security updates, a fleet metrics page, a file browser, passkey sign-in, and an automatic database backup before updates. Found via the GitHub release.",
+    "url": "https://coolify.io/",
+    "tags": [
+      "deploiement",
+      "monitoring",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — coollabsio/coolify v4.5.0",
+      "label_en": "GitHub release — coollabsio/coolify v4.5.0",
+      "url": "https://github.com/coollabsio/coolify/releases/tag/v4.5.0"
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "name": "Homebox 0.27.1",
+    "name_en": "Homebox 0.27.1",
+    "summary": "L'outil d'inventaire auto-hébergé (matériel, câbles, pièces détachées) sort la 0.27.1 (23 oct), release de sécurité qui corrige la faille Node.js « Node2Shell » ; l'équipe conseille de mettre à jour au plus vite. Trouvé via la release GitHub.",
+    "summary_en": "The self-hosted inventory tool (hardware, cables, spare parts) ships 0.27.1 (Oct 23), a security release patching the Node.js \"Node2Shell\" flaw; the team advises updating as soon as possible. Found via the GitHub release.",
+    "url": "https://homebox.software/",
+    "tags": [
+      "inventaire",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — sysadminsmedia/homebox v0.27.1",
+      "label_en": "GitHub release — sysadminsmedia/homebox v0.27.1",
+      "url": "https://github.com/sysadminsmedia/homebox/releases/tag/v0.27.1"
+    }
+  },
+  {
     "date": "2026-10-23",
     "name": "SeaweedFS 4.49",
     "name_en": "SeaweedFS 4.49",

@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-24 | JuiceFS 1.4.2 | stockage, s3, self-hosting | https://juicefs.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-24-juicefs-1-4-2 |
+| 2026-10-24 | PatchMon 2.1.6 | deploiement, securite, inventaire, self-hosting | https://patchmon.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-24-patchmon-2-1-6 |
+| 2026-10-24 | Coolify 4.5.0 | deploiement, monitoring, self-hosting | https://coolify.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-24-coolify-4-5-0 |
+| 2026-10-24 | Homebox 0.27.1 | inventaire, securite, self-hosting | https://homebox.software/ | https://olanlive.github.io/revue-outils-it/#2026-10-24-homebox-0-27-1 |
 | 2026-10-23 | SeaweedFS 4.49 | stockage, s3, self-hosting | https://seaweedfs.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-23-seaweedfs-4-49 |
 | 2026-10-23 | MeshCentral 1.3.0 | acces-distant, deploiement, self-hosting | https://meshcentral.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-23-meshcentral-1-3-0 |
 | 2026-10-23 | Trivy 0.76.1 | securite, pipeline | https://trivy.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-23-trivy-0-76-1 |

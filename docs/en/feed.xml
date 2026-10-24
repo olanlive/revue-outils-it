@@ -5,8 +5,49 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0200</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>JuiceFS 1.4.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-24-juicefs-1-4-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-24-juicefs-1-4-2</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The distributed POSIX file system built on S3 storage ships 1.4.2 (Oct 22): no more bad reads after object storage timeouts, SQL garbage collection deleting live data, or losses from stale transaction retries. Found via the GitHub release.</description>
+      <category>stockage</category>
+      <category>s3</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>PatchMon 2.1.6</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-24-patchmon-2-1-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-24-patchmon-2-1-6</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>Open source (AGPL) platform to track and deploy security updates across a Linux fleet from a web UI: agents, validation, scheduled patches, history. 2.1.6 (Oct 17) fixes installs behind Traefik + CrowdSec. Found via Self-Host Weekly, Oct 23.</description>
+      <category>deploiement</category>
+      <category>securite</category>
+      <category>inventaire</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Coolify 4.5.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-24-coolify-4-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-24-coolify-4-5-0</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The self-hosted PaaS reaches 4.5.0 (Oct 23): server patching (beta) with automatic security updates, a fleet metrics page, a file browser, passkey sign-in, and an automatic database backup before updates. Found via the GitHub release.</description>
+      <category>deploiement</category>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Homebox 0.27.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-24-homebox-0-27-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-24-homebox-0-27-1</guid>
+      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
+      <description>The self-hosted inventory tool (hardware, cables, spare parts) ships 0.27.1 (Oct 23), a security release patching the Node.js "Node2Shell" flaw; the team advises updating as soon as possible. Found via the GitHub release.</description>
+      <category>inventaire</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>SeaweedFS 4.49</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-23-seaweedfs-4-49</link>
