@@ -5,8 +5,58 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>wg-easy 15.5.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-25-wg-easy-15-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-25-wg-easy-15-5-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The web UI to run and manage a WireGuard server in Docker ships 15.5.0 (Oct 24): Node.js security fixes, AmneziaWG 3.1, a configurable interface name, trusted proxies, and peer endpoints in Prometheus metrics. Found via the GitHub release.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Pangolin 1.25.3</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-25-pangolin-1-25-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-25-pangolin-1-25-3</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The tunneled reverse proxy, a self-hosted alternative to a VPN for exposing your services, follows the 1.25 series (HTTP redirects, mTLS, machine roles) with 1.25.3 (Oct 23): Node updated for a vulnerability, faster client connections. Found via the GitHub release.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>OliveTin 3000.21.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-25-olivetin-3000-21-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-25-olivetin-3000-21-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>OliveTin puts your shell scripts behind web buttons, handy to let the team restart a service without SSH. 3000.21.0 (Oct 24) adds -syntaxcheck to validate the config and -startuptrace, and surfaces config errors in the UI. Found via the GitHub release.</description>
+      <category>pipeline</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>ZITADEL 4.20.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-25-zitadel-4-20-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-25-zitadel-4-20-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The open source identity provider (SSO, OIDC, SAML) reaches 4.20.0 (Oct 22): a Go 1.26 build that rejects certificates chaining through the compromised eMudhra intermediates, so check your SMTP and external IdPs before upgrading. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Cockpit 370</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-25-cockpit-370</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-25-cockpit-370</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The web admin console for Linux servers ships release 370 (Oct 22): storage management now recognizes TPM2 key slots on encrypted volumes and supports UTF-8 mount points. Found via the GitHub release.</description>
+      <category>stockage</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>JuiceFS 1.4.2</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-24-juicefs-1-4-2</link>

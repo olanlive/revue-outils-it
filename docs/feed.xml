@@ -5,8 +5,58 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>wg-easy 15.5.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-25-wg-easy-15-5-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-25-wg-easy-15-5-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>L'interface web pour monter et gérer un serveur WireGuard en Docker sort la 15.5.0 (24 oct) : correctifs de failles Node.js, AmneziaWG 3.1, nom d'interface configurable, proxys de confiance et endpoint des pairs dans les métriques Prometheus. Trouvé via la release GitHub.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Pangolin 1.25.3</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-25-pangolin-1-25-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-25-pangolin-1-25-3</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Le reverse proxy à tunnels, alternative auto-hébergée à un VPN pour exposer tes services, enchaîne la série 1.25 (redirections HTTP, mTLS, rôles machines) avec la 1.25.3 (23 oct) : Node mis à jour pour une faille, connexions clients plus rapides. Trouvé via la release GitHub.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>OliveTin 3000.21.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-25-olivetin-3000-21-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-25-olivetin-3000-21-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>OliveTin met tes scripts shell derrière des boutons web pour laisser l'équipe relancer un service sans SSH. La 3000.21.0 (24 oct) ajoute -syntaxcheck pour valider la config et -startuptrace, et remonte les erreurs de config dans l'interface. Trouvé via la release GitHub.</description>
+      <category>pipeline</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>ZITADEL 4.20.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-25-zitadel-4-20-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-25-zitadel-4-20-0</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Le fournisseur d'identité open source (SSO, OIDC, SAML) passe en 4.20.0 (22 oct) : build Go 1.26 qui refuse les certificats passant par les intermédiaires eMudhra compromis, à vérifier pour tes SMTP et IdP externes avant de mettre à jour. Trouvé via la release GitHub.</description>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Cockpit 370</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-25-cockpit-370</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-25-cockpit-370</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
+      <description>L'admin web des serveurs Linux sort la version 370 (22 oct) : la gestion du stockage reconnaît les slots de clé TPM2 des volumes chiffrés et accepte les points de montage en UTF-8. Trouvé via la release GitHub.</description>
+      <category>stockage</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>JuiceFS 1.4.2</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-24-juicefs-1-4-2</link>

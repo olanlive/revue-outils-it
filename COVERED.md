@@ -7,6 +7,11 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-25 | wg-easy 15.5.0 | reseau, acces-distant, securite, self-hosting | https://wg-easy.github.io/wg-easy/latest/ | https://olanlive.github.io/revue-outils-it/#2026-10-25-wg-easy-15-5-0 |
+| 2026-10-25 | Pangolin 1.25.3 | reseau, acces-distant, securite, self-hosting | https://pangolin.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-25-pangolin-1-25-3 |
+| 2026-10-25 | OliveTin 3000.21.0 | pipeline, self-hosting | https://www.olivetin.app/ | https://olanlive.github.io/revue-outils-it/#2026-10-25-olivetin-3000-21-0 |
+| 2026-10-25 | ZITADEL 4.20.0 | securite, self-hosting | https://zitadel.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-25-zitadel-4-20-0 |
+| 2026-10-25 | Cockpit 370 | stockage, securite, self-hosting | https://cockpit-project.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-25-cockpit-370 |
 | 2026-10-24 | JuiceFS 1.4.2 | stockage, s3, self-hosting | https://juicefs.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-24-juicefs-1-4-2 |
 | 2026-10-24 | PatchMon 2.1.6 | deploiement, securite, inventaire, self-hosting | https://patchmon.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-24-patchmon-2-1-6 |
 | 2026-10-24 | Coolify 4.5.0 | deploiement, monitoring, self-hosting | https://coolify.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-24-coolify-4-5-0 |

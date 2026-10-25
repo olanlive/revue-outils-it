@@ -1,5 +1,95 @@
 [
   {
+    "date": "2026-10-25",
+    "name": "wg-easy 15.5.0",
+    "name_en": "wg-easy 15.5.0",
+    "summary": "L'interface web pour monter et gérer un serveur WireGuard en Docker sort la 15.5.0 (24 oct) : correctifs de failles Node.js, AmneziaWG 3.1, nom d'interface configurable, proxys de confiance et endpoint des pairs dans les métriques Prometheus. Trouvé via la release GitHub.",
+    "summary_en": "The web UI to run and manage a WireGuard server in Docker ships 15.5.0 (Oct 24): Node.js security fixes, AmneziaWG 3.1, a configurable interface name, trusted proxies, and peer endpoints in Prometheus metrics. Found via the GitHub release.",
+    "url": "https://wg-easy.github.io/wg-easy/latest/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — wg-easy/wg-easy v15.5.0",
+      "label_en": "GitHub release — wg-easy/wg-easy v15.5.0",
+      "url": "https://github.com/wg-easy/wg-easy/releases/tag/v15.5.0"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Pangolin 1.25.3",
+    "name_en": "Pangolin 1.25.3",
+    "summary": "Le reverse proxy à tunnels, alternative auto-hébergée à un VPN pour exposer tes services, enchaîne la série 1.25 (redirections HTTP, mTLS, rôles machines) avec la 1.25.3 (23 oct) : Node mis à jour pour une faille, connexions clients plus rapides. Trouvé via la release GitHub.",
+    "summary_en": "The tunneled reverse proxy, a self-hosted alternative to a VPN for exposing your services, follows the 1.25 series (HTTP redirects, mTLS, machine roles) with 1.25.3 (Oct 23): Node updated for a vulnerability, faster client connections. Found via the GitHub release.",
+    "url": "https://pangolin.net/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — fosrl/pangolin 1.25.3",
+      "label_en": "GitHub release — fosrl/pangolin 1.25.3",
+      "url": "https://github.com/fosrl/pangolin/releases/tag/1.25.3"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "name": "OliveTin 3000.21.0",
+    "name_en": "OliveTin 3000.21.0",
+    "summary": "OliveTin met tes scripts shell derrière des boutons web pour laisser l'équipe relancer un service sans SSH. La 3000.21.0 (24 oct) ajoute -syntaxcheck pour valider la config et -startuptrace, et remonte les erreurs de config dans l'interface. Trouvé via la release GitHub.",
+    "summary_en": "OliveTin puts your shell scripts behind web buttons, handy to let the team restart a service without SSH. 3000.21.0 (Oct 24) adds -syntaxcheck to validate the config and -startuptrace, and surfaces config errors in the UI. Found via the GitHub release.",
+    "url": "https://www.olivetin.app/",
+    "tags": [
+      "pipeline",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — OliveTin/OliveTin 3000.21.0",
+      "label_en": "GitHub release — OliveTin/OliveTin 3000.21.0",
+      "url": "https://github.com/OliveTin/OliveTin/releases/tag/3000.21.0"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "name": "ZITADEL 4.20.0",
+    "name_en": "ZITADEL 4.20.0",
+    "summary": "Le fournisseur d'identité open source (SSO, OIDC, SAML) passe en 4.20.0 (22 oct) : build Go 1.26 qui refuse les certificats passant par les intermédiaires eMudhra compromis, à vérifier pour tes SMTP et IdP externes avant de mettre à jour. Trouvé via la release GitHub.",
+    "summary_en": "The open source identity provider (SSO, OIDC, SAML) reaches 4.20.0 (Oct 22): a Go 1.26 build that rejects certificates chaining through the compromised eMudhra intermediates, so check your SMTP and external IdPs before upgrading. Found via the GitHub release.",
+    "url": "https://zitadel.com/",
+    "tags": [
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — zitadel/zitadel v4.20.0",
+      "label_en": "GitHub release — zitadel/zitadel v4.20.0",
+      "url": "https://github.com/zitadel/zitadel/releases/tag/v4.20.0"
+    }
+  },
+  {
+    "date": "2026-10-25",
+    "name": "Cockpit 370",
+    "name_en": "Cockpit 370",
+    "summary": "L'admin web des serveurs Linux sort la version 370 (22 oct) : la gestion du stockage reconnaît les slots de clé TPM2 des volumes chiffrés et accepte les points de montage en UTF-8. Trouvé via la release GitHub.",
+    "summary_en": "The web admin console for Linux servers ships release 370 (Oct 22): storage management now recognizes TPM2 key slots on encrypted volumes and supports UTF-8 mount points. Found via the GitHub release.",
+    "url": "https://cockpit-project.org/",
+    "tags": [
+      "stockage",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — cockpit-project/cockpit 370",
+      "label_en": "GitHub release — cockpit-project/cockpit 370",
+      "url": "https://github.com/cockpit-project/cockpit/releases/tag/370"
+    }
+  },
+  {
     "date": "2026-10-24",
     "name": "JuiceFS 1.4.2",
     "name_en": "JuiceFS 1.4.2",
