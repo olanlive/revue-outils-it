@@ -1,5 +1,76 @@
 [
   {
+    "date": "2026-10-26",
+    "name": "Dozzle 11.3.5",
+    "name_en": "Dozzle 11.3.5",
+    "summary": "La visionneuse web de logs Docker sort la 11.3.5 (24 oct) : nettoyage planifié des images et volumes avec aperçu avant suppression, alertes de mises à jour de conteneurs, colonnes uptime et I/O disque, et un chart Helm. Trouvé via la release GitHub.",
+    "summary_en": "The web-based Docker log viewer ships 11.3.5 (Oct 24): scheduled image and volume cleanup with a preview before deletion, container update alerts, uptime and disk I/O columns, and a Helm chart. Found via the GitHub release.",
+    "url": "https://dozzle.dev/",
+    "tags": [
+      "monitoring",
+      "deploiement",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — amir20/dozzle v11.3.5",
+      "label_en": "GitHub release — amir20/dozzle v11.3.5",
+      "url": "https://github.com/amir20/dozzle/releases/tag/v11.3.5"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "name": "Harbor 2.14.6",
+    "name_en": "Harbor 2.14.6",
+    "summary": "Le registre de conteneurs auto-hébergé de la CNCF sort la 2.14.6 (23 oct) : dépendances Go mises à jour contre des CVE hautes et critiques, Go 1.26.10, Trivy à jour et limite d'octets contre les bombes de décompression. Trouvé via la release GitHub.",
+    "summary_en": "The CNCF's self-hosted container registry ships 2.14.6 (Oct 23): Go dependencies upgraded to fix high and critical CVEs, Go 1.26.10, an updated Trivy, and a byte limit against decompression bombs. Found via the GitHub release.",
+    "url": "https://goharbor.io/",
+    "tags": [
+      "securite",
+      "deploiement",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — goharbor/harbor v2.14.6",
+      "label_en": "GitHub release — goharbor/harbor v2.14.6",
+      "url": "https://github.com/goharbor/harbor/releases/tag/v2.14.6"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "name": "Codex CLI 0.164.0",
+    "name_en": "Codex CLI 0.164.0",
+    "summary": "L'agent de code open source d'OpenAI pour le terminal (compte OpenAI requis) sort la 0.164.0 (23 oct) : /presets pour tes prompts réutilisables, /model et /permissions en ligne, masquage des secrets dans les commandes Bash distantes. Trouvé via la release GitHub.",
+    "summary_en": "OpenAI's open source coding agent for the terminal (OpenAI account required) ships 0.164.0 (Oct 23): /presets for reusable prompts, inline /model and /permissions, and credential masking in remote Bash commands. Found via the GitHub release.",
+    "url": "https://developers.openai.com/codex/cli",
+    "tags": [
+      "terminal",
+      "pipeline",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — openai/codex rust-v0.164.0",
+      "label_en": "GitHub release — openai/codex rust-v0.164.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0"
+    }
+  },
+  {
+    "date": "2026-10-26",
+    "name": "Pele 1.10.0",
+    "name_en": "Pele 1.10.0",
+    "summary": "Le moteur MIT d'Obsidian qui rend les diagrammes Mermaid en SVG sans dépendance, pratique pour documenter ton réseau ou ta farm, sort la 1.10.0 (24 oct) avec des erreurs plus précises. Trouvé via tes signets X (post de @obsdmd).",
+    "summary_en": "Obsidian's MIT-licensed, dependency-free engine that renders Mermaid diagrams to SVG, handy to document your network or farm, ships 1.10.0 (Oct 24) with more precise errors. Found via your X bookmarks (post by @obsdmd).",
+    "url": "https://pele.run/",
+    "tags": [
+      "pipeline",
+      "emerging"
+    ],
+    "source": {
+      "label": "Signets X d'Olivier — @obsdmd",
+      "label_en": "Olivier's X bookmarks — @obsdmd",
+      "url": "https://x.com/obsdmd/status/2111476648784830943"
+    }
+  },
+  {
     "date": "2026-10-25",
     "name": "wg-easy 15.5.0",
     "name_en": "wg-easy 15.5.0",

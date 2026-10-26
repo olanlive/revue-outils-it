@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-26 | Dozzle 11.3.5 | monitoring, deploiement, self-hosting | https://dozzle.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-26-dozzle-11-3-5 |
+| 2026-10-26 | Harbor 2.14.6 | securite, deploiement, self-hosting | https://goharbor.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-26-harbor-2-14-6 |
+| 2026-10-26 | Codex CLI 0.164.0 | terminal, pipeline, securite | https://developers.openai.com/codex/cli | https://olanlive.github.io/revue-outils-it/#2026-10-26-codex-cli-0-164-0 |
+| 2026-10-26 | Pele 1.10.0 | pipeline, emerging | https://pele.run/ | https://olanlive.github.io/revue-outils-it/#2026-10-26-pele-1-10-0 |
 | 2026-10-25 | wg-easy 15.5.0 | reseau, acces-distant, securite, self-hosting | https://wg-easy.github.io/wg-easy/latest/ | https://olanlive.github.io/revue-outils-it/#2026-10-25-wg-easy-15-5-0 |
 | 2026-10-25 | Pangolin 1.25.3 | reseau, acces-distant, securite, self-hosting | https://pangolin.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-25-pangolin-1-25-3 |
 | 2026-10-25 | OliveTin 3000.21.0 | pipeline, self-hosting | https://www.olivetin.app/ | https://olanlive.github.io/revue-outils-it/#2026-10-25-olivetin-3000-21-0 |

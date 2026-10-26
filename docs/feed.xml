@@ -5,8 +5,47 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 25 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Dozzle 11.3.5</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-26-dozzle-11-3-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-26-dozzle-11-3-5</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>La visionneuse web de logs Docker sort la 11.3.5 (24 oct) : nettoyage planifié des images et volumes avec aperçu avant suppression, alertes de mises à jour de conteneurs, colonnes uptime et I/O disque, et un chart Helm. Trouvé via la release GitHub.</description>
+      <category>monitoring</category>
+      <category>deploiement</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Harbor 2.14.6</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-26-harbor-2-14-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-26-harbor-2-14-6</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Le registre de conteneurs auto-hébergé de la CNCF sort la 2.14.6 (23 oct) : dépendances Go mises à jour contre des CVE hautes et critiques, Go 1.26.10, Trivy à jour et limite d'octets contre les bombes de décompression. Trouvé via la release GitHub.</description>
+      <category>securite</category>
+      <category>deploiement</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Codex CLI 0.164.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-26-codex-cli-0-164-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-26-codex-cli-0-164-0</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>L'agent de code open source d'OpenAI pour le terminal (compte OpenAI requis) sort la 0.164.0 (23 oct) : /presets pour tes prompts réutilisables, /model et /permissions en ligne, masquage des secrets dans les commandes Bash distantes. Trouvé via la release GitHub.</description>
+      <category>terminal</category>
+      <category>pipeline</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Pele 1.10.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-26-pele-1-10-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-26-pele-1-10-0</guid>
+      <pubDate>Mon, 26 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Le moteur MIT d'Obsidian qui rend les diagrammes Mermaid en SVG sans dépendance, pratique pour documenter ton réseau ou ta farm, sort la 1.10.0 (24 oct) avec des erreurs plus précises. Trouvé via tes signets X (post de @obsdmd).</description>
+      <category>pipeline</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>wg-easy 15.5.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-25-wg-easy-15-5-0</link>
