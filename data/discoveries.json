@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-27",
+    "name": "Tactical RMM 1.6.1",
+    "name_en": "Tactical RMM 1.6.1",
+    "summary": "Le RMM auto-hébergé (licence source-available) sort la 1.6.0 puis la 1.6.1 (26-27 oct) : explorateur de fichiers natif sans MeshCentral avec transferts reprenables, agent macOS signé, support Debian 13 et Ubuntu 26.04. Trouvé via la release GitHub.",
+    "summary_en": "The self-hosted RMM (source-available license) ships 1.6.0 then 1.6.1 (Oct 26-27): a native file browser with resumable transfers and no MeshCentral, a signed macOS agent, Debian 13 and Ubuntu 26.04 support. Found via the GitHub release.",
+    "url": "https://docs.tacticalrmm.com/",
+    "tags": [
+      "deploiement",
+      "acces-distant",
+      "inventaire",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — amidaware/tacticalrmm v1.6.1",
+      "label_en": "GitHub release — amidaware/tacticalrmm v1.6.1",
+      "url": "https://github.com/amidaware/tacticalrmm/releases/tag/v1.6.1"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "name": "nvidia_gpu_exporter 1.16.0",
+    "name_en": "nvidia_gpu_exporter 1.16.0",
+    "summary": "L'exporteur Prometheus des GPU NVIDIA sort la 1.16.0 (25 oct) : le backend NVML quitte le stade expérimental et remonte les raisons de bridage d'horloge (limite carte, fiabilité). Pratique pour surveiller les GPU d'une render farm. Trouvé via la release GitHub.",
+    "summary_en": "The Prometheus exporter for NVIDIA GPUs ships 1.16.0 (Oct 25): the NVML backend graduates out of experimental and reports clock throttling reasons (board limit, reliability). Handy for watching render farm GPUs. Found via the GitHub release.",
+    "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter",
+    "tags": [
+      "monitoring",
+      "render-farm",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — utkuozdemir/nvidia_gpu_exporter v1.16.0",
+      "label_en": "GitHub release — utkuozdemir/nvidia_gpu_exporter v1.16.0",
+      "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/tag/v1.16.0"
+    }
+  },
+  {
+    "date": "2026-10-27",
+    "name": "OpenBao 2.7.2",
+    "name_en": "OpenBao 2.7.2",
+    "summary": "Le coffre à secrets open source (fork de Vault) sort la 2.7.2 (26 oct) avec cinq correctifs de sécurité, dont une traversée de chemin dans transit et les jokers interdits par défaut dans les certificats SSH. À appliquer vite. Trouvé via la release GitHub.",
+    "summary_en": "The open source secrets vault (a Vault fork) ships 2.7.2 (Oct 26) with five security fixes, including a path traversal in transit and wildcards now denied by default in SSH certificates. Worth applying soon. Found via the GitHub release.",
+    "url": "https://openbao.org/",
+    "tags": [
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — openbao/openbao v2.7.2",
+      "label_en": "GitHub release — openbao/openbao v2.7.2",
+      "url": "https://github.com/openbao/openbao/releases/tag/v2.7.2"
+    }
+  },
+  {
     "date": "2026-10-26",
     "name": "Dozzle 11.3.5",
     "name_en": "Dozzle 11.3.5",

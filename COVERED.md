@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-27 | Tactical RMM 1.6.1 | deploiement, acces-distant, inventaire, self-hosting | https://docs.tacticalrmm.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-27-tactical-rmm-1-6-1 |
+| 2026-10-27 | nvidia_gpu_exporter 1.16.0 | monitoring, render-farm, self-hosting | https://github.com/utkuozdemir/nvidia_gpu_exporter | https://olanlive.github.io/revue-outils-it/#2026-10-27-nvidia-gpu-exporter-1-16-0 |
+| 2026-10-27 | OpenBao 2.7.2 | securite, self-hosting | https://openbao.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-27-openbao-2-7-2 |
 | 2026-10-26 | Dozzle 11.3.5 | monitoring, deploiement, self-hosting | https://dozzle.dev/ | https://olanlive.github.io/revue-outils-it/#2026-10-26-dozzle-11-3-5 |
 | 2026-10-26 | Harbor 2.14.6 | securite, deploiement, self-hosting | https://goharbor.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-26-harbor-2-14-6 |
 | 2026-10-26 | Codex CLI 0.164.0 | terminal, pipeline, securite | https://developers.openai.com/codex/cli | https://olanlive.github.io/revue-outils-it/#2026-10-26-codex-cli-0-164-0 |

@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Tactical RMM 1.6.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-27-tactical-rmm-1-6-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-27-tactical-rmm-1-6-1</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The self-hosted RMM (source-available license) ships 1.6.0 then 1.6.1 (Oct 26-27): a native file browser with resumable transfers and no MeshCentral, a signed macOS agent, Debian 13 and Ubuntu 26.04 support. Found via the GitHub release.</description>
+      <category>deploiement</category>
+      <category>acces-distant</category>
+      <category>inventaire</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>nvidia_gpu_exporter 1.16.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-27-nvidia-gpu-exporter-1-16-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-27-nvidia-gpu-exporter-1-16-0</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The Prometheus exporter for NVIDIA GPUs ships 1.16.0 (Oct 25): the NVML backend graduates out of experimental and reports clock throttling reasons (board limit, reliability). Handy for watching render farm GPUs. Found via the GitHub release.</description>
+      <category>monitoring</category>
+      <category>render-farm</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>OpenBao 2.7.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-27-openbao-2-7-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-27-openbao-2-7-2</guid>
+      <pubDate>Tue, 27 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The open source secrets vault (a Vault fork) ships 2.7.2 (Oct 26) with five security fixes, including a path traversal in transit and wildcards now denied by default in SSH certificates. Worth applying soon. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>Dozzle 11.3.5</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-26-dozzle-11-3-5</link>
