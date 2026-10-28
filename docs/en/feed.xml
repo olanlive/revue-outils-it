@@ -5,8 +5,48 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FOG Project 1.6.0 RC-18</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-28-fog-project-1-6-0-rc-18</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-28-fog-project-1-6-0-rc-18</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>PXE disk image deployment ships RC-18 on Oct 27: a new Performance Test task times disk, network and decompression on the client without touching the disk, and FOS now checks the server’s TLS certificate. Found via the GitHub release.</description>
+      <category>deploiement</category>
+      <category>imaging</category>
+      <category>pxe</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>CrowdSec 1.8.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-28-crowdsec-1-8-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-28-crowdsec-1-8-2</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>The collaborative security engine (MIT) ships 1.8.2 on Oct 26: rate limiting in its WAF, JavaScript bot detection rules distributed through the hub, a new cscli bot command and a faster engine. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>reseau</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>GitButler 0.23.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-28-gitbutler-0-23-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-28-gitbutler-0-23-0</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Free, FSL licensed (MIT after 2 years): the parallel-branch Git client ships 0.23.0 on Oct 27. It works in any repo with no setup, handles Git worktrees (GUI and the but CLI) and speeds up Git LFS repos. Found via the GitHub release.</description>
+      <category>terminal</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Uptime Kuma 2.5.8</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-28-uptime-kuma-2-5-8</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-28-uptime-kuma-2-5-8</guid>
+      <pubDate>Wed, 28 Oct 2026 09:00:00 +0100</pubDate>
+      <description>A security update to apply: 2.5.8 (Oct 26) of the self-hosted uptime monitor fixes an admin-only remote code execution flaw and turns the never-reliable TLS TCP monitors into plain TCP monitors. Found via the GitHub release.</description>
+      <category>monitoring</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>Tactical RMM 1.6.1</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-27-tactical-rmm-1-6-1</link>

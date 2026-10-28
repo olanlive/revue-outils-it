@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-28 | FOG Project 1.6.0 RC-18 | deploiement, imaging, pxe, rc | https://fogproject.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-28-fog-project-1-6-0-rc-18 |
+| 2026-10-28 | CrowdSec 1.8.2 | securite, reseau, self-hosting | https://www.crowdsec.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-28-crowdsec-1-8-2 |
+| 2026-10-28 | GitButler 0.23.0 | terminal, pipeline | https://gitbutler.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-28-gitbutler-0-23-0 |
+| 2026-10-28 | Uptime Kuma 2.5.8 | monitoring, securite, self-hosting | https://uptime.kuma.pet/ | https://olanlive.github.io/revue-outils-it/#2026-10-28-uptime-kuma-2-5-8 |
 | 2026-10-27 | Tactical RMM 1.6.1 | deploiement, acces-distant, inventaire, self-hosting | https://docs.tacticalrmm.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-27-tactical-rmm-1-6-1 |
 | 2026-10-27 | nvidia_gpu_exporter 1.16.0 | monitoring, render-farm, self-hosting | https://github.com/utkuozdemir/nvidia_gpu_exporter | https://olanlive.github.io/revue-outils-it/#2026-10-27-nvidia-gpu-exporter-1-16-0 |
 | 2026-10-27 | OpenBao 2.7.2 | securite, self-hosting | https://openbao.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-27-openbao-2-7-2 |

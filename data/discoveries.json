@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-10-28",
+    "name": "FOG Project 1.6.0 RC-18",
+    "name_en": "FOG Project 1.6.0 RC-18",
+    "summary": "Le déploiement d’images disque par PXE sort sa RC-18 le 27 oct : nouvelle tâche Performance Test qui chronomètre disque, réseau et décompression sur le poste sans toucher au disque, et FOS vérifie désormais le certificat TLS du serveur. Trouvé via la release GitHub.",
+    "summary_en": "PXE disk image deployment ships RC-18 on Oct 27: a new Performance Test task times disk, network and decompression on the client without touching the disk, and FOS now checks the server’s TLS certificate. Found via the GitHub release.",
+    "url": "https://fogproject.org/",
+    "tags": [
+      "deploiement",
+      "imaging",
+      "pxe",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — FOGProject/fogproject 1.6.0-RC-18",
+      "label_en": "GitHub release — FOGProject/fogproject 1.6.0-RC-18",
+      "url": "https://github.com/FOGProject/fogproject/releases/tag/1.6.0-RC-18"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "name": "CrowdSec 1.8.2",
+    "name_en": "CrowdSec 1.8.2",
+    "summary": "Le moteur de sécurité collaboratif (MIT) sort la 1.8.2 le 26 oct : limitation de débit dans son WAF, règles de détection de bots en JavaScript distribuées via le hub, nouvelle commande cscli bot et moteur plus rapide. Trouvé via la release GitHub.",
+    "summary_en": "The collaborative security engine (MIT) ships 1.8.2 on Oct 26: rate limiting in its WAF, JavaScript bot detection rules distributed through the hub, a new cscli bot command and a faster engine. Found via the GitHub release.",
+    "url": "https://www.crowdsec.net/",
+    "tags": [
+      "securite",
+      "reseau",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — crowdsecurity/crowdsec v1.8.2",
+      "label_en": "GitHub release — crowdsecurity/crowdsec v1.8.2",
+      "url": "https://github.com/crowdsecurity/crowdsec/releases/tag/v1.8.2"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "name": "GitButler 0.23.0",
+    "name_en": "GitButler 0.23.0",
+    "summary": "Gratuit, sous licence FSL (MIT après 2 ans) : le client Git à branches parallèles sort la 0.23.0 le 27 oct. Il marche dans n’importe quel dépôt sans configuration, gère les worktrees Git (GUI et CLI but) et accélère les dépôts Git LFS. Trouvé via la release GitHub.",
+    "summary_en": "Free, FSL licensed (MIT after 2 years): the parallel-branch Git client ships 0.23.0 on Oct 27. It works in any repo with no setup, handles Git worktrees (GUI and the but CLI) and speeds up Git LFS repos. Found via the GitHub release.",
+    "url": "https://gitbutler.com/",
+    "tags": [
+      "terminal",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Release GitHub — gitbutlerapp/gitbutler 0.23.0",
+      "label_en": "GitHub release — gitbutlerapp/gitbutler 0.23.0",
+      "url": "https://github.com/gitbutlerapp/gitbutler/releases/tag/release/0.23.0"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "name": "Uptime Kuma 2.5.8",
+    "name_en": "Uptime Kuma 2.5.8",
+    "summary": "Mise à jour de sécurité : la 2.5.8 du 26 oct de l’outil auto-hébergé de surveillance de disponibilité corrige une faille d’exécution de code à distance (réservée aux admins) et convertit les sondes TCP avec TLS, jamais fiables, en sondes TCP simples. Trouvé via la release GitHub.",
+    "summary_en": "A security update to apply: 2.5.8 (Oct 26) of the self-hosted uptime monitor fixes an admin-only remote code execution flaw and turns the never-reliable TLS TCP monitors into plain TCP monitors. Found via the GitHub release.",
+    "url": "https://uptime.kuma.pet/",
+    "tags": [
+      "monitoring",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — louislam/uptime-kuma 2.5.8",
+      "label_en": "GitHub release — louislam/uptime-kuma 2.5.8",
+      "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.8"
+    }
+  },
+  {
     "date": "2026-10-27",
     "name": "Tactical RMM 1.6.1",
     "name_en": "Tactical RMM 1.6.1",
