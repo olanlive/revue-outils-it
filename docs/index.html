@@ -10,7 +10,7 @@
   <link rel="alternate" hreflang="en" href="https://olanlive.github.io/revue-outils-it/en/">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
 <script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
 </head>
 <body>
@@ -48,7 +48,14 @@
   clr.addEventListener('click',function(){ setTag(''); });
   btns.forEach(function(b){ b.addEventListener('click',function(e){ e.preventDefault(); setTag(b.getAttribute('data-tag')); open(false); tog.focus(); }); });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!panel.hidden){ open(false); tog.focus(); } });
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('article.discovery .tags a.tag');
+    if(!a||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey) return;
+    e.preventDefault(); setTag(a.textContent.replace(/^#/,'')); open(false);
+    tog.focus({preventScroll:true}); window.scrollTo(0,0);
+  });
   window.addEventListener('hashchange',apply); apply();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',apply);
 })();
 </script>
   

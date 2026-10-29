@@ -11,7 +11,7 @@
   <link rel="alternate" hreflang="en" href="https://olanlive.github.io/revue-outils-it/en/tags/emerging.html">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
 <script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
 </head>
 <body>
@@ -118,6 +118,13 @@ https://uberware.github.io/sqi/
          · <a href="../feed.xml">RSS feed</a></p>
     </footer>
   </div>
+<script>/*PEPITES_TAGCLICK*/
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('article.discovery .tags a.tag');
+  if(!a||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey) return;
+  e.preventDefault(); location.href='../index.html#tag='+encodeURIComponent(a.textContent.replace(/^#/,''));
+});
+</script>
 <script>/*PEPITES_SHARE*/
 (function(){
   [].forEach.call(document.querySelectorAll('.share-x .copy-btn'),function(b){ if(navigator.clipboard) b.hidden=false; });

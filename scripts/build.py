@@ -227,8 +227,23 @@ PEPITES_FILTER_JS = r"""
   clr.addEventListener('click',function(){ setTag(''); });
   btns.forEach(function(b){ b.addEventListener('click',function(e){ e.preventDefault(); setTag(b.getAttribute('data-tag')); open(false); tog.focus(); }); });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&!panel.hidden){ open(false); tog.focus(); } });
+  document.addEventListener('click',function(e){
+    var a=e.target.closest&&e.target.closest('article.discovery .tags a.tag');
+    if(!a||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey) return;
+    e.preventDefault(); setTag(a.textContent.replace(/^#/,'')); open(false);
+    tog.focus({preventScroll:true}); window.scrollTo(0,0);
+  });
   window.addEventListener('hashchange',apply); apply();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',apply);
 })();
+"""
+
+PEPITES_TAGPAGE_JS = r"""
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('article.discovery .tags a.tag');
+  if(!a||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey) return;
+  e.preventDefault(); location.href='../index.html#tag='+encodeURIComponent(a.textContent.replace(/^#/,''));
+});
 """
 
 CSS += PEPITES_CSS
@@ -331,6 +346,7 @@ def fix_tag_pages(discoveries: list) -> None:
             links.append(f'<a class="tag" href="../index.html#tag={_pq(o, safe="")}"{cur}>#{e}</a>')
         bar = '<div class="tag-filter" aria-label="Changer de tag">' + "".join(links) + "</div>\n"
         s = s.replace('<h2 class="section">Tag <code>', bar + '<h2 class="section">Tag <code>', 1)
+        s = s.replace("</body>", "<script>/*PEPITES_TAGCLICK*/" + PEPITES_TAGPAGE_JS + "</script>\n</body>", 1)
         f.write_text(s, encoding="utf-8")
 
 
@@ -579,7 +595,7 @@ def _page_en(
   <link rel="alternate" hreflang="en" href="{esc(en_href)}">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
 <script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
 </head>
 <body>
@@ -623,6 +639,7 @@ def fix_tag_pages_lang(discoveries: list, lang: str, docs: Path) -> None:
             links.append(f'<a class="tag" href="../index.html#tag={_pq(o, safe="")}"{cur}>#{e}</a>')
         bar = '<div class="tag-filter" aria-label="' + html.escape(ui(lang, "change_tag")) + '">' + "".join(links) + "</div>\n"
         s = s.replace('<h2 class="section">Tag <code>', bar + '<h2 class="section">Tag <code>', 1)
+        s = s.replace("</body>", "<script>/*PEPITES_TAGCLICK*/" + PEPITES_TAGPAGE_JS + "</script>\n</body>", 1)
         f.write_text(s, encoding="utf-8")
 
 
@@ -871,7 +888,7 @@ def page(
   <link rel="alternate" hreflang="en" href="{esc(_en_href)}">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
 <script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
 </head>
 <body>
