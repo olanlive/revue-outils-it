@@ -149,6 +149,8 @@ code { font-family: var(--mono); font-size: 0.9em; }
 .share-x a:hover { color: var(--accent); }
 .share-x .copy-btn { background: none; border: 0; padding: 0; font: inherit; color: var(--muted); cursor: pointer; }
 .share-x .copy-btn:hover { color: var(--accent); }
+.discovery .tags { margin: 0.6rem 0 0; }
+.discovery .tags .tag { padding: 0.3rem 0.6rem; line-height: 1.2; }
 [hidden] { display: none !important; }
 /* Barre Pépites (nav.js) : même colonne que .wrap (max-width var(--max), centrée, même marge intérieure). */
 html #pepites-nav ul { max-width: var(--max); padding-left: 1.25rem; padding-right: 1.25rem; }

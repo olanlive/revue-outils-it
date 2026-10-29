@@ -195,6 +195,8 @@ PEPITES_CSS = """
 .share-x a:hover { color: var(--accent); }
 .share-x .copy-btn { background: none; border: 0; padding: 0; font: inherit; color: var(--muted); cursor: pointer; }
 .share-x .copy-btn:hover { color: var(--accent); }
+.discovery .tags { margin: 0.6rem 0 0; }
+.discovery .tags .tag { padding: 0.3rem 0.6rem; line-height: 1.2; }
 [hidden] { display: none !important; }
 /* Barre Pépites (nav.js) : même colonne que .wrap (max-width var(--max), centrée, même marge intérieure). */
 html #pepites-nav ul { max-width: var(--max); padding-left: 1.25rem; padding-right: 1.25rem; }
@@ -285,12 +287,18 @@ def inject_share_js() -> None:
             f.write_text(s, encoding="utf-8")
 
 
+def pepites_tag_key(t: str) -> tuple:
+    """Ordre alphabétique des tags, sans tenir compte de la casse ni des accents."""
+    base = "".join(c for c in unicodedata.normalize("NFKD", t) if not unicodedata.combining(c))
+    return (base.casefold(), t)
+
+
 def filter_bar_html(discoveries: list) -> str:
     counts: dict = {}
     for d in discoveries:
         for t in d.get("tags", []):
             counts[t] = counts.get(t, 0) + 1
-    order = sorted(counts, key=lambda t: (-counts[t], t))
+    order = sorted(counts, key=pepites_tag_key)
     if not order:
         return ""
     btns = ['<a class="tag tag-all" href="#" data-tag="" aria-pressed="true">Tous</a>']
@@ -305,13 +313,12 @@ def filter_bar_html(discoveries: list) -> str:
 
 
 def fix_tag_pages(discoveries: list) -> None:
-    """Pages tags/xxx.html : barre « ← Tous » + autres tags, tags des pépites vers l'accueil filtré."""
-    import re as _re
+    """Pages tags/xxx.html : barre « ← Tous » + autres tags (vers l'accueil filtré)."""
     counts: dict = {}
     for d in discoveries:
         for t in d.get("tags", []):
             counts[t] = counts.get(t, 0) + 1
-    order = sorted(counts, key=lambda t: (-counts[t], t))
+    order = sorted(counts, key=pepites_tag_key)
     for t in order:
         f = DOCS / "tags" / f"{t}.html"
         if not f.exists():
@@ -324,10 +331,6 @@ def fix_tag_pages(discoveries: list) -> None:
             links.append(f'<a class="tag" href="../index.html#tag={_pq(o, safe="")}"{cur}>#{e}</a>')
         bar = '<div class="tag-filter" aria-label="Changer de tag">' + "".join(links) + "</div>\n"
         s = s.replace('<h2 class="section">Tag <code>', bar + '<h2 class="section">Tag <code>', 1)
-        def _art(m):
-            return _re.sub(r'class="tag" href="(?:\./)?([^"/]+)\.html"',
-                           lambda k: f'class="tag" href="../index.html#tag={_pq(html.unescape(k.group(1)), safe="")}"', m.group(0))
-        s = _re.sub(r'<article class="discovery".*?</article>', _art, s, flags=_re.S)
         f.write_text(s, encoding="utf-8")
 
 
@@ -486,7 +489,7 @@ def filter_bar_lang(discoveries: list, lang: str = "fr") -> str:
     for d in discoveries:
         for t in d.get("tags", []):
             counts[t] = counts.get(t, 0) + 1
-    order = sorted(counts, key=lambda t: (-counts[t], t))
+    order = sorted(counts, key=pepites_tag_key)
     if not order:
         return ""
     btns = [f'<a class="tag tag-all" href="#" data-tag="" aria-pressed="true">{html.escape(ui(lang, "all"))}</a>']
@@ -527,7 +530,7 @@ def source_html_lang(source, lang: str = "fr") -> str:
     return f'<p class="source">{esc(found)} {inner}</p>'
 
 
-def _discovery_en(item: dict, *, show_date: bool = True) -> str:
+def _discovery_en(item: dict, *, tags_base: str = "tags/", show_date: bool = True) -> str:
     name, name_fb = tr_field(item, "name", "en")
     summary, sum_fb = tr_field(item, "summary", "en")
     name_attr = ' lang="fr"' if name_fb else ""
@@ -545,6 +548,7 @@ def _discovery_en(item: dict, *, show_date: bool = True) -> str:
   <p class="summary"{sum_attr}>{esc(summary)}</p>
   {source_html(item.get('source'), lang="en")}
   {share_html_lang(item, "en")}
+  {tags_html(sorted(item.get('tags', []), key=pepites_tag_key), tags_base=tags_base)}
 </article>
 """
 
@@ -573,6 +577,9 @@ def _page_en(
   <link rel="alternate" type="application/rss+xml" title="{esc(SITE_TITLE_EN)}" href="{SITE_URL}en/feed.xml">
   <link rel="alternate" hreflang="fr" href="{esc(fr_href)}">
   <link rel="alternate" hreflang="en" href="{esc(en_href)}">
+  <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
 <script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
 </head>
 <body>
@@ -602,7 +609,7 @@ def fix_tag_pages_lang(discoveries: list, lang: str, docs: Path) -> None:
     for d in discoveries:
         for t in d.get("tags", []):
             counts[t] = counts.get(t, 0) + 1
-    order = sorted(counts, key=lambda t: (-counts[t], t))
+    order = sorted(counts, key=pepites_tag_key)
     tags_dir = docs / "tags"
     for t in order:
         f = tags_dir / f"{t}.html"
@@ -616,15 +623,6 @@ def fix_tag_pages_lang(discoveries: list, lang: str, docs: Path) -> None:
             links.append(f'<a class="tag" href="../index.html#tag={_pq(o, safe="")}"{cur}>#{e}</a>')
         bar = '<div class="tag-filter" aria-label="' + html.escape(ui(lang, "change_tag")) + '">' + "".join(links) + "</div>\n"
         s = s.replace('<h2 class="section">Tag <code>', bar + '<h2 class="section">Tag <code>', 1)
-
-        def _art(m, _pq=_pq):
-            return re.sub(
-                r'class="tag" href="(?:\./)?([^"/]+)\.html"',
-                lambda k: f'class="tag" href="../index.html#tag={_pq(html.unescape(k.group(1)), safe="")}"',
-                m.group(0),
-            )
-
-        s = re.sub(r'<article class="discovery".*?</article>', _art, s, flags=re.S)
         f.write_text(s, encoding="utf-8")
 
 
@@ -739,7 +737,7 @@ def build_lang(lang: str, discoveries: list) -> None:
         encoding="utf-8",
     )
 
-    for tag in sorted(all_tags):
+    for tag in sorted(all_tags, key=pepites_tag_key):
         entries = sorted(by_tag[tag], key=lambda e: e["date"], reverse=True)
         items_html = "".join(
             discovery_html(item, tags_base="./", lang=lang) for item in entries
@@ -766,7 +764,7 @@ def build_lang(lang: str, discoveries: list) -> None:
         )
 
     cloud_parts = []
-    for t in sorted(all_tags):
+    for t in sorted(all_tags, key=pepites_tag_key):
         cloud_parts.append(
             f'<a class="tag" href="{esc(t)}.html">#{esc(t)}</a>'
             f'<span class="meta">({len(by_tag[t])})</span>'
@@ -871,6 +869,9 @@ def page(
   <link rel="stylesheet" href="{prefix}style.css">
   <link rel="alternate" type="application/rss+xml" title="{esc(SITE_TITLE)}" href="{SITE_URL}feed.xml">
   <link rel="alternate" hreflang="en" href="{esc(_en_href)}">
+  <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
 <script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
 </head>
 <body>
@@ -935,7 +936,7 @@ def discovery_html(
     lang: str = "fr",
 ) -> str:
     if lang == "en":
-        return _discovery_en(item, show_date=show_date)
+        return _discovery_en(item, tags_base=tags_base, show_date=show_date)
     date_bit = ""
     if show_date and item.get("date"):
         date_bit = (
@@ -949,6 +950,7 @@ def discovery_html(
   <p class="summary">{esc(item['summary'])}</p>
   {source_html(item.get('source'))}
   {share_html(item)}
+  {tags_html(sorted(item.get('tags', []), key=pepites_tag_key), tags_base=tags_base)}
 </article>
 """
 
@@ -1030,7 +1032,7 @@ def build() -> None:
     feed = "".join(feed_parts)
     tag_links = "".join(
         f'<a class="tag" href="tags/{esc(t)}.html">#{esc(t)}</a>'
-        for t in sorted(all_tags)
+        for t in sorted(all_tags, key=pepites_tag_key)
     )
     n = len(discoveries)
     home_body = f"""
@@ -1045,7 +1047,7 @@ def build() -> None:
         page(SITE_TITLE, home_body, depth=0, rel_path=""), encoding="utf-8"
     )
 
-    for tag in sorted(all_tags):
+    for tag in sorted(all_tags, key=pepites_tag_key):
         entries = sorted(by_tag[tag], key=lambda e: e["date"], reverse=True)
         items_html = "".join(
             discovery_html(item, tags_base="./") for item in entries
@@ -1071,7 +1073,7 @@ def build() -> None:
         )
 
     cloud_parts = []
-    for t in sorted(all_tags):
+    for t in sorted(all_tags, key=pepites_tag_key):
         cloud_parts.append(
             f'<a class="tag" href="{esc(t)}.html">#{esc(t)}</a>'
             f'<span class="meta">({len(by_tag[t])})</span>'
