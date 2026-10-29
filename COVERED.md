@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-29 | GLPI 12.0.1 (correctif de sécurité) | inventaire, helpdesk, securite, self-hosting | https://glpi-project.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-29-glpi-12-0-1-correctif-de-securite |
+| 2026-10-29 | OpenCloud 9.0.0 | stockage, self-hosting, securite | https://opencloud.eu/ | https://olanlive.github.io/revue-outils-it/#2026-10-29-opencloud-9-0-0 |
+| 2026-10-29 | Woodpecker CI 3.20.0 | pipeline, securite, self-hosting | https://woodpecker-ci.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-29-woodpecker-ci-3-20-0 |
 | 2026-10-28 | FOG Project 1.6.0 RC-18 | deploiement, imaging, pxe, rc | https://fogproject.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-28-fog-project-1-6-0-rc-18 |
 | 2026-10-28 | CrowdSec 1.8.2 | securite, reseau, self-hosting | https://www.crowdsec.net/ | https://olanlive.github.io/revue-outils-it/#2026-10-28-crowdsec-1-8-2 |
 | 2026-10-28 | GitButler 0.23.0 | terminal, pipeline | https://gitbutler.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-28-gitbutler-0-23-0 |

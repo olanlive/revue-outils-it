@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-10-29",
+    "name": "GLPI 12.0.1 (correctif de sécurité)",
+    "name_en": "GLPI 12.0.1 (security fix)",
+    "summary": "Déjà présenté en 12.0.0, le gestionnaire de parc et helpdesk sort le 28 oct un correctif de sécurité à appliquer : contournement critique de l’authentification externe, escalade de privilèges et plusieurs XSS corrigés. Trouvé via la release GitHub.",
+    "summary_en": "Already featured at 12.0.0, the asset manager and helpdesk ships an Oct 28 security fix worth applying: a critical external authentication bypass, a privilege escalation and several XSS flaws fixed. Found via the GitHub release.",
+    "url": "https://glpi-project.org/",
+    "tags": [
+      "inventaire",
+      "helpdesk",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — glpi-project/glpi 12.0.1",
+      "label_en": "GitHub release — glpi-project/glpi 12.0.1",
+      "url": "https://github.com/glpi-project/glpi/releases/tag/12.0.1"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "name": "OpenCloud 9.0.0",
+    "name_en": "OpenCloud 9.0.0",
+    "summary": "Ce partage de fichiers auto-hébergé sort sa 9.0 le 27 oct : accès invité par e-mail sans compte ni mot de passe, avec liens à usage unique et chaque accès journalisé, plus la recherche par tags et l’aperçu HEIC/AVIF. Mise à jour à préparer. Trouvé via la release GitHub.",
+    "summary_en": "This self-hosted file sharing platform ships 9.0 on Oct 27: email guest access with no account or password, single-use links and every access logged, plus tag search and HEIC/AVIF previews. Upgrade steps required. Found via the GitHub release.",
+    "url": "https://opencloud.eu/",
+    "tags": [
+      "stockage",
+      "self-hosting",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — opencloud-eu/opencloud v9.0.0",
+      "label_en": "GitHub release — opencloud-eu/opencloud v9.0.0",
+      "url": "https://github.com/opencloud-eu/opencloud/releases/tag/v9.0.0"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "name": "Woodpecker CI 3.20.0",
+    "name_en": "Woodpecker CI 3.20.0",
+    "summary": "Ce moteur de CI auto-hébergé léger sort la 3.20 le 28 oct avec une salve de durcissements : jeton d’agent retiré de l’environnement, secrets bearer plus loggés. Attention, les antislashs des pipelines ne sont plus déséchappés. Trouvé via la release GitHub.",
+    "summary_en": "This lightweight self-hosted CI engine ships 3.20 on Oct 28 with a batch of hardening: agent token removed from the environment, bearer secrets no longer logged. Heads-up: backslashes in pipelines are no longer unescaped. Found via the GitHub release.",
+    "url": "https://woodpecker-ci.org/",
+    "tags": [
+      "pipeline",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — woodpecker-ci/woodpecker v3.20.0",
+      "label_en": "GitHub release — woodpecker-ci/woodpecker v3.20.0",
+      "url": "https://github.com/woodpecker-ci/woodpecker/releases/tag/v3.20.0"
+    }
+  },
+  {
     "date": "2026-10-28",
     "name": "FOG Project 1.6.0 RC-18",
     "name_en": "FOG Project 1.6.0 RC-18",

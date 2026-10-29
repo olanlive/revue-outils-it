@@ -5,8 +5,39 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 28 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GLPI 12.0.1 (correctif de sécurité)</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-29-glpi-12-0-1-correctif-de-securite</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-29-glpi-12-0-1-correctif-de-securite</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Déjà présenté en 12.0.0, le gestionnaire de parc et helpdesk sort le 28 oct un correctif de sécurité à appliquer : contournement critique de l’authentification externe, escalade de privilèges et plusieurs XSS corrigés. Trouvé via la release GitHub.</description>
+      <category>inventaire</category>
+      <category>helpdesk</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>OpenCloud 9.0.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-29-opencloud-9-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-29-opencloud-9-0-0</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Ce partage de fichiers auto-hébergé sort sa 9.0 le 27 oct : accès invité par e-mail sans compte ni mot de passe, avec liens à usage unique et chaque accès journalisé, plus la recherche par tags et l’aperçu HEIC/AVIF. Mise à jour à préparer. Trouvé via la release GitHub.</description>
+      <category>stockage</category>
+      <category>self-hosting</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Woodpecker CI 3.20.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-29-woodpecker-ci-3-20-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-29-woodpecker-ci-3-20-0</guid>
+      <pubDate>Thu, 29 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Ce moteur de CI auto-hébergé léger sort la 3.20 le 28 oct avec une salve de durcissements : jeton d’agent retiré de l’environnement, secrets bearer plus loggés. Attention, les antislashs des pipelines ne sont plus déséchappés. Trouvé via la release GitHub.</description>
+      <category>pipeline</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>FOG Project 1.6.0 RC-18</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-28-fog-project-1-6-0-rc-18</link>
