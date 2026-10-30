@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-10-30",
+    "name": "Duplicati 2.4.1.0",
+    "name_en": "Duplicati 2.4.1.0",
+    "summary": "Déjà vu en 2.4.0.1, l'outil de sauvegarde chiffrée sort le 29 oct une stable qui ajoute des tests de restauration automatiques après backup et des sauvegardes incrémentales de Microsoft 365 et Google Workspace. Trouvé via la release GitHub.",
+    "summary_en": "Already featured at 2.4.0.1, the encrypted backup tool ships an Oct 29 stable release adding automatic restore tests after backups and incremental Microsoft 365 and Google Workspace backups. Found via the GitHub release.",
+    "url": "https://duplicati.com/",
+    "tags": [
+      "sauvegarde",
+      "nas",
+      "s3"
+    ],
+    "source": {
+      "label": "Release GitHub — duplicati/duplicati v2.4.1.0",
+      "label_en": "GitHub release — duplicati/duplicati v2.4.1.0",
+      "url": "https://github.com/duplicati/duplicati/releases/tag/v2.4.1.0_stable_2026-10-29"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "name": "Icinga 2 2.16.6",
+    "name_en": "Icinga 2 2.16.6",
+    "summary": "Le moteur de supervision open source sort le 28 oct un correctif de sécurité à appliquer : injection de commandes via les scripts de notification mail par défaut, crash du démon et fuites d'infos via l'API corrigés. Trouvé via la release GitHub.",
+    "summary_en": "The open source monitoring engine ships an Oct 28 security fix worth applying: command injection through the default mail notification scripts, a daemon crash and API information leaks fixed. Found via the GitHub release.",
+    "url": "https://icinga.com/",
+    "tags": [
+      "monitoring",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — Icinga/icinga2 v2.16.6",
+      "label_en": "GitHub release — Icinga/icinga2 v2.16.6",
+      "url": "https://github.com/Icinga/icinga2/releases/tag/v2.16.6"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "name": "NetBird 0.82.0",
+    "name_en": "NetBird 0.82.0",
+    "summary": "Déjà vu en 0.81.0, le VPN maillé WireGuard auto-hébergeable sort le 29 oct un routage haute dispo qui suit la latence sans couper les sessions SSH, et un `netbird status --table` lisible sur les gros réseaux. Trouvé via la release GitHub.",
+    "summary_en": "Already featured at 0.81.0, the self-hostable WireGuard mesh VPN ships on Oct 29 latency-aware HA routing that no longer drops SSH sessions, plus a readable `netbird status --table` for large networks. Found via the GitHub release.",
+    "url": "https://netbird.io/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — netbirdio/netbird v0.82.0",
+      "label_en": "GitHub release — netbirdio/netbird v0.82.0",
+      "url": "https://github.com/netbirdio/netbird/releases/tag/v0.82.0"
+    }
+  },
+  {
     "date": "2026-10-29",
     "name": "GLPI 12.0.1 (correctif de sécurité)",
     "name_en": "GLPI 12.0.1 (security fix)",

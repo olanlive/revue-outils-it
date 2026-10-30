@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-30 | Duplicati 2.4.1.0 | sauvegarde, nas, s3 | https://duplicati.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-30-duplicati-2-4-1-0 |
+| 2026-10-30 | Icinga 2 2.16.6 | monitoring, securite, self-hosting | https://icinga.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-30-icinga-2-2-16-6 |
+| 2026-10-30 | NetBird 0.82.0 | reseau, acces-distant, self-hosting | https://netbird.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-30-netbird-0-82-0 |
 | 2026-10-29 | GLPI 12.0.1 (correctif de sécurité) | inventaire, helpdesk, securite, self-hosting | https://glpi-project.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-29-glpi-12-0-1-correctif-de-securite |
 | 2026-10-29 | OpenCloud 9.0.0 | stockage, self-hosting, securite | https://opencloud.eu/ | https://olanlive.github.io/revue-outils-it/#2026-10-29-opencloud-9-0-0 |
 | 2026-10-29 | Woodpecker CI 3.20.0 | pipeline, securite, self-hosting | https://woodpecker-ci.org/ | https://olanlive.github.io/revue-outils-it/#2026-10-29-woodpecker-ci-3-20-0 |

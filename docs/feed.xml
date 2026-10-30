@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 29 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Duplicati 2.4.1.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-30-duplicati-2-4-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-30-duplicati-2-4-1-0</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu en 2.4.0.1, l'outil de sauvegarde chiffrée sort le 29 oct une stable qui ajoute des tests de restauration automatiques après backup et des sauvegardes incrémentales de Microsoft 365 et Google Workspace. Trouvé via la release GitHub.</description>
+      <category>sauvegarde</category>
+      <category>nas</category>
+      <category>s3</category>
+    </item>
+    <item>
+      <title>Icinga 2 2.16.6</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-30-icinga-2-2-16-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-30-icinga-2-2-16-6</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Le moteur de supervision open source sort le 28 oct un correctif de sécurité à appliquer : injection de commandes via les scripts de notification mail par défaut, crash du démon et fuites d'infos via l'API corrigés. Trouvé via la release GitHub.</description>
+      <category>monitoring</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>NetBird 0.82.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-30-netbird-0-82-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-30-netbird-0-82-0</guid>
+      <pubDate>Fri, 30 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu en 0.81.0, le VPN maillé WireGuard auto-hébergeable sort le 29 oct un routage haute dispo qui suit la latence sans couper les sessions SSH, et un `netbird status --table` lisible sur les gros réseaux. Trouvé via la release GitHub.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>GLPI 12.0.1 (correctif de sécurité)</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-29-glpi-12-0-1-correctif-de-securite</link>
