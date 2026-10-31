@@ -5,8 +5,39 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 30 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Stalwart 1.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-31-stalwart-1-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-31-stalwart-1-0</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Le serveur mail et collaboratif open source (AGPL, IMAP, JMAP, SMTP, CalDAV) passe en 1.0 stable le 26 oct avec un schéma de base figé, puis en 1.0.1 le 28 oct avec des exports Prometheus et OpenTelemetry. Trouvé via Self-Host Weekly du 30 oct.</description>
+      <category>self-hosting</category>
+      <category>monitoring</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Tailscale 1.104.4 (correctif SSH)</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-31-tailscale-1-104-4-correctif-ssh</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-31-tailscale-1-104-4-correctif-ssh</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Freemium, client open source : le VPN maillé publie le 28 oct la 1.104.4, qui corrige les failles de Tailscale SSH révélées par le rapport « Tailworm ». À déployer vite si tu l'utilises pour l'accès aux postes. Trouvé via Self-Host Weekly du 30 oct.</description>
+      <category>freemium</category>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Zerobyte 0.44.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-10-31-zerobyte-0-44-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-31-zerobyte-0-44-0</guid>
+      <pubDate>Sat, 31 Oct 2026 09:00:00 +0100</pubDate>
+      <description>Interface web open source (AGPL) pour automatiser tes sauvegardes restic : la 0.44.0 du 31 oct masque les identifiants chiffrés dans l'API, permet le miroir entre dépôts SFTP et embarque rclone 1.75.2. Trouvé via la release GitHub.</description>
+      <category>sauvegarde</category>
+      <category>nas</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>Duplicati 2.4.1.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-10-30-duplicati-2-4-1-0</link>

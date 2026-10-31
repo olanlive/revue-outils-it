@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-10-31 | Stalwart 1.0 | self-hosting, monitoring, securite | https://stalw.art/ | https://olanlive.github.io/revue-outils-it/#2026-10-31-stalwart-1-0 |
+| 2026-10-31 | Tailscale 1.104.4 (correctif SSH) | freemium, reseau, acces-distant, securite | https://tailscale.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-31-tailscale-1-104-4-correctif-ssh |
+| 2026-10-31 | Zerobyte 0.44.0 | sauvegarde, nas, self-hosting | https://zerobyte.app/ | https://olanlive.github.io/revue-outils-it/#2026-10-31-zerobyte-0-44-0 |
 | 2026-10-30 | Duplicati 2.4.1.0 | sauvegarde, nas, s3 | https://duplicati.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-30-duplicati-2-4-1-0 |
 | 2026-10-30 | Icinga 2 2.16.6 | monitoring, securite, self-hosting | https://icinga.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-30-icinga-2-2-16-6 |
 | 2026-10-30 | NetBird 0.82.0 | reseau, acces-distant, self-hosting | https://netbird.io/ | https://olanlive.github.io/revue-outils-it/#2026-10-30-netbird-0-82-0 |

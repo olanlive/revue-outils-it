@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-10-31",
+    "name": "Stalwart 1.0",
+    "name_en": "Stalwart 1.0",
+    "summary": "Le serveur mail et collaboratif open source (AGPL, IMAP, JMAP, SMTP, CalDAV) passe en 1.0 stable le 26 oct avec un schéma de base figé, puis en 1.0.1 le 28 oct avec des exports Prometheus et OpenTelemetry. Trouvé via Self-Host Weekly du 30 oct.",
+    "summary_en": "The open source mail and collaboration server (AGPL, IMAP, JMAP, SMTP, CalDAV) hits 1.0 stable on Oct 26 with a frozen database schema, then 1.0.1 on Oct 28 with Prometheus and OpenTelemetry exporters. Found via Self-Host Weekly, Oct 30.",
+    "url": "https://stalw.art/",
+    "tags": [
+      "self-hosting",
+      "monitoring",
+      "securite"
+    ],
+    "source": {
+      "label": "Self-Host Weekly — 30 octobre 2026",
+      "label_en": "Self-Host Weekly — October 30, 2026",
+      "url": "https://selfh.st/weekly/2026-10-30/"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "name": "Tailscale 1.104.4 (correctif SSH)",
+    "name_en": "Tailscale 1.104.4 (correctif SSH)",
+    "summary": "Freemium, client open source : le VPN maillé publie le 28 oct la 1.104.4, qui corrige les failles de Tailscale SSH révélées par le rapport « Tailworm ». À déployer vite si tu l'utilises pour l'accès aux postes. Trouvé via Self-Host Weekly du 30 oct.",
+    "summary_en": "Freemium, open source client: the mesh VPN ships 1.104.4 on Oct 28, fixing the Tailscale SSH flaws disclosed in the \"Tailworm\" report. Roll it out quickly if you use it for workstation access. Found via Self-Host Weekly, Oct 30.",
+    "url": "https://tailscale.com/",
+    "tags": [
+      "freemium",
+      "reseau",
+      "acces-distant",
+      "securite"
+    ],
+    "source": {
+      "label": "Self-Host Weekly — 30 octobre 2026",
+      "label_en": "Self-Host Weekly — October 30, 2026",
+      "url": "https://selfh.st/weekly/2026-10-30/"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "name": "Zerobyte 0.44.0",
+    "name_en": "Zerobyte 0.44.0",
+    "summary": "Interface web open source (AGPL) pour automatiser tes sauvegardes restic : la 0.44.0 du 31 oct masque les identifiants chiffrés dans l'API, permet le miroir entre dépôts SFTP et embarque rclone 1.75.2. Trouvé via la release GitHub.",
+    "summary_en": "Open source (AGPL) web UI to automate your restic backups: 0.44.0, out Oct 31, hides encrypted credentials in API responses, enables mirroring between SFTP repositories and bundles rclone 1.75.2. Found via the GitHub release.",
+    "url": "https://zerobyte.app/",
+    "tags": [
+      "sauvegarde",
+      "nas",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — nicotsx/zerobyte v0.44.0",
+      "label_en": "GitHub release — nicotsx/zerobyte v0.44.0",
+      "url": "https://github.com/nicotsx/zerobyte/releases/tag/v0.44.0"
+    }
+  },
+  {
     "date": "2026-10-30",
     "name": "Duplicati 2.4.1.0",
     "name_en": "Duplicati 2.4.1.0",
