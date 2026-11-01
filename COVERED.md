@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-01 | Scrutiny 0.10.0 | monitoring, stockage, nas, self-hosting | https://github.com/AnalogJ/scrutiny | https://olanlive.github.io/revue-outils-it/#2026-11-01-scrutiny-0-10-0 |
+| 2026-11-01 | bottom 0.15.0 | terminal, monitoring, render-farm | https://bottom.pages.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-01-bottom-0-15-0 |
+| 2026-11-01 | Wazuh 5.0.0 RC2 | securite, monitoring, self-hosting, rc | https://wazuh.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-01-wazuh-5-0-0-rc2 |
+| 2026-11-01 | Kanidm 1.12.0 | securite, deploiement, self-hosting | https://kanidm.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-01-kanidm-1-12-0 |
 | 2026-10-31 | Stalwart 1.0 | self-hosting, monitoring, securite | https://stalw.art/ | https://olanlive.github.io/revue-outils-it/#2026-10-31-stalwart-1-0 |
 | 2026-10-31 | Tailscale 1.104.4 (correctif SSH) | freemium, reseau, acces-distant, securite | https://tailscale.com/ | https://olanlive.github.io/revue-outils-it/#2026-10-31-tailscale-1-104-4-correctif-ssh |
 | 2026-10-31 | Zerobyte 0.44.0 | sauvegarde, nas, self-hosting | https://zerobyte.app/ | https://olanlive.github.io/revue-outils-it/#2026-10-31-zerobyte-0-44-0 |

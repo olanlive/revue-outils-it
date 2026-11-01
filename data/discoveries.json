@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-11-01",
+    "name": "Scrutiny 0.10.0",
+    "name_en": "Scrutiny 0.10.0",
+    "summary": "Le tableau de bord SMART open source pour les disques de tes NAS et serveurs sort la 0.10.0 le 1er nov : alerte quand une machine n'envoie plus ses relevés, noms de disques éditables, total lu/écrit par disque. Trouvé via la release GitHub.",
+    "summary_en": "The open source SMART dashboard for your NAS and server drives ships 0.10.0 on Nov 1: alerts when a machine stops sending readings, editable drive names, and total bytes read/written per drive. Found via the GitHub release.",
+    "url": "https://github.com/AnalogJ/scrutiny",
+    "tags": [
+      "monitoring",
+      "stockage",
+      "nas",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — AnalogJ/scrutiny v0.10.0",
+      "label_en": "GitHub release — AnalogJ/scrutiny v0.10.0",
+      "url": "https://github.com/AnalogJ/scrutiny/releases/tag/v0.10.0"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "name": "bottom 0.15.0",
+    "name_en": "bottom 0.15.0",
+    "summary": "Le moniteur système open source en terminal (btm) passe en 0.15.0 le 1er nov : premier suivi GPU Intel par processus sous Linux, colonne swap, et il ne réveille plus les GPU NVIDIA en veille pour lire leurs stats. Trouvé via la release GitHub.",
+    "summary_en": "The open source terminal system monitor (btm) reaches 0.15.0 on Nov 1: first per-process Intel GPU tracking on Linux, a swap column, and it no longer wakes idle NVIDIA GPUs to read their stats. Found via the GitHub release.",
+    "url": "https://bottom.pages.dev/",
+    "tags": [
+      "terminal",
+      "monitoring",
+      "render-farm"
+    ],
+    "source": {
+      "label": "Release GitHub — ClementTsang/bottom 0.15.0",
+      "label_en": "GitHub release — ClementTsang/bottom 0.15.0",
+      "url": "https://github.com/ClementTsang/bottom/releases/tag/0.15.0"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "name": "Wazuh 5.0.0 RC2",
+    "name_en": "Wazuh 5.0.0 RC2",
+    "summary": "Déjà vu le 17 oct en 4.14.9 : la plateforme open source de sécurité (SIEM/XDR) publie le 30 oct la RC2 de sa 5.0, avec agents en HTTPS, nouveau moteur d'analyse, cluster par défaut et CVSS v4. À tester hors prod. Trouvé via la release GitHub.",
+    "summary_en": "Already seen Oct 17 as 4.14.9: the open source security platform (SIEM/XDR) ships its 5.0 RC2 on Oct 30, with agents over HTTPS, a new analysis engine, cluster-by-default and CVSS v4. Test it outside production. Found via the GitHub release.",
+    "url": "https://wazuh.com/",
+    "tags": [
+      "securite",
+      "monitoring",
+      "self-hosting",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — wazuh/wazuh v5.0.0-rc2",
+      "label_en": "GitHub release — wazuh/wazuh v5.0.0-rc2",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v5.0.0-rc2"
+    }
+  },
+  {
+    "date": "2026-11-01",
+    "name": "Kanidm 1.12.0",
+    "name_en": "Kanidm 1.12.0",
+    "summary": "Le serveur d'identité open source (LDAP, OAuth2, comptes Unix pour les postes Linux) sort la 1.12.0 le 1er nov : inscription des comptes en libre-service, correctif LDAP de gravité moyenne et interface d'admin revue. Trouvé via la release GitHub.",
+    "summary_en": "The open source identity server (LDAP, OAuth2, Unix accounts for Linux workstations) ships 1.12.0 on Nov 1: self-service account signup, a medium-severity LDAP fix and a reworked admin UI. Found via the GitHub release.",
+    "url": "https://kanidm.com/",
+    "tags": [
+      "securite",
+      "deploiement",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — kanidm/kanidm v1.12.0",
+      "label_en": "GitHub release — kanidm/kanidm v1.12.0",
+      "url": "https://github.com/kanidm/kanidm/releases/tag/v1.12.0"
+    }
+  },
+  {
     "date": "2026-10-31",
     "name": "Stalwart 1.0",
     "name_en": "Stalwart 1.0",

@@ -5,8 +5,50 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Oct 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Scrutiny 0.10.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-01-scrutiny-0-10-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-01-scrutiny-0-10-0</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open source SMART dashboard for your NAS and server drives ships 0.10.0 on Nov 1: alerts when a machine stops sending readings, editable drive names, and total bytes read/written per drive. Found via the GitHub release.</description>
+      <category>monitoring</category>
+      <category>stockage</category>
+      <category>nas</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>bottom 0.15.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-01-bottom-0-15-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-01-bottom-0-15-0</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open source terminal system monitor (btm) reaches 0.15.0 on Nov 1: first per-process Intel GPU tracking on Linux, a swap column, and it no longer wakes idle NVIDIA GPUs to read their stats. Found via the GitHub release.</description>
+      <category>terminal</category>
+      <category>monitoring</category>
+      <category>render-farm</category>
+    </item>
+    <item>
+      <title>Wazuh 5.0.0 RC2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-01-wazuh-5-0-0-rc2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-01-wazuh-5-0-0-rc2</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Already seen Oct 17 as 4.14.9: the open source security platform (SIEM/XDR) ships its 5.0 RC2 on Oct 30, with agents over HTTPS, a new analysis engine, cluster-by-default and CVSS v4. Test it outside production. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>Kanidm 1.12.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-01-kanidm-1-12-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-01-kanidm-1-12-0</guid>
+      <pubDate>Sun, 01 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open source identity server (LDAP, OAuth2, Unix accounts for Linux workstations) ships 1.12.0 on Nov 1: self-service account signup, a medium-severity LDAP fix and a reworked admin UI. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>deploiement</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>Stalwart 1.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-31-stalwart-1-0</link>
@@ -963,25 +1005,6 @@
       <category>sauvegarde</category>
       <category>nas</category>
       <category>s3</category>
-    </item>
-    <item>
-      <title>RustDesk 1.5.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-rustdesk-1-5-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-rustdesk-1-5-0</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Open source, self-hostable alternative to TeamViewer/AnyDesk: 1.5.0 (Sept 30) adds a WebRTC transport, an ID allowlist, HDR tone mapping, clipboard sync between sessions and silent updates on macOS.</description>
-      <category>acces-distant</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>GLPI 12.0.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-glpi-12-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-glpi-12-0-0</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Major release of the open source IT asset management and helpdesk tool, out Oct 7: rewritten knowledge base, tracking and revocation of open sessions, re-authentication for admin actions and per-group OLAs. Official Docker image.</description>
-      <category>inventaire</category>
-      <category>helpdesk</category>
-      <category>self-hosting</category>
     </item>
   </channel>
 </rss>
