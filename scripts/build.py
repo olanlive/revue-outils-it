@@ -596,7 +596,7 @@ def _page_en(
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" sizes="180x180" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
-<script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
+<script src="https://olanlive.github.io/pepites/nav.js?v=6" defer></script>
 </head>
 <body>
   <div class="wrap">
@@ -889,7 +889,7 @@ def page(
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" sizes="180x180" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
-<script src="https://olanlive.github.io/pepites/nav.js?v=5" defer></script>
+<script src="https://olanlive.github.io/pepites/nav.js?v=6" defer></script>
 </head>
 <body>
   <div class="wrap">
