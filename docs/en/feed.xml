@@ -5,8 +5,36 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Vaultwarden 1.37.5</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-02-vaultwarden-1-37-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-02-vaultwarden-1-37-5</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The lightweight self-hosted Bitwarden server ships 1.37.5 on Nov 1 with two security fixes (website icons, emergency access), the bundled 2026.10.1 web vault and config validated at startup. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>nvidia_gpu_exporter 1.17.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-02-nvidia-gpu-exporter-1-17-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-02-nvidia-gpu-exporter-1-17-0</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Already seen at 1.16.0, the Prometheus exporter for NVIDIA GPUs ships 1.17.0 on Nov 2: native NVML backend on Windows, per-process metrics, NVLink, a health endpoint and encoder/decoder panels. Handy for a mixed render farm. Found via the GitHub release.</description>
+      <category>monitoring</category>
+      <category>render-farm</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>chezmoi 2.74.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-02-chezmoi-2-74-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-02-chezmoi-2-74-0</guid>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open source dotfiles manager that syncs your shell and tool config across all your machines ships 2.74.0 on Nov 1: KeePassXC/YubiKey, gopass and 1Password Connect integrations plus the ssh and docker commands are now stable. Found via the GitHub release.</description>
+      <category>terminal</category>
+      <category>deploiement</category>
+    </item>
     <item>
       <title>Scrutiny 0.10.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-01-scrutiny-0-10-0</link>
@@ -974,37 +1002,6 @@
       <category>zfs</category>
       <category>s3</category>
       <category>rc</category>
-    </item>
-    <item>
-      <title>sqi 0.3.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-sqi-0-3-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-sqi-0-3-0</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Young open source render farm manager (AGPL) built on OpenJD, with Maya, Houdini, Nuke and Blender submitters. 0.3.0 (Aug 19) adds accounts, RBAC, LDAP/AD, OIDC SSO and running tasks under a dedicated account. Still being hardened.</description>
-      <category>render-farm</category>
-      <category>openjd</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>FOG Project 1.6.0 RC-5</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-fog-project-1-6-0-rc-5</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-fog-project-1-6-0-rc-5</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>PXE disk image deployment, ideal for mastering artists’ workstations, nears 1.6: RC-5 (Oct 7) fixes a stuck MariaDB migration and approves all pending MACs in one click. The 1.5 → 1.6 upgrade is one-way: test in a lab.</description>
-      <category>deploiement</category>
-      <category>imaging</category>
-      <category>pxe</category>
-      <category>rc</category>
-    </item>
-    <item>
-      <title>Duplicati 2.4.0.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-duplicati-2-4-0-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-duplicati-2-4-0-1</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Encrypted, deduplicated backup to NAS, S3 or cloud: stable 2.4.0.1 (Oct 7) makes restores more reliable (it continues if one file fails), as well as cancelling and the new sync mode, and hardens login and remote control, now Synology DSM compatible.</description>
-      <category>sauvegarde</category>
-      <category>nas</category>
-      <category>s3</category>
     </item>
   </channel>
 </rss>

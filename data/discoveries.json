@@ -1,5 +1,57 @@
 [
   {
+    "date": "2026-11-02",
+    "name": "Vaultwarden 1.37.5",
+    "name_en": "Vaultwarden 1.37.5",
+    "summary": "Le serveur Bitwarden léger et auto-hébergé sort le 1er nov la 1.37.5 avec deux correctifs de sécurité (icônes de sites, accès d'urgence), le coffre web 2026.10.1 intégré et une config validée au démarrage. Trouvé via la release GitHub.",
+    "summary_en": "The lightweight self-hosted Bitwarden server ships 1.37.5 on Nov 1 with two security fixes (website icons, emergency access), the bundled 2026.10.1 web vault and config validated at startup. Found via the GitHub release.",
+    "url": "https://github.com/dani-garcia/vaultwarden",
+    "tags": [
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — dani-garcia/vaultwarden 1.37.5",
+      "label_en": "GitHub release — dani-garcia/vaultwarden 1.37.5",
+      "url": "https://github.com/dani-garcia/vaultwarden/releases/tag/1.37.5"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "name": "nvidia_gpu_exporter 1.17.0",
+    "name_en": "nvidia_gpu_exporter 1.17.0",
+    "summary": "Déjà vu en 1.16.0, l'exporteur Prometheus des GPU NVIDIA sort la 1.17.0 le 2 nov : backend NVML natif sous Windows, métriques par processus, NVLink, endpoint de santé et panneaux encodeur/décodeur. Utile pour une render farm mixte. Trouvé via la release GitHub.",
+    "summary_en": "Already seen at 1.16.0, the Prometheus exporter for NVIDIA GPUs ships 1.17.0 on Nov 2: native NVML backend on Windows, per-process metrics, NVLink, a health endpoint and encoder/decoder panels. Handy for a mixed render farm. Found via the GitHub release.",
+    "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter",
+    "tags": [
+      "monitoring",
+      "render-farm",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — utkuozdemir/nvidia_gpu_exporter v1.17.0",
+      "label_en": "GitHub release — utkuozdemir/nvidia_gpu_exporter v1.17.0",
+      "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/tag/v1.17.0"
+    }
+  },
+  {
+    "date": "2026-11-02",
+    "name": "chezmoi 2.74.0",
+    "name_en": "chezmoi 2.74.0",
+    "summary": "Le gestionnaire de dotfiles open source qui synchronise ta config de shell et d'outils sur tous tes postes sort la 2.74.0 le 1er nov : les intégrations KeePassXC/YubiKey, gopass, 1Password Connect et les commandes ssh et docker passent en stable. Trouvé via la release GitHub.",
+    "summary_en": "The open source dotfiles manager that syncs your shell and tool config across all your machines ships 2.74.0 on Nov 1: KeePassXC/YubiKey, gopass and 1Password Connect integrations plus the ssh and docker commands are now stable. Found via the GitHub release.",
+    "url": "https://www.chezmoi.io/",
+    "tags": [
+      "terminal",
+      "deploiement"
+    ],
+    "source": {
+      "label": "Release GitHub — twpayne/chezmoi v2.74.0",
+      "label_en": "GitHub release — twpayne/chezmoi v2.74.0",
+      "url": "https://github.com/twpayne/chezmoi/releases/tag/v2.74.0"
+    }
+  },
+  {
     "date": "2026-11-01",
     "name": "Scrutiny 0.10.0",
     "name_en": "Scrutiny 0.10.0",

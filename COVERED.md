@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-02 | Vaultwarden 1.37.5 | securite, self-hosting | https://github.com/dani-garcia/vaultwarden | https://olanlive.github.io/revue-outils-it/#2026-11-02-vaultwarden-1-37-5 |
+| 2026-11-02 | nvidia_gpu_exporter 1.17.0 | monitoring, render-farm, self-hosting | https://github.com/utkuozdemir/nvidia_gpu_exporter | https://olanlive.github.io/revue-outils-it/#2026-11-02-nvidia-gpu-exporter-1-17-0 |
+| 2026-11-02 | chezmoi 2.74.0 | terminal, deploiement | https://www.chezmoi.io/ | https://olanlive.github.io/revue-outils-it/#2026-11-02-chezmoi-2-74-0 |
 | 2026-11-01 | Scrutiny 0.10.0 | monitoring, stockage, nas, self-hosting | https://github.com/AnalogJ/scrutiny | https://olanlive.github.io/revue-outils-it/#2026-11-01-scrutiny-0-10-0 |
 | 2026-11-01 | bottom 0.15.0 | terminal, monitoring, render-farm | https://bottom.pages.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-01-bottom-0-15-0 |
 | 2026-11-01 | Wazuh 5.0.0 RC2 | securite, monitoring, self-hosting, rc | https://wazuh.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-01-wazuh-5-0-0-rc2 |
