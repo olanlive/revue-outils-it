@@ -1,0 +1,37 @@
+# Contrôle du site (signale seulement : ne bloque aucun push, ne commite rien).
+name: Contrôle du site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: 1. Build reproductible
+        run: |
+          python scripts/build.py
+          git diff --stat -- docs/ COVERED.md
+          git diff --exit-code -- docs/ COVERED.md
+          test -z "$(git status --porcelain --untracked-files=all -- docs/ COVERED.md)" || { git status --short -- docs/ COVERED.md; echo "::error::Fichiers générés non commités"; exit 1; }
+      - name: 2. RSS (feed.xml FR et EN)
+        if: success() || failure()
+        run: python scripts/check_site.py rss
+      - name: 3. latest.json
+        if: success() || failure()
+        run: python scripts/check_site.py latest
+      - name: 4. Liens internes
+        if: success() || failure()
+        run: python scripts/check_site.py links
