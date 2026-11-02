@@ -361,6 +361,9 @@ def write_latest(discoveries: list) -> None:
 # --- fin Pépites ---
 
 # --- Pépites : version anglaise (ne pas supprimer) ---
+# Balise de la barre Pépites, utilisée en FR et en EN. URL fixe : la version de nav.js
+# se règle dans pepites/nav-loader.js, sans toucher aux blogs.
+PEPITES_NAV_TAG = '<script src="https://olanlive.github.io/pepites/nav-loader.js" defer></script>'
 _EN_MONTHS = [
     "", "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December",
@@ -596,7 +599,7 @@ def _page_en(
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" sizes="180x180" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
-<script src="https://olanlive.github.io/pepites/nav.js?v=7" defer></script>
+{PEPITES_NAV_TAG}
 </head>
 <body>
   <div class="wrap">
@@ -889,7 +892,7 @@ def page(
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="icon" href="https://olanlive.github.io/pepites/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" sizes="180x180" href="https://olanlive.github.io/pepites/apple-touch-icon.png">
-<script src="https://olanlive.github.io/pepites/nav.js?v=7" defer></script>
+{PEPITES_NAV_TAG}
 </head>
 <body>
   <div class="wrap">
