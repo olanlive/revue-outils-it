@@ -29,7 +29,10 @@ jobs:
       - name: 3. Liens internes
         if: success() || failure()
         run: python scripts/check_site.py links
-      - name: 4. Build reproductible
+      - name: 4. Moteur commun (md5 de scripts/moteur.py et build.py)
+        if: success() || failure()
+        run: python scripts/check_site.py moteur
+      - name: 5. Build reproductible
         if: success() || failure()
         run: |
           python scripts/build.py

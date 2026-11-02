@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Contrôles du site généré (docs/) : RSS, latest.json, liens internes.
+"""Contrôles du site généré (docs/) : RSS, latest.json, liens internes, moteur commun.
 
 Stdlib uniquement. Identique dans les 5 blogs Pépites. Code de sortie 1 si un contrôle échoue.
-Usage : python3 scripts/check_site.py [rss|latest|links ...]  (tous par défaut)
+Usage : python3 scripts/check_site.py [rss|latest|links|moteur ...]  (tous par défaut)
 """
+import hashlib
 import json
 import re
 import sys
@@ -144,7 +145,22 @@ def check_links():
     print(f"liens : {len(pages)} pages, {n} liens internes")
 
 
-CHECKS = {"rss": check_rss, "latest": check_latest, "links": check_links}
+# md5 de référence du moteur commun (identique dans les 5 blogs). Si on modifie
+# scripts/moteur.py ou la coquille scripts/build.py, mettre à jour ces valeurs ici
+# et recopier les 3 fichiers à l'identique dans les 5 repos.
+MOTEUR_MD5 = {"moteur.py": "f18010837d6fbc7ece90c14a1c8b1a92", "build.py": "3224f7ae52a2fab65e2f7a4a203e97dd"}
+
+
+def check_moteur():
+    for name, ref in MOTEUR_MD5.items():
+        f = ROOT / "scripts" / name
+        got = hashlib.md5(f.read_bytes()).hexdigest() if f.exists() else "absent"
+        if got != ref:
+            err("moteur", f"scripts/{name} : md5 {got} ≠ référence {ref} (copie commune modifiée ?)")
+    print("moteur : " + ", ".join(f"{n} {r}" for n, r in MOTEUR_MD5.items()))
+
+
+CHECKS = {"rss": check_rss, "latest": check_latest, "links": check_links, "moteur": check_moteur}
 
 if __name__ == "__main__":
     for name in sys.argv[1:] or CHECKS:
