@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-03",
+    "name": "FOG Project 1.6.0",
+    "name_en": "FOG Project 1.6.0",
+    "summary": "Après 21 RC, l'outil libre de clonage et déploiement de postes par PXE sort le 2 nov sa 1.6.0 stable : rôles et multi-sites en natif, connexion LDAP/OIDC, jetons API Bearer, journal d'audit. Migration sans retour, sauvegarde avant. Trouvé via la release GitHub.",
+    "summary_en": "After 21 RCs, the open source PXE imaging and workstation deployment tool ships stable 1.6.0 on Nov 2: built-in roles and multi-site, LDAP/OIDC sign-in, API Bearer tokens, audit trail. One-way upgrade, back up first. Found via the GitHub release.",
+    "url": "https://fogproject.org/",
+    "tags": [
+      "deploiement",
+      "imaging",
+      "pxe"
+    ],
+    "source": {
+      "label": "Release GitHub — FOGProject/fogproject 1.6.0",
+      "label_en": "GitHub release — FOGProject/fogproject 1.6.0",
+      "url": "https://github.com/FOGProject/fogproject/releases/tag/1.6.0"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "name": "Pulse 6.7.0",
+    "name_en": "Pulse 6.7.0",
+    "summary": "Le tableau de bord de supervision Proxmox passe en 6.7.0 stable le 2 nov : sauvegardes Proxmox plus lisibles (restaurations comptées à part des échecs), métriques TrueNAS CORE rétablies, restauration de config qui refuse les sauvegardes incomplètes. Trouvé via la release GitHub.",
+    "summary_en": "The Proxmox monitoring dashboard reaches stable 6.7.0 on Nov 2: clearer Proxmox backups (restore points counted apart from failures), TrueNAS CORE metrics restored and config recovery that rejects incomplete backups. Found via the GitHub release.",
+    "url": "https://pulserelay.pro/",
+    "tags": [
+      "monitoring",
+      "virtualisation",
+      "nas",
+      "sauvegarde"
+    ],
+    "source": {
+      "label": "Release GitHub — rcourtman/Pulse v6.7.0",
+      "label_en": "GitHub release — rcourtman/Pulse v6.7.0",
+      "url": "https://github.com/rcourtman/Pulse/releases/tag/v6.7.0"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "name": "ansible-core 2.22.0",
+    "name_en": "ansible-core 2.22.0",
+    "summary": "Le moteur d'automatisation de parc sort le 2 nov la 2.22.0 : les secrets (mots de passe Vault, valeurs no_log) sont désormais masqués automatiquement dans toute la sortie et les logs. Python 3.15 supporté, 3.12 abandonné côté contrôleur. Trouvé via la release GitHub.",
+    "summary_en": "The fleet automation engine ships 2.22.0 on Nov 2: secrets (Vault passwords, no_log values) are now automatically masked in all output and logs. Python 3.15 supported, 3.12 dropped on the controller. Found via the GitHub release.",
+    "url": "https://docs.ansible.com/",
+    "tags": [
+      "deploiement",
+      "pipeline",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — ansible/ansible v2.22.0",
+      "label_en": "GitHub release — ansible/ansible v2.22.0",
+      "url": "https://github.com/ansible/ansible/releases/tag/v2.22.0"
+    }
+  },
+  {
     "date": "2026-11-02",
     "name": "Vaultwarden 1.37.5",
     "name_en": "Vaultwarden 1.37.5",

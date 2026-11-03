@@ -5,8 +5,39 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FOG Project 1.6.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-03-fog-project-1-6-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-03-fog-project-1-6-0</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>After 21 RCs, the open source PXE imaging and workstation deployment tool ships stable 1.6.0 on Nov 2: built-in roles and multi-site, LDAP/OIDC sign-in, API Bearer tokens, audit trail. One-way upgrade, back up first. Found via the GitHub release.</description>
+      <category>deploiement</category>
+      <category>imaging</category>
+      <category>pxe</category>
+    </item>
+    <item>
+      <title>Pulse 6.7.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-03-pulse-6-7-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-03-pulse-6-7-0</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The Proxmox monitoring dashboard reaches stable 6.7.0 on Nov 2: clearer Proxmox backups (restore points counted apart from failures), TrueNAS CORE metrics restored and config recovery that rejects incomplete backups. Found via the GitHub release.</description>
+      <category>monitoring</category>
+      <category>virtualisation</category>
+      <category>nas</category>
+      <category>sauvegarde</category>
+    </item>
+    <item>
+      <title>ansible-core 2.22.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-03-ansible-core-2-22-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-03-ansible-core-2-22-0</guid>
+      <pubDate>Tue, 03 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The fleet automation engine ships 2.22.0 on Nov 2: secrets (Vault passwords, no_log values) are now automatically masked in all output and logs. Python 3.15 supported, 3.12 dropped on the controller. Found via the GitHub release.</description>
+      <category>deploiement</category>
+      <category>pipeline</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>Vaultwarden 1.37.5</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-02-vaultwarden-1-37-5</link>
@@ -971,37 +1002,6 @@
       <description>ASWF’s open source render farm manager (released Oct 7) integrates Maestro, a new scheduler in Cuebot, a web UI on par with CueGUI and per-host limits driven by actual license usage. Database migrations: back up first.</description>
       <category>render-farm</category>
       <category>licences</category>
-    </item>
-    <item>
-      <title>Portainer 2.45.2 LTS</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-portainer-2-45-2-lts</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-portainer-2-45-2-lts</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The Docker/Kubernetes management web UI ships a corrective LTS on Oct 8: a non-admin can no longer read host files via a Compose file, and TLS verification to the Kubernetes API is restored. Update recommended.</description>
-      <category>virtualisation</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Montray 2.0.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-montray-2-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-montray-2-0-0</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Small open source tool (BSD) that shows in the system tray the status of systemd services and command-line checks (disk, RAID…) across several servers, without a heavy monitoring stack. 2.0.0 (Oct 4) marks the rename (formerly Salmon).</description>
-      <category>monitoring</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>TrueNAS 27 RC.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-truenas-27-rc-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-truenas-27-rc-1</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>First RC of TrueNAS 27 (formerly TrueNAS 26), released Oct 6: OpenZFS 2.4.4, kernel 6.18 and a native S3 service in early access, where each bucket is a ZFS dataset (snapshots, quotas, replication). Test on a lab NAS; stable expected early December.</description>
-      <category>stockage</category>
-      <category>nas</category>
-      <category>zfs</category>
-      <category>s3</category>
-      <category>rc</category>
     </item>
   </channel>
 </rss>

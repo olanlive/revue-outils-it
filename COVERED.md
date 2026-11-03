@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-03 | FOG Project 1.6.0 | deploiement, imaging, pxe | https://fogproject.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-03-fog-project-1-6-0 |
+| 2026-11-03 | Pulse 6.7.0 | monitoring, virtualisation, nas, sauvegarde | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-11-03-pulse-6-7-0 |
+| 2026-11-03 | ansible-core 2.22.0 | deploiement, pipeline, securite | https://docs.ansible.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-03-ansible-core-2-22-0 |
 | 2026-11-02 | Vaultwarden 1.37.5 | securite, self-hosting | https://github.com/dani-garcia/vaultwarden | https://olanlive.github.io/revue-outils-it/#2026-11-02-vaultwarden-1-37-5 |
 | 2026-11-02 | nvidia_gpu_exporter 1.17.0 | monitoring, render-farm, self-hosting | https://github.com/utkuozdemir/nvidia_gpu_exporter | https://olanlive.github.io/revue-outils-it/#2026-11-02-nvidia-gpu-exporter-1-17-0 |
 | 2026-11-02 | chezmoi 2.74.0 | terminal, deploiement | https://www.chezmoi.io/ | https://olanlive.github.io/revue-outils-it/#2026-11-02-chezmoi-2-74-0 |
