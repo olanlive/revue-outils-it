@@ -5,8 +5,50 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>mise 2026.11.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-04-mise-2026-11-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-04-mise-2026-11-0</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The tool and task manager ships 2026.11.0 on Nov 3: a task can declare a lock to wait its turn on a single shared resource (test database, GPU), even across terminals. Stricter lockfiles, read the breaking changes. Found via the GitHub release.</description>
+      <category>terminal</category>
+      <category>pipeline</category>
+      <category>render-farm</category>
+    </item>
+    <item>
+      <title>Caddy 2.11.8</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-04-caddy-2-11-8</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-04-caddy-2-11-8</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The automatic-HTTPS web server and reverse proxy ships 2.11.8 on Nov 4, a batch of fixes and security hardening, recommended if you serve PHP or use {host} in file paths. A few config breaking changes to read first. Found via the GitHub release.</description>
+      <category>reseau</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>PatchMon 2.1.7</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-04-patchmon-2-1-7</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-04-patchmon-2-1-7</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The fleet patch tracker ships 2.1.7 on Nov 3: RDP survives a host reboot, Windows updates with spaces in their names deploy, re-enrolment no longer duplicates hosts, and Go 1.26.10 brings a TLS fix. Found via the GitHub release.</description>
+      <category>deploiement</category>
+      <category>securite</category>
+      <category>inventaire</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>DashBeam</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-04-dashbeam</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-04-dashbeam</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Free (AGPL) end-to-end encrypted peer-to-peer file transfer, no cloud or account: folders of any size checked with BLAKE3, resumable transfers, LAN discovery, CLI and browser. Added to awesome-selfhosted on Nov 2. Found via awesome-selfhosted-data.</description>
+      <category>stockage</category>
+      <category>reseau</category>
+      <category>self-hosting</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>FOG Project 1.6.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-03-fog-project-1-6-0</link>
@@ -964,44 +1006,6 @@
       <category>inventaire</category>
       <category>securite</category>
       <category>rc</category>
-    </item>
-    <item>
-      <title>Fleet 4.93.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-10-fleet-4-93-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-10-fleet-4-93-0</guid>
-      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The open source device management platform (osquery, MDM) is out Oct 8: a “warn before patching” option for macOS apps, zero-touch Android enrollment and password rotation for the managed local account. Useful for keeping studio workstations up to date.</description>
-      <category>deploiement</category>
-      <category>inventaire</category>
-      <category>securite</category>
-    </item>
-    <item>
-      <title>Netdata 2.12.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-10-netdata-2-12-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-10-netdata-2-12-1</guid>
-      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The open source real-time monitoring tool ships a fix on Oct 8: no more crash when the Windows agent starts, eBPF collector stabilised on more kernels and reduced load on the Docker daemon. Handy for watching render nodes and servers.</description>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Uptime Kuma 2.5.6</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-10-uptime-kuma-2-5-6</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-10-uptime-kuma-2-5-6</guid>
-      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The self-hosted uptime monitoring tool (HTTP, ping, ports…) is out Oct 9 with security dependency updates and a fix for the average response time badge. A simple, recommended update.</description>
-      <category>monitoring</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>OpenCue 1.34.22</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-08-opencue-1-34-22</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-08-opencue-1-34-22</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>ASWF’s open source render farm manager (released Oct 7) integrates Maestro, a new scheduler in Cuebot, a web UI on par with CueGUI and per-host limits driven by actual license usage. Database migrations: back up first.</description>
-      <category>render-farm</category>
-      <category>licences</category>
     </item>
   </channel>
 </rss>

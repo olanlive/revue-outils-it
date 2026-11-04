@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-11-04",
+    "name": "mise 2026.11.0",
+    "name_en": "mise 2026.11.0",
+    "summary": "Le gestionnaire d'outils et de tâches sort sa 2026.11.0 le 3 nov : une tâche peut déclarer un « lock » pour attendre son tour sur une ressource unique (base de test, GPU), même entre terminaux. Lockfiles plus stricts, lis les ruptures. Trouvé via la release GitHub.",
+    "summary_en": "The tool and task manager ships 2026.11.0 on Nov 3: a task can declare a lock to wait its turn on a single shared resource (test database, GPU), even across terminals. Stricter lockfiles, read the breaking changes. Found via the GitHub release.",
+    "url": "https://mise.jdx.dev/",
+    "tags": [
+      "terminal",
+      "pipeline",
+      "render-farm"
+    ],
+    "source": {
+      "label": "Release GitHub — jdx/mise v2026.11.0",
+      "label_en": "GitHub release — jdx/mise v2026.11.0",
+      "url": "https://github.com/jdx/mise/releases/tag/v2026.11.0"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "name": "Caddy 2.11.8",
+    "name_en": "Caddy 2.11.8",
+    "summary": "Le serveur web et reverse proxy à HTTPS automatique publie le 4 nov une 2.11.8 de correctifs et de durcissement sécurité, conseillée si tu sers du PHP ou utilises {host} dans des chemins. Quelques ruptures de config à lire avant. Trouvé via la release GitHub.",
+    "summary_en": "The automatic-HTTPS web server and reverse proxy ships 2.11.8 on Nov 4, a batch of fixes and security hardening, recommended if you serve PHP or use {host} in file paths. A few config breaking changes to read first. Found via the GitHub release.",
+    "url": "https://caddyserver.com/",
+    "tags": [
+      "reseau",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — caddyserver/caddy v2.11.8",
+      "label_en": "GitHub release — caddyserver/caddy v2.11.8",
+      "url": "https://github.com/caddyserver/caddy/releases/tag/v2.11.8"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "name": "PatchMon 2.1.7",
+    "name_en": "PatchMon 2.1.7",
+    "summary": "Le suivi des mises à jour de ton parc passe en 2.1.7 le 3 nov : le RDP survit au redémarrage de l'hôte, les correctifs Windows aux noms avec espaces se déploient, plus de doublons d'hôtes à la réinscription, Go 1.26.10 pour un correctif TLS. Trouvé via la release GitHub.",
+    "summary_en": "The fleet patch tracker ships 2.1.7 on Nov 3: RDP survives a host reboot, Windows updates with spaces in their names deploy, re-enrolment no longer duplicates hosts, and Go 1.26.10 brings a TLS fix. Found via the GitHub release.",
+    "url": "https://patchmon.net/",
+    "tags": [
+      "deploiement",
+      "securite",
+      "inventaire",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — PatchMon/PatchMon v2.1.7",
+      "label_en": "GitHub release — PatchMon/PatchMon v2.1.7",
+      "url": "https://github.com/PatchMon/PatchMon/releases/tag/v2.1.7"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "name": "DashBeam",
+    "name_en": "DashBeam",
+    "summary": "Transfert de fichiers libre (AGPL) en pair-à-pair chiffré, sans cloud ni compte : dossiers de toute taille vérifiés BLAKE3, reprise après coupure, découverte sur le LAN, CLI et navigateur. Ajouté le 2 nov à awesome-selfhosted. Trouvé via awesome-selfhosted-data.",
+    "summary_en": "Free (AGPL) end-to-end encrypted peer-to-peer file transfer, no cloud or account: folders of any size checked with BLAKE3, resumable transfers, LAN discovery, CLI and browser. Added to awesome-selfhosted on Nov 2. Found via awesome-selfhosted-data.",
+    "url": "https://dashbeam.net/",
+    "tags": [
+      "stockage",
+      "reseau",
+      "self-hosting",
+      "emerging"
+    ],
+    "source": {
+      "label": "awesome-selfhosted-data — commit « Add Dashbeam » (2 nov 2026)",
+      "label_en": "awesome-selfhosted-data — “Add Dashbeam” commit (Nov 2, 2026)",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted-data/pull/3229"
+    }
+  },
+  {
     "date": "2026-11-03",
     "name": "FOG Project 1.6.0",
     "name_en": "FOG Project 1.6.0",

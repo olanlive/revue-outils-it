@@ -5,8 +5,50 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 03 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>mise 2026.11.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-04-mise-2026-11-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-04-mise-2026-11-0</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le gestionnaire d'outils et de tâches sort sa 2026.11.0 le 3 nov : une tâche peut déclarer un « lock » pour attendre son tour sur une ressource unique (base de test, GPU), même entre terminaux. Lockfiles plus stricts, lis les ruptures. Trouvé via la release GitHub.</description>
+      <category>terminal</category>
+      <category>pipeline</category>
+      <category>render-farm</category>
+    </item>
+    <item>
+      <title>Caddy 2.11.8</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-04-caddy-2-11-8</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-04-caddy-2-11-8</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le serveur web et reverse proxy à HTTPS automatique publie le 4 nov une 2.11.8 de correctifs et de durcissement sécurité, conseillée si tu sers du PHP ou utilises {host} dans des chemins. Quelques ruptures de config à lire avant. Trouvé via la release GitHub.</description>
+      <category>reseau</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>PatchMon 2.1.7</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-04-patchmon-2-1-7</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-04-patchmon-2-1-7</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le suivi des mises à jour de ton parc passe en 2.1.7 le 3 nov : le RDP survit au redémarrage de l'hôte, les correctifs Windows aux noms avec espaces se déploient, plus de doublons d'hôtes à la réinscription, Go 1.26.10 pour un correctif TLS. Trouvé via la release GitHub.</description>
+      <category>deploiement</category>
+      <category>securite</category>
+      <category>inventaire</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>DashBeam</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-04-dashbeam</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-04-dashbeam</guid>
+      <pubDate>Wed, 04 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Transfert de fichiers libre (AGPL) en pair-à-pair chiffré, sans cloud ni compte : dossiers de toute taille vérifiés BLAKE3, reprise après coupure, découverte sur le LAN, CLI et navigateur. Ajouté le 2 nov à awesome-selfhosted. Trouvé via awesome-selfhosted-data.</description>
+      <category>stockage</category>
+      <category>reseau</category>
+      <category>self-hosting</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>FOG Project 1.6.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-03-fog-project-1-6-0</link>
@@ -964,44 +1006,6 @@
       <category>inventaire</category>
       <category>securite</category>
       <category>rc</category>
-    </item>
-    <item>
-      <title>Fleet 4.93.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-10-fleet-4-93-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-10-fleet-4-93-0</guid>
-      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description>La plateforme open source de gestion de parc (osquery, MDM) sort le 8 oct : option « prévenir avant de patcher » pour les apps macOS, enrôlement Android zero-touch et rotation du mot de passe du compte local géré. Utile pour garder les postes du studio à jour.</description>
-      <category>deploiement</category>
-      <category>inventaire</category>
-      <category>securite</category>
-    </item>
-    <item>
-      <title>Netdata 2.12.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-10-netdata-2-12-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-10-netdata-2-12-1</guid>
-      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Le monitoring temps réel open source publie un correctif le 8 oct : fin du crash au démarrage de l’agent Windows, collecteur eBPF stabilisé sur plus de noyaux et charge réduite sur le démon Docker. Pratique pour surveiller nœuds de rendu et serveurs.</description>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Uptime Kuma 2.5.6</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-10-uptime-kuma-2-5-6</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-10-uptime-kuma-2-5-6</guid>
-      <pubDate>Sat, 10 Oct 2026 09:00:00 +0200</pubDate>
-      <description>L’outil auto-hébergé de surveillance de disponibilité (HTTP, ping, ports…) sort le 9 oct avec des mises à jour de dépendances de sécurité et un correctif du badge de temps de réponse moyen. Mise à jour simple et conseillée.</description>
-      <category>monitoring</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>OpenCue 1.34.22</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-08-opencue-1-34-22</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-08-opencue-1-34-22</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Le gestionnaire de render farm open source de l’ASWF (sorti le 7 oct) intègre Maestro, nouveau scheduler dans Cuebot, une interface web à parité avec CueGUI et des limites par hôte alimentées par l’usage réel des licences. Migrations de base : sauvegarder avant.</description>
-      <category>render-farm</category>
-      <category>licences</category>
     </item>
   </channel>
 </rss>

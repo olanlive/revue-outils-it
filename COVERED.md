@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-04 | mise 2026.11.0 | terminal, pipeline, render-farm | https://mise.jdx.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-04-mise-2026-11-0 |
+| 2026-11-04 | Caddy 2.11.8 | reseau, securite, self-hosting | https://caddyserver.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-04-caddy-2-11-8 |
+| 2026-11-04 | PatchMon 2.1.7 | deploiement, securite, inventaire, self-hosting | https://patchmon.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-04-patchmon-2-1-7 |
+| 2026-11-04 | DashBeam | stockage, reseau, self-hosting, emerging | https://dashbeam.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-04-dashbeam |
 | 2026-11-03 | FOG Project 1.6.0 | deploiement, imaging, pxe | https://fogproject.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-03-fog-project-1-6-0 |
 | 2026-11-03 | Pulse 6.7.0 | monitoring, virtualisation, nas, sauvegarde | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-11-03-pulse-6-7-0 |
 | 2026-11-03 | ansible-core 2.22.0 | deploiement, pipeline, securite | https://docs.ansible.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-03-ansible-core-2-22-0 |
