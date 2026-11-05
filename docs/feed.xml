@@ -5,8 +5,71 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 04 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Pangolin 1.26.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-05-pangolin-1-26-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-05-pangolin-1-26-0</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le reverse proxy d'accès distant sort la 1.26 le 3 nov : CrowdSec bot detection optionnel, match wildcard ; côté Enterprise, sessions révocables, journaux SSH et revalidation OIDC continue. Trouvé via la release GitHub.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>siltide 0.1.5</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-05-siltide-0-1-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-05-siltide-0-1-5</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Moniteur TUI de flotte GPU/NPU (15 vendeurs) : utilisation, VRAM, thermiques, process et pods Kubernetes/Slurm, plus API et métriques Prometheus. Un binaire, open source (Apache-2.0). Trouvé via la release GitHub.</description>
+      <category>render-farm</category>
+      <category>monitoring</category>
+      <category>terminal</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>rmlint 2.11.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-05-rmlint-2-11-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-05-rmlint-2-11-0</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le chasse-doublons ultra-rapide sort la 2.11.0 le 1er nov (« Evolving Echidna ») : correctifs GUI/replay, meilleur macOS/FreeBSD. Utile pour libérer de l'espace sur un NAS studio. Trouvé via la release GitHub.</description>
+      <category>stockage</category>
+      <category>nas</category>
+      <category>terminal</category>
+    </item>
+    <item>
+      <title>Dozzle 11.4.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-05-dozzle-11-4-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-05-dozzle-11-4-1</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>La visionneuse de logs Docker en temps réel passe en 11.4.1 le 5 nov : alerte quand une image plus récente est disponible, rôle pour restreindre les updates, et nettoyage d'hôtes plus sûr (keep=true). Trouvé via la release GitHub.</description>
+      <category>monitoring</category>
+      <category>deploiement</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Headscale 0.29.7</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-05-headscale-0-29-7</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-05-headscale-0-29-7</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le contrôleur Tailscale libre publie le 30 oct une 0.29.7 sécu (scan Anthropic + rapport Tailworm) : correctifs DoS, à coupler avec Tailscale ≥1.104.4 côté nœuds. Trouvé via la release GitHub.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Atuin 18.24.5</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-05-atuin-18-24-5</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-05-atuin-18-24-5</guid>
+      <pubDate>Thu, 05 Nov 2026 09:00:00 +0100</pubDate>
+      <description>L'historique de shell synchronisé sort la 18.24.5 le 4 nov : correctif sécu dépendances (RUSTSEC-2026-0433), recherche préchargée plus complète, MCP et scripts plus robustes. Trouvé via la release GitHub.</description>
+      <category>terminal</category>
+      <category>self-hosting</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>mise 2026.11.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-04-mise-2026-11-0</link>
@@ -945,66 +1008,6 @@
       <category>acces-distant</category>
       <category>securite</category>
       <category>self-hosting</category>
-      <category>rc</category>
-    </item>
-    <item>
-      <title>Defguard 2.2.0 beta1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-13-defguard-2-2-0-beta1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-13-defguard-2-2-0-beta1</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>VPN WireGuard auto-hébergeable avec MFA et SSO. La bêta 2.2 (12 oct) permet des parcours MFA multi-étapes par site, des clés FIDO2 comme facteur, la config MFA après enrôlement et des actions groupées sur le pare-feu.</description>
-      <category>reseau</category>
-      <category>acces-distant</category>
-      <category>securite</category>
-      <category>rc</category>
-    </item>
-    <item>
-      <title>Headplane 0.7.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-13-headplane-0-7-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-13-headplane-0-7-1</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Interface web pour Headscale (alternative auto-hébergée à Tailscale) : machines, utilisateurs, ACL, DNS, sous-réseaux, SSH web et SSO OIDC. Trouvé via Self-Host Weekly (spotlight du 9 oct) ; dernière version 0.7.1.</description>
-      <category>reseau</category>
-      <category>acces-distant</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>rclone 1.75.2</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-12-rclone-1-75-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-12-rclone-1-75-2</guid>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description>L’outil de synchro et sauvegarde vers S3, B2 et des dizaines de clouds sort une version de sécurité le 9 oct : fuite de token et clé SSE-C B2 sur redirection corrigée, liens .rclonelink qui sortaient de la racine bloqués, Go 1.26.9. À mettre à jour.</description>
-      <category>stockage</category>
-      <category>s3</category>
-      <category>sauvegarde</category>
-      <category>securite</category>
-    </item>
-    <item>
-      <title>Technitium DNS Server 15.6.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-12-technitium-dns-server-15-6-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-12-technitium-dns-server-15-6-1</guid>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Le serveur DNS auto-hébergé (cache, blocage, zones, DoH) publie un correctif le 11 oct : StartTLS/LDAPS de l’authentification LDAP réparés, IXFR fiabilisé face à Microsoft DNS et NOTIFY qui ne rate plus de secondaire. Bien pour le DNS interne du studio.</description>
-      <category>reseau</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Ventoy 1.1.18</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-12-ventoy-1-1-18</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-12-ventoy-1-1-18</guid>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description>La clé USB multiboot open source (on y copie les ISO, sans reflasher) sort le 9 oct : vérification Secure Boot Windows/WinPE corrigée, partition ISO montable pour CloneZilla et support expérimental des images de récupération SteamOS. Pratique pour l’atelier de déploiement.</description>
-      <category>deploiement</category>
-      <category>imaging</category>
-    </item>
-    <item>
-      <title>osquery 5.24.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-12-osquery-5-24-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-12-osquery-5-24-0</guid>
-      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
-      <description>L’agent open source qui expose le parc en tables SQL (base de Fleet) publie une pré-version le 9 oct : débordement de tas corrigé dans la table processes Windows, chiffrements TLS anciens retirés et colonne protector_types pour BitLocker.</description>
-      <category>inventaire</category>
-      <category>securite</category>
       <category>rc</category>
     </item>
   </channel>

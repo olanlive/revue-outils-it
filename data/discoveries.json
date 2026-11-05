@@ -1,5 +1,116 @@
 [
   {
+    "date": "2026-11-05",
+    "name": "Pangolin 1.26.0",
+    "name_en": "Pangolin 1.26.0",
+    "summary": "Le reverse proxy d'accès distant sort la 1.26 le 3 nov : CrowdSec bot detection optionnel, match wildcard ; côté Enterprise, sessions révocables, journaux SSH et revalidation OIDC continue. Trouvé via la release GitHub.",
+    "summary_en": "The remote-access reverse proxy ships 1.26 on Nov 3: optional CrowdSec bot detection, base wildcard match; Enterprise adds revocable sessions, SSH logs and continuous OIDC revalidation. Found via the GitHub release.",
+    "url": "https://pangolin.net/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — fosrl/pangolin 1.26.0",
+      "label_en": "GitHub release — fosrl/pangolin 1.26.0",
+      "url": "https://github.com/fosrl/pangolin/releases/tag/1.26.0"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "siltide 0.1.5",
+    "name_en": "siltide 0.1.5",
+    "summary": "Moniteur TUI de flotte GPU/NPU (15 vendeurs) : utilisation, VRAM, thermiques, process et pods Kubernetes/Slurm, plus API et métriques Prometheus. Un binaire, open source (Apache-2.0). Trouvé via la release GitHub.",
+    "summary_en": "TUI fleet monitor for GPUs/NPUs (15 vendors): utilization, VRAM, thermals, processes and Kubernetes/Slurm pods, plus an API and Prometheus metrics. One binary, open source (Apache-2.0). Found via the GitHub release.",
+    "url": "https://moezdil.github.io/siltide/",
+    "tags": [
+      "render-farm",
+      "monitoring",
+      "terminal",
+      "emerging"
+    ],
+    "source": {
+      "label": "Release GitHub — moezdil/siltide v0.1.5",
+      "label_en": "GitHub release — moezdil/siltide v0.1.5",
+      "url": "https://github.com/moezdil/siltide/releases/tag/v0.1.5"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "rmlint 2.11.0",
+    "name_en": "rmlint 2.11.0",
+    "summary": "Le chasse-doublons ultra-rapide sort la 2.11.0 le 1er nov (« Evolving Echidna ») : correctifs GUI/replay, meilleur macOS/FreeBSD. Utile pour libérer de l'espace sur un NAS studio. Trouvé via la release GitHub.",
+    "summary_en": "The ultra-fast duplicate finder ships 2.11.0 on Nov 1 (“Evolving Echidna”): GUI/replay fixes, better macOS/FreeBSD. Handy to reclaim space on a studio NAS. Found via the GitHub release.",
+    "url": "https://sahib.github.io/rmlint/",
+    "tags": [
+      "stockage",
+      "nas",
+      "terminal"
+    ],
+    "source": {
+      "label": "Release GitHub — sahib/rmlint v2.11.0",
+      "label_en": "GitHub release — sahib/rmlint v2.11.0",
+      "url": "https://github.com/sahib/rmlint/releases/tag/v2.11.0"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "Dozzle 11.4.1",
+    "name_en": "Dozzle 11.4.1",
+    "summary": "La visionneuse de logs Docker en temps réel passe en 11.4.1 le 5 nov : alerte quand une image plus récente est disponible, rôle pour restreindre les updates, et nettoyage d'hôtes plus sûr (keep=true). Trouvé via la release GitHub.",
+    "summary_en": "The real-time Docker log viewer reaches 11.4.1 on Nov 5: alerts when a newer image is available, a role to restrict updates, and safer host cleanup (keep=true). Found via the GitHub release.",
+    "url": "https://dozzle.dev/",
+    "tags": [
+      "monitoring",
+      "deploiement",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — amir20/dozzle v11.4.1",
+      "label_en": "GitHub release — amir20/dozzle v11.4.1",
+      "url": "https://github.com/amir20/dozzle/releases/tag/v11.4.1"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "Headscale 0.29.7",
+    "name_en": "Headscale 0.29.7",
+    "summary": "Le contrôleur Tailscale libre publie le 30 oct une 0.29.7 sécu (scan Anthropic + rapport Tailworm) : correctifs DoS, à coupler avec Tailscale ≥1.104.4 côté nœuds. Trouvé via la release GitHub.",
+    "summary_en": "The open source Tailscale control server ships security 0.29.7 on Oct 30 (Anthropic scan + Tailworm report): DoS fixes, pair with Tailscale ≥1.104.4 on nodes. Found via the GitHub release.",
+    "url": "https://headscale.net/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — juanfont/headscale v0.29.7",
+      "label_en": "GitHub release — juanfont/headscale v0.29.7",
+      "url": "https://github.com/juanfont/headscale/releases/tag/v0.29.7"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "name": "Atuin 18.24.5",
+    "name_en": "Atuin 18.24.5",
+    "summary": "L'historique de shell synchronisé sort la 18.24.5 le 4 nov : correctif sécu dépendances (RUSTSEC-2026-0433), recherche préchargée plus complète, MCP et scripts plus robustes. Trouvé via la release GitHub.",
+    "summary_en": "Synced shell history ships 18.24.5 on Nov 4: dependency security fix (RUSTSEC-2026-0433), fuller preloaded search, more robust MCP and scripts. Found via the GitHub release.",
+    "url": "https://atuin.sh/",
+    "tags": [
+      "terminal",
+      "self-hosting",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — atuinsh/atuin v18.24.5",
+      "label_en": "GitHub release — atuinsh/atuin v18.24.5",
+      "url": "https://github.com/atuinsh/atuin/releases/tag/v18.24.5"
+    }
+  },
+  {
     "date": "2026-11-04",
     "name": "mise 2026.11.0",
     "name_en": "mise 2026.11.0",

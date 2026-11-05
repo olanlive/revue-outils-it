@@ -7,6 +7,12 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-05 | Pangolin 1.26.0 | reseau, acces-distant, securite, self-hosting | https://pangolin.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-05-pangolin-1-26-0 |
+| 2026-11-05 | siltide 0.1.5 | render-farm, monitoring, terminal, emerging | https://moezdil.github.io/siltide/ | https://olanlive.github.io/revue-outils-it/#2026-11-05-siltide-0-1-5 |
+| 2026-11-05 | rmlint 2.11.0 | stockage, nas, terminal | https://sahib.github.io/rmlint/ | https://olanlive.github.io/revue-outils-it/#2026-11-05-rmlint-2-11-0 |
+| 2026-11-05 | Dozzle 11.4.1 | monitoring, deploiement, self-hosting | https://dozzle.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-05-dozzle-11-4-1 |
+| 2026-11-05 | Headscale 0.29.7 | reseau, acces-distant, securite, self-hosting | https://headscale.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-05-headscale-0-29-7 |
+| 2026-11-05 | Atuin 18.24.5 | terminal, self-hosting, securite | https://atuin.sh/ | https://olanlive.github.io/revue-outils-it/#2026-11-05-atuin-18-24-5 |
 | 2026-11-04 | mise 2026.11.0 | terminal, pipeline, render-farm | https://mise.jdx.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-04-mise-2026-11-0 |
 | 2026-11-04 | Caddy 2.11.8 | reseau, securite, self-hosting | https://caddyserver.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-04-caddy-2-11-8 |
 | 2026-11-04 | PatchMon 2.1.7 | deploiement, securite, inventaire, self-hosting | https://patchmon.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-04-patchmon-2-1-7 |
