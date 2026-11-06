@@ -7,6 +7,12 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-06 | s3-orchestrator | stockage, s3, sauvegarde, self-hosting, emerging | https://s3-orchestrator.munchbox.cc/ | https://olanlive.github.io/revue-outils-it/#2026-11-06-s3-orchestrator |
+| 2026-11-06 | OpenSSH 10.6p2 | securite, acces-distant | https://www.openssh.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-06-openssh-10-6p2 |
+| 2026-11-06 | Incus 7.6.0 | virtualisation, securite, self-hosting | https://linuxcontainers.org/incus/ | https://olanlive.github.io/revue-outils-it/#2026-11-06-incus-7-6-0 |
+| 2026-11-06 | InvenTree 1.7.0 | inventaire, securite, self-hosting | https://inventree.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-06-inventree-1-7-0 |
+| 2026-11-06 | Vector 0.61.0 | monitoring, securite, self-hosting | https://vector.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-06-vector-0-61-0 |
+| 2026-11-06 | bootvine 0.1.3 | terminal, deploiement, emerging | https://codeberg.org/wvhulle/bootvine | https://olanlive.github.io/revue-outils-it/#2026-11-06-bootvine-0-1-3 |
 | 2026-11-05 | Pangolin 1.26.0 | reseau, acces-distant, securite, self-hosting | https://pangolin.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-05-pangolin-1-26-0 |
 | 2026-11-05 | siltide 0.1.5 | render-farm, monitoring, terminal, emerging | https://moezdil.github.io/siltide/ | https://olanlive.github.io/revue-outils-it/#2026-11-05-siltide-0-1-5 |
 | 2026-11-05 | rmlint 2.11.0 | stockage, nas, terminal | https://sahib.github.io/rmlint/ | https://olanlive.github.io/revue-outils-it/#2026-11-05-rmlint-2-11-0 |

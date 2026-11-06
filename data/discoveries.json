@@ -1,5 +1,114 @@
 [
   {
+    "date": "2026-11-06",
+    "name": "s3-orchestrator",
+    "name_en": "s3-orchestrator",
+    "summary": "Couche S3 open source (MIT) : un endpoint unique devant plusieurs backends (B2, R2, MinIO, Wasabi…), copies N, quotas, zstd et chiffrement enveloppe. Ajouté à awesome-selfhosted le 2 nov. Trouvé via awesome-selfhosted-data.",
+    "summary_en": "Open source S3 layer (MIT): one endpoint in front of many backends (B2, R2, MinIO, Wasabi…), N copies, quotas, zstd and envelope encryption. Added to awesome-selfhosted on Nov 2. Found via awesome-selfhosted-data.",
+    "url": "https://s3-orchestrator.munchbox.cc/",
+    "tags": [
+      "stockage",
+      "s3",
+      "sauvegarde",
+      "self-hosting",
+      "emerging"
+    ],
+    "source": {
+      "label": "awesome-selfhosted-data — Add s3-orchestrator",
+      "label_en": "awesome-selfhosted-data — Add s3-orchestrator",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted-data/commit/c1d7767dbee76b1996748dfa6c1610f85f970082"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "name": "OpenSSH 10.6p2",
+    "name_en": "OpenSSH 10.6p2",
+    "summary": "Correctif critique du 5 nov (« sshole ») : sur musl sans PAM (Alpine), un mot de passe ≥257 octets pouvait ouvrir un compte à champ « * ». Mettre à jour et redémarrer sshd. Trouvé via l'avis de sécurité Alpine.",
+    "summary_en": "Critical fix on Nov 5 (“sshole”): on musl without PAM (Alpine), a ≥257-byte password could unlock a “*” account. Update and restart sshd. Found via the Alpine security advisory.",
+    "url": "https://www.openssh.com/",
+    "tags": [
+      "securite",
+      "acces-distant"
+    ],
+    "source": {
+      "label": "Avis de sécurité Alpine — openssh-server (5 nov 2026)",
+      "label_en": "Alpine security advisory — openssh-server (Nov 5, 2026)",
+      "url": "https://www.alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "name": "Incus 7.6.0",
+    "name_en": "Incus 7.6.0",
+    "summary": "Le gestionnaire de conteneurs/VM publie la 7.6 le 30 oct : 18 correctifs sécu (plusieurs critiques — isolation projets, chemins, certificats) et perf pour gros clusters. Trouvé via la release GitHub.",
+    "summary_en": "The container/VM manager ships 7.6 on Oct 30: 18 security fixes (several critical — project isolation, paths, certificates) and performance for large clusters. Found via the GitHub release.",
+    "url": "https://linuxcontainers.org/incus/",
+    "tags": [
+      "virtualisation",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — lxc/incus v7.6.0",
+      "label_en": "GitHub release — lxc/incus v7.6.0",
+      "url": "https://github.com/lxc/incus/releases/tag/v7.6.0"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "name": "InvenTree 1.7.0",
+    "name_en": "InvenTree 1.7.0",
+    "summary": "L'ERP d'inventaire pièces/stock passe en 1.7.0 le 3 nov : correctifs sécu (exports, rapports, sessions/tokens), historique des modifications et rôle pricing. Utile pour le matériel studio. Trouvé via la release GitHub.",
+    "summary_en": "Parts/stock inventory ERP reaches 1.7.0 on Nov 3: security fixes (exports, reports, sessions/tokens), edit history and a pricing role. Handy for studio hardware. Found via the GitHub release.",
+    "url": "https://inventree.org/",
+    "tags": [
+      "inventaire",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — inventree/InvenTree 1.7.0",
+      "label_en": "GitHub release — inventree/InvenTree 1.7.0",
+      "url": "https://github.com/inventree/InvenTree/releases/tag/1.7.0"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "name": "Vector 0.61.0",
+    "name_en": "Vector 0.61.0",
+    "summary": "Le pipeline d'observabilité open source sort la 0.61 le 29 oct : sink OpenSearch, correctif TLS Databricks (certificats/hostname vérifiés), un breaking change — lire le guide. Trouvé via les notes de release Vector.",
+    "summary_en": "The open source observability pipeline ships 0.61 on Oct 29: OpenSearch sink, Databricks TLS fix (certificate/hostname verification), one breaking change — read the upgrade guide. Found via the Vector release notes.",
+    "url": "https://vector.dev/",
+    "tags": [
+      "monitoring",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Notes de release Vector 0.61.0",
+      "label_en": "Vector 0.61.0 release notes",
+      "url": "https://vector.dev/releases/0.61.0/"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "name": "bootvine 0.1.3",
+    "name_en": "bootvine 0.1.3",
+    "summary": "Arbre live des jobs systemd au boot/arrêt (LUKS, échecs + journaux) : la 0.1.3 du 5 nov corrige de faux échecs. Utile pour diagnostiquer des postes qui démarrent lentement. Trouvé via Terminal Trove.",
+    "summary_en": "Live systemd job tree at boot/shutdown (LUKS, failures + journal lines): 0.1.3 on Nov 5 fixes false failures. Handy to diagnose slow-booting workstations. Found via Terminal Trove.",
+    "url": "https://codeberg.org/wvhulle/bootvine",
+    "tags": [
+      "terminal",
+      "deploiement",
+      "emerging"
+    ],
+    "source": {
+      "label": "Terminal Trove — bootvine",
+      "label_en": "Terminal Trove — bootvine",
+      "url": "https://terminaltrove.com/bootvine/"
+    }
+  },
+  {
     "date": "2026-11-05",
     "name": "Pangolin 1.26.0",
     "name_en": "Pangolin 1.26.0",

@@ -5,8 +5,69 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>s3-orchestrator</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-06-s3-orchestrator</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-06-s3-orchestrator</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Open source S3 layer (MIT): one endpoint in front of many backends (B2, R2, MinIO, Wasabi…), N copies, quotas, zstd and envelope encryption. Added to awesome-selfhosted on Nov 2. Found via awesome-selfhosted-data.</description>
+      <category>stockage</category>
+      <category>s3</category>
+      <category>sauvegarde</category>
+      <category>self-hosting</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>OpenSSH 10.6p2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-06-openssh-10-6p2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-06-openssh-10-6p2</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Critical fix on Nov 5 (“sshole”): on musl without PAM (Alpine), a ≥257-byte password could unlock a “*” account. Update and restart sshd. Found via the Alpine security advisory.</description>
+      <category>securite</category>
+      <category>acces-distant</category>
+    </item>
+    <item>
+      <title>Incus 7.6.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-06-incus-7-6-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-06-incus-7-6-0</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The container/VM manager ships 7.6 on Oct 30: 18 security fixes (several critical — project isolation, paths, certificates) and performance for large clusters. Found via the GitHub release.</description>
+      <category>virtualisation</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>InvenTree 1.7.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-06-inventree-1-7-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-06-inventree-1-7-0</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Parts/stock inventory ERP reaches 1.7.0 on Nov 3: security fixes (exports, reports, sessions/tokens), edit history and a pricing role. Handy for studio hardware. Found via the GitHub release.</description>
+      <category>inventaire</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Vector 0.61.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-06-vector-0-61-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-06-vector-0-61-0</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open source observability pipeline ships 0.61 on Oct 29: OpenSearch sink, Databricks TLS fix (certificate/hostname verification), one breaking change — read the upgrade guide. Found via the Vector release notes.</description>
+      <category>monitoring</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>bootvine 0.1.3</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-06-bootvine-0-1-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-06-bootvine-0-1-3</guid>
+      <pubDate>Fri, 06 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Live systemd job tree at boot/shutdown (LUKS, failures + journal lines): 0.1.3 on Nov 5 fixes false failures. Handy to diagnose slow-booting workstations. Found via Terminal Trove.</description>
+      <category>terminal</category>
+      <category>deploiement</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Pangolin 1.26.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-05-pangolin-1-26-0</link>
@@ -948,67 +1009,6 @@
       <description>Ansible playbook (AGPL) for deploying services in Docker containers on a personal or studio server. Found via awesome-selfhosted (added Oct 9); a very active project (hundreds of commits/month).</description>
       <category>self-hosting</category>
       <category>deploiement</category>
-    </item>
-    <item>
-      <title>Rustrak 0.16.3</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-rustrak-0-16-3</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-rustrak-0-16-3</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Sentry SDK-compatible error server, ~32 MB at rest with SQLite. Found via awesome-selfhosted; 0.16.3 (Oct 12) aligns PostgreSQL ingest (NUL, lengths) to avoid 500s on real payloads.</description>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Unraid 7.4.0-rc1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-unraid-7-4-0-rc1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-unraid-7-4-0-rc1</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>NAS OS (paid beyond the free tier) for storage and Docker containers. RC1 of 7.4 (Oct 8) shows Mover progress, a task tray and persistent Docker multi-network, and broadens Wi-Fi support. Test outside production.</description>
-      <category>stockage</category>
-      <category>nas</category>
-      <category>virtualisation</category>
-      <category>rc</category>
-    </item>
-    <item>
-      <title>Beszel 0.21.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-14-beszel-0-21-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-14-beszel-0-21-0</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Lightweight server monitoring (CPU, Docker, alerts), ideal for farm nodes. 0.21.0 (Oct 2) adds Wi-Fi, TLS expiry for HTTPS monitors, systemd logs, network comparison and a list of pending packages.</description>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>VictoriaMetrics 1.154.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-13-victoriametrics-1-154-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-13-victoriametrics-1-154-0</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Prometheus-compatible metrics database, lightweight for monitoring a render farm and NAS. 1.154.0 (released Oct 12) fixes two flaws (vmauth token brute-forcing, XSS in vmui) and cancels queries when the client disconnects.</description>
-      <category>monitoring</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Nextcloud Desktop 35.0.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-13-nextcloud-desktop-35-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-13-nextcloud-desktop-35-0-0</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Nextcloud sync client for workstations. 35.0.0 (Oct 12) handles Adobe lock files and InDesign safe saving, fixes data loss when moving/renaming folders and drops QtWebEngine.</description>
-      <category>stockage</category>
-      <category>pipeline</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Warpgate 0.30.0 beta.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-13-warpgate-0-30-0-beta-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-13-warpgate-0-30-0-beta-1</guid>
-      <pubDate>Tue, 13 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Open source SSH/HTTPS/RDP/database bastion with session recording. The 0.30 beta (Oct 12) fetches passwords and keys from Vault/OpenBao, adds RDP Graphics Pipeline (RemoteFX) and mTLS between cluster nodes.</description>
-      <category>acces-distant</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-      <category>rc</category>
     </item>
   </channel>
 </rss>
