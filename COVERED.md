@@ -7,6 +7,12 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-07 | Wiki.js 3.1.1 | self-hosting, pipeline, securite | https://js.wiki/ | https://olanlive.github.io/revue-outils-it/#2026-11-07-wiki-js-3-1-1 |
+| 2026-11-07 | wolf 2026.11 | acces-distant, virtualisation, render-farm, self-hosting | https://games-on-whales.github.io/wolf/stable/ | https://olanlive.github.io/revue-outils-it/#2026-11-07-wolf-2026-11 |
+| 2026-11-07 | Zabbix 8.0.0 | monitoring, self-hosting | https://www.zabbix.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-07-zabbix-8-0-0 |
+| 2026-11-07 | Coolify 4.6.0 | deploiement, securite, self-hosting | https://coolify.io/ | https://olanlive.github.io/revue-outils-it/#2026-11-07-coolify-4-6-0 |
+| 2026-11-07 | ntfy 2.37.2 | monitoring, self-hosting | https://ntfy.sh/ | https://olanlive.github.io/revue-outils-it/#2026-11-07-ntfy-2-37-2 |
+| 2026-11-07 | ownCloud Infinite Scale 8.2.3 | stockage, securite, self-hosting | https://doc.owncloud.com/ocis/ | https://olanlive.github.io/revue-outils-it/#2026-11-07-owncloud-infinite-scale-8-2-3 |
 | 2026-11-06 | s3-orchestrator | stockage, s3, sauvegarde, self-hosting, emerging | https://s3-orchestrator.munchbox.cc/ | https://olanlive.github.io/revue-outils-it/#2026-11-06-s3-orchestrator |
 | 2026-11-06 | OpenSSH 10.6p2 | securite, acces-distant | https://www.openssh.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-06-openssh-10-6p2 |
 | 2026-11-06 | Incus 7.6.0 | virtualisation, securite, self-hosting | https://linuxcontainers.org/incus/ | https://olanlive.github.io/revue-outils-it/#2026-11-06-incus-7-6-0 |

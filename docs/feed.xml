@@ -5,8 +5,67 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 06 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Wiki.js 3.1.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-07-wiki-js-3-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-07-wiki-js-3-1-1</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le wiki self-host open source passe en lignée 3.x (3.1.1 le 6 nov) : réécriture majeure longtemps attendue, correctifs d’import 2.x et sessions. Utile pour la doc studio. Trouvé via Self-Host Weekly (6 nov).</description>
+      <category>self-hosting</category>
+      <category>pipeline</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>wolf 2026.11</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-07-wolf-2026-11</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-07-wolf-2026-11</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Hôte Moonlight/Sunshine pour diffuser des bureaux et GPU via Docker : première release mensuelle (2026.11) après 2 ans, image Fedora + drivers Mesa à jour. Idéal pour postes 3D distants. Trouvé via la release GitHub.</description>
+      <category>acces-distant</category>
+      <category>virtualisation</category>
+      <category>render-farm</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Zabbix 8.0.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-07-zabbix-8-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-07-zabbix-8-0-0</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Supervision open source entreprise : la 8.0.0 du 5 nov ajoute OpenTelemetry (traces, collector proxy), backend ClickHouse, UI modernisée et templates Proxmox/GLPI. Trouvé via les notes officielles Zabbix.</description>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Coolify 4.6.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-07-coolify-4-6-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-07-coolify-4-6-0</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Plateforme de déploiement self-host (déjà vue en 4.5.0) : la 4.6.0 du 2 nov exige l’ability « delete » (ou root) pour toute suppression API/MCP et durcit la CI GitHub. Trouvé via la release GitHub.</description>
+      <category>deploiement</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>ntfy 2.37.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-07-ntfy-2-37-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-07-ntfy-2-37-2</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Notifications push self-host (déjà vue en 2.31.1) : la 2.37.0 du 2 nov partage l’abonné UnifiedPush entre serveurs et ajoute Retry-After / RateLimit ; 2.37.2 le 4 nov. Trouvé via la release GitHub.</description>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>ownCloud Infinite Scale 8.2.3</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-07-owncloud-infinite-scale-8-2-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-07-owncloud-infinite-scale-8-2-3</guid>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Stockage fichiers self-host : la 8.2.3 du 6 nov corrige des dépendances vulnérables (golang.org/x/net…) et un data race sur le thème Web. Trouvé via la release GitHub.</description>
+      <category>stockage</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>s3-orchestrator</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-06-s3-orchestrator</link>
@@ -952,63 +1011,6 @@
       <category>inventaire</category>
       <category>self-hosting</category>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>imagor 1.9.10</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-imagor-1-9-10</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-imagor-1-9-10</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Serveur/lib Go (libvips) pour redimensionner, recadrer et convertir des images à la volée — pratique pour les previews d’assets. Trouvé via awesome-selfhosted ; la 1.9.10 (14 oct) ajoute les sources nested path et passe à Go 1.27 / vips 8.18.</description>
-      <category>pipeline</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>NetBox 4.7.3</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-netbox-4-7-3</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-netbox-4-7-3</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Source de vérité pour l’inventaire réseau et DCIM (switches, IP, racks) d’un parc studio. La 4.7.3 (13 oct) accélère l’API REST (prefetch, config context) et ajoute un filtre de localisation sur les power feeds.</description>
-      <category>inventaire</category>
-      <category>reseau</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Bacularis 7.0.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-bacularis-7-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-bacularis-7-0-0</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Interface web open source pour Bacula (sauvegardes studio/NAS). La 7.0.0 (9 oct) ajoute la détection ransomware dans Restore Verification, en analysant les données réellement restaurées lors des tests de restore.</description>
-      <category>sauvegarde</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Grafana 13.2.4</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-grafana-13-2-4</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-grafana-13-2-4</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Tableaux de bord et alertes pour monitorer farm, NAS et postes. La 13.2.4 (13 oct) corrige quatre CVE (2026-15577, 33374, 93294, 95502) et durcit les redirections OAuth2 des alertes.</description>
-      <category>monitoring</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Keycloak 26.8.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-keycloak-26-8-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-keycloak-26-8-1</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>SSO/IAM auto-hébergeable pour le parc studio. La ligne 26.8 (1er oct, patch 26.8.1 le 13) rend SCIM et le multi-cluster sans cache externe supportés, et corrige CVE-2026-15943 sur le secret client des IdP OIDC.</description>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Mother-of-All-Self-Hosting</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-14-mother-of-all-self-hosting</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-14-mother-of-all-self-hosting</guid>
-      <pubDate>Wed, 14 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Playbook Ansible (AGPL) pour déployer des services en conteneurs Docker sur un serveur perso ou de studio. Trouvé via awesome-selfhosted (ajout du 9 oct) ; projet très actif (centaines de commits/mois).</description>
-      <category>self-hosting</category>
-      <category>deploiement</category>
     </item>
   </channel>
 </rss>
