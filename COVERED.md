@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-08 | InvenTree 1.7.1 (correctifs de sécurité) | inventaire, securite, self-hosting | https://inventree.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-08-inventree-1-7-1-correctifs-de-securite |
+| 2026-11-08 | Zerobyte 0.44.1 | sauvegarde, nas, self-hosting | https://zerobyte.app/ | https://olanlive.github.io/revue-outils-it/#2026-11-08-zerobyte-0-44-1 |
+| 2026-11-08 | Pulse 6.8.0-rc.1 | monitoring, virtualisation, nas, sauvegarde, rc | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-11-08-pulse-6-8-0-rc-1 |
+| 2026-11-08 | fzf 0.75.0 | terminal | https://junegunn.github.io/fzf/ | https://olanlive.github.io/revue-outils-it/#2026-11-08-fzf-0-75-0 |
 | 2026-11-07 | Wiki.js 3.1.1 | self-hosting, pipeline, securite | https://js.wiki/ | https://olanlive.github.io/revue-outils-it/#2026-11-07-wiki-js-3-1-1 |
 | 2026-11-07 | wolf 2026.11 | acces-distant, virtualisation, render-farm, self-hosting | https://games-on-whales.github.io/wolf/stable/ | https://olanlive.github.io/revue-outils-it/#2026-11-07-wolf-2026-11 |
 | 2026-11-07 | Zabbix 8.0.0 | monitoring, self-hosting | https://www.zabbix.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-07-zabbix-8-0-0 |

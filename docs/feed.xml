@@ -5,8 +5,48 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 07 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>InvenTree 1.7.1 (correctifs de sécurité)</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-08-inventree-1-7-1-correctifs-de-securite</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-08-inventree-1-7-1-correctifs-de-securite</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>L'ERP d'inventaire (déjà vu en 1.7.0) sort la 1.7.1 le 8 nov : les endpoints metadata respectent les permissions des modèles, et l'émission de jetons API vérifie désormais la MFA. Trouvé via la release GitHub.</description>
+      <category>inventaire</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Zerobyte 0.44.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-08-zerobyte-0-44-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-08-zerobyte-0-44-1</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Interface de sauvegardes restic (déjà vue en 0.44.0) : la 0.44.1 du 7 nov protège l'API session par CSRF, fixe des origines de confiance pour les passkeys, et resynchronise la progression des tâches. Trouvé via la release GitHub.</description>
+      <category>sauvegarde</category>
+      <category>nas</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Pulse 6.8.0-rc.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-08-pulse-6-8-0-rc-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-08-pulse-6-8-0-rc-1</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Supervision Proxmox/NAS (déjà vue en 6.7.0) : la RC 6.8.0 du 8 nov groupe la santé des sauvegardes par cause, ajoute une limite de température par capteur Linux et des prévisions de remplissage des datastores. Trouvé via la release GitHub.</description>
+      <category>monitoring</category>
+      <category>virtualisation</category>
+      <category>nas</category>
+      <category>sauvegarde</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>fzf 0.75.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-08-fzf-0-75-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-08-fzf-0-75-0</guid>
+      <pubDate>Sun, 08 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le sélecteur flou en terminal passe en 0.75.0 le 7 nov : on peut changer la commande --info à la volée, des installers MSI arrivent sur Windows, et le mode --listen ne bloque plus sur une grosse requête. Trouvé via la release GitHub.</description>
+      <category>terminal</category>
+    </item>
     <item>
       <title>Wiki.js 3.1.1</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-07-wiki-js-3-1-1</link>
@@ -967,47 +1007,6 @@
       <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-16-rackula-26-10-1</guid>
       <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
       <description>Planificateur de baies/racks auto-hébergeable (Docker/LXC) pour documenter le parc studio. La 26.10.1 (13 oct) mesure les appareils en mm, exporte les patchs CSV et pin libexpat (CVE-2026-93990).</description>
-      <category>inventaire</category>
-      <category>self-hosting</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Pulse 6.6.0-rc.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-pulse-6-6-0-rc-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-pulse-6-6-0-rc-1</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Monitoring auto-hébergé pour Proxmox, TrueNAS, Docker et Kubernetes (idéal farm/NAS). La RC1 6.6 (15 oct) fusionne alertes et graphiques sur les détails, clarifie la couverture backup et simplifie l’install des agents. À tester hors prod.</description>
-      <category>monitoring</category>
-      <category>virtualisation</category>
-      <category>nas</category>
-      <category>rc</category>
-    </item>
-    <item>
-      <title>OpenLIT GPU Collector 1.0.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-openlit-gpu-collector-1-0-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-openlit-gpu-collector-1-0-0</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Collecteur OpenTelemetry léger (Go) pour métriques GPU NVIDIA/AMD/Intel — utile sur nœuds de rendu. La 1.0.0 (13 oct) corrige l’attribution multi-GPU/CUDA et des processus par pod, sans DCGM ni agent propriétaire.</description>
-      <category>monitoring</category>
-      <category>render-farm</category>
-      <category>emerging</category>
-    </item>
-    <item>
-      <title>Authentik 2026.8.4</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-authentik-2026-8-4</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-authentik-2026-8-4</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>SSO/IdP open source pour sécuriser apps et accès studio. La 2026.8.4 (14 oct) corrige SAML (métadonnées PEM), proxy outpost (HTTP/2, JWKS), SCIM et la validation des durées — patch de maintenance à appliquer.</description>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Marmot 0.11.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-15-marmot-0-11-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-15-marmot-0-11-1</guid>
-      <pubDate>Thu, 15 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Catalogue de données open source (MIT) pour inventorier bases, API, files et pipelines. Trouvé via awesome-selfhosted (ajout du 4 oct) ; la 0.11.1 (11 oct) peaufine l’UI et corrige auth des images et webhooks par équipe.</description>
-      <category>pipeline</category>
       <category>inventaire</category>
       <category>self-hosting</category>
       <category>emerging</category>

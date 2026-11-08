@@ -1,5 +1,77 @@
 [
   {
+    "date": "2026-11-08",
+    "name": "InvenTree 1.7.1 (correctifs de sécurité)",
+    "name_en": "InvenTree 1.7.1 (security fixes)",
+    "summary": "L'ERP d'inventaire (déjà vu en 1.7.0) sort la 1.7.1 le 8 nov : les endpoints metadata respectent les permissions des modèles, et l'émission de jetons API vérifie désormais la MFA. Trouvé via la release GitHub.",
+    "summary_en": "The inventory ERP (already covered as 1.7.0) ships 1.7.1 on Nov 8: metadata endpoints now honor model permissions, and API token issuance checks MFA. Found via the GitHub release.",
+    "url": "https://inventree.org/",
+    "tags": [
+      "inventaire",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — inventree/InvenTree 1.7.1",
+      "label_en": "GitHub release — inventree/InvenTree 1.7.1",
+      "url": "https://github.com/inventree/InvenTree/releases/tag/1.7.1"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "name": "Zerobyte 0.44.1",
+    "name_en": "Zerobyte 0.44.1",
+    "summary": "Interface de sauvegardes restic (déjà vue en 0.44.0) : la 0.44.1 du 7 nov protège l'API session par CSRF, fixe des origines de confiance pour les passkeys, et resynchronise la progression des tâches. Trouvé via la release GitHub.",
+    "summary_en": "Restic backup web UI (already covered as 0.44.0): 0.44.1 on Nov 7 adds CSRF protection on the session API, explicit trusted origins for passkeys, and resynchronizes task progress. Found via the GitHub release.",
+    "url": "https://zerobyte.app/",
+    "tags": [
+      "sauvegarde",
+      "nas",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — nicotsx/zerobyte v0.44.1",
+      "label_en": "GitHub release — nicotsx/zerobyte v0.44.1",
+      "url": "https://github.com/nicotsx/zerobyte/releases/tag/v0.44.1"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "name": "Pulse 6.8.0-rc.1",
+    "name_en": "Pulse 6.8.0-rc.1",
+    "summary": "Supervision Proxmox/NAS (déjà vue en 6.7.0) : la RC 6.8.0 du 8 nov groupe la santé des sauvegardes par cause, ajoute une limite de température par capteur Linux et des prévisions de remplissage des datastores. Trouvé via la release GitHub.",
+    "summary_en": "Proxmox/NAS monitoring (already covered as 6.7.0): the 6.8.0 RC on Nov 8 groups backup health by cause, adds a per-sensor Linux temperature limit and datastore fill forecasts. Found via the GitHub release.",
+    "url": "https://pulserelay.pro/",
+    "tags": [
+      "monitoring",
+      "virtualisation",
+      "nas",
+      "sauvegarde",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — rcourtman/Pulse v6.8.0-rc.1",
+      "label_en": "GitHub release — rcourtman/Pulse v6.8.0-rc.1",
+      "url": "https://github.com/rcourtman/Pulse/releases/tag/v6.8.0-rc.1"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "name": "fzf 0.75.0",
+    "name_en": "fzf 0.75.0",
+    "summary": "Le sélecteur flou en terminal passe en 0.75.0 le 7 nov : on peut changer la commande --info à la volée, des installers MSI arrivent sur Windows, et le mode --listen ne bloque plus sur une grosse requête. Trouvé via la release GitHub.",
+    "summary_en": "The terminal fuzzy finder reaches 0.75.0 on Nov 7: you can change the --info command on the fly, MSI installers arrive on Windows, and --listen no longer stalls on a large request. Found via the GitHub release.",
+    "url": "https://junegunn.github.io/fzf/",
+    "tags": [
+      "terminal"
+    ],
+    "source": {
+      "label": "Release GitHub — junegunn/fzf 0.75.0",
+      "label_en": "GitHub release — junegunn/fzf 0.75.0",
+      "url": "https://github.com/junegunn/fzf/releases/tag/v0.75.0"
+    }
+  },
+  {
     "date": "2026-11-07",
     "name": "Wiki.js 3.1.1",
     "name_en": "Wiki.js 3.1.1",
