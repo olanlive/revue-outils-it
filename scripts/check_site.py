@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Contrôles du site généré (docs/) : RSS, latest.json, liens internes, moteur commun.
+"""Contrôles du site généré (docs/) : RSS, latest.json, liens internes (et filtres #tag=), moteur commun.
 
 Stdlib uniquement. Identique dans les 5 blogs Pépites. Code de sortie 1 si un contrôle échoue.
 Usage : python3 scripts/check_site.py [rss|latest|links|moteur ...]  (tous par défaut)
@@ -74,15 +74,34 @@ class Collector(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.ids, self.refs = set(), []
+        # data-tag non vides de .tag-filter[data-home] .tf-panel (ce que lit le JS des filtres) ;
+        # None = pas de barre de filtres sur la page.
+        self.filters, self._divs = None, []
 
     def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        if tag == "div":
+            cls = (a.get("class") or "").split()
+            if "tag-filter" in cls and "data-home" in a:
+                self._divs.append("home")
+                self.filters = self.filters or set()
+            elif "tf-panel" in cls and "home" in self._divs:
+                self._divs.append("panel")
+            else:
+                self._divs.append("")
+        elif tag == "a" and "panel" in self._divs and a.get("data-tag"):
+            self.filters.add(a["data-tag"])
         for k, v in attrs:
             if v is None:
                 continue
             if k in ("id", "name") and tag != "meta":
                 self.ids.add(v)
-            if k in ("href", "src") and not (tag == "link" and dict(attrs).get("rel") == "preconnect"):
+            if k in ("href", "src") and not (tag == "link" and a.get("rel") == "preconnect"):
                 self.refs.append((tag, k, v, self.getpos()[0]))
+
+    def handle_endtag(self, tag):
+        if tag == "div" and self._divs:
+            self._divs.pop()
 
 
 _cache = {}
@@ -117,7 +136,7 @@ def resolve(base, url):
 
 def check_links():
     pages = sorted(DOCS.rglob("*.html"))
-    n = 0
+    n = nf = 0
     for page in pages:
         rel = page.relative_to(ROOT)
         for tag, attr, url, line in parse(page).refs:
@@ -139,10 +158,21 @@ def check_links():
                 continue
             frag = unquote(s.fragment)
             if frag.startswith("tag="):
-                continue  # filtre JS de build.py (location.hash « #tag=… »), pas une ancre
+                # filtre JS du moteur (location.hash « #tag=… ») : il faut un bouton data-tag sur la cible
+                nf += 1
+                t, cible = frag[4:], target.resolve().relative_to(ROOT)
+                f = parse(target).filters if target.suffix == ".html" else None
+                if f is None:
+                    err("liens", f"{rel}:{line} {attr}={url!r} → {cible} n'a pas de barre de filtres (.tag-filter[data-home] .tf-panel)")
+                elif not t:
+                    err("liens", f"{rel}:{line} {attr}={url!r} → filtre #tag= vide")
+                elif t not in f:
+                    err("liens", f"{rel}:{line} {attr}={url!r} → filtre #tag={t} absent de {cible} (aucun bouton data-tag)")
+                continue
             if frag and target.suffix == ".html" and frag not in ids_of(target):
                 err("liens", f"{rel}:{line} {attr}={url!r} → ancre #{frag} introuvable")
     print(f"liens : {len(pages)} pages, {n} liens internes")
+    print(f"filtres : {nf} liens #tag= vérifiés")
 
 
 # md5 de référence du moteur commun (identique dans les 5 blogs). Si on modifie
