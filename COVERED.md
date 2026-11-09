@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-09 | Open WebUI 0.13.3 | self-hosting, pipeline | https://openwebui.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-09-open-webui-0-13-3 |
+| 2026-11-09 | Dagu 2.26.0 | pipeline, self-hosting | https://dagu.sh/ | https://olanlive.github.io/revue-outils-it/#2026-11-09-dagu-2-26-0 |
+| 2026-11-09 | lazygit 0.66.3 | terminal, securite | https://github.com/jesseduffield/lazygit | https://olanlive.github.io/revue-outils-it/#2026-11-09-lazygit-0-66-3 |
 | 2026-11-08 | InvenTree 1.7.1 (correctifs de sécurité) | inventaire, securite, self-hosting | https://inventree.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-08-inventree-1-7-1-correctifs-de-securite |
 | 2026-11-08 | Zerobyte 0.44.1 | sauvegarde, nas, self-hosting | https://zerobyte.app/ | https://olanlive.github.io/revue-outils-it/#2026-11-08-zerobyte-0-44-1 |
 | 2026-11-08 | Pulse 6.8.0-rc.1 | monitoring, virtualisation, nas, sauvegarde, rc | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-11-08-pulse-6-8-0-rc-1 |

@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-11-09",
+    "name": "Open WebUI 0.13.3",
+    "name_en": "Open WebUI 0.13.3",
+    "summary": "L'interface self-hosted pour LLM enchaîne 0.13.1 à 0.13.3 le 8 nov : Claude Code ou Codex deviennent des modèles, l'appli Tether relie ton poste sans ouvrir de port, et les automatisations lancent un agent. Licence maison. Trouvé via la release GitHub.",
+    "summary_en": "The self-hosted LLM interface ships 0.13.1 to 0.13.3 on Nov 8: Claude Code or Codex show up as models, the Tether app links your machine without opening ports, and automations can run an agent. Custom license. Found via the GitHub release.",
+    "url": "https://openwebui.com/",
+    "tags": [
+      "self-hosting",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Release GitHub — open-webui/open-webui v0.13.3",
+      "label_en": "GitHub release — open-webui/open-webui v0.13.3",
+      "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.3"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "name": "Dagu 2.26.0",
+    "name_en": "Dagu 2.26.0",
+    "summary": "Orchestrateur de workflows auto-hébergé (YAML, un seul binaire, sans base), alternative à cron : la 2.26.0 du 7 nov ajoute un restart_policy par DAG et des binaires Windows signés avec manifeste Scoop. Trouvé via la release GitHub.",
+    "summary_en": "Self-hosted workflow orchestrator (YAML, single binary, no database), a cron alternative: 2.26.0 on Nov 7 adds a per-DAG restart_policy plus signed Windows binaries with a Scoop manifest. Found via the GitHub release.",
+    "url": "https://dagu.sh/",
+    "tags": [
+      "pipeline",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — dagu-org/dagu v2.26.0",
+      "label_en": "GitHub release — dagu-org/dagu v2.26.0",
+      "url": "https://github.com/dagu-org/dagu/releases/tag/v2.26.0"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "name": "lazygit 0.66.3",
+    "name_en": "lazygit 0.66.3",
+    "summary": "Le client Git en TUI sort la 0.66.3 le 8 nov : il ignore les sous-modules dont le nom ou le chemin dans .gitmodules sort du dépôt, et retirer un sous-module d'un worktree lié ne casse plus le dépôt principal. Trouvé via la release GitHub.",
+    "summary_en": "The terminal Git client ships 0.66.3 on Nov 8: it ignores submodules whose name or path in .gitmodules leads outside the repo, and removing a submodule in a linked worktree no longer breaks the main one. Found via the GitHub release.",
+    "url": "https://github.com/jesseduffield/lazygit",
+    "tags": [
+      "terminal",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — jesseduffield/lazygit v0.66.3",
+      "label_en": "GitHub release — jesseduffield/lazygit v0.66.3",
+      "url": "https://github.com/jesseduffield/lazygit/releases/tag/v0.66.3"
+    }
+  },
+  {
     "date": "2026-11-08",
     "name": "InvenTree 1.7.1 (correctifs de sécurité)",
     "name_en": "InvenTree 1.7.1 (security fixes)",

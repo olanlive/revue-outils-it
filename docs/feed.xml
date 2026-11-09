@@ -5,8 +5,35 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 08 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Open WebUI 0.13.3</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-09-open-webui-0-13-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-09-open-webui-0-13-3</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0100</pubDate>
+      <description>L'interface self-hosted pour LLM enchaîne 0.13.1 à 0.13.3 le 8 nov : Claude Code ou Codex deviennent des modèles, l'appli Tether relie ton poste sans ouvrir de port, et les automatisations lancent un agent. Licence maison. Trouvé via la release GitHub.</description>
+      <category>self-hosting</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Dagu 2.26.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-09-dagu-2-26-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-09-dagu-2-26-0</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Orchestrateur de workflows auto-hébergé (YAML, un seul binaire, sans base), alternative à cron : la 2.26.0 du 7 nov ajoute un restart_policy par DAG et des binaires Windows signés avec manifeste Scoop. Trouvé via la release GitHub.</description>
+      <category>pipeline</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>lazygit 0.66.3</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-09-lazygit-0-66-3</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-09-lazygit-0-66-3</guid>
+      <pubDate>Mon, 09 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le client Git en TUI sort la 0.66.3 le 8 nov : il ignore les sous-modules dont le nom ou le chemin dans .gitmodules sort du dépôt, et retirer un sous-module d'un worktree lié ne casse plus le dépôt principal. Trouvé via la release GitHub.</description>
+      <category>terminal</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>InvenTree 1.7.1 (correctifs de sécurité)</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-08-inventree-1-7-1-correctifs-de-securite</link>
@@ -979,37 +1006,6 @@
       <description>Coffre de mots de passe auto-hébergeable pour le studio. La 2026.10.0 (14 oct) permet de partager des éléments via des liens temporaires et de configurer la durée de vie des access tokens.</description>
       <category>securite</category>
       <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Headscale 0.29.5</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-16-headscale-0-29-5</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-16-headscale-0-29-5</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Contrôleur open source compatible Tailscale pour un VPN mesh auto-hébergé. La 0.29.5 (13 oct) corrige le steering via des exit nodes, des races ACL et les peers fantômes sur Android.</description>
-      <category>reseau</category>
-      <category>acces-distant</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Syncthing 2.1.7-rc.2</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-16-syncthing-2-1-7-rc-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-16-syncthing-2-1-7-rc-2</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Synchro P2P chiffrée d’assets entre postes et NAS. La RC 2.1.7-rc.2 (13 oct) peaufine la ligne 2.1 (groupes GUI, proxies HTTPS CONNECT, indexation blocs optionnelle). À tester hors prod.</description>
-      <category>stockage</category>
-      <category>pipeline</category>
-      <category>self-hosting</category>
-      <category>rc</category>
-    </item>
-    <item>
-      <title>Rackula 26.10.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-16-rackula-26-10-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-16-rackula-26-10-1</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Planificateur de baies/racks auto-hébergeable (Docker/LXC) pour documenter le parc studio. La 26.10.1 (13 oct) mesure les appareils en mm, exporte les patchs CSV et pin libexpat (CVE-2026-93990).</description>
-      <category>inventaire</category>
-      <category>self-hosting</category>
-      <category>emerging</category>
     </item>
   </channel>
 </rss>
