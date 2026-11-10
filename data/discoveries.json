@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-10",
+    "name": "Semaphore UI 2.19.22",
+    "name_en": "Semaphore UI 2.19.22",
+    "summary": "L'interface web open source pour lancer tes playbooks Ansible, Terraform ou scripts enchaîne trois correctifs de sécurité les 9 et 10 nov : un Manager ne peut plus toucher aux dépôts ou coffres d'un autre projet. Trouvé via la release GitHub.",
+    "summary_en": "The open source web UI for running your Ansible playbooks, Terraform or scripts ships three security fixes on Nov 9 and 10: a Manager can no longer touch another project's repositories or vaults. Found via the GitHub release.",
+    "url": "https://semaphoreui.com/",
+    "tags": [
+      "deploiement",
+      "pipeline",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — semaphoreui/semaphore v2.19.22",
+      "label_en": "GitHub release — semaphoreui/semaphore v2.19.22",
+      "url": "https://github.com/semaphoreui/semaphore/releases/tag/v2.19.22"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "name": "Nushell 0.117.0",
+    "name_en": "Nushell 0.117.0",
+    "summary": "Le shell open source à données structurées sort la 0.117 le 9 nov : @structured transforme la sortie d'une commande externe en tableau, une ligne d'état signale les erreurs avant Entrée, et les fichiers .env se chargent nativement. Trouvé via la release GitHub.",
+    "summary_en": "The open source structured-data shell ships 0.117 on Nov 9: @structured turns an external command's output into a table, a status line flags errors before you hit Enter, and .env files load natively. Found via the GitHub release.",
+    "url": "https://www.nushell.sh/",
+    "tags": [
+      "terminal",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Release GitHub — nushell/nushell 0.117.0",
+      "label_en": "GitHub release — nushell/nushell 0.117.0",
+      "url": "https://github.com/nushell/nushell/releases/tag/0.117.0"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "name": "Wazuh 4.14.10",
+    "name_en": "Wazuh 4.14.10",
+    "summary": "Déjà vu le 17 oct. La branche stable du SIEM open source passe en 4.14.10 le 9 nov avec une salve de correctifs : injection de commande en root dans rootcheck, traversées de chemin et failles RBAC corrigées. À appliquer sur tes managers. Trouvé via la release GitHub.",
+    "summary_en": "Already covered Oct 17. The open source SIEM's stable branch moves to 4.14.10 on Nov 9 with a batch of fixes: a root command injection in rootcheck, path traversals and RBAC flaws. Worth applying to your managers. Found via the GitHub release.",
+    "url": "https://wazuh.com/",
+    "tags": [
+      "securite",
+      "monitoring",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — wazuh/wazuh v4.14.10",
+      "label_en": "GitHub release — wazuh/wazuh v4.14.10",
+      "url": "https://github.com/wazuh/wazuh/releases/tag/v4.14.10"
+    }
+  },
+  {
     "date": "2026-11-09",
     "name": "Open WebUI 0.13.3",
     "name_en": "Open WebUI 0.13.3",

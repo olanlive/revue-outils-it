@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-10 | Semaphore UI 2.19.22 | deploiement, pipeline, securite, self-hosting | https://semaphoreui.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-10-semaphore-ui-2-19-22 |
+| 2026-11-10 | Nushell 0.117.0 | terminal, pipeline | https://www.nushell.sh/ | https://olanlive.github.io/revue-outils-it/#2026-11-10-nushell-0-117-0 |
+| 2026-11-10 | Wazuh 4.14.10 | securite, monitoring, self-hosting | https://wazuh.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-10-wazuh-4-14-10 |
 | 2026-11-09 | Open WebUI 0.13.3 | self-hosting, pipeline | https://openwebui.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-09-open-webui-0-13-3 |
 | 2026-11-09 | Dagu 2.26.0 | pipeline, self-hosting | https://dagu.sh/ | https://olanlive.github.io/revue-outils-it/#2026-11-09-dagu-2-26-0 |
 | 2026-11-09 | lazygit 0.66.3 | terminal, securite | https://github.com/jesseduffield/lazygit | https://olanlive.github.io/revue-outils-it/#2026-11-09-lazygit-0-66-3 |

@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 09 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Semaphore UI 2.19.22</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-10-semaphore-ui-2-19-22</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-10-semaphore-ui-2-19-22</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0100</pubDate>
+      <description>L'interface web open source pour lancer tes playbooks Ansible, Terraform ou scripts enchaîne trois correctifs de sécurité les 9 et 10 nov : un Manager ne peut plus toucher aux dépôts ou coffres d'un autre projet. Trouvé via la release GitHub.</description>
+      <category>deploiement</category>
+      <category>pipeline</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Nushell 0.117.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-10-nushell-0-117-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-10-nushell-0-117-0</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le shell open source à données structurées sort la 0.117 le 9 nov : @structured transforme la sortie d'une commande externe en tableau, une ligne d'état signale les erreurs avant Entrée, et les fichiers .env se chargent nativement. Trouvé via la release GitHub.</description>
+      <category>terminal</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>Wazuh 4.14.10</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-10-wazuh-4-14-10</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-10-wazuh-4-14-10</guid>
+      <pubDate>Tue, 10 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu le 17 oct. La branche stable du SIEM open source passe en 4.14.10 le 9 nov avec une salve de correctifs : injection de commande en root dans rootcheck, traversées de chemin et failles RBAC corrigées. À appliquer sur tes managers. Trouvé via la release GitHub.</description>
+      <category>securite</category>
+      <category>monitoring</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>Open WebUI 0.13.3</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-09-open-webui-0-13-3</link>
@@ -976,34 +1006,6 @@
       <description>VPN mesh open source (WireGuard) pour relier farm, NAS et postes. La 0.81.0 (15 oct) ajoute les Certificate posture checks (preuve de clé privée), nblink (forward HTTP sans root) et l’accès par chemin sur le reverse proxy.</description>
       <category>reseau</category>
       <category>acces-distant</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Sentry Self-Hosted 26.10.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-16-sentry-self-hosted-26-10-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-16-sentry-self-hosted-26-10-0</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Plateforme d’erreurs/observabilité auto-hébergeable. La 26.10.0 (16 oct) passe Postgres 14→18 (snapshot recommandé avant upgrade), pousse les images distroless et ajoute la recherche de logs par regex.</description>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Traefik 3.7.15</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-16-traefik-3-7-15</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-16-traefik-3-7-15</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Reverse proxy / ingress pour exposer proprement les services studio. La 3.7.15 (15 oct) rejette les requêtes CONNECT avant le muxer (durcissement) et corrige auth-tls côté ingress-nginx.</description>
-      <category>reseau</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Bitwarden 2026.10.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-16-bitwarden-2026-10-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-16-bitwarden-2026-10-0</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Coffre de mots de passe auto-hébergeable pour le studio. La 2026.10.0 (14 oct) permet de partager des éléments via des liens temporaires et de configurer la durée de vie des access tokens.</description>
       <category>securite</category>
       <category>self-hosting</category>
     </item>
