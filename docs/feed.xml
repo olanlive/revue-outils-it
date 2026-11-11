@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 10 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>pyinfra 3.11.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-11-pyinfra-3-11-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-11-pyinfra-3-11-0</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>L'outil open source qui transforme du Python en commandes shell sur tes serveurs (SSH, local, Docker) sort la 3.11 le 9 nov : apt.hold, files.rename, opérations supervisorctl, CLI repensée avec Rich et SSH plus solide (ProxyJump, CA). Trouvé via la release GitHub.</description>
+      <category>deploiement</category>
+      <category>pipeline</category>
+    </item>
+    <item>
+      <title>rat-commander 1.9.9</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-11-rat-commander-1-9-9</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-11-rat-commander-1-9-9</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Successeur open source de Midnight Commander : deux panneaux local/SFTP/SCP/FTP, explorateurs de disque, processus et réseau intégrés. La 1.9.9 (12 oct) ajoute un mode portable pour le lancer depuis une clé USB sous Windows. Trouvé via Terminal Trove (11 nov).</description>
+      <category>terminal</category>
+      <category>stockage</category>
+      <category>acces-distant</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Cockpit 372</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-11-cockpit-372</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-11-cockpit-372</guid>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu le 25 oct. L'interface web open source d'admin Linux sort la 372 le 10 nov avec deux CVE corrigées : les clés SSH s'ajoutent désormais avec les droits de l'utilisateur et non via sudo, et la mémoire des messages fragmentés est bornée. Trouvé via la release GitHub.</description>
+      <category>securite</category>
+      <category>stockage</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>Semaphore UI 2.19.22</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-10-semaphore-ui-2-19-22</link>
@@ -976,38 +1006,6 @@
       <description>Interface graphique pour WinGet, Chocolatey, Scoop ou pip sur les postes Windows. La 2026.3.2 (15 oct) ajoute en expérimental un catalogue de logiciels approuvés, avec versions épinglées, que les utilisateurs installent en un clic.</description>
       <category>deploiement</category>
       <category>inventaire</category>
-    </item>
-    <item>
-      <title>Homelable 3.6.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-17-homelable-3-6-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-17-homelable-3-6-0</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Carte interactive de ton infra (réseau, racks, services) avec statut live, scans réseau et doc intégrée. La 3.6.0 (7 oct) permet d’ajouter images et PDF à la doc et de mettre à jour une fiche depuis un scan. Trouvé via Self-Host Weekly.</description>
-      <category>inventaire</category>
-      <category>monitoring</category>
-      <category>reseau</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Wazuh 4.14.9</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-17-wazuh-4-14-9</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-17-wazuh-4-14-9</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>SIEM/XDR open source pour surveiller postes et serveurs. La 4.14.9 (15 oct) durcit les binaires Linux (PIE, RELRO, stack canary), ferme les connexions d’enrôlement inactives et débloque le scanner de vulnérabilités.</description>
-      <category>securite</category>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>NetBird 0.81.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-16-netbird-0-81-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-16-netbird-0-81-0</guid>
-      <pubDate>Fri, 16 Oct 2026 09:00:00 +0200</pubDate>
-      <description>VPN mesh open source (WireGuard) pour relier farm, NAS et postes. La 0.81.0 (15 oct) ajoute les Certificate posture checks (preuve de clé privée), nblink (forward HTTP sans root) et l’accès par chemin sur le reverse proxy.</description>
-      <category>reseau</category>
-      <category>acces-distant</category>
-      <category>securite</category>
-      <category>self-hosting</category>
     </item>
   </channel>
 </rss>

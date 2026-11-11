@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-11",
+    "name": "pyinfra 3.11.0",
+    "name_en": "pyinfra 3.11.0",
+    "summary": "L'outil open source qui transforme du Python en commandes shell sur tes serveurs (SSH, local, Docker) sort la 3.11 le 9 nov : apt.hold, files.rename, opérations supervisorctl, CLI repensée avec Rich et SSH plus solide (ProxyJump, CA). Trouvé via la release GitHub.",
+    "summary_en": "The open source tool that turns Python into shell commands on your servers (SSH, local, Docker) ships 3.11 on Nov 9: apt.hold, files.rename, supervisorctl operations, a Rich-based CLI and sturdier SSH (ProxyJump, CAs). Found via the GitHub release.",
+    "url": "https://pyinfra.com",
+    "tags": [
+      "deploiement",
+      "pipeline"
+    ],
+    "source": {
+      "label": "Release GitHub — pyinfra-dev/pyinfra v3.11.0",
+      "label_en": "GitHub release — pyinfra-dev/pyinfra v3.11.0",
+      "url": "https://github.com/pyinfra-dev/pyinfra/releases/tag/v3.11.0"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "name": "rat-commander 1.9.9",
+    "name_en": "rat-commander 1.9.9",
+    "summary": "Successeur open source de Midnight Commander : deux panneaux local/SFTP/SCP/FTP, explorateurs de disque, processus et réseau intégrés. La 1.9.9 (12 oct) ajoute un mode portable pour le lancer depuis une clé USB sous Windows. Trouvé via Terminal Trove (11 nov).",
+    "summary_en": "An open source successor to Midnight Commander: two local/SFTP/SCP/FTP panels plus built-in disk, process and network explorers. 1.9.9 (Oct 12) adds a portable mode to run it from a USB stick on Windows. Found via Terminal Trove (Nov 11).",
+    "url": "https://rat-commander.com",
+    "tags": [
+      "terminal",
+      "stockage",
+      "acces-distant",
+      "emerging"
+    ],
+    "source": {
+      "label": "Terminal Trove — nouveaux outils du 11 nov",
+      "label_en": "Terminal Trove — new tools, Nov 11",
+      "url": "https://terminaltrove.com/rat-commander/"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "name": "Cockpit 372",
+    "name_en": "Cockpit 372",
+    "summary": "Déjà vu le 25 oct. L'interface web open source d'admin Linux sort la 372 le 10 nov avec deux CVE corrigées : les clés SSH s'ajoutent désormais avec les droits de l'utilisateur et non via sudo, et la mémoire des messages fragmentés est bornée. Trouvé via la release GitHub.",
+    "summary_en": "Already covered Oct 25. The open source Linux admin web UI ships 372 on Nov 10 with two CVE fixes: SSH keys are now added with the user's own rights instead of sudo, and memory for fragmented messages is capped. Found via the GitHub release.",
+    "url": "https://cockpit-project.org/",
+    "tags": [
+      "securite",
+      "stockage",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — cockpit-project/cockpit 372",
+      "label_en": "GitHub release — cockpit-project/cockpit 372",
+      "url": "https://github.com/cockpit-project/cockpit/releases/tag/372"
+    }
+  },
+  {
     "date": "2026-11-10",
     "name": "Semaphore UI 2.19.22",
     "name_en": "Semaphore UI 2.19.22",

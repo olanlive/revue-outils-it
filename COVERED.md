@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-11 | pyinfra 3.11.0 | deploiement, pipeline | https://pyinfra.com | https://olanlive.github.io/revue-outils-it/#2026-11-11-pyinfra-3-11-0 |
+| 2026-11-11 | rat-commander 1.9.9 | terminal, stockage, acces-distant, emerging | https://rat-commander.com | https://olanlive.github.io/revue-outils-it/#2026-11-11-rat-commander-1-9-9 |
+| 2026-11-11 | Cockpit 372 | securite, stockage, self-hosting | https://cockpit-project.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-11-cockpit-372 |
 | 2026-11-10 | Semaphore UI 2.19.22 | deploiement, pipeline, securite, self-hosting | https://semaphoreui.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-10-semaphore-ui-2-19-22 |
 | 2026-11-10 | Nushell 0.117.0 | terminal, pipeline | https://www.nushell.sh/ | https://olanlive.github.io/revue-outils-it/#2026-11-10-nushell-0-117-0 |
 | 2026-11-10 | Wazuh 4.14.10 | securite, monitoring, self-hosting | https://wazuh.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-10-wazuh-4-14-10 |
