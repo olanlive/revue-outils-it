@@ -5,8 +5,46 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 11 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>rclone 1.76.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-12-rclone-1-76-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-12-rclone-1-76-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu le 12 oct : la 1.76 (6 nov) corrige une salve de failles (symlinks piégés en local, fuites d'identifiants sur redirection, rc sans auth) et ajoute la commande index et kDrive. Mets à jour tes syncs NAS. Trouvé via le changelog officiel.</description>
+      <category>securite</category>
+      <category>stockage</category>
+      <category>sauvegarde</category>
+    </item>
+    <item>
+      <title>Homepage 2.8.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-12-homepage-2-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-12-homepage-2-8-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu le 18 oct : le tableau de bord self-hosted sort la 2.8.0 le 11 nov, avec des widgets Synology (identifiants encodés) et QNAP (volumes) corrigés, plus de champs Beszel et une page de connexion traduite. Trouvé via la release GitHub.</description>
+      <category>self-hosting</category>
+      <category>nas</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>Zellij 0.46.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-12-zellij-0-46-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-12-zellij-0-46-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le multiplexeur de terminal open source devient aussi un terminal de bureau (zellij terminal) sous Linux, macOS et Windows avec la 0.46.0 du 11 nov ; les sessions restent partageables avec le mode classique. Trouvé via la release GitHub.</description>
+      <category>terminal</category>
+    </item>
+    <item>
+      <title>PowerShell 7.7.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-12-powershell-7-7-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-12-powershell-7-7-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Version stable 7.7.0 sortie le 10 nov, construite sur le SDK .NET 11 : elle avertit désormais des catalogues de fichiers signés en SHA-1 et embarque PSResourceGet 1.3.0-rc2. À tester sur tes scripts de parc Windows. Trouvé via la release GitHub.</description>
+      <category>deploiement</category>
+      <category>pipeline</category>
+      <category>terminal</category>
+    </item>
     <item>
       <title>pyinfra 3.11.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-11-pyinfra-3-11-0</link>
@@ -969,43 +1007,6 @@
       <category>stockage</category>
       <category>s3</category>
       <category>self-hosting</category>
-    </item>
-    <item>
-      <title>ntfy 2.31.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-ntfy-2-31-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-ntfy-2-31-1</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Notifications push auto-hébergées pour tes alertes de rendu ou de backup : la 2.31.1 (17 oct) corrige la surcharge base de données qui avait fait revenir ntfy.sh en arrière et tolère désormais un schéma plus récent au rollback. Trouvé via la release GitHub binwiederhier/ntfy.</description>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Starship 1.27.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-starship-1-27-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-starship-1-27-0</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Le prompt shell multiplateforme Starship sort la 1.27.0 (17 oct) : modules Jujutsu (jj), prompt de droite sous Bash via Flyline et deux failles corrigées, dont un appel git qui sautait le contrôle de propriété du dépôt. Trouvé via la release GitHub starship/starship.</description>
-      <category>terminal</category>
-      <category>securite</category>
-    </item>
-    <item>
-      <title>GitLab 19.4.2 (patch critique)</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-17-gitlab-19-4-2-patch-critique</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-17-gitlab-19-4-2-patch-critique</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Si tu héberges GitLab : la 19.4.2 (12 oct, aussi 19.3.5 et 19.2.8) corrige une faille CVSS 10 qui permet d’exécuter du code sur le serveur sans authentification via une regex CI/CD piégée. À appliquer vite. Trouvé via Self-Host Weekly.</description>
-      <category>securite</category>
-      <category>self-hosting</category>
-      <category>pipeline</category>
-    </item>
-    <item>
-      <title>UniGetUI 2026.3.2</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-17-unigetui-2026-3-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-17-unigetui-2026-3-2</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Interface graphique pour WinGet, Chocolatey, Scoop ou pip sur les postes Windows. La 2026.3.2 (15 oct) ajoute en expérimental un catalogue de logiciels approuvés, avec versions épinglées, que les utilisateurs installent en un clic.</description>
-      <category>deploiement</category>
-      <category>inventaire</category>
     </item>
   </channel>
 </rss>

@@ -5,8 +5,46 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>rclone 1.76.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-12-rclone-1-76-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-12-rclone-1-76-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Covered on Oct 12: 1.76 (Nov 6) fixes a batch of flaws (planted symlinks on local, credential leaks on redirects, unauthenticated rc) and adds the index command and kDrive. Update your NAS syncs. Found via the official changelog.</description>
+      <category>securite</category>
+      <category>stockage</category>
+      <category>sauvegarde</category>
+    </item>
+    <item>
+      <title>Homepage 2.8.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-12-homepage-2-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-12-homepage-2-8-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Covered on Oct 18: the self-hosted dashboard ships 2.8.0 on Nov 11, with fixed Synology (encoded credentials) and QNAP (volume usage) widgets, more Beszel fields and a localized sign-in page. Found via the GitHub release.</description>
+      <category>self-hosting</category>
+      <category>nas</category>
+      <category>monitoring</category>
+    </item>
+    <item>
+      <title>Zellij 0.46.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-12-zellij-0-46-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-12-zellij-0-46-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open source terminal multiplexer also becomes a desktop terminal (zellij terminal) on Linux, macOS and Windows with 0.46.0 on Nov 11; sessions stay shareable with the classic mode. Found via the GitHub release.</description>
+      <category>terminal</category>
+    </item>
+    <item>
+      <title>PowerShell 7.7.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-12-powershell-7-7-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-12-powershell-7-7-0</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Stable 7.7.0 released on Nov 10, built on the .NET 11 SDK: it now warns about SHA-1 file catalogs and bundles PSResourceGet 1.3.0-rc2. Worth testing against your Windows fleet scripts. Found via the GitHub release.</description>
+      <category>deploiement</category>
+      <category>pipeline</category>
+      <category>terminal</category>
+    </item>
     <item>
       <title>pyinfra 3.11.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-11-pyinfra-3-11-0</link>
@@ -969,43 +1007,6 @@
       <category>stockage</category>
       <category>s3</category>
       <category>self-hosting</category>
-    </item>
-    <item>
-      <title>ntfy 2.31.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-ntfy-2-31-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-ntfy-2-31-1</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Self-hosted push notifications for your render or backup alerts: 2.31.1 (Oct 17) fixes the database overload that forced ntfy.sh to roll back, and now tolerates a newer schema on rollback. Found via the binwiederhier/ntfy GitHub release.</description>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Starship 1.27.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-starship-1-27-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-starship-1-27-0</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The cross-platform Starship shell prompt ships 1.27.0 (Oct 17): Jujutsu (jj) modules, a right prompt in Bash via Flyline and two flaws fixed, including a git call that skipped the repository ownership check. Found via the starship/starship GitHub release.</description>
-      <category>terminal</category>
-      <category>securite</category>
-    </item>
-    <item>
-      <title>GitLab 19.4.2 (critical patch)</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-17-gitlab-19-4-2-patch-critique</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-17-gitlab-19-4-2-patch-critique</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>If you host GitLab: 19.4.2 (Oct 12, also 19.3.5 and 19.2.8) fixes a CVSS 10 flaw that allows unauthenticated code execution on the server through a booby-trapped CI/CD regex. Apply it fast. Found via Self-Host Weekly.</description>
-      <category>securite</category>
-      <category>self-hosting</category>
-      <category>pipeline</category>
-    </item>
-    <item>
-      <title>UniGetUI 2026.3.2</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-17-unigetui-2026-3-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-17-unigetui-2026-3-2</guid>
-      <pubDate>Sat, 17 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Graphical interface for WinGet, Chocolatey, Scoop or pip on Windows workstations. 2026.3.2 (Oct 15) adds an experimental catalog of approved software, with pinned versions, that users install in one click.</description>
-      <category>deploiement</category>
-      <category>inventaire</category>
     </item>
   </channel>
 </rss>

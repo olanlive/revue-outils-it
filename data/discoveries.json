@@ -1,5 +1,75 @@
 [
   {
+    "date": "2026-11-12",
+    "name": "rclone 1.76.0",
+    "name_en": "rclone 1.76.0",
+    "summary": "Déjà vu le 12 oct : la 1.76 (6 nov) corrige une salve de failles (symlinks piégés en local, fuites d'identifiants sur redirection, rc sans auth) et ajoute la commande index et kDrive. Mets à jour tes syncs NAS. Trouvé via le changelog officiel.",
+    "summary_en": "Covered on Oct 12: 1.76 (Nov 6) fixes a batch of flaws (planted symlinks on local, credential leaks on redirects, unauthenticated rc) and adds the index command and kDrive. Update your NAS syncs. Found via the official changelog.",
+    "url": "https://rclone.org/",
+    "tags": [
+      "securite",
+      "stockage",
+      "sauvegarde"
+    ],
+    "source": {
+      "label": "Changelog rclone — v1.76.0",
+      "label_en": "rclone changelog — v1.76.0",
+      "url": "https://rclone.org/changelog/#v1-76-0-2026-11-06"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "name": "Homepage 2.8.0",
+    "name_en": "Homepage 2.8.0",
+    "summary": "Déjà vu le 18 oct : le tableau de bord self-hosted sort la 2.8.0 le 11 nov, avec des widgets Synology (identifiants encodés) et QNAP (volumes) corrigés, plus de champs Beszel et une page de connexion traduite. Trouvé via la release GitHub.",
+    "summary_en": "Covered on Oct 18: the self-hosted dashboard ships 2.8.0 on Nov 11, with fixed Synology (encoded credentials) and QNAP (volume usage) widgets, more Beszel fields and a localized sign-in page. Found via the GitHub release.",
+    "url": "https://gethomepage.dev/",
+    "tags": [
+      "self-hosting",
+      "nas",
+      "monitoring"
+    ],
+    "source": {
+      "label": "Release GitHub — gethomepage/homepage v2.8.0",
+      "label_en": "GitHub release — gethomepage/homepage v2.8.0",
+      "url": "https://github.com/gethomepage/homepage/releases/tag/v2.8.0"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "name": "Zellij 0.46.0",
+    "name_en": "Zellij 0.46.0",
+    "summary": "Le multiplexeur de terminal open source devient aussi un terminal de bureau (zellij terminal) sous Linux, macOS et Windows avec la 0.46.0 du 11 nov ; les sessions restent partageables avec le mode classique. Trouvé via la release GitHub.",
+    "summary_en": "The open source terminal multiplexer also becomes a desktop terminal (zellij terminal) on Linux, macOS and Windows with 0.46.0 on Nov 11; sessions stay shareable with the classic mode. Found via the GitHub release.",
+    "url": "https://zellij.dev/",
+    "tags": [
+      "terminal"
+    ],
+    "source": {
+      "label": "Release GitHub — zellij-org/zellij v0.46.0",
+      "label_en": "GitHub release — zellij-org/zellij v0.46.0",
+      "url": "https://github.com/zellij-org/zellij/releases/tag/v0.46.0"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "name": "PowerShell 7.7.0",
+    "name_en": "PowerShell 7.7.0",
+    "summary": "Version stable 7.7.0 sortie le 10 nov, construite sur le SDK .NET 11 : elle avertit désormais des catalogues de fichiers signés en SHA-1 et embarque PSResourceGet 1.3.0-rc2. À tester sur tes scripts de parc Windows. Trouvé via la release GitHub.",
+    "summary_en": "Stable 7.7.0 released on Nov 10, built on the .NET 11 SDK: it now warns about SHA-1 file catalogs and bundles PSResourceGet 1.3.0-rc2. Worth testing against your Windows fleet scripts. Found via the GitHub release.",
+    "url": "https://learn.microsoft.com/powershell/",
+    "tags": [
+      "deploiement",
+      "pipeline",
+      "terminal"
+    ],
+    "source": {
+      "label": "Release GitHub — PowerShell/PowerShell v7.7.0",
+      "label_en": "GitHub release — PowerShell/PowerShell v7.7.0",
+      "url": "https://github.com/PowerShell/PowerShell/releases/tag/v7.7.0"
+    }
+  },
+  {
     "date": "2026-11-11",
     "name": "pyinfra 3.11.0",
     "name_en": "pyinfra 3.11.0",

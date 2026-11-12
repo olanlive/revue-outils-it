@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-12 | rclone 1.76.0 | securite, stockage, sauvegarde | https://rclone.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-12-rclone-1-76-0 |
+| 2026-11-12 | Homepage 2.8.0 | self-hosting, nas, monitoring | https://gethomepage.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-12-homepage-2-8-0 |
+| 2026-11-12 | Zellij 0.46.0 | terminal | https://zellij.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-12-zellij-0-46-0 |
+| 2026-11-12 | PowerShell 7.7.0 | deploiement, pipeline, terminal | https://learn.microsoft.com/powershell/ | https://olanlive.github.io/revue-outils-it/#2026-11-12-powershell-7-7-0 |
 | 2026-11-11 | pyinfra 3.11.0 | deploiement, pipeline | https://pyinfra.com | https://olanlive.github.io/revue-outils-it/#2026-11-11-pyinfra-3-11-0 |
 | 2026-11-11 | rat-commander 1.9.9 | terminal, stockage, acces-distant, emerging | https://rat-commander.com | https://olanlive.github.io/revue-outils-it/#2026-11-11-rat-commander-1-9-9 |
 | 2026-11-11 | Cockpit 372 | securite, stockage, self-hosting | https://cockpit-project.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-11-cockpit-372 |
