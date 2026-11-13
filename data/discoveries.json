@@ -1,5 +1,79 @@
 [
   {
+    "date": "2026-11-13",
+    "name": "OliveTin 3000.22.0",
+    "name_en": "OliveTin 3000.22.0",
+    "summary": "Déjà vu le 25 oct : la 3000.22.0 (13 nov) corrige deux failles HIGH dans la connexion OAuth/JWKS de tes boutons de scripts, ajoute un healthcheck Docker et déprécie StartActionByGet. Trouvé via la release GitHub.",
+    "summary_en": "Covered on Oct 25: 3000.22.0 (Nov 13) fixes two HIGH flaws in the OAuth/JWKS login guarding your script buttons, adds a Docker healthcheck and deprecates StartActionByGet. Found via the GitHub release.",
+    "url": "https://www.olivetin.app/",
+    "tags": [
+      "securite",
+      "pipeline",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — OliveTin/OliveTin 3000.22.0",
+      "label_en": "GitHub release — OliveTin/OliveTin 3000.22.0",
+      "url": "https://github.com/OliveTin/OliveTin/releases/tag/3000.22.0"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "name": "Pulse 6.8.0",
+    "name_en": "Pulse 6.8.0",
+    "summary": "Déjà vu le 3 nov : la 6.8.0 stable (13 nov) regroupe les problèmes de sauvegarde par cause, prévoit le remplissage des datastores PBS et fixe un seuil de température par capteur. Trouvé via la release GitHub.",
+    "summary_en": "Covered on Nov 3: stable 6.8.0 (Nov 13) groups backup problems by cause, forecasts PBS datastore fill and sets a temperature limit per sensor. Found via the GitHub release.",
+    "url": "https://pulserelay.pro/",
+    "tags": [
+      "monitoring",
+      "sauvegarde",
+      "nas",
+      "virtualisation"
+    ],
+    "source": {
+      "label": "Release GitHub — rcourtman/Pulse v6.8.0",
+      "label_en": "GitHub release — rcourtman/Pulse v6.8.0",
+      "url": "https://github.com/rcourtman/Pulse/releases/tag/v6.8.0"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "name": "GLPI 12.0.2 (correctif de sécurité)",
+    "name_en": "GLPI 12.0.2 (security fix)",
+    "summary": "Déjà vu le 29 oct : la 12.0.2 (12 nov) colmate cinq failles « High », dont une élévation de privilèges via l'ancienne API et des prises de compte par tableau de bord intégré ou reset de mot de passe. Mets ton parc à jour. Trouvé via la release GitHub.",
+    "summary_en": "Covered on Oct 29: 12.0.2 (Nov 12) patches five High flaws, including privilege escalation via the legacy API and account takeover through embedded dashboards or password resets. Update your inventory. Found via the GitHub release.",
+    "url": "https://glpi-project.org/",
+    "tags": [
+      "securite",
+      "inventaire",
+      "helpdesk",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — glpi-project/glpi 12.0.2",
+      "label_en": "GitHub release — glpi-project/glpi 12.0.2",
+      "url": "https://github.com/glpi-project/glpi/releases/tag/12.0.2"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "name": "Pi-hole 6.6",
+    "name_en": "Pi-hole 6.6",
+    "summary": "Déjà vu le 18 oct : la 6.6 (11 nov) corrige quatre failles High (symlinks suivis par root, injection SQL dans gravity), passe de sudo à setpriv et retire les hash de mot de passe du log de debug. Trouvé via la release GitHub.",
+    "summary_en": "Covered on Oct 18: 6.6 (Nov 11) fixes four High flaws (symlinks followed as root, SQL injection in gravity), swaps sudo for setpriv and drops password hashes from the debug log. Found via the GitHub release.",
+    "url": "https://pi-hole.net/",
+    "tags": [
+      "securite",
+      "reseau",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — pi-hole/pi-hole v6.6",
+      "label_en": "GitHub release — pi-hole/pi-hole v6.6",
+      "url": "https://github.com/pi-hole/pi-hole/releases/tag/v6.6"
+    }
+  },
+  {
     "date": "2026-11-12",
     "name": "rclone 1.76.0",
     "name_en": "rclone 1.76.0",

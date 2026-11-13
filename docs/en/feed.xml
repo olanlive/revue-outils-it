@@ -5,8 +5,50 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OliveTin 3000.22.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-13-olivetin-3000-22-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-13-olivetin-3000-22-0</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Covered on Oct 25: 3000.22.0 (Nov 13) fixes two HIGH flaws in the OAuth/JWKS login guarding your script buttons, adds a Docker healthcheck and deprecates StartActionByGet. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>pipeline</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Pulse 6.8.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-13-pulse-6-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-13-pulse-6-8-0</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Covered on Nov 3: stable 6.8.0 (Nov 13) groups backup problems by cause, forecasts PBS datastore fill and sets a temperature limit per sensor. Found via the GitHub release.</description>
+      <category>monitoring</category>
+      <category>sauvegarde</category>
+      <category>nas</category>
+      <category>virtualisation</category>
+    </item>
+    <item>
+      <title>GLPI 12.0.2 (security fix)</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-13-glpi-12-0-2-correctif-de-securite</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-13-glpi-12-0-2-correctif-de-securite</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Covered on Oct 29: 12.0.2 (Nov 12) patches five High flaws, including privilege escalation via the legacy API and account takeover through embedded dashboards or password resets. Update your inventory. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>inventaire</category>
+      <category>helpdesk</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Pi-hole 6.6</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-13-pi-hole-6-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-13-pi-hole-6-6</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Covered on Oct 18: 6.6 (Nov 11) fixes four High flaws (symlinks followed as root, SQL injection in gravity), swaps sudo for setpriv and drops password hashes from the debug log. Found via the GitHub release.</description>
+      <category>securite</category>
+      <category>reseau</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>rclone 1.76.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-12-rclone-1-76-0</link>
@@ -967,46 +1009,6 @@
       <category>terminal</category>
       <category>deploiement</category>
       <category>securite</category>
-    </item>
-    <item>
-      <title>Windmill 1.841.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-19-windmill-1-841-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-19-windmill-1-841-0</guid>
-      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The open source self-hosted scripts and workflows platform ships 1.841.0 (Oct 18): workers authenticated by workload identity token, an allowlist for private MCP servers and a gVisor compat mode for the nsjail sandbox. Found via the windmill-labs/windmill GitHub release.</description>
-      <category>self-hosting</category>
-      <category>pipeline</category>
-      <category>securite</category>
-    </item>
-    <item>
-      <title>Pi-hole 6.5 / FTL 6.8</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-pi-hole-6-5-ftl-6-8</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-pi-hole-6-5-ftl-6-8</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Your ad-blocking DNS ships Core 6.5 and FTL 6.8 (Oct 17): about a dozen flaws fixed, including command execution and root writes (CVSS 7.8), plus a faster gravity database. Found via the pi-hole/pi-hole GitHub release.</description>
-      <category>reseau</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Homepage 2.6.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-homepage-2-6-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-homepage-2-6-0</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The Homepage service dashboard moves to 2.6.0 (Oct 17) with a rewritten auth layer that fixes an authentication bypass through a Next.js header (GHSA-qxcr-4rv3-v23r, high severity 7.5). Found via the gethomepage/homepage GitHub release.</description>
-      <category>self-hosting</category>
-      <category>securite</category>
-      <category>monitoring</category>
-    </item>
-    <item>
-      <title>RustFS 1.0.2</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-18-rustfs-1-0-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-18-rustfs-1-0-2</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>S3 object storage in Rust (Apache 2.0), a MinIO alternative: 1.0.2 (Oct 16) caps memory on multipart copies, speeds up multipart I/O and fixes ListParts pagination; 1.0.3 (Oct 17) only touches the console. Found via the rustfs/rustfs GitHub release.</description>
-      <category>stockage</category>
-      <category>s3</category>
-      <category>self-hosting</category>
     </item>
   </channel>
 </rss>

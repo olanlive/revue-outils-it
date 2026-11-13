@@ -7,6 +7,10 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-13 | OliveTin 3000.22.0 | securite, pipeline, self-hosting | https://www.olivetin.app/ | https://olanlive.github.io/revue-outils-it/#2026-11-13-olivetin-3000-22-0 |
+| 2026-11-13 | Pulse 6.8.0 | monitoring, sauvegarde, nas, virtualisation | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-11-13-pulse-6-8-0 |
+| 2026-11-13 | GLPI 12.0.2 (correctif de sécurité) | securite, inventaire, helpdesk, self-hosting | https://glpi-project.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-13-glpi-12-0-2-correctif-de-securite |
+| 2026-11-13 | Pi-hole 6.6 | securite, reseau, self-hosting | https://pi-hole.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-13-pi-hole-6-6 |
 | 2026-11-12 | rclone 1.76.0 | securite, stockage, sauvegarde | https://rclone.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-12-rclone-1-76-0 |
 | 2026-11-12 | Homepage 2.8.0 | self-hosting, nas, monitoring | https://gethomepage.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-12-homepage-2-8-0 |
 | 2026-11-12 | Zellij 0.46.0 | terminal | https://zellij.dev/ | https://olanlive.github.io/revue-outils-it/#2026-11-12-zellij-0-46-0 |

@@ -5,8 +5,50 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 12 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OliveTin 3000.22.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-13-olivetin-3000-22-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-13-olivetin-3000-22-0</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu le 25 oct : la 3000.22.0 (13 nov) corrige deux failles HIGH dans la connexion OAuth/JWKS de tes boutons de scripts, ajoute un healthcheck Docker et déprécie StartActionByGet. Trouvé via la release GitHub.</description>
+      <category>securite</category>
+      <category>pipeline</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Pulse 6.8.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-13-pulse-6-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-13-pulse-6-8-0</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu le 3 nov : la 6.8.0 stable (13 nov) regroupe les problèmes de sauvegarde par cause, prévoit le remplissage des datastores PBS et fixe un seuil de température par capteur. Trouvé via la release GitHub.</description>
+      <category>monitoring</category>
+      <category>sauvegarde</category>
+      <category>nas</category>
+      <category>virtualisation</category>
+    </item>
+    <item>
+      <title>GLPI 12.0.2 (correctif de sécurité)</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-13-glpi-12-0-2-correctif-de-securite</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-13-glpi-12-0-2-correctif-de-securite</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu le 29 oct : la 12.0.2 (12 nov) colmate cinq failles « High », dont une élévation de privilèges via l'ancienne API et des prises de compte par tableau de bord intégré ou reset de mot de passe. Mets ton parc à jour. Trouvé via la release GitHub.</description>
+      <category>securite</category>
+      <category>inventaire</category>
+      <category>helpdesk</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Pi-hole 6.6</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-13-pi-hole-6-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-13-pi-hole-6-6</guid>
+      <pubDate>Fri, 13 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Déjà vu le 18 oct : la 6.6 (11 nov) corrige quatre failles High (symlinks suivis par root, injection SQL dans gravity), passe de sudo à setpriv et retire les hash de mot de passe du log de debug. Trouvé via la release GitHub.</description>
+      <category>securite</category>
+      <category>reseau</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>rclone 1.76.0</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-12-rclone-1-76-0</link>
@@ -967,46 +1009,6 @@
       <category>terminal</category>
       <category>deploiement</category>
       <category>securite</category>
-    </item>
-    <item>
-      <title>Windmill 1.841.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-19-windmill-1-841-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-19-windmill-1-841-0</guid>
-      <pubDate>Mon, 19 Oct 2026 09:00:00 +0200</pubDate>
-      <description>La plateforme open source de scripts et workflows auto-hébergée sort la 1.841.0 (18 oct) : workers authentifiés par jeton d'identité, liste blanche des serveurs MCP privés et mode compatible gVisor pour le sandbox nsjail. Trouvé via la release GitHub windmill-labs/windmill.</description>
-      <category>self-hosting</category>
-      <category>pipeline</category>
-      <category>securite</category>
-    </item>
-    <item>
-      <title>Pi-hole 6.5 / FTL 6.8</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-pi-hole-6-5-ftl-6-8</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-pi-hole-6-5-ftl-6-8</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Ton DNS bloqueur de pubs sort Core 6.5 et FTL 6.8 (17 oct) : une douzaine de failles corrigées, dont exécution de commande et écritures root (CVSS 7,8), plus une base gravity plus rapide. Trouvé via la release GitHub pi-hole/pi-hole.</description>
-      <category>reseau</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Homepage 2.6.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-homepage-2-6-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-homepage-2-6-0</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Le tableau de bord de services Homepage passe en 2.6.0 (17 oct) avec une auth réécrite qui corrige un contournement de l’authentification via un en-tête Next.js (GHSA-qxcr-4rv3-v23r, sévérité haute 7,5). Trouvé via la release GitHub gethomepage/homepage.</description>
-      <category>self-hosting</category>
-      <category>securite</category>
-      <category>monitoring</category>
-    </item>
-    <item>
-      <title>RustFS 1.0.2</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-18-rustfs-1-0-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-18-rustfs-1-0-2</guid>
-      <pubDate>Sun, 18 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Stockage objet S3 en Rust (Apache 2.0), alternative à MinIO : la 1.0.2 (16 oct) borne la mémoire des copies multipart, accélère les E/S multipart et corrige la pagination ListParts ; la 1.0.3 (17 oct) ne touche que la console. Trouvé via la release GitHub rustfs/rustfs.</description>
-      <category>stockage</category>
-      <category>s3</category>
-      <category>self-hosting</category>
     </item>
   </channel>
 </rss>
