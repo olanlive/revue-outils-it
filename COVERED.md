@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-18 | Arcane 3.0.0 | self-hosting, deploiement, sauvegarde | https://getarcane.app | https://olanlive.github.io/revue-outils-it/#2026-11-18-arcane-3-0-0 |
+| 2026-11-18 | Homelable 3.7.1 | inventaire, reseau, self-hosting | https://homelable.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-18-homelable-3-7-1 |
+| 2026-11-18 | Fleet 4.95.0 | deploiement, inventaire, securite | https://fleetdm.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-18-fleet-4-95-0 |
 | 2026-11-13 | OliveTin 3000.22.0 | securite, pipeline, self-hosting | https://www.olivetin.app/ | https://olanlive.github.io/revue-outils-it/#2026-11-13-olivetin-3000-22-0 |
 | 2026-11-13 | Pulse 6.8.0 | monitoring, sauvegarde, nas, virtualisation | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-11-13-pulse-6-8-0 |
 | 2026-11-13 | GLPI 12.0.2 (correctif de sécurité) | securite, inventaire, helpdesk, self-hosting | https://glpi-project.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-13-glpi-12-0-2-correctif-de-securite |

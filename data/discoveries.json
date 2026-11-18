@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-11-18",
+    "name": "Arcane 3.0.0",
+    "name_en": "Arcane 3.0.0",
+    "summary": "Interface open source pour gérer tes conteneurs Docker sur plusieurs hôtes. La 3.0.0 (14 nov) étend les sauvegardes de volumes aux hôtes distants et peut bloquer une mise à jour si l'image a des failles ; variables renommées en ARCANE_. Trouvé via la release GitHub.",
+    "summary_en": "Open source UI to manage your Docker containers across several hosts. 3.0.0 (Nov 14) extends volume backups to remote environments, streams upgrades live and can block them on vulnerable images; variables now use an ARCANE_ prefix. Found via the GitHub release.",
+    "url": "https://getarcane.app",
+    "tags": [
+      "self-hosting",
+      "deploiement",
+      "sauvegarde"
+    ],
+    "source": {
+      "label": "Release GitHub — getarcaneapp/arcane v3.0.0",
+      "label_en": "GitHub release — getarcaneapp/arcane v3.0.0",
+      "url": "https://github.com/getarcaneapp/arcane/releases/tag/v3.0.0"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "name": "Homelable 3.7.1",
+    "name_en": "Homelable 3.7.1",
+    "summary": "Déjà vu le 17 oct : la 3.7 (7 nov) pousse les schémas et la doc de ton infra dans un dépôt Git, synchronise plusieurs serveurs Proxmox et importe les VM Unraid ; la 3.7.1 (15 nov) ajoute les étiquettes de câbles de rack. Trouvé via Self-Host Weekly du 13 nov.",
+    "summary_en": "Covered on Oct 17: 3.7 (Nov 7) pushes your infrastructure diagrams and docs to a Git repo, syncs several Proxmox servers and imports Unraid VMs; 3.7.1 (Nov 15) adds rack cable labels. Found via Self-Host Weekly of Nov 13.",
+    "url": "https://homelable.net/",
+    "tags": [
+      "inventaire",
+      "reseau",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Self-Host Weekly — 13 novembre 2026",
+      "label_en": "Self-Host Weekly — November 13, 2026",
+      "url": "https://selfh.st/weekly/2026-11-13/"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "name": "Fleet 4.95.0",
+    "name_en": "Fleet 4.95.0",
+    "summary": "Déjà vu le 10 oct : la 4.95.0 (16 nov) de la gestion de parc open source exige désormais server.private_key pour séquestrer les clés BitLocker Windows et limite le rôle Technician aux scripts enregistrés. À vérifier avant de mettre à jour. Trouvé via la release GitHub.",
+    "summary_en": "Covered on Oct 10: 4.95.0 (Nov 16) of the open source device management platform now requires server.private_key to escrow Windows BitLocker keys and limits the Technician role to saved scripts. Check before upgrading. Found via the GitHub release.",
+    "url": "https://fleetdm.com/",
+    "tags": [
+      "deploiement",
+      "inventaire",
+      "securite"
+    ],
+    "source": {
+      "label": "Release GitHub — fleetdm/fleet 4.95.0",
+      "label_en": "GitHub release — fleetdm/fleet 4.95.0",
+      "url": "https://github.com/fleetdm/fleet/releases/tag/fleet-v4.95.0"
+    }
+  },
+  {
     "date": "2026-11-13",
     "name": "OliveTin 3000.22.0",
     "name_en": "OliveTin 3000.22.0",
