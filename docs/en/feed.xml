@@ -5,8 +5,38 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>nginx 1.30.7</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-19-nginx-1-30-7</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-19-nginx-1-30-7</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>On Nov 18, nginx 1.30.7 (stable) and 1.31.9 fixed 10 vulnerabilities, 3 of them major (HTTP/2, TLS 1.3, mail proxy): update your reverse proxies. Nginx Proxy Manager 2.17.1 (Nov 19) ships the fixes. Found via a #SelfHosted Mastodon post by @blackvoid.</description>
+      <category>securite</category>
+      <category>reseau</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Netmaker 1.8.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-19-netmaker-1-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-19-netmaker-1-8-0</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Self-hosted WireGuard mesh network (open source CE edition). 1.8.0 (Nov 17) brings the new desktop apps to CE, adds managed SSH access without open ports and lets a Windows host act as an egress gateway to a LAN. Found via the GitHub release.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>YTunnel 1.1.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-19-ytunnel-1-1-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-19-ytunnel-1-1-1</guid>
+      <pubDate>Thu, 19 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Open source terminal UI (macOS, Linux) to manage your Cloudflare Tunnels on your own domain: automatic DNS, persistent tunnels as services, live metrics. 1.1 (Nov 13) stops false down alerts. Found via Terminal Trove (Nov 18).</description>
+      <category>acces-distant</category>
+      <category>reseau</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Arcane 3.0.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-18-arcane-3-0-0</link>
@@ -978,36 +1008,6 @@
       <description>Seen as an RC on Oct 16, Syncthing 2.1.7 is now stable (Oct 21): SQLite fixes, bad network data handled as errors instead of panics, and receive-only folder reconciliation fixed. Found via the syncthing/syncthing GitHub release.</description>
       <category>stockage</category>
       <category>pipeline</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Healthchecks 5.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-20-healthchecks-5-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-20-healthchecks-5-0</guid>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The cron and scheduled-job monitor (backups, render scripts) hits 5.0 (Oct 20): the Docker image swaps uWSGI for gunicorn (GUNICORN_WORKERS) and restarts the whole container if a process crashes. Check your compose. Found via the healthchecks/healthchecks GitHub release.</description>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Warpgate 0.30.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-20-warpgate-0-30-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-20-warpgate-0-30-0</guid>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Seen on Oct 13 as a beta, the SSH/RDP/HTTP bastion goes stable (Oct 19): Vault/OpenBao secrets, on-the-fly signed SSH certs, OIDC back-channel logout and 4 vulns fixed (TOTP MFA, admin CSRF). Found via the warp-tech/warpgate GitHub release.</description>
-      <category>acces-distant</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>LibreNMS 26.10.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-20-librenms-26-10-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-20-librenms-26-10-1</guid>
-      <pubDate>Tue, 20 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Open source SNMP network monitoring: 26.10.0 (Oct 19) fixes about fifteen vulns (XSS, API permissions), drops collectd and adds Nutanix storage and PDU outlets; 26.10.1 (Oct 20) reverts an issue with old fping. Found via the librenms/librenms GitHub releases.</description>
-      <category>monitoring</category>
-      <category>reseau</category>
-      <category>securite</category>
       <category>self-hosting</category>
     </item>
   </channel>
