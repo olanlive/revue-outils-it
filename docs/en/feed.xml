@@ -5,8 +5,37 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AdGuard Home 1.0.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-20-adguard-home-1-0-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-20-adguard-home-1-0-0</guid>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open source ad- and tracker-blocking DNS server for your network hits 1.0 (Nov 19): redesigned, lighter and responsive UI, DHCP and IPv6 fixes, v0.107 config kept as is. Found via the GitHub release.</description>
+      <category>reseau</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>restic 0.20.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-20-restic-0-20-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-20-restic-0-20-0</guid>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Open source encrypted, deduplicated CLI backup (NAS, S3, B2…). 0.20.0 (Nov 19) fixes 2 restore vulnerabilities (possible setuid-root files), cuts index memory use and hardens the repair commands. Found via the GitHub release.</description>
+      <category>sauvegarde</category>
+      <category>securite</category>
+      <category>stockage</category>
+    </item>
+    <item>
+      <title>Atuin 18.25.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-20-atuin-18-25-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-20-atuin-18-25-0</guid>
+      <pubDate>Fri, 20 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Already seen on Nov 5: the synced, encrypted shell history. 18.25.0 (Nov 20) makes "atuin setup" the guided setup wizard, handles DST-aware time zones and removes the built-in AI agent. Found via the GitHub release.</description>
+      <category>terminal</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>nginx 1.30.7</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-19-nginx-1-30-7</link>
@@ -979,36 +1008,6 @@
       <category>deploiement</category>
       <category>securite</category>
       <category>pipeline</category>
-    </item>
-    <item>
-      <title>Snipe-IT 8.8.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-21-snipe-it-8-8-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-21-snipe-it-8-8-1</guid>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The asset and license manager ships 8.8.1 (Oct 20): built-in label editor, bulk actions and archiving, much richer Intune sync (28 fields). Requires PHP 8.2+. Found via the snipe/snipe-it GitHub release.</description>
-      <category>inventaire</category>
-      <category>licences</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Docker Engine 29.9.2</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-21-docker-engine-29-9-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-21-docker-engine-29-9-2</guid>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Docker 29.9.2 (Oct 20) moves to Go 1.26.10, which rejects 8 compromised eMudhra intermediate certificates: a registry relying on them will make pulls and pushes fail. Check your private registry. Found via the moby/moby GitHub release.</description>
-      <category>securite</category>
-      <category>deploiement</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Syncthing 2.1.7</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-21-syncthing-2-1-7</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-21-syncthing-2-1-7</guid>
-      <pubDate>Wed, 21 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Seen as an RC on Oct 16, Syncthing 2.1.7 is now stable (Oct 21): SQLite fixes, bad network data handled as errors instead of panics, and receive-only folder reconciliation fixed. Found via the syncthing/syncthing GitHub release.</description>
-      <category>stockage</category>
-      <category>pipeline</category>
-      <category>self-hosting</category>
     </item>
   </channel>
 </rss>

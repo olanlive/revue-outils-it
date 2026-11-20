@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-20 | AdGuard Home 1.0.0 | reseau, securite, self-hosting | https://adguard.com/en/adguard-home/overview.html | https://olanlive.github.io/revue-outils-it/#2026-11-20-adguard-home-1-0-0 |
+| 2026-11-20 | restic 0.20.0 | sauvegarde, securite, stockage | https://restic.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-20-restic-0-20-0 |
+| 2026-11-20 | Atuin 18.25.0 | terminal, self-hosting | https://atuin.sh/ | https://olanlive.github.io/revue-outils-it/#2026-11-20-atuin-18-25-0 |
 | 2026-11-19 | nginx 1.30.7 | securite, reseau, self-hosting | https://nginx.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-19-nginx-1-30-7 |
 | 2026-11-19 | Netmaker 1.8.0 | reseau, acces-distant, self-hosting | https://www.netmaker.io/ | https://olanlive.github.io/revue-outils-it/#2026-11-19-netmaker-1-8-0 |
 | 2026-11-19 | YTunnel 1.1.1 | acces-distant, reseau, emerging | https://github.com/yetidevworks/ytunnel | https://olanlive.github.io/revue-outils-it/#2026-11-19-ytunnel-1-1-1 |

@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-11-20",
+    "name": "AdGuard Home 1.0.0",
+    "name_en": "AdGuard Home 1.0.0",
+    "summary": "Le serveur DNS open source anti-pubs et anti-traqueurs de ton réseau passe en 1.0 (19 nov) : interface refaite, plus légère et responsive, correctifs DHCP et IPv6, config v0.107 reprise telle quelle. Trouvé via la release GitHub.",
+    "summary_en": "The open source ad- and tracker-blocking DNS server for your network hits 1.0 (Nov 19): redesigned, lighter and responsive UI, DHCP and IPv6 fixes, v0.107 config kept as is. Found via the GitHub release.",
+    "url": "https://adguard.com/en/adguard-home/overview.html",
+    "tags": [
+      "reseau",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — AdguardTeam/AdGuardHome v1.0.0",
+      "label_en": "GitHub release — AdguardTeam/AdGuardHome v1.0.0",
+      "url": "https://github.com/AdguardTeam/AdGuardHome/releases/tag/v1.0.0"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "name": "restic 0.20.0",
+    "name_en": "restic 0.20.0",
+    "summary": "Sauvegarde CLI open source chiffrée et dédupliquée (NAS, S3, B2…). La 0.20.0 (19 nov) corrige 2 failles de restore (fichiers setuid-root possibles), réduit la mémoire de l'index et renforce les commandes repair. Trouvé via la release GitHub.",
+    "summary_en": "Open source encrypted, deduplicated CLI backup (NAS, S3, B2…). 0.20.0 (Nov 19) fixes 2 restore vulnerabilities (possible setuid-root files), cuts index memory use and hardens the repair commands. Found via the GitHub release.",
+    "url": "https://restic.net/",
+    "tags": [
+      "sauvegarde",
+      "securite",
+      "stockage"
+    ],
+    "source": {
+      "label": "Release GitHub — restic/restic v0.20.0",
+      "label_en": "GitHub release — restic/restic v0.20.0",
+      "url": "https://github.com/restic/restic/releases/tag/v0.20.0"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "name": "Atuin 18.25.0",
+    "name_en": "Atuin 18.25.0",
+    "summary": "Déjà vu le 5 nov : l'historique shell synchronisé et chiffré. La 18.25.0 (20 nov) fait de « atuin setup » l'assistant d'installation guidé, gère les fuseaux horaires avec changement d'heure et retire l'agent IA intégré. Trouvé via la release GitHub.",
+    "summary_en": "Already seen on Nov 5: the synced, encrypted shell history. 18.25.0 (Nov 20) makes \"atuin setup\" the guided setup wizard, handles DST-aware time zones and removes the built-in AI agent. Found via the GitHub release.",
+    "url": "https://atuin.sh/",
+    "tags": [
+      "terminal",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — atuinsh/atuin v18.25.0",
+      "label_en": "GitHub release — atuinsh/atuin v18.25.0",
+      "url": "https://github.com/atuinsh/atuin/releases/tag/v18.25.0"
+    }
+  },
+  {
     "date": "2026-11-19",
     "name": "nginx 1.30.7",
     "name_en": "nginx 1.30.7",
