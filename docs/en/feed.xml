@@ -5,8 +5,39 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Snipe-IT 8.8.4</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-21-snipe-it-8-8-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-21-snipe-it-8-8-4</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open source asset manager for your fleet (machines, licenses, checkouts) ships 8.8.4 (Nov 20): official MCP server to query it from your AI, saved searches, easier custom fields. Last release on PHP 8.2. Found via the GitHub release.</description>
+      <category>inventaire</category>
+      <category>licences</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>Pangolin 1.27</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-21-pangolin-1-27</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-21-pangolin-1-27</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The self-hosted remote access tunnel hits 1.27 (Nov 19): set DNS, exit node and MTU per role from the dashboard, locked on your team's clients, no more pushing config via MDM. Found via the official announcement.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>mish 1.20.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-21-mish-1-20-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-21-mish-1-20-2</guid>
+      <pubDate>Sat, 21 Nov 2026 09:00:00 +0100</pubDate>
+      <description>New (created Nov 11, v1.20.2 on Nov 18): an open source WinDirStat for servers. It scans a volume or NAS read-only and shows where disk space went in a web treemap, with a JSON API. Very young. Found via Self-Host Weekly, Nov 20.</description>
+      <category>stockage</category>
+      <category>nas</category>
+      <category>self-hosting</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>AdGuard Home 1.0.0</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-20-adguard-home-1-0-0</link>
@@ -979,35 +1010,6 @@
       <category>monitoring</category>
       <category>securite</category>
       <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Arcane 2.17.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-arcane-2-17-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-arcane-2-17-0</guid>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
-      <description>This open source web UI for managing Docker adds native Podman support, hostname configuration and a delay before auto-updating newly available images (Oct 21). Found via the getarcaneapp/arcane GitHub release.</description>
-      <category>virtualisation</category>
-      <category>deploiement</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Pocket ID 2.19</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-pocket-id-2-19</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-pocket-id-2-19</guid>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The passkey-based OIDC provider ships 2.19 (Oct 21): forced email verification, login notifications, plus security fixes (LDAP DN collision, email enumeration). Found via the pocket-id/pocket-id v2.19.0 GitHub release.</description>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>OpenTofu 1.13.2</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-opentofu-1-13-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-opentofu-1-13-2</guid>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The open source Terraform fork ships 1.13.2 (Oct 21): filters compromised intermediate certificates, fixes possible CPU exhaustion in tofu init against a malicious HTTP/2 server, and destroy crashes. Found via the GitHub release.</description>
-      <category>deploiement</category>
-      <category>securite</category>
-      <category>pipeline</category>
     </item>
   </channel>
 </rss>

@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-21 | Snipe-IT 8.8.4 | inventaire, licences, self-hosting | https://snipeitapp.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-21-snipe-it-8-8-4 |
+| 2026-11-21 | Pangolin 1.27 | reseau, acces-distant, self-hosting | https://pangolin.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-21-pangolin-1-27 |
+| 2026-11-21 | mish 1.20.2 | stockage, nas, self-hosting, emerging | https://github.com/Roobyx/mish | https://olanlive.github.io/revue-outils-it/#2026-11-21-mish-1-20-2 |
 | 2026-11-20 | AdGuard Home 1.0.0 | reseau, securite, self-hosting | https://adguard.com/en/adguard-home/overview.html | https://olanlive.github.io/revue-outils-it/#2026-11-20-adguard-home-1-0-0 |
 | 2026-11-20 | restic 0.20.0 | sauvegarde, securite, stockage | https://restic.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-20-restic-0-20-0 |
 | 2026-11-20 | Atuin 18.25.0 | terminal, self-hosting | https://atuin.sh/ | https://olanlive.github.io/revue-outils-it/#2026-11-20-atuin-18-25-0 |

@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-21",
+    "name": "Snipe-IT 8.8.4",
+    "name_en": "Snipe-IT 8.8.4",
+    "summary": "L'inventaire open source de ton parc (postes, licences, prêts) sort la 8.8.4 (20 nov) : serveur MCP officiel pour l'interroger depuis ton IA, recherches sauvegardées, champs perso plus simples. Dernière version sous PHP 8.2. Trouvé via la release GitHub.",
+    "summary_en": "The open source asset manager for your fleet (machines, licenses, checkouts) ships 8.8.4 (Nov 20): official MCP server to query it from your AI, saved searches, easier custom fields. Last release on PHP 8.2. Found via the GitHub release.",
+    "url": "https://snipeitapp.com/",
+    "tags": [
+      "inventaire",
+      "licences",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — grokability/snipe-it v8.8.4",
+      "label_en": "GitHub release — grokability/snipe-it v8.8.4",
+      "url": "https://github.com/grokability/snipe-it/releases/tag/v8.8.4"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "name": "Pangolin 1.27",
+    "name_en": "Pangolin 1.27",
+    "summary": "Le tunnel d'accès distant auto-hébergé passe en 1.27 (19 nov) : tu fixes DNS, nœud de sortie et MTU par rôle depuis le dashboard, verrouillés sur les clients de l'équipe, sans pousser de config par MDM. Trouvé via l'annonce officielle.",
+    "summary_en": "The self-hosted remote access tunnel hits 1.27 (Nov 19): set DNS, exit node and MTU per role from the dashboard, locked on your team's clients, no more pushing config via MDM. Found via the official announcement.",
+    "url": "https://pangolin.net/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Annonce officielle — Pangolin 1.27",
+      "label_en": "Official announcement — Pangolin 1.27",
+      "url": "https://pangolin.net/news/1-27-release"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "name": "mish 1.20.2",
+    "name_en": "mish 1.20.2",
+    "summary": "Nouveau (créé le 11 nov, v1.20.2 le 18) : un WinDirStat pour serveurs, open source. Il scanne en lecture seule un volume ou un NAS et affiche en treemap web où est passé l'espace disque, avec API JSON. Très jeune. Trouvé via Self-Host Weekly du 20 nov.",
+    "summary_en": "New (created Nov 11, v1.20.2 on Nov 18): an open source WinDirStat for servers. It scans a volume or NAS read-only and shows where disk space went in a web treemap, with a JSON API. Very young. Found via Self-Host Weekly, Nov 20.",
+    "url": "https://github.com/Roobyx/mish",
+    "tags": [
+      "stockage",
+      "nas",
+      "self-hosting",
+      "emerging"
+    ],
+    "source": {
+      "label": "Self-Host Weekly — 20 novembre 2026",
+      "label_en": "Self-Host Weekly — November 20, 2026",
+      "url": "https://selfh.st/weekly/2026-11-20/"
+    }
+  },
+  {
     "date": "2026-11-20",
     "name": "AdGuard Home 1.0.0",
     "name_en": "AdGuard Home 1.0.0",
