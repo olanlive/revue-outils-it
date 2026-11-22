@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-22",
+    "name": "Warpgate 0.31.0 beta.1",
+    "name_en": "Warpgate 0.31.0 beta.1",
+    "summary": "Le bastion SSH/RDP/HTTP open source (déjà vu le 20 oct) sort une bêta 0.31 (20 nov) : cibles, rôles et clés SSH se gèrent en YAML façon GitOps, avec dry-run et export de l'existant. Trouvé via la release GitHub.",
+    "summary_en": "The open source SSH/RDP/HTTP bastion (seen Oct 20) ships a 0.31 beta (Nov 20): targets, roles and SSH keys managed as YAML GitOps-style, with dry-run and export of existing resources. Found via the GitHub release.",
+    "url": "https://warpgate.null.page/",
+    "tags": [
+      "acces-distant",
+      "securite",
+      "self-hosting",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — warp-tech/warpgate v0.31.0-beta.1",
+      "label_en": "GitHub release — warp-tech/warpgate v0.31.0-beta.1",
+      "url": "https://github.com/warp-tech/warpgate/releases/tag/v0.31.0-beta.1"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "name": "FileBrowser Quantum 2.1.6",
+    "name_en": "FileBrowser Quantum 2.1.6",
+    "summary": "Le gestionnaire de fichiers web auto-hébergé passe en 2.1.6 bêta (20 nov) : faille d'extraction d'archive (symliens) colmatée, quota par utilisateur visible, et les aperçus 3D retrouvent textures et matériaux. Trouvé via la release GitHub.",
+    "summary_en": "The self-hosted web file manager hits 2.1.6 beta (Nov 20): archive extraction symlink flaw fixed, per-user quota shown, and 3D previews now find their textures and materials. Found via the GitHub release.",
+    "url": "https://filebrowserquantum.com/",
+    "tags": [
+      "stockage",
+      "self-hosting",
+      "securite",
+      "rc"
+    ],
+    "source": {
+      "label": "Release GitHub — gtsteffaniak/filebrowser v2.1.6-beta",
+      "label_en": "GitHub release — gtsteffaniak/filebrowser v2.1.6-beta",
+      "url": "https://github.com/gtsteffaniak/filebrowser/releases/tag/v2.1.6-beta"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "name": "Kiri 0.2.2",
+    "name_en": "Kiri 0.2.2",
+    "summary": "Alternative open source (Apache-2.0) à Docker Desktop pour Windows, Linux et macOS : un seul démon compatible CLI, Compose et buildx, k3s intégré. Projet jeune (nov 2026), la 0.2.2 (19 nov) corrige plusieurs failles. Trouvé via Console.dev.",
+    "summary_en": "Open source (Apache-2.0) Docker Desktop alternative for Windows, Linux and macOS: one daemon compatible with the CLI, Compose and buildx, built-in k3s. Young project (Nov 2026); 0.2.2 (Nov 19) fixes several security issues. Found via Console.dev.",
+    "url": "https://runkiri.com/",
+    "tags": [
+      "virtualisation",
+      "deploiement",
+      "emerging"
+    ],
+    "source": {
+      "label": "Console.dev — newsletter du 19 nov 2026",
+      "label_en": "Console.dev — Nov 19, 2026 newsletter",
+      "url": "https://console.dev/tools/kiri"
+    }
+  },
+  {
     "date": "2026-11-21",
     "name": "Snipe-IT 8.8.4",
     "name_en": "Snipe-IT 8.8.4",

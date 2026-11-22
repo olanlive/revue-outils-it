@@ -5,8 +5,40 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Warpgate 0.31.0 beta.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-22-warpgate-0-31-0-beta-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-22-warpgate-0-31-0-beta-1</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The open source SSH/RDP/HTTP bastion (seen Oct 20) ships a 0.31 beta (Nov 20): targets, roles and SSH keys managed as YAML GitOps-style, with dry-run and export of existing resources. Found via the GitHub release.</description>
+      <category>acces-distant</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>FileBrowser Quantum 2.1.6</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-22-filebrowser-quantum-2-1-6</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-22-filebrowser-quantum-2-1-6</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>The self-hosted web file manager hits 2.1.6 beta (Nov 20): archive extraction symlink flaw fixed, per-user quota shown, and 3D previews now find their textures and materials. Found via the GitHub release.</description>
+      <category>stockage</category>
+      <category>self-hosting</category>
+      <category>securite</category>
+      <category>rc</category>
+    </item>
+    <item>
+      <title>Kiri 0.2.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-22-kiri-0-2-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-22-kiri-0-2-2</guid>
+      <pubDate>Sun, 22 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Open source (Apache-2.0) Docker Desktop alternative for Windows, Linux and macOS: one daemon compatible with the CLI, Compose and buildx, built-in k3s. Young project (Nov 2026); 0.2.2 (Nov 19) fixes several security issues. Found via Console.dev.</description>
+      <category>virtualisation</category>
+      <category>deploiement</category>
+      <category>emerging</category>
+    </item>
     <item>
       <title>Snipe-IT 8.8.4</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-21-snipe-it-8-8-4</link>
@@ -980,36 +1012,6 @@
       <description>The vulnerability scanner (images, repos, IaC) ships 0.76.1 (Oct 21) after the eMudhra intermediate CA compromise: binaries built with Go 1.27.3 and images with an updated CA store. Upgrade and redeploy. Found via the GitHub release.</description>
       <category>securite</category>
       <category>pipeline</category>
-    </item>
-    <item>
-      <title>Atuin 18.24.2</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-23-atuin-18-24-2</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-23-atuin-18-24-2</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The synced, encrypted shell history ships 18.24.2 (Oct 22): daemon, pty-proxy and config path fixes. If you self-host the server, use Docker image 18.24.2-1 (eMudhra certificates). Found via the GitHub release.</description>
-      <category>terminal</category>
-      <category>self-hosting</category>
-      <category>securite</category>
-    </item>
-    <item>
-      <title>OpenCue 1.37.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-opencue-1-37-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-opencue-1-37-0</guid>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Featured before at 1.34: the render farm manager ships 1.37.0 (Oct 21), focused on Maestro at scale, a snappier CueGUI, configurable retries and OpenCueWeb/REST Docker images. DB migrations: back up first. Found via the GitHub release.</description>
-      <category>render-farm</category>
-      <category>pipeline</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Prometheus 3.15.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-22-prometheus-3-15-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-22-prometheus-3-15-1</guid>
-      <pubDate>Thu, 22 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Security update for the metrics engine (Oct 21): images now distrust the compromised eMudhra CAs, built with Go 1.27.3, plus HTTP/2 fixes. Worth rolling out on your monitoring stack. Found via the prometheus/prometheus GitHub release.</description>
-      <category>monitoring</category>
-      <category>securite</category>
-      <category>self-hosting</category>
     </item>
   </channel>
 </rss>

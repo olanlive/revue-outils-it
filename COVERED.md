@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-22 | Warpgate 0.31.0 beta.1 | acces-distant, securite, self-hosting, rc | https://warpgate.null.page/ | https://olanlive.github.io/revue-outils-it/#2026-11-22-warpgate-0-31-0-beta-1 |
+| 2026-11-22 | FileBrowser Quantum 2.1.6 | stockage, self-hosting, securite, rc | https://filebrowserquantum.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-22-filebrowser-quantum-2-1-6 |
+| 2026-11-22 | Kiri 0.2.2 | virtualisation, deploiement, emerging | https://runkiri.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-22-kiri-0-2-2 |
 | 2026-11-21 | Snipe-IT 8.8.4 | inventaire, licences, self-hosting | https://snipeitapp.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-21-snipe-it-8-8-4 |
 | 2026-11-21 | Pangolin 1.27 | reseau, acces-distant, self-hosting | https://pangolin.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-21-pangolin-1-27 |
 | 2026-11-21 | mish 1.20.2 | stockage, nas, self-hosting, emerging | https://github.com/Roobyx/mish | https://olanlive.github.io/revue-outils-it/#2026-11-21-mish-1-20-2 |
