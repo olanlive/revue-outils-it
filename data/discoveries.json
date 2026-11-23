@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-23",
+    "name": "copyparty 1.20.27",
+    "name_en": "copyparty 1.20.27",
+    "summary": "Le serveur de fichiers open source tout-en-un (WebDAV, SFTP, FTP, uploads reprenables) corrige 4 failles en 1.20.27 (22 nov), dont une troncature via SFTP, et sait écouter par sous-réseau ou carte réseau. Trouvé via la release GitHub.",
+    "summary_en": "The all-in-one open source file server (WebDAV, SFTP, FTP, resumable uploads) fixes 4 vulnerabilities in 1.20.27 (Nov 22), including file truncation over SFTP, and can now bind by subnet or NIC name. Found via the GitHub release.",
+    "url": "https://copyparty.eu/",
+    "tags": [
+      "stockage",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — 9001/copyparty v1.20.27",
+      "label_en": "GitHub release — 9001/copyparty v1.20.27",
+      "url": "https://github.com/9001/copyparty/releases/tag/v1.20.27"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "name": "PBS Plus 1.7.4",
+    "name_en": "PBS Plus 1.7.4",
+    "summary": "Extension open source (MIT) de Proxmox Backup Server : sauvegarde fichier par agent, bases PostgreSQL/MySQL, montage FUSE des archives, migration LTO. La 1.7.4 (22 nov) lit en avance les fichiers côté agent pour accélérer les sauvegardes. Trouvé via la release GitHub.",
+    "summary_en": "Open source (MIT) Proxmox Backup Server extension: agent-based file backup, PostgreSQL/MySQL backups, FUSE mounting of archives, LTO tape migration. 1.7.4 (Nov 22) adds read-ahead on agent file reads to speed up backups. Found via the GitHub release.",
+    "url": "https://github.com/pbs-plus/pbs-plus",
+    "tags": [
+      "sauvegarde",
+      "nas",
+      "self-hosting",
+      "emerging"
+    ],
+    "source": {
+      "label": "Release GitHub — pbs-plus/pbs-plus v1.7.4",
+      "label_en": "GitHub release — pbs-plus/pbs-plus v1.7.4",
+      "url": "https://github.com/pbs-plus/pbs-plus/releases/tag/v1.7.4"
+    }
+  },
+  {
+    "date": "2026-11-23",
+    "name": "Synology ActiveProtect Manager 2.0.2",
+    "name_en": "Synology ActiveProtect Manager 2.0.2",
+    "summary": "Payant (appliances Synology DP) : APM 2.0.2-88107 (23 nov) corrige NGINX2Root, faille critique de lecture/écriture de fichiers à distance (Synology-SA-26:20) ; DSM 7.3 et 7.4 ont leurs correctifs depuis le 20 nov. Trouvé via un post Mastodon #selfhosted de @blackvoid.",
+    "summary_en": "Paid (Synology DP appliances): APM 2.0.2-88107 (Nov 23) fixes NGINX2Root, a critical remote file read/write flaw (Synology-SA-26:20); DSM 7.3 and 7.4 got fixes on Nov 20. Found via a #selfhosted Mastodon post by @blackvoid.",
+    "url": "https://www.synology.com/en-us/security/advisory/Synology_SA_26_20",
+    "tags": [
+      "payant",
+      "nas",
+      "sauvegarde",
+      "securite"
+    ],
+    "source": {
+      "label": "Mastodon — @blackvoid@mastodon.social",
+      "label_en": "Mastodon — @blackvoid@mastodon.social",
+      "url": "https://mastodon.social/@blackvoid/117664614223359827"
+    }
+  },
+  {
     "date": "2026-11-22",
     "name": "Warpgate 0.31.0 beta.1",
     "name_en": "Warpgate 0.31.0 beta.1",

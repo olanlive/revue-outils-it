@@ -5,8 +5,40 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 22 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>copyparty 1.20.27</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-23-copyparty-1-20-27</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-23-copyparty-1-20-27</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le serveur de fichiers open source tout-en-un (WebDAV, SFTP, FTP, uploads reprenables) corrige 4 failles en 1.20.27 (22 nov), dont une troncature via SFTP, et sait écouter par sous-réseau ou carte réseau. Trouvé via la release GitHub.</description>
+      <category>stockage</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
+    <item>
+      <title>PBS Plus 1.7.4</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-23-pbs-plus-1-7-4</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-23-pbs-plus-1-7-4</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Extension open source (MIT) de Proxmox Backup Server : sauvegarde fichier par agent, bases PostgreSQL/MySQL, montage FUSE des archives, migration LTO. La 1.7.4 (22 nov) lit en avance les fichiers côté agent pour accélérer les sauvegardes. Trouvé via la release GitHub.</description>
+      <category>sauvegarde</category>
+      <category>nas</category>
+      <category>self-hosting</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>Synology ActiveProtect Manager 2.0.2</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-23-synology-activeprotect-manager-2-0-2</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-23-synology-activeprotect-manager-2-0-2</guid>
+      <pubDate>Mon, 23 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Payant (appliances Synology DP) : APM 2.0.2-88107 (23 nov) corrige NGINX2Root, faille critique de lecture/écriture de fichiers à distance (Synology-SA-26:20) ; DSM 7.3 et 7.4 ont leurs correctifs depuis le 20 nov. Trouvé via un post Mastodon #selfhosted de @blackvoid.</description>
+      <category>payant</category>
+      <category>nas</category>
+      <category>sauvegarde</category>
+      <category>securite</category>
+    </item>
     <item>
       <title>Warpgate 0.31.0 beta.1</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-22-warpgate-0-31-0-beta-1</link>
@@ -983,35 +1015,6 @@
       <category>inventaire</category>
       <category>securite</category>
       <category>self-hosting</category>
-    </item>
-    <item>
-      <title>SeaweedFS 4.49</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-23-seaweedfs-4-49</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-23-seaweedfs-4-49</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Le stockage objet/fichiers distribué compatible S3 sort la 4.49 (23 oct) : éviction du cache distant sous pression disque, vacuum qui récupère les volumes pleins en lecture seule, rôles IAM gérés par l'API. Trouvé via la release GitHub.</description>
-      <category>stockage</category>
-      <category>s3</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>MeshCentral 1.3.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-23-meshcentral-1-3-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-23-meshcentral-1-3-0</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
-      <description>L'outil open source de gestion et prise en main à distance des postes passe en 1.3.0 (21 oct) : les binaires d'agents par défaut viennent de releases GitHub épinglées, et le serveur n'attend plus GitHub s'il est injoignable. Trouvé via la release GitHub.</description>
-      <category>acces-distant</category>
-      <category>deploiement</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Trivy 0.76.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-23-trivy-0-76-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-23-trivy-0-76-1</guid>
-      <pubDate>Fri, 23 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Le scanner de vulnérabilités (images, dépôts, IaC) sort la 0.76.1 (21 oct) suite à la compromission de la CA intermédiaire eMudhra : binaires en Go 1.27.3 et images avec un magasin de certificats à jour. Mets à jour et redéploie. Trouvé via la release GitHub.</description>
-      <category>securite</category>
-      <category>pipeline</category>
     </item>
   </channel>
 </rss>

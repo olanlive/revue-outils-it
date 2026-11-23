@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-23 | copyparty 1.20.27 | stockage, securite, self-hosting | https://copyparty.eu/ | https://olanlive.github.io/revue-outils-it/#2026-11-23-copyparty-1-20-27 |
+| 2026-11-23 | PBS Plus 1.7.4 | sauvegarde, nas, self-hosting, emerging | https://github.com/pbs-plus/pbs-plus | https://olanlive.github.io/revue-outils-it/#2026-11-23-pbs-plus-1-7-4 |
+| 2026-11-23 | Synology ActiveProtect Manager 2.0.2 | payant, nas, sauvegarde, securite | https://www.synology.com/en-us/security/advisory/Synology_SA_26_20 | https://olanlive.github.io/revue-outils-it/#2026-11-23-synology-activeprotect-manager-2-0-2 |
 | 2026-11-22 | Warpgate 0.31.0 beta.1 | acces-distant, securite, self-hosting, rc | https://warpgate.null.page/ | https://olanlive.github.io/revue-outils-it/#2026-11-22-warpgate-0-31-0-beta-1 |
 | 2026-11-22 | FileBrowser Quantum 2.1.6 | stockage, self-hosting, securite, rc | https://filebrowserquantum.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-22-filebrowser-quantum-2-1-6 |
 | 2026-11-22 | Kiri 0.2.2 | virtualisation, deploiement, emerging | https://runkiri.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-22-kiri-0-2-2 |
