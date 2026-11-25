@@ -5,8 +5,39 @@
     <link>https://olanlive.github.io/revue-outils-it/en/</link>
     <description>IT tools watch for a 3D studio — render farm, storage, backup, deployment, network, security — open source first.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/en/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>rustic 0.12.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-25-rustic-0-12-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-25-rustic-0-12-0</guid>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Encrypted, deduplicated backup tool in Rust, compatible with restic repositories. 0.12.0 (Nov 18) fixes a prune bug that could lose data with parallel prune/backup runs and aligns its chunker with restic. Found via Terminal Trove.</description>
+      <category>sauvegarde</category>
+      <category>stockage</category>
+      <category>securite</category>
+    </item>
+    <item>
+      <title>Pulse 6.9.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-25-pulse-6-9-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-25-pulse-6-9-0</guid>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Monitoring for Proxmox, PBS and Docker (already covered Nov 13). 6.9.0 (Nov 25) opens 90 days of chart history to the Community edition, groups Compose services with their checks and sends practice alerts. Found via the GitHub release.</description>
+      <category>monitoring</category>
+      <category>virtualisation</category>
+      <category>sauvegarde</category>
+      <category>nas</category>
+    </item>
+    <item>
+      <title>Traefik 3.8.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-25-traefik-3-8-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-11-25-traefik-3-8-0</guid>
+      <pubDate>Wed, 25 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Open source reverse proxy (already covered in Oct). 3.8.0 (Nov 23) fixes three security advisories (GHSA), adds per-router timeouts and the ACME reusePrivateKey option; read the migration guide first. Found via the GitHub release.</description>
+      <category>reseau</category>
+      <category>securite</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>copyparty 1.20.27</title>
       <link>https://olanlive.github.io/revue-outils-it/en/#2026-11-23-copyparty-1-20-27</link>
@@ -983,37 +1014,6 @@
       <description>The distributed POSIX file system built on S3 storage ships 1.4.2 (Oct 22): no more bad reads after object storage timeouts, SQL garbage collection deleting live data, or losses from stale transaction retries. Found via the GitHub release.</description>
       <category>stockage</category>
       <category>s3</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>PatchMon 2.1.6</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-24-patchmon-2-1-6</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-24-patchmon-2-1-6</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
-      <description>Open source (AGPL) platform to track and deploy security updates across a Linux fleet from a web UI: agents, validation, scheduled patches, history. 2.1.6 (Oct 17) fixes installs behind Traefik + CrowdSec. Found via Self-Host Weekly, Oct 23.</description>
-      <category>deploiement</category>
-      <category>securite</category>
-      <category>inventaire</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Coolify 4.5.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-24-coolify-4-5-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-24-coolify-4-5-0</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The self-hosted PaaS reaches 4.5.0 (Oct 23): server patching (beta) with automatic security updates, a fleet metrics page, a file browser, passkey sign-in, and an automatic database backup before updates. Found via the GitHub release.</description>
-      <category>deploiement</category>
-      <category>monitoring</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Homebox 0.27.1</title>
-      <link>https://olanlive.github.io/revue-outils-it/en/#2026-10-24-homebox-0-27-1</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/en/#2026-10-24-homebox-0-27-1</guid>
-      <pubDate>Sat, 24 Oct 2026 09:00:00 +0200</pubDate>
-      <description>The self-hosted inventory tool (hardware, cables, spare parts) ships 0.27.1 (Oct 23), a security release patching the Node.js "Node2Shell" flaw; the team advises updating as soon as possible. Found via the GitHub release.</description>
-      <category>inventaire</category>
-      <category>securite</category>
       <category>self-hosting</category>
     </item>
   </channel>

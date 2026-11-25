@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-25 | rustic 0.12.0 | sauvegarde, stockage, securite | https://rustic.cli.rs/ | https://olanlive.github.io/revue-outils-it/#2026-11-25-rustic-0-12-0 |
+| 2026-11-25 | Pulse 6.9.0 | monitoring, virtualisation, sauvegarde, nas | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-11-25-pulse-6-9-0 |
+| 2026-11-25 | Traefik 3.8.0 | reseau, securite, self-hosting | https://traefik.io/traefik/ | https://olanlive.github.io/revue-outils-it/#2026-11-25-traefik-3-8-0 |
 | 2026-11-23 | copyparty 1.20.27 | stockage, securite, self-hosting | https://copyparty.eu/ | https://olanlive.github.io/revue-outils-it/#2026-11-23-copyparty-1-20-27 |
 | 2026-11-23 | PBS Plus 1.7.4 | sauvegarde, nas, self-hosting, emerging | https://github.com/pbs-plus/pbs-plus | https://olanlive.github.io/revue-outils-it/#2026-11-23-pbs-plus-1-7-4 |
 | 2026-11-23 | Synology ActiveProtect Manager 2.0.2 | payant, nas, sauvegarde, securite | https://www.synology.com/en-us/security/advisory/Synology_SA_26_20 | https://olanlive.github.io/revue-outils-it/#2026-11-23-synology-activeprotect-manager-2-0-2 |

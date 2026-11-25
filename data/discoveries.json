@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-25",
+    "name": "rustic 0.12.0",
+    "name_en": "rustic 0.12.0",
+    "summary": "Sauvegarde chiffrée et dédupliquée en Rust, compatible avec les dépôts restic. La 0.12.0 (18 nov) corrige un bug de prune pouvant perdre des données lors de prune/backup parallèles et aligne son chunker sur restic. Trouvé via Terminal Trove.",
+    "summary_en": "Encrypted, deduplicated backup tool in Rust, compatible with restic repositories. 0.12.0 (Nov 18) fixes a prune bug that could lose data with parallel prune/backup runs and aligns its chunker with restic. Found via Terminal Trove.",
+    "url": "https://rustic.cli.rs/",
+    "tags": [
+      "sauvegarde",
+      "stockage",
+      "securite"
+    ],
+    "source": {
+      "label": "Terminal Trove — nouveautés du 25 novembre 2026",
+      "label_en": "Terminal Trove — new tools, November 25, 2026",
+      "url": "https://terminaltrove.com/new/"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "name": "Pulse 6.9.0",
+    "name_en": "Pulse 6.9.0",
+    "summary": "Supervision Proxmox, PBS et Docker (déjà vu le 13 nov). La 6.9.0 (25 nov) ouvre 90 jours d'historique à l'édition Community, regroupe les services Compose avec leurs checks et envoie des alertes de test. Trouvé via la release GitHub.",
+    "summary_en": "Monitoring for Proxmox, PBS and Docker (already covered Nov 13). 6.9.0 (Nov 25) opens 90 days of chart history to the Community edition, groups Compose services with their checks and sends practice alerts. Found via the GitHub release.",
+    "url": "https://pulserelay.pro/",
+    "tags": [
+      "monitoring",
+      "virtualisation",
+      "sauvegarde",
+      "nas"
+    ],
+    "source": {
+      "label": "Release GitHub — rcourtman/Pulse v6.9.0",
+      "label_en": "GitHub release — rcourtman/Pulse v6.9.0",
+      "url": "https://github.com/rcourtman/Pulse/releases/tag/v6.9.0"
+    }
+  },
+  {
+    "date": "2026-11-25",
+    "name": "Traefik 3.8.0",
+    "name_en": "Traefik 3.8.0",
+    "summary": "Reverse proxy open source (déjà vu en oct). La 3.8.0 (23 nov) corrige trois failles de sécurité (avis GHSA), ajoute des timeouts par routeur et l'option ACME reusePrivateKey ; lis le guide de migration avant. Trouvé via la release GitHub.",
+    "summary_en": "Open source reverse proxy (already covered in Oct). 3.8.0 (Nov 23) fixes three security advisories (GHSA), adds per-router timeouts and the ACME reusePrivateKey option; read the migration guide first. Found via the GitHub release.",
+    "url": "https://traefik.io/traefik/",
+    "tags": [
+      "reseau",
+      "securite",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — traefik/traefik v3.8.0",
+      "label_en": "GitHub release — traefik/traefik v3.8.0",
+      "url": "https://github.com/traefik/traefik/releases/tag/v3.8.0"
+    }
+  },
+  {
     "date": "2026-11-23",
     "name": "copyparty 1.20.27",
     "name_en": "copyparty 1.20.27",
