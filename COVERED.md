@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-26 | MeshCentral 1.3.2 | acces-distant, deploiement, securite, self-hosting | https://meshcentral.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-26-meshcentral-1-3-2 |
+| 2026-11-26 | Duplicati 2.4.1.1 | sauvegarde, nas, stockage | https://duplicati.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-26-duplicati-2-4-1-1 |
+| 2026-11-26 | Infisical 0.167.16 | securite, secrets, self-hosting | https://infisical.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-26-infisical-0-167-16 |
 | 2026-11-25 | rustic 0.12.0 | sauvegarde, stockage, securite | https://rustic.cli.rs/ | https://olanlive.github.io/revue-outils-it/#2026-11-25-rustic-0-12-0 |
 | 2026-11-25 | Pulse 6.9.0 | monitoring, virtualisation, sauvegarde, nas | https://pulserelay.pro/ | https://olanlive.github.io/revue-outils-it/#2026-11-25-pulse-6-9-0 |
 | 2026-11-25 | Traefik 3.8.0 | reseau, securite, self-hosting | https://traefik.io/traefik/ | https://olanlive.github.io/revue-outils-it/#2026-11-25-traefik-3-8-0 |
