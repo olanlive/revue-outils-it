@@ -5,8 +5,39 @@
     <link>https://olanlive.github.io/revue-outils-it/</link>
     <description>Veille outils IT pour studio 3D — render farm, stockage, sauvegarde, déploiement, réseau, sécurité — open source d’abord.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 09:00:00 +0100</lastBuildDate>
     <atom:link href="https://olanlive.github.io/revue-outils-it/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>FOG Project 1.6.1</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-28-fog-project-1-6-1</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-28-fog-project-1-6-1</guid>
+      <pubDate>Sat, 28 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le serveur libre de déploiement d'images PXE sort la 1.6.1 (27 nov) : IPv6 de bout en bout (boot, multicast), install et désinstallation de logiciels par poste ou groupe via winget, Snap ou Flatpak, répartition entre nœuds de stockage. Trouvé via la release GitHub.</description>
+      <category>deploiement</category>
+      <category>imaging</category>
+      <category>pxe</category>
+    </item>
+    <item>
+      <title>Rackpad 1.9.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-28-rackpad-1-9-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-28-rackpad-1-9-0</guid>
+      <pubDate>Sat, 28 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Inventaire d'infra auto-hébergé (MIT) : baies, équipements, ports, câbles, IPAM, VLAN. La 1.9.0 (23 nov) passe en stable les plans de salle et les modèles de matériel exportables, et ajoute les alertes ntfy et l'historique d'audit par lab. Trouvé via Self-Host Weekly du 27 nov.</description>
+      <category>inventaire</category>
+      <category>reseau</category>
+      <category>self-hosting</category>
+      <category>emerging</category>
+    </item>
+    <item>
+      <title>NetBird 0.84.0</title>
+      <link>https://olanlive.github.io/revue-outils-it/#2026-11-28-netbird-0-84-0</link>
+      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-11-28-netbird-0-84-0</guid>
+      <pubDate>Sat, 28 Nov 2026 09:00:00 +0100</pubDate>
+      <description>Le VPN maillé WireGuard auto-hébergeable sort la 0.84.0 (27 nov) avec un grand ménage de la CLI : --setup-key et --hostname réservés à up/login, --admin-url supprimé, variables d'env. ignorées. Vérifie tes scripts avant de mettre à jour. Trouvé via la release GitHub.</description>
+      <category>reseau</category>
+      <category>acces-distant</category>
+      <category>self-hosting</category>
+    </item>
     <item>
       <title>MeshCentral 1.3.2</title>
       <link>https://olanlive.github.io/revue-outils-it/#2026-11-26-meshcentral-1-3-2</link>
@@ -986,37 +1017,6 @@
       <description>Le moteur MIT d'Obsidian qui rend les diagrammes Mermaid en SVG sans dépendance, pratique pour documenter ton réseau ou ta farm, sort la 1.10.0 (24 oct) avec des erreurs plus précises. Trouvé via tes signets X (post de @obsdmd).</description>
       <category>pipeline</category>
       <category>emerging</category>
-    </item>
-    <item>
-      <title>wg-easy 15.5.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-25-wg-easy-15-5-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-25-wg-easy-15-5-0</guid>
-      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
-      <description>L'interface web pour monter et gérer un serveur WireGuard en Docker sort la 15.5.0 (24 oct) : correctifs de failles Node.js, AmneziaWG 3.1, nom d'interface configurable, proxys de confiance et endpoint des pairs dans les métriques Prometheus. Trouvé via la release GitHub.</description>
-      <category>reseau</category>
-      <category>acces-distant</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>Pangolin 1.25.3</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-25-pangolin-1-25-3</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-25-pangolin-1-25-3</guid>
-      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
-      <description>Le reverse proxy à tunnels, alternative auto-hébergée à un VPN pour exposer tes services, enchaîne la série 1.25 (redirections HTTP, mTLS, rôles machines) avec la 1.25.3 (23 oct) : Node mis à jour pour une faille, connexions clients plus rapides. Trouvé via la release GitHub.</description>
-      <category>reseau</category>
-      <category>acces-distant</category>
-      <category>securite</category>
-      <category>self-hosting</category>
-    </item>
-    <item>
-      <title>OliveTin 3000.21.0</title>
-      <link>https://olanlive.github.io/revue-outils-it/#2026-10-25-olivetin-3000-21-0</link>
-      <guid isPermaLink="true">https://olanlive.github.io/revue-outils-it/#2026-10-25-olivetin-3000-21-0</guid>
-      <pubDate>Sun, 25 Oct 2026 09:00:00 +0100</pubDate>
-      <description>OliveTin met tes scripts shell derrière des boutons web pour laisser l'équipe relancer un service sans SSH. La 3000.21.0 (24 oct) ajoute -syntaxcheck pour valider la config et -startuptrace, et remonte les erreurs de config dans l'interface. Trouvé via la release GitHub.</description>
-      <category>pipeline</category>
-      <category>self-hosting</category>
     </item>
   </channel>
 </rss>

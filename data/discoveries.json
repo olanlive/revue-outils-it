@@ -1,5 +1,60 @@
 [
   {
+    "date": "2026-11-28",
+    "name": "FOG Project 1.6.1",
+    "name_en": "FOG Project 1.6.1",
+    "summary": "Le serveur libre de déploiement d'images PXE sort la 1.6.1 (27 nov) : IPv6 de bout en bout (boot, multicast), install et désinstallation de logiciels par poste ou groupe via winget, Snap ou Flatpak, répartition entre nœuds de stockage. Trouvé via la release GitHub.",
+    "summary_en": "The open source PXE imaging server ships 1.6.1 (Nov 27): end-to-end IPv6 (boot, multicast), per-host or per-group software install and removal via winget, Snap or Flatpak, and load balancing across storage nodes. Found via the GitHub release.",
+    "url": "https://fogproject.org/",
+    "tags": [
+      "deploiement",
+      "imaging",
+      "pxe"
+    ],
+    "source": {
+      "label": "Release GitHub — FOGProject/fogproject 1.6.1",
+      "label_en": "GitHub release — FOGProject/fogproject 1.6.1",
+      "url": "https://github.com/FOGProject/fogproject/releases/tag/1.6.1"
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "name": "Rackpad 1.9.0",
+    "name_en": "Rackpad 1.9.0",
+    "summary": "Inventaire d'infra auto-hébergé (MIT) : baies, équipements, ports, câbles, IPAM, VLAN. La 1.9.0 (23 nov) passe en stable les plans de salle et les modèles de matériel exportables, et ajoute les alertes ntfy et l'historique d'audit par lab. Trouvé via Self-Host Weekly du 27 nov.",
+    "summary_en": "Self-hosted infrastructure inventory (MIT): racks, devices, ports, cables, IPAM, VLANs. 1.9.0 (Nov 23) makes room floorplans and portable hardware templates stable, and adds ntfy alerts and per-lab audit history. Found via Self-Host Weekly, Nov 27.",
+    "url": "https://rackpad.net/",
+    "tags": [
+      "inventaire",
+      "reseau",
+      "self-hosting",
+      "emerging"
+    ],
+    "source": {
+      "label": "Self-Host Weekly — 27 novembre 2026",
+      "label_en": "Self-Host Weekly — November 27, 2026",
+      "url": "https://selfh.st/weekly/2026-11-27/"
+    }
+  },
+  {
+    "date": "2026-11-28",
+    "name": "NetBird 0.84.0",
+    "name_en": "NetBird 0.84.0",
+    "summary": "Le VPN maillé WireGuard auto-hébergeable sort la 0.84.0 (27 nov) avec un grand ménage de la CLI : --setup-key et --hostname réservés à up/login, --admin-url supprimé, variables d'env. ignorées. Vérifie tes scripts avant de mettre à jour. Trouvé via la release GitHub.",
+    "summary_en": "The self-hostable WireGuard mesh VPN ships 0.84.0 (Nov 27) with a big CLI cleanup: --setup-key and --hostname only on up/login, --admin-url removed, env variables ignored. Check your deployment scripts before upgrading. Found via the GitHub release.",
+    "url": "https://netbird.io/",
+    "tags": [
+      "reseau",
+      "acces-distant",
+      "self-hosting"
+    ],
+    "source": {
+      "label": "Release GitHub — netbirdio/netbird v0.84.0",
+      "label_en": "GitHub release — netbirdio/netbird v0.84.0",
+      "url": "https://github.com/netbirdio/netbird/releases/tag/v0.84.0"
+    }
+  },
+  {
     "date": "2026-11-26",
     "name": "MeshCentral 1.3.2",
     "name_en": "MeshCentral 1.3.2",

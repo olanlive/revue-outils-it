@@ -7,6 +7,9 @@ Hors périmètre : 3D/VFX créatifs (voir `olanlive/revue-oss-3d`) et audio/vid�
 
 | Date | Découverte | Tags | Lien officiel | Ancre sur le site |
 |---|---|---|---|---|
+| 2026-11-28 | FOG Project 1.6.1 | deploiement, imaging, pxe | https://fogproject.org/ | https://olanlive.github.io/revue-outils-it/#2026-11-28-fog-project-1-6-1 |
+| 2026-11-28 | Rackpad 1.9.0 | inventaire, reseau, self-hosting, emerging | https://rackpad.net/ | https://olanlive.github.io/revue-outils-it/#2026-11-28-rackpad-1-9-0 |
+| 2026-11-28 | NetBird 0.84.0 | reseau, acces-distant, self-hosting | https://netbird.io/ | https://olanlive.github.io/revue-outils-it/#2026-11-28-netbird-0-84-0 |
 | 2026-11-26 | MeshCentral 1.3.2 | acces-distant, deploiement, securite, self-hosting | https://meshcentral.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-26-meshcentral-1-3-2 |
 | 2026-11-26 | Duplicati 2.4.1.1 | sauvegarde, nas, stockage | https://duplicati.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-26-duplicati-2-4-1-1 |
 | 2026-11-26 | Infisical 0.167.16 | securite, secrets, self-hosting | https://infisical.com/ | https://olanlive.github.io/revue-outils-it/#2026-11-26-infisical-0-167-16 |
